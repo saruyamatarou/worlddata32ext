@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">UZB review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(55.854492, 37.072710) - (73.828125, 45.690833)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="40.00" y="40.00" width="644.89" height="262.47" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="56.00" font-size="12" font-family="Arial, sans-serif">UZB-01 | 北部乾燥地帯</text>
+<circle cx="362.44" cy="171.24" r="2.5" fill="black"/>
+<rect x="42.05" y="301.70" width="644.89" height="226.11" fill="none" stroke="black" stroke-width="2"/>
+<text x="46.05" y="317.70" font-size="12" font-family="Arial, sans-serif">UZB-02 | 西部山麓・盆地</text>
+<circle cx="364.50" cy="414.76" r="2.5" fill="black"/>
+<rect x="689.00" y="301.70" width="471.00" height="329.38" fill="none" stroke="black" stroke-width="2"/>
+<text x="693.00" y="317.70" font-size="12" font-family="Arial, sans-serif">UZB-03 | 東部山岳・高原地帯</text>
+<circle cx="924.50" cy="466.39" r="2.5" fill="black"/>
+<rect x="424.74" y="527.82" width="403.91" height="332.18" fill="none" stroke="black" stroke-width="2"/>
+<text x="428.74" y="543.82" font-size="12" font-family="Arial, sans-serif">UZB-04 | 中央都市・経済中心部</text>
+<circle cx="626.70" cy="693.91" r="2.5" fill="black"/>
+</svg>

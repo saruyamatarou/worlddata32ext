@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">RUS review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-180.000000, 41.000000) - (180.087891, 82.285331)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="658.96" y="564.06" width="14.00" height="37.74" fill="none" stroke="black" stroke-width="2"/>
+<text x="662.96" y="580.06" font-size="12" font-family="Arial, sans-serif">RUS-01 | カリーニングラード</text>
+<circle cx="665.96" cy="582.93" r="2.5" fill="black"/>
+<rect x="683.51" y="40.94" width="121.38" height="428.32" fill="none" stroke="black" stroke-width="2"/>
+<text x="687.51" y="56.94" font-size="12" font-family="Arial, sans-serif">RUS-02 | 北西ロシア・西部北極島嶼</text>
+<circle cx="744.20" cy="255.10" r="2.5" fill="black"/>
+<rect x="683.10" y="467.97" width="54.13" height="222.70" fill="none" stroke="black" stroke-width="2"/>
+<text x="687.10" y="483.97" font-size="12" font-family="Arial, sans-serif">RUS-03 | 中西部ヨーロッパ・ロシア</text>
+<circle cx="710.17" cy="579.32" r="2.5" fill="black"/>
+<rect x="737.23" y="467.55" width="67.91" height="224.26" fill="none" stroke="black" stroke-width="2"/>
+<text x="741.23" y="483.55" font-size="12" font-family="Arial, sans-serif">RUS-04 | ヴォルガ・ウラル地域</text>
+<circle cx="771.19" cy="579.68" r="2.5" fill="black"/>
+<rect x="705.62" y="691.17" width="51.32" height="168.83" fill="none" stroke="black" stroke-width="2"/>
+<text x="709.62" y="707.17" font-size="12" font-family="Arial, sans-serif">RUS-05 | 南ロシア・北カフカス</text>
+<circle cx="731.28" cy="775.59" r="2.5" fill="black"/>
+<rect x="805.44" y="40.00" width="79.82" height="427.55" fill="none" stroke="black" stroke-width="2"/>
+<text x="809.44" y="56.00" font-size="12" font-family="Arial, sans-serif">RUS-06 | 西シベリア平原</text>
+<circle cx="845.35" cy="253.77" r="2.5" fill="black"/>
+<rect x="805.16" y="470.11" width="93.29" height="250.86" fill="none" stroke="black" stroke-width="2"/>
+<text x="809.16" y="486.11" font-size="12" font-family="Arial, sans-serif">RUS-07 | 南西シベリア・アルタイサヤン</text>
+<circle cx="851.81" cy="595.54" r="2.5" fill="black"/>
+<rect x="885.26" y="40.00" width="103.88" height="432.68" fill="none" stroke="black" stroke-width="2"/>
+<text x="889.26" y="56.00" font-size="12" font-family="Arial, sans-serif">RUS-08 | 中央シベリア高原・タイミル</text>
+<circle cx="937.20" cy="256.34" r="2.5" fill="black"/>
+<rect x="898.66" y="471.83" width="90.08" height="232.54" fill="none" stroke="black" stroke-width="2"/>
+<text x="902.66" y="487.83" font-size="12" font-family="Arial, sans-serif">RUS-09 | 南中シベリア・バイカル周辺</text>
+<circle cx="943.70" cy="588.10" r="2.5" fill="black"/>
+<rect x="988.87" y="118.17" width="171.13" height="252.07" fill="none" stroke="black" stroke-width="2"/>
+<text x="992.87" y="134.17" font-size="12" font-family="Arial, sans-serif">RUS-10 | 北東シベリア・ヤクーチア</text>
+<circle cx="1074.43" cy="244.21" r="2.5" fill="black"/>
+<rect x="988.32" y="370.96" width="171.40" height="469.18" fill="none" stroke="black" stroke-width="2"/>
+<text x="992.32" y="386.96" font-size="12" font-family="Arial, sans-serif">RUS-11 | ロシア極東・太平洋地域</text>
+<circle cx="1074.02" cy="605.55" r="2.5" fill="black"/>
+<rect x="40.00" y="234.35" width="37.32" height="168.83" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="250.35" font-size="12" font-family="Arial, sans-serif">RUS-12 | チュクチ・ベーリング側</text>
+<circle cx="58.66" cy="318.77" r="2.5" fill="black"/>
+</svg>

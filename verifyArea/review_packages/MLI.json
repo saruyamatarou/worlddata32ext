@@ -1,0 +1,498 @@
+{
+  "iso_a3": "MLI",
+  "area_count": 5,
+  "country_bbox": {
+    "minx": -12.5,
+    "maxx": 4.515381,
+    "miny": 10.0,
+    "maxy": 25.5
+  },
+  "areas": [
+    {
+      "id": "MLI-01",
+      "area_id": 401,
+      "area_seq_in_source": 1,
+      "name": "サハラ・北部地域",
+      "name_en": "Sahara Northern Region",
+      "reason": "トゥアレグ文化圏および広大なサハラ砂漠地帯を包含する地理的特性に基づく",
+      "geometry_wkt": "POLYGON ((-6.987305 25.500000, 4.500000 25.500000, 4.500000 19.435514, -6.987305 19.435514, -6.987305 25.500000))",
+      "bbox": {
+        "minx": -6.987305,
+        "maxx": 4.5,
+        "miny": 19.435514,
+        "maxy": 25.5
+      },
+      "centroid": {
+        "x": -1.243653,
+        "y": 22.467757
+      },
+      "size": {
+        "width": 11.487305,
+        "height": 6.064486
+      },
+      "relative_position": {
+        "x_norm": 0.6615,
+        "y_norm": 0.8044,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "MLI-02"
+        ],
+        "east_of": [
+          "MLI-03",
+          "MLI-04",
+          "MLI-05"
+        ],
+        "north_of": [
+          "MLI-02",
+          "MLI-03",
+          "MLI-04",
+          "MLI-05"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "MLI-02",
+            "x_overlap": 10.806152,
+            "y_overlap": 0.041436
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 26946,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.7612,
+          "GRASS": 0.2099,
+          "SHRUB": 0.0169,
+          "CROPLAND": 0.0072,
+          "WETLAND": 0.0024,
+          "TREE": 0.0022,
+          "WATER": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.952,
+          "LOW": 0.0478,
+          "HIGH": 0.0002
+        },
+        "precip_ratio": {
+          "ARID": 0.8286,
+          "LOW": 0.1675,
+          "MID": 0.0039
+        },
+        "flags_ratio": {
+          "water": 0.6624,
+          "forest": 0.0191,
+          "cropland": 0.0072
+        },
+        "cell_bbox_xy": {
+          "min_x": 4026,
+          "max_x": 4421,
+          "min_y": 1560,
+          "max_y": 1874
+        },
+        "cell_centroid": {
+          "x": 4233.03,
+          "y": 1686.848,
+          "lon": -3.602927,
+          "lat": 19.693834
+        }
+      }
+    },
+    {
+      "id": "MLI-02",
+      "area_id": 402,
+      "area_seq_in_source": 2,
+      "name": "トンブクトゥ・ガオ回廊",
+      "name_en": "Timbuktu-Gao Corridor",
+      "reason": "ニジェール川流域の歴史的な交易拠点とサヘル地帯の経済圏を反映",
+      "geometry_wkt": "POLYGON ((-6.306152 19.476950, 4.515381 19.476950, 4.515381 15.252389, -6.306152 15.252389, -6.306152 19.476950))",
+      "bbox": {
+        "minx": -6.306152,
+        "maxx": 4.515381,
+        "miny": 15.252389,
+        "maxy": 19.47695
+      },
+      "centroid": {
+        "x": -0.895386,
+        "y": 17.364669
+      },
+      "size": {
+        "width": 10.821533,
+        "height": 4.224561
+      },
+      "relative_position": {
+        "x_norm": 0.682,
+        "y_norm": 0.4751,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "MLI-01",
+          "MLI-03",
+          "MLI-04",
+          "MLI-05"
+        ],
+        "north_of": [
+          "MLI-03",
+          "MLI-04",
+          "MLI-05"
+        ],
+        "south_of": [
+          "MLI-01"
+        ],
+        "overlaps": [
+          {
+            "id": "MLI-01",
+            "x_overlap": 10.806152,
+            "y_overlap": 0.041436
+          },
+          {
+            "id": "MLI-04",
+            "x_overlap": 1.306152,
+            "y_overlap": 0.247611
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 18555,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.7699,
+          "GRASS": 0.2186,
+          "WETLAND": 0.0098,
+          "WATER": 0.0008,
+          "CROPLAND": 0.0006,
+          "SHRUB": 0.0004
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 1.0
+        },
+        "precip_ratio": {
+          "ARID": 0.9255,
+          "LOW": 0.0745
+        },
+        "flags_ratio": {
+          "water": 0.7147,
+          "cropland": 0.0006,
+          "forest": 0.0004
+        },
+        "cell_bbox_xy": {
+          "min_x": 4210,
+          "max_x": 4418,
+          "min_y": 1693,
+          "max_y": 1793
+        },
+        "cell_centroid": {
+          "x": 4306.085,
+          "y": 1738.663,
+          "lon": -0.558977,
+          "lat": 17.534888
+        }
+      }
+    },
+    {
+      "id": "MLI-03",
+      "area_id": 403,
+      "area_seq_in_source": 3,
+      "name": "中央デルタ・モプティ地域",
+      "name_en": "Inland Delta Mopti Region",
+      "reason": "ニジェール川内陸デルタの湿地帯とドゴン族の文化的景観に基づく",
+      "geometry_wkt": "POLYGON ((-5.000000 15.241790, 1.296387 15.241790, 1.296387 11.738302, -5.000000 11.738302, -5.000000 15.241790))",
+      "bbox": {
+        "minx": -5.0,
+        "maxx": 1.296387,
+        "miny": 11.738302,
+        "maxy": 15.24179
+      },
+      "centroid": {
+        "x": -1.851806,
+        "y": 13.490046
+      },
+      "size": {
+        "width": 6.296387,
+        "height": 3.503488
+      },
+      "relative_position": {
+        "x_norm": 0.6258,
+        "y_norm": 0.2252,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "MLI-01",
+          "MLI-02"
+        ],
+        "east_of": [
+          "MLI-04",
+          "MLI-05"
+        ],
+        "north_of": [
+          "MLI-04"
+        ],
+        "south_of": [
+          "MLI-01",
+          "MLI-02",
+          "MLI-05"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 3601,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.5729,
+          "CROPLAND": 0.1538,
+          "SHRUB": 0.113,
+          "WETLAND": 0.0961,
+          "BARE": 0.0636,
+          "WATER": 0.0003,
+          "BUILT": 0.0003
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 1.0
+        },
+        "precip_ratio": {
+          "LOW": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.7262,
+          "cropland": 0.1538,
+          "forest": 0.113,
+          "built": 0.0003
+        },
+        "cell_bbox_xy": {
+          "min_x": 4200,
+          "max_x": 4317,
+          "min_y": 1794,
+          "max_y": 1871
+        },
+        "cell_centroid": {
+          "x": 4236.791,
+          "y": 1818.028,
+          "lon": -3.446224,
+          "lat": 14.227998
+        }
+      }
+    },
+    {
+      "id": "MLI-04",
+      "area_id": 404,
+      "area_seq_in_source": 4,
+      "name": "バマコ・南部経済圏",
+      "name_en": "Bamako Southern Economic Zone",
+      "reason": "首都バマコを中心とした政治・経済の核心地であり、多湿な農業地帯",
+      "geometry_wkt": "POLYGON ((-9.0 15.5, -5.0 15.5, -5.0 10.0, -9.0 10.0, -9.0 15.5))",
+      "bbox": {
+        "minx": -9.0,
+        "maxx": -5.0,
+        "miny": 10.0,
+        "maxy": 15.5
+      },
+      "centroid": {
+        "x": -7.0,
+        "y": 12.75
+      },
+      "size": {
+        "width": 4.0,
+        "height": 5.5
+      },
+      "relative_position": {
+        "x_norm": 0.3232,
+        "y_norm": 0.1774,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "MLI-01",
+          "MLI-02",
+          "MLI-03"
+        ],
+        "east_of": [
+          "MLI-05"
+        ],
+        "north_of": [],
+        "south_of": [
+          "MLI-01",
+          "MLI-02",
+          "MLI-03",
+          "MLI-05"
+        ],
+        "overlaps": [
+          {
+            "id": "MLI-02",
+            "x_overlap": 1.306152,
+            "y_overlap": 0.247611
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 8938,
+        "dominant_landcover": "SHRUB",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "SHRUB": 0.4357,
+          "CROPLAND": 0.255,
+          "GRASS": 0.2496,
+          "TREE": 0.0521,
+          "BUILT": 0.0034,
+          "WATER": 0.0026,
+          "WETLAND": 0.0016,
+          "BARE": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 1.0
+        },
+        "precip_ratio": {
+          "LOW": 0.7309,
+          "MID": 0.2691
+        },
+        "flags_ratio": {
+          "water": 0.6988,
+          "forest": 0.4878,
+          "cropland": 0.255,
+          "built": 0.0034
+        },
+        "cell_bbox_xy": {
+          "min_x": 4104,
+          "max_x": 4199,
+          "min_y": 1809,
+          "max_y": 1916
+        },
+        "cell_centroid": {
+          "x": 4151.794,
+          "y": 1856.731,
+          "lon": -6.987749,
+          "lat": 12.615355
+        }
+      }
+    },
+    {
+      "id": "MLI-05",
+      "area_id": 405,
+      "area_seq_in_source": 5,
+      "name": "西部カイ地域",
+      "name_en": "Western Kayes Region",
+      "reason": "セネガル・モーリタニア国境に近い鉱山資源と物流のゲートウェイ",
+      "geometry_wkt": "POLYGON ((-12.5 16.5, -9.0 16.5, -9.0 12.0, -12.5 12.0, -12.5 16.5))",
+      "bbox": {
+        "minx": -12.5,
+        "maxx": -9.0,
+        "miny": 12.0,
+        "maxy": 16.5
+      },
+      "centroid": {
+        "x": -10.75,
+        "y": 14.25
+      },
+      "size": {
+        "width": 3.5,
+        "height": 4.5
+      },
+      "relative_position": {
+        "x_norm": 0.1028,
+        "y_norm": 0.2742,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "MLI-01",
+          "MLI-02",
+          "MLI-03",
+          "MLI-04"
+        ],
+        "east_of": [],
+        "north_of": [
+          "MLI-03",
+          "MLI-04"
+        ],
+        "south_of": [
+          "MLI-01",
+          "MLI-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 3430,
+        "dominant_landcover": "SHRUB",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "SHRUB": 0.4644,
+          "GRASS": 0.4169,
+          "TREE": 0.0752,
+          "CROPLAND": 0.0364,
+          "WATER": 0.0067,
+          "BUILT": 0.0003
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.7732,
+          "LOW": 0.2268
+        },
+        "precip_ratio": {
+          "LOW": 0.807,
+          "MID": 0.193
+        },
+        "flags_ratio": {
+          "water": 0.7012,
+          "forest": 0.5397,
+          "cropland": 0.0364,
+          "built": 0.0003
+        },
+        "cell_bbox_xy": {
+          "min_x": 4037,
+          "max_x": 4103,
+          "min_y": 1809,
+          "max_y": 1871
+        },
+        "cell_centroid": {
+          "x": 4073.369,
+          "y": 1836.551,
+          "lon": -10.255479,
+          "lat": 13.45622
+        }
+      }
+    }
+  ]
+}

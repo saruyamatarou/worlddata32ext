@@ -1,0 +1,50 @@
+[
+  {
+    "id": "SRP-01",
+    "name": "スルプスカ共和国 北部",
+    "name_en": "Northern Republika Srpska",
+    "reason": "サヴァ川流域に位置し、パンノニア平野の一部を形成する平坦な地域であり、農業が盛んで交通の要衝となっている。",
+    "geometry_wkt": "POLYGON ((18.840698 45.172122, 19.370000 45.172122, 19.370000 44.527780, 18.840698 44.527780, 18.840698 45.172122))",
+    "area_id": 77,
+    "source_row_index": 77,
+    "iso_a3_source": "SRP",
+    "iso_a3": "BIH",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "BIH-01",
+    "name": "ボスニア",
+    "name_en": "Bosnia",
+    "reason": "北部から中央部に広がる山地・盆地・河川流域を含む内陸中核地域。サラエヴォを含み、国の中心的な生活圏を形成する。",
+    "geometry_wkt": "POLYGON ((15.700000 45.300000, 19.813843 45.300000, 19.813843 43.289202, 15.700000 43.289202, 15.700000 45.300000))",
+    "area_id": 95,
+    "source_row_index": 95,
+    "iso_a3_source": "BIH",
+    "iso_a3": "BIH",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "SRP-02",
+    "name": "スルプスカ共和国 南部",
+    "name_en": "Southern Republika Srpska",
+    "reason": "ディナル・アルプス山脈の北東部に位置し、起伏に富んだ地形を持つ。ボスニア川やネレットヴァ川の流域を含み、歴史的・文化的な重要性を持つ地域。",
+    "geometry_wkt": "POLYGON ((16.183333 44.527780, 18.840698 44.527780, 18.840698 42.433333, 16.183333 42.433333, 16.183333 44.527780))",
+    "area_id": 78,
+    "source_row_index": 78,
+    "iso_a3_source": "SRP",
+    "iso_a3": "BIH",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "BIH-02",
+    "name": "ヘルツェゴビナ",
+    "name_en": "Herzegovina",
+    "reason": "南部のより温暖で乾燥した地域。モスタル周辺を含み、地形・気候・文化の面で北部ボスニアと異なるまとまりを持つ。",
+    "geometry_wkt": "POLYGON ((16.5 43.3, 18.8 43.3, 18.8 42.4, 16.5 42.4, 16.5 43.3))",
+    "area_id": 96,
+    "source_row_index": 96,
+    "iso_a3_source": "BIH",
+    "iso_a3": "BIH",
+    "area_seq_in_source": 2
+  }
+]

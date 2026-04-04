@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>map32 click viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <style>
+    html, body { margin: 0; height: 100%; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+    #wrap { display: grid; grid-template-columns: 1fr 420px; height: 100%; }
+    #map { height: 100%; }
+    #side { border-left: 1px solid #ddd; padding: 12px; overflow: auto; }
+    .row { display: flex; gap: 8px; margin: 8px 0; }
+    input, button { padding: 8px; font-size: 14px; }
+    input { width: 100%; }
+    .card { background: #f6f6f6; border-radius: 10px; padding: 10px; margin-top: 10px; }
+    .muted { color: #666; font-size: 12px; }
+    .mono { white-space: pre-wrap; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; }
+  </style>
+</head>
+<body>
+<div id="wrap">
+  <div id="map"></div>
+  <div id="side">
+    <h2 style="margin:0 0 6px;">map32 クリックビューア</h2>
+    <div class="muted">地図をクリックすると、そのセルの map32 デコード結果・area_id・エリア名を表示します。</div>
+    <div class="row">
+      <input id="lat" placeholder="lat" value="35.6812" />
+      <input id="lon" placeholder="lon" value="139.7671" />
+      <button id="goLatLon">移動</button>
+    </div>
+    <div class="row">
+      <input id="x" placeholder="x" />
+      <input id="y" placeholder="y" />
+      <button id="goXY">XY</button>
+    </div>
+    <div id="summary" class="card">未選択</div>
+    <div id="json" class="card mono">未選択</div>
+  </div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script>
+const map = L.map('map').setView([20, 0], 2);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+  attribution: '&copy; OpenStreetMap'
+}).addTo(map);
+let marker = null;
+let cellLayer = null;
+let areaLayer = null;
+const summary = document.getElementById('summary');
+const jsonBox = document.getElementById('json');
+const latInput = document.getElementById('lat');
+const lonInput = document.getElementById('lon');
+const xInput = document.getElementById('x');
+const yInput = document.getElementById('y');
+
+actionSummary('地図をクリックしてください。');
+
+function esc(s){
+  return String(s)
+    .replaceAll('&','&amp;')
+    .replaceAll('<','&lt;')
+    .replaceAll('>','&gt;')
+    .replaceAll('"','&quot;')
+    .replaceAll("'", '&#039;');
+}
+
+function actionSummary(html){ summary.innerHTML = html; }
+
+function clearOverlays(){
+  if (cellLayer) { map.removeLayer(cellLayer); cellLayer = null; }
+  if (areaLayer) { map.removeLayer(areaLayer); areaLayer = null; }
+}
+
+function renderInfo(j){
+  const d = j.decoded || {};
+  const g = j.grid || {};
+  const a = j.area_meta || {};
+  const lines = [];
+  lines.push(`xy=(${g.x}, ${g.y}) cellId=${g.cell_id}`);
+  lines.push(`landcover=${d.landcover4_name} (${d.landcover4})`);
+  lines.push(`temp=${d.t2_name} (${d.t2}) / elev=${d.e2_name} (${d.e2}) / precip=${d.p2_name} (${d.p2})`);
+  lines.push(`flags=${(d.flags_on || []).join(', ') || '(none)'}`);
+  lines.push(`area_id=${d.area_id}`);
+  if (a && Object.keys(a).length) {
+    lines.push(`area=${a.name || ''} / ${a.name_en || ''}`);
+    lines.push(`source_id=${a.source_id || ''} / iso=${a.iso_a3 || ''}`);
+    if (a.country_name_ja || a.country_name_en) {
+      lines.push(`country=${a.country_name_ja || ''} / ${a.country_name_en || ''}`);
+    }
+  }
+  actionSummary(`<div class="mono">${esc(lines.join('\n'))}</div>`);
+  jsonBox.textContent = JSON.stringify(j, null, 2);
+}
+
+async function decodeByLatLon(lat, lon){
+  const r = await fetch(`/decode?lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lon)}`);
+  if (!r.ok) throw new Error(await r.text());
+  return await r.json();
+}
+
+async function decodeByXY(x, y){
+  const r = await fetch(`/decode_xy?x=${encodeURIComponent(x)}&y=${encodeURIComponent(y)}`);
+  if (!r.ok) throw new Error(await r.text());
+  return await r.json();
+}
+
+function drawResult(j){
+  clearOverlays();
+  const center = [j.grid.center_lat, j.grid.center_lon];
+  if (marker) map.removeLayer(marker);
+  marker = L.marker(center).addTo(map);
+  marker.bindPopup(`x=${j.grid.x}, y=${j.grid.y}<br>area=${j.decoded.area_id}`).openPopup();
+  cellLayer = L.geoJSON(j.cell_geojson, { style: { color: '#0070f3', weight: 2, fill: false } }).addTo(map);
+  if (j.area_rect_geojson) {
+    areaLayer = L.geoJSON(j.area_rect_geojson, { style: { color: '#ff0000', weight: 2, fill: false } }).addTo(map);
+  }
+  renderInfo(j);
+}
+
+async function jumpLatLon(){
+  const lat = Number(latInput.value);
+  const lon = Number(lonInput.value);
+  const j = await decodeByLatLon(lat, lon);
+  xInput.value = j.grid.x;
+  yInput.value = j.grid.y;
+  drawResult(j);
+  map.panTo([j.grid.center_lat, j.grid.center_lon]);
+}
+
+async function jumpXY(){
+  const x = Number(xInput.value);
+  const y = Number(yInput.value);
+  const j = await decodeByXY(x, y);
+  latInput.value = j.grid.center_lat.toFixed(6);
+  lonInput.value = j.grid.center_lon.toFixed(6);
+  drawResult(j);
+  map.panTo([j.grid.center_lat, j.grid.center_lon]);
+}
+
+document.getElementById('goLatLon').addEventListener('click', async () => {
+  try { await jumpLatLon(); }
+  catch (e) { actionSummary(`<div class="mono">${esc(String(e))}</div>`); }
+});
+
+document.getElementById('goXY').addEventListener('click', async () => {
+  try { await jumpXY(); }
+  catch (e) { actionSummary(`<div class="mono">${esc(String(e))}</div>`); }
+});
+
+map.on('click', async (ev) => {
+  latInput.value = ev.latlng.lat.toFixed(6);
+  lonInput.value = ev.latlng.lng.toFixed(6);
+  try {
+    const j = await decodeByLatLon(ev.latlng.lat, ev.latlng.lng);
+    xInput.value = j.grid.x;
+    yInput.value = j.grid.y;
+    drawResult(j);
+  } catch (e) {
+    actionSummary(`<div class="mono">${esc(String(e))}</div>`);
+  }
+});
+
+(async () => {
+  try {
+    const r = await fetch('/meta');
+    const j = await r.json();
+    actionSummary(`<div class="mono">grid=${j.width}x${j.height}
+record_bytes=${j.record_bytes}
+area_bits=${j.area_bits}
+地図をクリックしてください。</div>`);
+  } catch (e) {
+    actionSummary(`<div class="mono">${esc(String(e))}</div>`);
+  }
+})();
+</script>
+</body>
+</html>

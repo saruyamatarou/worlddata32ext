@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">PHL review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(116.000000, 4.017699) - (127.265625, 21.677848)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="356.12" y="40.00" width="445.63" height="264.45" fill="none" stroke="black" stroke-width="2"/>
+<text x="360.12" y="56.00" font-size="12" font-family="Arial, sans-serif">PHL-01 | フィリピン北部</text>
+<circle cx="578.93" cy="172.22" r="2.5" fill="black"/>
+<rect x="40.00" y="305.43" width="759.56" height="276.23" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="321.43" font-size="12" font-family="Arial, sans-serif">PHL-02 | フィリピン中部</text>
+<circle cx="419.78" cy="443.55" r="2.5" fill="black"/>
+<rect x="40.00" y="582.67" width="762.84" height="277.33" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="598.67" font-size="12" font-family="Arial, sans-serif">PHL-03 | フィリピン南部</text>
+<circle cx="421.42" cy="721.33" r="2.5" fill="black"/>
+<rect x="801.75" y="303.47" width="358.25" height="529.06" fill="none" stroke="black" stroke-width="2"/>
+<text x="805.75" y="319.47" font-size="12" font-family="Arial, sans-serif">PHL-04 | フィリピン諸島東部</text>
+<circle cx="980.87" cy="568.00" r="2.5" fill="black"/>
+</svg>

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "TW-01",
+    "name": "北部・首都圏",
+    "name_en": "Northern Area & Capital Region",
+    "reason": "台北市を中心とする経済、政治、文化の中心地であり、人口が集中しているため。",
+    "geometry_wkt": "POLYGON ((120.476074 26.000000, 122.077332 26.000000, 122.077332 23.900905, 120.476074 23.900905, 120.476074 26.000000))",
+    "area_id": 617,
+    "source_row_index": 617,
+    "iso_a3_source": "TW",
+    "iso_a3": "TWN",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "TW-02",
+    "name": "中部・内陸部",
+    "name_en": "Central & Inland Area",
+    "reason": "台湾の中央山脈と盆地地形を特徴とし、自然景観と一部の産業地域を含むため。",
+    "geometry_wkt": "POLYGON ((120.443115 23.905927, 121.843872 23.905927, 121.843872 21.815608, 120.443115 21.815608, 120.443115 23.905927))",
+    "area_id": 618,
+    "source_row_index": 618,
+    "iso_a3_source": "TW",
+    "iso_a3": "TWN",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "TW-03",
+    "name": "南部・沿海部",
+    "name_en": "Southern & Coastal Area",
+    "reason": "台湾南部の主要都市と沿岸地域を含み、経済活動や文化交流が盛んなため。",
+    "geometry_wkt": "POLYGON ((118.146973 24.582095, 120.432129 24.582095, 120.432129 22.375476, 118.146973 22.375476, 118.146973 24.582095))",
+    "area_id": 619,
+    "source_row_index": 619,
+    "iso_a3_source": "TW",
+    "iso_a3": "TWN",
+    "area_seq_in_source": 3
+  }
+]

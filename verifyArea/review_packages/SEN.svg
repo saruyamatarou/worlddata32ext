@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">SEN review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-17.764893, 12.211180) - (-11.228027, 16.741428)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="40.00" y="40.00" width="1025.88" height="539.04" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="56.00" font-size="12" font-family="Arial, sans-serif">SEN-01 | セネガル北部・中部</text>
+<circle cx="552.94" cy="309.52" r="2.5" fill="black"/>
+<rect x="160.47" y="580.97" width="999.53" height="279.03" fill="none" stroke="black" stroke-width="2"/>
+<text x="164.47" y="596.97" font-size="12" font-family="Arial, sans-serif">SEN-02 | セネガル南部</text>
+<circle cx="660.24" cy="720.49" r="2.5" fill="black"/>
+</svg>

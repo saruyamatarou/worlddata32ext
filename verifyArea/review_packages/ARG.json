@@ -1,0 +1,775 @@
+{
+  "iso_a3": "ARG",
+  "area_count": 7,
+  "country_bbox": {
+    "minx": -74.311523,
+    "maxx": -53.0,
+    "miny": -55.254077,
+    "maxy": -21.677848
+  },
+  "areas": [
+    {
+      "id": "ARG-01",
+      "area_id": 18,
+      "area_seq_in_source": 1,
+      "name": "北東亜熱帯地域",
+      "name_en": "Northeast Subtropical Region",
+      "reason": "ミシオネス州とその周辺を中心とする亜熱帯地域。イグアスの滝、熱帯林、パラグアイ・ブラジル方面との接続性が強い。",
+      "geometry_wkt": "POLYGON ((-58.491211 -22.000000, -53.000000 -22.000000, -53.000000 -30.996446, -58.491211 -30.996446, -58.491211 -22.000000))",
+      "bbox": {
+        "minx": -58.491211,
+        "maxx": -53.0,
+        "miny": -30.996446,
+        "maxy": -22.0
+      },
+      "centroid": {
+        "x": -55.745605,
+        "y": -26.498223
+      },
+      "size": {
+        "width": 5.491211,
+        "height": 8.996446
+      },
+      "relative_position": {
+        "x_norm": 0.8712,
+        "y_norm": 0.8564,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "ARG-02",
+          "ARG-03",
+          "ARG-04",
+          "ARG-05",
+          "ARG-06",
+          "ARG-07"
+        ],
+        "north_of": [
+          "ARG-04",
+          "ARG-05",
+          "ARG-06",
+          "ARG-07"
+        ],
+        "south_of": [
+          "ARG-02",
+          "ARG-03"
+        ],
+        "overlaps": [
+          {
+            "id": "ARG-07",
+            "x_overlap": 2.988281,
+            "y_overlap": 0.018837
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 45672,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.3839,
+          "BARE": 0.2706,
+          "TREE": 0.199,
+          "SHRUB": 0.048,
+          "OCEAN": 0.0287,
+          "WETLAND": 0.028,
+          "CROPLAND": 0.0187,
+          "WATER": 0.0156,
+          "SNOW_ICE": 0.0052,
+          "BUILT": 0.0023,
+          "MOSS_LICHEN": 0.0001
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.5375,
+          "TROPICAL": 0.2704,
+          "COLD": 0.1875,
+          "POLAR": 0.0046
+        },
+        "elevation_ratio": {
+          "MID": 0.2761,
+          "LOW": 0.2701,
+          "HIGH": 0.2372,
+          "ULTRA": 0.2167
+        },
+        "precip_ratio": {
+          "LOW": 0.4,
+          "ARID": 0.3575,
+          "MID": 0.2426
+        },
+        "flags_ratio": {
+          "water": 0.6852,
+          "forest": 0.2472,
+          "cropland": 0.0187,
+          "ice": 0.0052,
+          "built": 0.0023
+        },
+        "cell_bbox_xy": {
+          "min_x": 2554,
+          "max_x": 3031,
+          "min_y": 2683,
+          "max_y": 3489
+        },
+        "cell_centroid": {
+          "x": 2718.85,
+          "y": 3025.379,
+          "lon": -66.693758,
+          "lat": -36.078301
+        }
+      }
+    },
+    {
+      "id": "ARG-02",
+      "area_id": 19,
+      "area_seq_in_source": 2,
+      "name": "北西部乾燥峡谷地域",
+      "name_en": "Northwest Arid Canyon Region",
+      "reason": "アンデス山脈東麓の乾燥高地・峡谷地帯。サルタ、フフイ、トゥクマン周辺を含み、先住民文化と山岳地形の特色が強い。",
+      "geometry_wkt": "POLYGON ((-70.708008 -21.677848, -64.709473 -21.677848, -64.709473 -31.015279, -70.708008 -31.015279, -70.708008 -21.677848))",
+      "bbox": {
+        "minx": -70.708008,
+        "maxx": -64.709473,
+        "miny": -31.015279,
+        "maxy": -21.677848
+      },
+      "centroid": {
+        "x": -67.708741,
+        "y": -26.346564
+      },
+      "size": {
+        "width": 5.998535,
+        "height": 9.337431
+      },
+      "relative_position": {
+        "x_norm": 0.3098,
+        "y_norm": 0.861,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ARG-01",
+          "ARG-03",
+          "ARG-04",
+          "ARG-07"
+        ],
+        "east_of": [
+          "ARG-05",
+          "ARG-06"
+        ],
+        "north_of": [
+          "ARG-01",
+          "ARG-03",
+          "ARG-04",
+          "ARG-05",
+          "ARG-06",
+          "ARG-07"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "ARG-04",
+            "x_overlap": 0.021972,
+            "y_overlap": 0.075355
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 12173,
+        "dominant_landcover": "SHRUB",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "SHRUB": 0.3732,
+          "BARE": 0.2389,
+          "GRASS": 0.1712,
+          "TREE": 0.15,
+          "CROPLAND": 0.0625,
+          "BUILT": 0.0023,
+          "WATER": 0.0019
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.5044,
+          "TROPICAL": 0.4586,
+          "COLD": 0.037
+        },
+        "elevation_ratio": {
+          "MID": 0.3441,
+          "ULTRA": 0.3317,
+          "HIGH": 0.2891,
+          "LOW": 0.0351
+        },
+        "precip_ratio": {
+          "LOW": 0.6312,
+          "ARID": 0.3685,
+          "MID": 0.0003
+        },
+        "flags_ratio": {
+          "water": 0.649,
+          "forest": 0.5232,
+          "cropland": 0.0625,
+          "built": 0.0023
+        },
+        "cell_bbox_xy": {
+          "min_x": 2688,
+          "max_x": 2766,
+          "min_y": 2718,
+          "max_y": 2903
+        },
+        "cell_centroid": {
+          "x": 2732.276,
+          "y": 2820.429,
+          "lon": -66.134346,
+          "lat": -27.538714
+        }
+      }
+    },
+    {
+      "id": "ARG-03",
+      "area_id": 20,
+      "area_seq_in_source": 3,
+      "name": "チャコ平原地帯",
+      "name_en": "Gran Chaco Plain Region",
+      "reason": "アルゼンチン北中部の広大な内陸平原。高温・半乾燥〜湿潤の移行帯で、農牧業と内陸交通の要となる。",
+      "geometry_wkt": "POLYGON ((-64.687500 -22.000000, -58.513184 -22.000000, -58.513184 -30.958769, -64.687500 -30.958769, -64.687500 -22.000000))",
+      "bbox": {
+        "minx": -64.6875,
+        "maxx": -58.513184,
+        "miny": -30.958769,
+        "maxy": -22.0
+      },
+      "centroid": {
+        "x": -61.600342,
+        "y": -26.479385
+      },
+      "size": {
+        "width": 6.174316,
+        "height": 8.958769
+      },
+      "relative_position": {
+        "x_norm": 0.5964,
+        "y_norm": 0.857,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ARG-01",
+          "ARG-07"
+        ],
+        "east_of": [
+          "ARG-02",
+          "ARG-04",
+          "ARG-05",
+          "ARG-06"
+        ],
+        "north_of": [
+          "ARG-01",
+          "ARG-04",
+          "ARG-05",
+          "ARG-06",
+          "ARG-07"
+        ],
+        "south_of": [
+          "ARG-02"
+        ],
+        "overlaps": [
+          {
+            "id": "ARG-04",
+            "x_overlap": 4.790039,
+            "y_overlap": 0.018845
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 21921,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.4217,
+          "CROPLAND": 0.2224,
+          "GRASS": 0.2088,
+          "SHRUB": 0.0868,
+          "WETLAND": 0.0342,
+          "WATER": 0.0158,
+          "BARE": 0.0094,
+          "BUILT": 0.0008
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.971,
+          "TEMPERATE": 0.029
+        },
+        "elevation_ratio": {
+          "LOW": 0.7644,
+          "MID": 0.2212,
+          "HIGH": 0.0142,
+          "ULTRA": 0.0002
+        },
+        "precip_ratio": {
+          "LOW": 0.7165,
+          "MID": 0.2835
+        },
+        "flags_ratio": {
+          "water": 0.7932,
+          "forest": 0.5086,
+          "cropland": 0.2224,
+          "built": 0.0008
+        },
+        "cell_bbox_xy": {
+          "min_x": 2768,
+          "max_x": 2915,
+          "min_y": 2718,
+          "max_y": 2902
+        },
+        "cell_centroid": {
+          "x": 2835.433,
+          "y": 2826.102,
+          "lon": -61.836142,
+          "lat": -27.775099
+        }
+      }
+    },
+    {
+      "id": "ARG-04",
+      "area_id": 21,
+      "area_seq_in_source": 4,
+      "name": "中央パンパ湿潤地域",
+      "name_en": "Central Humid Pampas Region",
+      "reason": "アルゼンチン経済の中心となる穀倉・牧牛地帯。コルドバ東部からサンタフェ、ラ・パンパ北部にかけての湿潤パンパを含む。",
+      "geometry_wkt": "POLYGON ((-64.731445 -30.939924, -59.897461 -30.939924, -59.897461 -41.244772, -64.731445 -41.244772, -64.731445 -30.939924))",
+      "bbox": {
+        "minx": -64.731445,
+        "maxx": -59.897461,
+        "miny": -41.244772,
+        "maxy": -30.939924
+      },
+      "centroid": {
+        "x": -62.314453,
+        "y": -36.092348
+      },
+      "size": {
+        "width": 4.833984,
+        "height": 10.304848
+      },
+      "relative_position": {
+        "x_norm": 0.5629,
+        "y_norm": 0.5707,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ARG-01",
+          "ARG-03",
+          "ARG-07"
+        ],
+        "east_of": [
+          "ARG-02",
+          "ARG-05",
+          "ARG-06"
+        ],
+        "north_of": [
+          "ARG-05",
+          "ARG-06"
+        ],
+        "south_of": [
+          "ARG-01",
+          "ARG-02",
+          "ARG-03",
+          "ARG-07"
+        ],
+        "overlaps": [
+          {
+            "id": "ARG-02",
+            "x_overlap": 0.021972,
+            "y_overlap": 0.075355
+          },
+          {
+            "id": "ARG-03",
+            "x_overlap": 4.790039,
+            "y_overlap": 0.018845
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 27012,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "CROPLAND": 0.6458,
+          "GRASS": 0.1525,
+          "SHRUB": 0.0994,
+          "OCEAN": 0.0655,
+          "WETLAND": 0.0151,
+          "WATER": 0.0084,
+          "TREE": 0.0083,
+          "BUILT": 0.0029,
+          "BARE": 0.0021
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9559,
+          "TROPICAL": 0.0437,
+          "POLAR": 0.0003
+        },
+        "elevation_ratio": {
+          "LOW": 0.8244,
+          "MID": 0.1673,
+          "HIGH": 0.0084
+        },
+        "precip_ratio": {
+          "LOW": 0.879,
+          "MID": 0.1207,
+          "ARID": 0.0003
+        },
+        "flags_ratio": {
+          "water": 0.7,
+          "cropland": 0.6458,
+          "forest": 0.1083,
+          "built": 0.0029
+        },
+        "cell_bbox_xy": {
+          "min_x": 2766,
+          "max_x": 2883,
+          "min_y": 2903,
+          "max_y": 3157
+        },
+        "cell_centroid": {
+          "x": 2820.566,
+          "y": 3020.112,
+          "lon": -62.455577,
+          "lat": -35.858839
+        }
+      }
+    },
+    {
+      "id": "ARG-05",
+      "area_id": 22,
+      "area_seq_in_source": 5,
+      "name": "クージョ乾燥アンデス地域",
+      "name_en": "Cuyo Dry Andean Region",
+      "reason": "メンドーサ、サンフアン、サンルイス周辺を中心とする乾燥内陸・アンデス東麓地域。ワイン産業と山岳景観が特徴。",
+      "geometry_wkt": "POLYGON ((-72.421875 -31.052934, -64.742432 -31.052934, -64.742432 -41.705729, -72.421875 -41.705729, -72.421875 -31.052934))",
+      "bbox": {
+        "minx": -72.421875,
+        "maxx": -64.742432,
+        "miny": -41.705729,
+        "maxy": -31.052934
+      },
+      "centroid": {
+        "x": -68.582154,
+        "y": -36.379331
+      },
+      "size": {
+        "width": 7.679443,
+        "height": 10.652795
+      },
+      "relative_position": {
+        "x_norm": 0.2688,
+        "y_norm": 0.5621,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ARG-01",
+          "ARG-02",
+          "ARG-03",
+          "ARG-04",
+          "ARG-07"
+        ],
+        "east_of": [
+          "ARG-06"
+        ],
+        "north_of": [
+          "ARG-06"
+        ],
+        "south_of": [
+          "ARG-01",
+          "ARG-02",
+          "ARG-03",
+          "ARG-04",
+          "ARG-07"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 28818,
+        "dominant_landcover": "SHRUB",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "SHRUB": 0.6112,
+          "GRASS": 0.2703,
+          "CROPLAND": 0.0477,
+          "BARE": 0.0467,
+          "TREE": 0.01,
+          "OCEAN": 0.0075,
+          "WATER": 0.0058,
+          "BUILT": 0.0007,
+          "SNOW_ICE": 0.0001
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9001,
+          "TROPICAL": 0.093,
+          "COLD": 0.0059,
+          "POLAR": 0.0009
+        },
+        "elevation_ratio": {
+          "MID": 0.6625,
+          "HIGH": 0.2449,
+          "LOW": 0.0755,
+          "ULTRA": 0.0171
+        },
+        "precip_ratio": {
+          "LOW": 0.7266,
+          "ARID": 0.2659,
+          "MID": 0.0075
+        },
+        "flags_ratio": {
+          "water": 0.6381,
+          "forest": 0.6214,
+          "cropland": 0.0477,
+          "built": 0.0007,
+          "ice": 0.0001
+        },
+        "cell_bbox_xy": {
+          "min_x": 2638,
+          "max_x": 2769,
+          "min_y": 2905,
+          "max_y": 3160
+        },
+        "cell_centroid": {
+          "x": 2708.043,
+          "y": 3041.603,
+          "lon": -67.144035,
+          "lat": -36.754299
+        }
+      }
+    },
+    {
+      "id": "ARG-06",
+      "area_id": 23,
+      "area_seq_in_source": 6,
+      "name": "パタゴニア半乾燥・寒冷地域",
+      "name_en": "Patagonia Semi-arid and Cold Region",
+      "reason": "南部アルゼンチンの広大な寒冷・半乾燥地域。高原、ステップ、氷河湖、アンデス南部を含む。",
+      "geometry_wkt": "POLYGON ((-74.311523 -41.705729, -63.017578 -41.705729, -63.017578 -55.254077, -74.311523 -55.254077, -74.311523 -41.705729))",
+      "bbox": {
+        "minx": -74.311523,
+        "maxx": -63.017578,
+        "miny": -55.254077,
+        "maxy": -41.705729
+      },
+      "centroid": {
+        "x": -68.66455,
+        "y": -48.479903
+      },
+      "size": {
+        "width": 11.293945,
+        "height": 13.548348
+      },
+      "relative_position": {
+        "x_norm": 0.265,
+        "y_norm": 0.2018,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ARG-01",
+          "ARG-02",
+          "ARG-03",
+          "ARG-04",
+          "ARG-05",
+          "ARG-07"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "ARG-01",
+          "ARG-02",
+          "ARG-03",
+          "ARG-04",
+          "ARG-05",
+          "ARG-07"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 25721,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "GRASS": 0.43,
+          "OCEAN": 0.2265,
+          "BARE": 0.168,
+          "SHRUB": 0.1672,
+          "WATER": 0.0067,
+          "TREE": 0.0013,
+          "BUILT": 0.0002,
+          "CROPLAND": 0.0
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.8342,
+          "COLD": 0.1658,
+          "POLAR": 0.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.4751,
+          "MID": 0.4109,
+          "HIGH": 0.114
+        },
+        "precip_ratio": {
+          "ARID": 0.7426,
+          "MID": 0.2265,
+          "LOW": 0.0309
+        },
+        "flags_ratio": {
+          "water": 0.6284,
+          "forest": 0.1687,
+          "built": 0.0002,
+          "cropland": 0.0
+        },
+        "cell_bbox_xy": {
+          "min_x": 2640,
+          "max_x": 2803,
+          "min_y": 3160,
+          "max_y": 3487
+        },
+        "cell_centroid": {
+          "x": 2699.291,
+          "y": 3270.03,
+          "lon": -67.508721,
+          "lat": -46.272076
+        }
+      }
+    },
+    {
+      "id": "ARG-07",
+      "area_id": 24,
+      "area_seq_in_source": 7,
+      "name": "ブエノスアイレス首都圏",
+      "name_en": "Buenos Aires Metropolitan Area",
+      "reason": "ブエノスアイレス市および周辺首都圏。政治・経済・文化の中枢であり、独立した都市圏として扱う。",
+      "geometry_wkt": "POLYGON ((-59.853516 -30.977609, -55.502930 -30.977609, -55.502930 -39.470125, -59.853516 -39.470125, -59.853516 -30.977609))",
+      "bbox": {
+        "minx": -59.853516,
+        "maxx": -55.50293,
+        "miny": -39.470125,
+        "maxy": -30.977609
+      },
+      "centroid": {
+        "x": -57.678223,
+        "y": -35.223867
+      },
+      "size": {
+        "width": 4.350586,
+        "height": 8.492516
+      },
+      "relative_position": {
+        "x_norm": 0.7805,
+        "y_norm": 0.5966,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ARG-01"
+        ],
+        "east_of": [
+          "ARG-02",
+          "ARG-03",
+          "ARG-04",
+          "ARG-05",
+          "ARG-06"
+        ],
+        "north_of": [
+          "ARG-04",
+          "ARG-05",
+          "ARG-06"
+        ],
+        "south_of": [
+          "ARG-01",
+          "ARG-02",
+          "ARG-03"
+        ],
+        "overlaps": [
+          {
+            "id": "ARG-01",
+            "x_overlap": 2.988281,
+            "y_overlap": 0.018837
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 9845,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "GRASS": 0.4033,
+          "CROPLAND": 0.3524,
+          "OCEAN": 0.1597,
+          "WETLAND": 0.0502,
+          "TREE": 0.0229,
+          "BUILT": 0.0062,
+          "WATER": 0.0044,
+          "SHRUB": 0.0006,
+          "BARE": 0.0005
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9073,
+          "TROPICAL": 0.0927
+        },
+        "elevation_ratio": {
+          "LOW": 0.9714,
+          "MID": 0.0286
+        },
+        "precip_ratio": {
+          "MID": 0.5271,
+          "LOW": 0.4729
+        },
+        "flags_ratio": {
+          "water": 0.7489,
+          "cropland": 0.3526,
+          "forest": 0.0235,
+          "built": 0.0062
+        },
+        "cell_bbox_xy": {
+          "min_x": 2884,
+          "max_x": 2969,
+          "min_y": 2903,
+          "max_y": 3101
+        },
+        "cell_centroid": {
+          "x": 2913.687,
+          "y": 3017.054,
+          "lon": -58.575557,
+          "lat": -35.731418
+        }
+      }
+    }
+  ]
+}

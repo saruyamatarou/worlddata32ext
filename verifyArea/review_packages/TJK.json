@@ -1,0 +1,199 @@
+{
+  "iso_a3": "TJK",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": 67.225342,
+    "maxx": 75.3,
+    "miny": 36.615528,
+    "maxy": 41.104191
+  },
+  "areas": [
+    {
+      "id": "TJK-01",
+      "area_id": 597,
+      "area_seq_in_source": 1,
+      "name": "タジキスタン北部経済圏",
+      "name_en": "Northern Tajikistan Economic Zone",
+      "reason": "タジキスタンの北部、特にフェルガナ盆地に位置し、経済活動の中心地であるホジェンドなどの主要都市を含む地域。比較的平坦で、農業や産業が集積しやすい地理的・経済的特徴を持つ。",
+      "geometry_wkt": "POLYGON ((67.258301 41.104191, 73.773193 41.104191, 73.773193 39.283294, 67.258301 39.283294, 67.258301 41.104191))",
+      "bbox": {
+        "minx": 67.258301,
+        "maxx": 73.773193,
+        "miny": 39.283294,
+        "maxy": 41.104191
+      },
+      "centroid": {
+        "x": 70.515747,
+        "y": 40.193742
+      },
+      "size": {
+        "width": 6.514892,
+        "height": 1.820897
+      },
+      "relative_position": {
+        "x_norm": 0.4075,
+        "y_norm": 0.7972,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "TJK-02"
+        ],
+        "east_of": [],
+        "north_of": [
+          "TJK-02"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 2122,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "ULTRA",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.5693,
+          "BARE": 0.2116,
+          "CROPLAND": 0.1381,
+          "SNOW_ICE": 0.0476,
+          "WATER": 0.0141,
+          "BUILT": 0.0099,
+          "TREE": 0.0038,
+          "SHRUB": 0.0038,
+          "MOSS_LICHEN": 0.0019
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.6593,
+          "COLD": 0.2917,
+          "POLAR": 0.0485,
+          "TROPICAL": 0.0005
+        },
+        "elevation_ratio": {
+          "ULTRA": 0.4241,
+          "MID": 0.2955,
+          "HIGH": 0.2804
+        },
+        "precip_ratio": {
+          "LOW": 0.795,
+          "ARID": 0.205
+        },
+        "flags_ratio": {
+          "water": 0.6235,
+          "cropland": 0.1381,
+          "ice": 0.0476,
+          "built": 0.0099,
+          "forest": 0.0075
+        },
+        "cell_bbox_xy": {
+          "min_x": 5936,
+          "max_x": 6086,
+          "min_y": 1175,
+          "max_y": 1269
+        },
+        "cell_centroid": {
+          "x": 5982.32,
+          "y": 1214.705,
+          "lon": 69.284146,
+          "lat": 39.366478
+        }
+      }
+    },
+    {
+      "id": "TJK-02",
+      "area_id": 598,
+      "area_seq_in_source": 2,
+      "name": "タジキスタン南部山岳・高原圏",
+      "name_en": "Southern Tajikistan Mountainous Plateau Zone",
+      "reason": "国土の大部分を占める山岳地帯とパミール高原を含む地域。首都ドゥシャンベもこのエリアに含まれ、独特の地理的景観と文化を持つ。",
+      "geometry_wkt": "POLYGON ((67.225342 39.274790, 75.300000 39.274790, 75.300000 36.615528, 67.225342 36.615528, 67.225342 39.274790))",
+      "bbox": {
+        "minx": 67.225342,
+        "maxx": 75.3,
+        "miny": 36.615528,
+        "maxy": 39.27479
+      },
+      "centroid": {
+        "x": 71.262671,
+        "y": 37.945159
+      },
+      "size": {
+        "width": 8.074658,
+        "height": 2.659262
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.2962,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "TJK-01"
+        ],
+        "north_of": [],
+        "south_of": [
+          "TJK-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 6348,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "COLD",
+        "dominant_e2": "ULTRA",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "BARE": 0.4712,
+          "GRASS": 0.3642,
+          "SNOW_ICE": 0.0914,
+          "CROPLAND": 0.0462,
+          "MOSS_LICHEN": 0.0162,
+          "WATER": 0.0057,
+          "BUILT": 0.0024,
+          "TREE": 0.002,
+          "SHRUB": 0.0008
+        },
+        "temperature_ratio": {
+          "COLD": 0.4644,
+          "TEMPERATE": 0.3012,
+          "POLAR": 0.2341,
+          "TROPICAL": 0.0003
+        },
+        "elevation_ratio": {
+          "ULTRA": 0.7754,
+          "HIGH": 0.1389,
+          "MID": 0.0857
+        },
+        "precip_ratio": {
+          "LOW": 0.7658,
+          "ARID": 0.2283,
+          "MID": 0.006
+        },
+        "flags_ratio": {
+          "water": 0.679,
+          "ice": 0.0914,
+          "cropland": 0.0462,
+          "forest": 0.0028,
+          "built": 0.0024
+        },
+        "cell_bbox_xy": {
+          "min_x": 5949,
+          "max_x": 6123,
+          "min_y": 1217,
+          "max_y": 1279
+        },
+        "cell_centroid": {
+          "x": 6037.843,
+          "y": 1241.467,
+          "lon": 71.597623,
+          "lat": 38.251359
+        }
+      }
+    }
+  ]
+}

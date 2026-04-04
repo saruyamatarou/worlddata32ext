@@ -1,0 +1,145 @@
+{
+  "iso_a3": "ERI",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": 36.320801,
+    "maxx": 43.4729,
+    "miny": 12.275599,
+    "maxy": 18.03
+  },
+  "areas": [
+    {
+      "id": "ERI-01",
+      "area_id": 206,
+      "area_seq_in_source": 1,
+      "name": "エリトリア北部海岸・紅海沿岸",
+      "name_en": "Northern Eritrea Coastal & Red Sea Coast",
+      "reason": "紅海に面した長い海岸線と、それに沿った砂漠地帯、そして多数の島嶼部を有する地域。この地域は、海洋資源や船舶交通の要衝としての経済的重要性を持つ。気候は乾燥しており、ダナキル低地のような極端に暑い地域も含まれる。",
+      "geometry_wkt": "POLYGON ((38.353271 18.030000, 43.472900 18.030000, 43.472900 12.275599, 38.353271 12.275599, 38.353271 18.030000))",
+      "bbox": {
+        "minx": 38.353271,
+        "maxx": 43.4729,
+        "miny": 12.275599,
+        "maxy": 18.03
+      },
+      "centroid": {
+        "x": 40.913086,
+        "y": 15.1528
+      },
+      "size": {
+        "width": 5.119629,
+        "height": 5.754401
+      },
+      "relative_position": {
+        "x_norm": 0.6421,
+        "y_norm": 0.5,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "ERI-02"
+        ],
+        "north_of": [],
+        "south_of": [
+          "ERI-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 8024,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "BARE": 0.3999,
+          "OCEAN": 0.2586,
+          "GRASS": 0.2301,
+          "SHRUB": 0.0825,
+          "CROPLAND": 0.0243,
+          "WATER": 0.0044,
+          "BUILT": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9912,
+          "TEMPERATE": 0.0088
+        },
+        "elevation_ratio": {
+          "LOW": 0.3949,
+          "MID": 0.3116,
+          "HIGH": 0.2658,
+          "ULTRA": 0.0277
+        },
+        "precip_ratio": {
+          "LOW": 0.5214,
+          "MID": 0.2586,
+          "ARID": 0.22
+        },
+        "flags_ratio": {
+          "water": 0.7289,
+          "forest": 0.0825,
+          "cropland": 0.0243,
+          "built": 0.0002
+        },
+        "cell_bbox_xy": {
+          "min_x": 5194,
+          "max_x": 5358,
+          "min_y": 1723,
+          "max_y": 1862
+        },
+        "cell_centroid": {
+          "x": 5262.374,
+          "y": 1790.071,
+          "lon": 39.286422,
+          "lat": 15.392879
+        }
+      }
+    },
+    {
+      "id": "ERI-02",
+      "area_id": 207,
+      "area_seq_in_source": 2,
+      "name": "エリトリア中央高地・内陸部",
+      "name_en": "Central Eritrean Highlands & Inland",
+      "reason": "国土の大部分を占める高原地帯で、首都アスマラも位置する。比較的温暖な気候で、農業や牧畜業が営まれている。山岳地帯や多様な地形が広がり、文化的な中心地でもある。",
+      "geometry_wkt": "POLYGON ((36.320801 17.957832, 38.342285 17.957832, 38.342285 13.987376, 36.320801 13.987376, 36.320801 17.957832))",
+      "bbox": {
+        "minx": 36.320801,
+        "maxx": 38.342285,
+        "miny": 13.987376,
+        "maxy": 17.957832
+      },
+      "centroid": {
+        "x": 37.331543,
+        "y": 15.972604
+      },
+      "size": {
+        "width": 2.021484,
+        "height": 3.970456
+      },
+      "relative_position": {
+        "x_norm": 0.1413,
+        "y_norm": 0.6425,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ERI-01"
+        ],
+        "east_of": [],
+        "north_of": [
+          "ERI-01"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    }
+  ]
+}

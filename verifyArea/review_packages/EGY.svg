@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">EGY review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(24.800000, 21.800000) - (37.200000, 32.200000)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="40.00" y="40.00" width="379.35" height="820.00" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="56.00" font-size="12" font-family="Arial, sans-serif">EGY-01 | 西部砂漠地域</text>
+<circle cx="229.68" cy="450.00" r="2.5" fill="black"/>
+<rect x="419.35" y="40.00" width="361.29" height="173.46" fill="none" stroke="black" stroke-width="2"/>
+<text x="423.35" y="56.00" font-size="12" font-family="Arial, sans-serif">EGY-02 | ナイル・デルタ及び北部沿岸地域</text>
+<circle cx="600.00" cy="126.73" r="2.5" fill="black"/>
+<rect x="419.35" y="213.46" width="361.29" height="236.54" fill="none" stroke="black" stroke-width="2"/>
+<text x="423.35" y="229.46" font-size="12" font-family="Arial, sans-serif">EGY-03 | 中央ナイル渓谷地域</text>
+<circle cx="600.00" cy="331.73" r="2.5" fill="black"/>
+<rect x="419.35" y="450.00" width="361.29" height="410.00" fill="none" stroke="black" stroke-width="2"/>
+<text x="423.35" y="466.00" font-size="12" font-family="Arial, sans-serif">EGY-04 | 南部ナイル渓谷及びヌビア地域</text>
+<circle cx="600.00" cy="655.00" r="2.5" fill="black"/>
+<rect x="780.65" y="40.00" width="379.35" height="820.00" fill="none" stroke="black" stroke-width="2"/>
+<text x="784.65" y="56.00" font-size="12" font-family="Arial, sans-serif">EGY-05 | 東部砂漠及びシナイ半島地域</text>
+<circle cx="970.32" cy="450.00" r="2.5" fill="black"/>
+</svg>

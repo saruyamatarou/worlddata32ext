@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">NZL review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-179.900000, -53.800000) - (180.000000, -6.839170)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="1135.10" y="514.27" width="21.78" height="136.20" fill="none" stroke="black" stroke-width="2"/>
+<text x="1139.10" y="530.27" font-size="12" font-family="Arial, sans-serif">NZL-01 | 北島</text>
+<circle cx="1146.00" cy="582.36" r="2.5" fill="black"/>
+<rect x="1116.43" y="627.76" width="29.56" height="123.98" fill="none" stroke="black" stroke-width="2"/>
+<text x="1120.43" y="643.76" font-size="12" font-family="Arial, sans-serif">NZL-02 | 南島・スチュアート島</text>
+<circle cx="1131.21" cy="689.75" r="2.5" fill="black"/>
+<rect x="1113.32" y="748.25" width="46.68" height="111.75" fill="none" stroke="black" stroke-width="2"/>
+<text x="1117.32" y="764.25" font-size="12" font-family="Arial, sans-serif">NZL-03 | 南方離島群</text>
+<circle cx="1136.66" cy="804.12" r="2.5" fill="black"/>
+<rect x="44.36" y="671.42" width="10.89" height="38.41" fill="none" stroke="black" stroke-width="2"/>
+<text x="48.36" y="687.42" font-size="12" font-family="Arial, sans-serif">NZL-04 | チャタム諸島</text>
+<circle cx="49.80" cy="690.62" r="2.5" fill="black"/>
+<rect x="40.00" y="40.00" width="41.26" height="442.83" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="56.00" font-size="12" font-family="Arial, sans-serif">NZL-05 | カーマデック諸島</text>
+<circle cx="60.63" cy="261.42" r="2.5" fill="black"/>
+</svg>

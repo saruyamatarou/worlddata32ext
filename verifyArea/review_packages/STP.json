@@ -1,0 +1,90 @@
+{
+  "iso_a3": "STP",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": 6.141357,
+    "maxx": 7.965088,
+    "miny": -0.35156,
+    "maxy": 2.075962
+  },
+  "areas": [
+    {
+      "id": "STP-01",
+      "area_id": 570,
+      "area_seq_in_source": 1,
+      "name": "サントメ・プリンシペ",
+      "name_en": "Sao Tome and Principe",
+      "reason": "サントメ・プリンシペは単一の国であり、地理的、経済的、文化的に均一な特徴を持つため、単一のエリアとして分割します。",
+      "geometry_wkt": "POLYGON ((6.141357 2.075962, 7.965088 2.075962, 7.965088 -0.351560, 6.141357 -0.351560, 6.141357 2.075962))",
+      "bbox": {
+        "minx": 6.141357,
+        "maxx": 7.965088,
+        "miny": -0.35156,
+        "maxy": 2.075962
+      },
+      "centroid": {
+        "x": 7.053223,
+        "y": 0.862201
+      },
+      "size": {
+        "width": 1.823731,
+        "height": 2.427522
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 990,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9485,
+          "TREE": 0.0465,
+          "WATER": 0.0051
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.999,
+          "TEMPERATE": 0.001
+        },
+        "elevation_ratio": {
+          "LOW": 0.9727,
+          "MID": 0.0232,
+          "HIGH": 0.004
+        },
+        "precip_ratio": {
+          "MID": 0.9556,
+          "WET": 0.0444
+        },
+        "flags_ratio": {
+          "water": 0.9535,
+          "forest": 0.0465
+        },
+        "cell_bbox_xy": {
+          "min_x": 4465,
+          "max_x": 4508,
+          "min_y": 2109,
+          "max_y": 2168
+        },
+        "cell_centroid": {
+          "x": 4485.845,
+          "y": 2140.145,
+          "lon": 6.931061,
+          "lat": 0.806439
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">ZWE review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(25.000000, -22.512557) - (33.156738, -15.241790)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="297.12" y="40.00" width="862.88" height="299.24" fill="none" stroke="black" stroke-width="2"/>
+<text x="301.12" y="56.00" font-size="12" font-family="Arial, sans-serif">ZWE-01 | ジンバブエ北部・ザンベジ川流域</text>
+<circle cx="728.56" cy="189.62" r="2.5" fill="black"/>
+<rect x="40.00" y="322.73" width="1118.49" height="328.75" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="338.73" font-size="12" font-family="Arial, sans-serif">ZWE-02 | ジンバブエ中央部・高原地帯</text>
+<circle cx="599.25" cy="487.10" r="2.5" fill="black"/>
+<rect x="390.65" y="652.64" width="730.13" height="207.36" fill="none" stroke="black" stroke-width="2"/>
+<text x="394.65" y="668.64" font-size="12" font-family="Arial, sans-serif">ZWE-03 | ジンバブエ南部・カラハリ砂漠周辺</text>
+<circle cx="755.71" cy="756.32" r="2.5" fill="black"/>
+</svg>

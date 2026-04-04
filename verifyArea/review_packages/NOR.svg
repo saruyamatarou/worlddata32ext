@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">NOR review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-10.986328, 57.562995) - (39.023438, 81.059130)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="468.12" y="663.27" width="124.99" height="194.26" fill="none" stroke="black" stroke-width="2"/>
+<text x="472.12" y="679.27" font-size="12" font-family="Arial, sans-serif">NOR-01 | 東ノルウェー</text>
+<circle cx="530.62" cy="760.40" r="2.5" fill="black"/>
+<rect x="375.63" y="642.33" width="93.48" height="217.67" fill="none" stroke="black" stroke-width="2"/>
+<text x="379.63" y="658.33" font-size="12" font-family="Arial, sans-serif">NOR-02 | 西ノルウェー</text>
+<circle cx="422.37" cy="751.17" r="2.5" fill="black"/>
+<rect x="469.60" y="545.20" width="180.60" height="117.94" fill="none" stroke="black" stroke-width="2"/>
+<text x="473.60" y="561.20" font-size="12" font-family="Arial, sans-serif">NOR-03 | 中部ノルウェー</text>
+<circle cx="559.89" cy="604.17" r="2.5" fill="black"/>
+<rect x="40.00" y="352.63" width="953.75" height="193.48" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="368.63" font-size="12" font-family="Arial, sans-serif">NOR-04 | 北ノルウェー</text>
+<circle cx="516.87" cy="449.37" r="2.5" fill="black"/>
+<rect x="472.06" y="60.67" width="199.79" height="143.61" fill="none" stroke="black" stroke-width="2"/>
+<text x="476.06" y="76.67" font-size="12" font-family="Arial, sans-serif">NOR-05 | スヴァールバル西部</text>
+<circle cx="571.95" cy="132.48" r="2.5" fill="black"/>
+<rect x="671.85" y="40.00" width="488.15" height="67.33" fill="none" stroke="black" stroke-width="2"/>
+<text x="675.85" y="56.00" font-size="12" font-family="Arial, sans-serif">NOR-06 | スヴァールバル北東氷帽地域</text>
+<circle cx="915.92" cy="73.66" r="2.5" fill="black"/>
+<rect x="673.81" y="107.04" width="305.10" height="181.18" fill="none" stroke="black" stroke-width="2"/>
+<text x="677.81" y="123.04" font-size="12" font-family="Arial, sans-serif">NOR-07 | スヴァールバル南東諸島</text>
+<circle cx="826.36" cy="197.63" r="2.5" fill="black"/>
+</svg>

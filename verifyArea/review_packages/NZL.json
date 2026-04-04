@@ -1,0 +1,511 @@
+{
+  "iso_a3": "NZL",
+  "area_count": 5,
+  "country_bbox": {
+    "minx": -179.9,
+    "maxx": 180.0,
+    "miny": -53.8,
+    "maxy": -6.83917
+  },
+  "areas": [
+    {
+      "id": "NZL-01",
+      "area_id": 461,
+      "area_seq_in_source": 1,
+      "name": "北島",
+      "name_en": "North Island",
+      "reason": "ニュージーランド本土の北半を構成する中核地域であり、人口・行政・経済の中心軸を含むため。",
+      "geometry_wkt": "POLYGON ((172.0 -34.0, 179.0 -34.0, 179.0 -41.8, 172.0 -41.8, 172.0 -34.0))",
+      "bbox": {
+        "minx": 172.0,
+        "maxx": 179.0,
+        "miny": -41.8,
+        "maxy": -34.0
+      },
+      "centroid": {
+        "x": 175.5,
+        "y": -37.9
+      },
+      "size": {
+        "width": 7.0,
+        "height": 7.8
+      },
+      "relative_position": {
+        "x_norm": 0.9875,
+        "y_norm": 0.3386,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "NZL-02",
+          "NZL-03",
+          "NZL-04",
+          "NZL-05"
+        ],
+        "north_of": [
+          "NZL-02",
+          "NZL-03",
+          "NZL-04"
+        ],
+        "south_of": [
+          "NZL-05"
+        ],
+        "overlaps": [
+          {
+            "id": "NZL-02",
+            "x_overlap": 3.5,
+            "y_overlap": 1.3
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 12854,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.4946,
+          "GRASS": 0.256,
+          "TREE": 0.2251,
+          "WATER": 0.0194,
+          "BUILT": 0.0024,
+          "CROPLAND": 0.0009,
+          "BARE": 0.0007,
+          "WETLAND": 0.0006,
+          "MANGROVE": 0.0002
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9989,
+          "POLAR": 0.0008,
+          "COLD": 0.0003
+        },
+        "elevation_ratio": {
+          "LOW": 0.7122,
+          "MID": 0.2542,
+          "HIGH": 0.0335,
+          "ULTRA": 0.0001
+        },
+        "precip_ratio": {
+          "MID": 0.9459,
+          "WET": 0.033,
+          "LOW": 0.0203,
+          "ARID": 0.0008
+        },
+        "flags_ratio": {
+          "water": 0.9152,
+          "forest": 0.2307,
+          "built": 0.0028,
+          "cropland": 0.0009
+        },
+        "cell_bbox_xy": {
+          "min_x": 8441,
+          "max_x": 8614,
+          "min_y": 2969,
+          "max_y": 3164
+        },
+        "cell_centroid": {
+          "x": 8531.645,
+          "y": 3069.691,
+          "lon": 175.506055,
+          "lat": -37.924634
+        }
+      }
+    },
+    {
+      "id": "NZL-02",
+      "area_id": 462,
+      "area_seq_in_source": 2,
+      "name": "南島・スチュアート島",
+      "name_en": "South Island and Stewart Island",
+      "reason": "ニュージーランド本土の南半とその直近南方の主要島をまとめた、連続性の高い主島地域であるため。",
+      "geometry_wkt": "POLYGON ((166.0 -40.5, 175.5 -40.5, 175.5 -47.6, 166.0 -47.6, 166.0 -40.5))",
+      "bbox": {
+        "minx": 166.0,
+        "maxx": 175.5,
+        "miny": -47.6,
+        "maxy": -40.5
+      },
+      "centroid": {
+        "x": 170.75,
+        "y": -44.05
+      },
+      "size": {
+        "width": 9.5,
+        "height": 7.1
+      },
+      "relative_position": {
+        "x_norm": 0.9743,
+        "y_norm": 0.2076,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "NZL-01",
+          "NZL-03"
+        ],
+        "east_of": [
+          "NZL-04",
+          "NZL-05"
+        ],
+        "north_of": [
+          "NZL-03",
+          "NZL-04"
+        ],
+        "south_of": [
+          "NZL-01",
+          "NZL-05"
+        ],
+        "overlaps": [
+          {
+            "id": "NZL-01",
+            "x_overlap": 3.5,
+            "y_overlap": 1.3
+          },
+          {
+            "id": "NZL-03",
+            "x_overlap": 9.5,
+            "y_overlap": 0.2
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 17267,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.4099,
+          "GRASS": 0.3137,
+          "TREE": 0.2232,
+          "WATER": 0.0225,
+          "BARE": 0.0159,
+          "CROPLAND": 0.0082,
+          "SNOW_ICE": 0.0049,
+          "BUILT": 0.0012,
+          "SHRUB": 0.0005,
+          "WETLAND": 0.0001
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.8156,
+          "COLD": 0.182,
+          "POLAR": 0.0024
+        },
+        "elevation_ratio": {
+          "LOW": 0.5439,
+          "MID": 0.2662,
+          "HIGH": 0.1885,
+          "ULTRA": 0.0014
+        },
+        "precip_ratio": {
+          "MID": 0.6295,
+          "WET": 0.2167,
+          "LOW": 0.1514,
+          "ARID": 0.0024
+        },
+        "flags_ratio": {
+          "water": 0.8984,
+          "forest": 0.2334,
+          "cropland": 0.0082,
+          "ice": 0.0049,
+          "built": 0.0012
+        },
+        "cell_bbox_xy": {
+          "min_x": 8305,
+          "max_x": 8536,
+          "min_y": 3122,
+          "max_y": 3304
+        },
+        "cell_centroid": {
+          "x": 8416.146,
+          "y": 3213.006,
+          "lon": 170.693603,
+          "lat": -43.896084
+        }
+      }
+    },
+    {
+      "id": "NZL-03",
+      "area_id": 463,
+      "area_seq_in_source": 3,
+      "name": "南方離島群",
+      "name_en": "Southern Outlying Islands",
+      "reason": "スネアーズ諸島、オークランド諸島、アンティポディーズ諸島、バウンティ諸島、キャンベル島など、本土南方から南東方に散在する離島群をまとめて管理しやすくするため。",
+      "geometry_wkt": "POLYGON ((165.0 -47.4, 180.0 -47.4, 180.0 -53.8, 165.0 -53.8, 165.0 -47.4))",
+      "bbox": {
+        "minx": 165.0,
+        "maxx": 180.0,
+        "miny": -53.8,
+        "maxy": -47.4
+      },
+      "centroid": {
+        "x": 172.5,
+        "y": -50.6
+      },
+      "size": {
+        "width": 15.0,
+        "height": 6.4
+      },
+      "relative_position": {
+        "x_norm": 0.9792,
+        "y_norm": 0.0681,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "NZL-01"
+        ],
+        "east_of": [
+          "NZL-02",
+          "NZL-04",
+          "NZL-05"
+        ],
+        "north_of": [],
+        "south_of": [
+          "NZL-01",
+          "NZL-02",
+          "NZL-04",
+          "NZL-05"
+        ],
+        "overlaps": [
+          {
+            "id": "NZL-02",
+            "x_overlap": 9.5,
+            "y_overlap": 0.2
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 1755,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "COLD",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9687,
+          "GRASS": 0.0148,
+          "WATER": 0.0091,
+          "TREE": 0.0034,
+          "UNKNOWN": 0.0028,
+          "SHRUB": 0.0011
+        },
+        "temperature_ratio": {
+          "COLD": 0.9687,
+          "TEMPERATE": 0.0308,
+          "POLAR": 0.0006
+        },
+        "elevation_ratio": {
+          "LOW": 0.9875,
+          "MID": 0.0125
+        },
+        "precip_ratio": {
+          "MID": 0.9966,
+          "LOW": 0.0028,
+          "ARID": 0.0006
+        },
+        "flags_ratio": {
+          "water": 0.9778,
+          "forest": 0.0057
+        },
+        "cell_bbox_xy": {
+          "min_x": 8291,
+          "max_x": 8621,
+          "min_y": 3302,
+          "max_y": 3431
+        },
+        "cell_centroid": {
+          "x": 8390.851,
+          "y": 3370.274,
+          "lon": 169.639637,
+          "lat": -50.44892
+        }
+      }
+    },
+    {
+      "id": "NZL-04",
+      "area_id": 464,
+      "area_seq_in_source": 4,
+      "name": "チャタム諸島",
+      "name_en": "Chatham Islands",
+      "reason": "本土の東方にあるが経度上は 176–177°W に位置し、-180..180 の地図では本土の左側へ回り込むため、独立して保持したほうが扱いやすいため。",
+      "geometry_wkt": "POLYGON ((-178.5 -43.0, -175.0 -43.0, -175.0 -45.2, -178.5 -45.2, -178.5 -43.0))",
+      "bbox": {
+        "minx": -178.5,
+        "maxx": -175.0,
+        "miny": -45.2,
+        "maxy": -43.0
+      },
+      "centroid": {
+        "x": -176.75,
+        "y": -44.1
+      },
+      "size": {
+        "width": 3.5,
+        "height": 2.2
+      },
+      "relative_position": {
+        "x_norm": 0.0088,
+        "y_norm": 0.2066,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "NZL-01",
+          "NZL-02",
+          "NZL-03",
+          "NZL-05"
+        ],
+        "east_of": [],
+        "north_of": [
+          "NZL-03"
+        ],
+        "south_of": [
+          "NZL-01",
+          "NZL-02",
+          "NZL-05"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 897,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9409,
+          "GRASS": 0.0268,
+          "WATER": 0.0212,
+          "TREE": 0.0111
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.9922,
+          "MID": 0.0078
+        },
+        "precip_ratio": {
+          "MID": 0.9677,
+          "LOW": 0.0323
+        },
+        "flags_ratio": {
+          "water": 0.9621,
+          "forest": 0.0111
+        },
+        "cell_bbox_xy": {
+          "min_x": 66,
+          "max_x": 102,
+          "min_y": 3199,
+          "max_y": 3233
+        },
+        "cell_centroid": {
+          "x": 84.586,
+          "y": 3215.308,
+          "lon": -176.454733,
+          "lat": -43.991987
+        }
+      }
+    },
+    {
+      "id": "NZL-05",
+      "area_id": 465,
+      "area_seq_in_source": 5,
+      "name": "カーマデック諸島",
+      "name_en": "Kermadec Islands",
+      "reason": "北島の北東方にあるが経度上は 178–179°W に位置し、チャタム諸島と同様に日付変更線またぎの表示問題を避けるため、別レコード化するのが自然であるため。",
+      "geometry_wkt": "POLYGON ((-179.900000 -6.839170, -166.640625 -6.839170, -166.640625 -32.200000, -179.900000 -32.200000, -179.900000 -6.839170))",
+      "bbox": {
+        "minx": -179.9,
+        "maxx": -166.640625,
+        "miny": -32.2,
+        "maxy": -6.83917
+      },
+      "centroid": {
+        "x": -173.270312,
+        "y": -19.519585
+      },
+      "size": {
+        "width": 13.259375,
+        "height": 25.36083
+      },
+      "relative_position": {
+        "x_norm": 0.0184,
+        "y_norm": 0.73,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "NZL-01",
+          "NZL-02",
+          "NZL-03"
+        ],
+        "east_of": [
+          "NZL-04"
+        ],
+        "north_of": [
+          "NZL-01",
+          "NZL-02",
+          "NZL-03",
+          "NZL-04"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 682,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9941,
+          "UNKNOWN": 0.0059
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.5308,
+          "TROPICAL": 0.4692
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9985,
+          "WET": 0.0015
+        },
+        "flags_ratio": {
+          "water": 0.9941,
+          "reef": 0.0191
+        },
+        "cell_bbox_xy": {
+          "min_x": 39,
+          "max_x": 221,
+          "min_y": 2374,
+          "max_y": 2872
+        },
+        "cell_centroid": {
+          "x": 124.82,
+          "y": 2639.595,
+          "lon": -174.778348,
+          "lat": -20.003971
+        }
+      }
+    }
+  ]
+}

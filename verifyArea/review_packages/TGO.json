@@ -1,0 +1,96 @@
+{
+  "iso_a3": "TGO",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -0.593262,
+    "maxx": 2.0,
+    "miny": 5.5,
+    "maxy": 11.307708
+  },
+  "areas": [
+    {
+      "id": "TGO-01",
+      "area_id": 591,
+      "area_seq_in_source": 1,
+      "name": "トーゴ南部沿岸地域",
+      "name_en": "Southern Coastal Togo",
+      "reason": "トーゴの首都ロメを含む経済・人口の中心地であり、ギニア湾に面した主要な港湾都市。歴史的にも奴隷海岸として栄えた地域であり、多様な民族と文化が混在している。",
+      "geometry_wkt": "POLYGON ((-0.593262 11.307708, 2.000000 11.307708, 2.000000 5.500000, -0.593262 5.500000, -0.593262 11.307708))",
+      "bbox": {
+        "minx": -0.593262,
+        "maxx": 2.0,
+        "miny": 5.5,
+        "maxy": 11.307708
+      },
+      "centroid": {
+        "x": 0.703369,
+        "y": 8.403854
+      },
+      "size": {
+        "width": 2.593262,
+        "height": 5.807708
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 2786,
+        "dominant_landcover": "SHRUB",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "SHRUB": 0.3212,
+          "CROPLAND": 0.2875,
+          "TREE": 0.2376,
+          "GRASS": 0.107,
+          "OCEAN": 0.0341,
+          "BUILT": 0.0083,
+          "WATER": 0.0039,
+          "WETLAND": 0.0004
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.5538,
+          "LOW": 0.4433,
+          "HIGH": 0.0029
+        },
+        "precip_ratio": {
+          "MID": 0.9584,
+          "LOW": 0.0416
+        },
+        "flags_ratio": {
+          "water": 0.7186,
+          "forest": 0.5589,
+          "cropland": 0.2875,
+          "built": 0.0083
+        },
+        "cell_bbox_xy": {
+          "min_x": 4317,
+          "max_x": 4362,
+          "min_y": 1893,
+          "max_y": 2021
+        },
+        "cell_centroid": {
+          "x": 4342.971,
+          "y": 1956.955,
+          "lon": 0.97797,
+          "lat": 8.439384
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">DZA review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-8.942871, 18.521283) - (12.150879, 38.022131)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="391.17" y="67.78" width="229.83" height="125.00" fill="none" stroke="black" stroke-width="2"/>
+<text x="395.17" y="83.78" font-size="12" font-family="Arial, sans-serif">DZA-01 | 北西沿岸</text>
+<circle cx="506.08" cy="130.28" r="2.5" fill="black"/>
+<rect x="621.03" y="40.00" width="192.47" height="153.16" fill="none" stroke="black" stroke-width="2"/>
+<text x="625.03" y="56.00" font-size="12" font-family="Arial, sans-serif">DZA-02 | 北中央沿岸</text>
+<circle cx="717.26" cy="116.58" r="2.5" fill="black"/>
+<rect x="813.50" y="61.96" width="180.25" height="131.59" fill="none" stroke="black" stroke-width="2"/>
+<text x="817.50" y="77.96" font-size="12" font-family="Arial, sans-serif">DZA-03 | 北東沿岸</text>
+<circle cx="903.62" cy="127.75" r="2.5" fill="black"/>
+<rect x="191.67" y="193.16" width="465.50" height="199.69" fill="none" stroke="black" stroke-width="2"/>
+<text x="195.67" y="209.16" font-size="12" font-family="Arial, sans-serif">DZA-04 | 内陸高原西部</text>
+<circle cx="424.42" cy="293.01" r="2.5" fill="black"/>
+<rect x="657.17" y="193.16" width="379.17" height="196.88" fill="none" stroke="black" stroke-width="2"/>
+<text x="661.17" y="209.16" font-size="12" font-family="Arial, sans-serif">DZA-05 | 内陸高原東部</text>
+<circle cx="846.75" cy="291.60" r="2.5" fill="black"/>
+<rect x="40.00" y="391.25" width="668.50" height="468.75" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="407.25" font-size="12" font-family="Arial, sans-serif">DZA-06 | サハラ南西部</text>
+<circle cx="374.25" cy="625.62" r="2.5" fill="black"/>
+<rect x="709.67" y="390.44" width="450.33" height="463.43" fill="none" stroke="black" stroke-width="2"/>
+<text x="713.67" y="406.44" font-size="12" font-family="Arial, sans-serif">DZA-07 | サハラ南東部</text>
+<circle cx="934.83" cy="622.16" r="2.5" fill="black"/>
+</svg>

@@ -1,0 +1,515 @@
+{
+  "iso_a3": "THA",
+  "area_count": 5,
+  "country_bbox": {
+    "minx": 97.009277,
+    "maxx": 105.88623,
+    "miny": 5.473832,
+    "maxy": 20.632784
+  },
+  "areas": [
+    {
+      "id": "THA-01",
+      "area_id": 592,
+      "area_seq_in_source": 1,
+      "name": "タイ北部",
+      "name_en": "Northern Thailand",
+      "reason": "山岳地帯が広がり、比較的涼しい気候であり、ラーンナー王朝の歴史的中心地。独自の文化や建築様式が見られる。",
+      "geometry_wkt": "POLYGON ((97.256470 20.632784, 101.381836 20.632784, 101.381836 17.717294, 97.256470 17.717294, 97.256470 20.632784))",
+      "bbox": {
+        "minx": 97.25647,
+        "maxx": 101.381836,
+        "miny": 17.717294,
+        "maxy": 20.632784
+      },
+      "centroid": {
+        "x": 99.319153,
+        "y": 19.175039
+      },
+      "size": {
+        "width": 4.125366,
+        "height": 2.91549
+      },
+      "relative_position": {
+        "x_norm": 0.2602,
+        "y_norm": 0.9038,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "THA-02",
+          "THA-03",
+          "THA-04",
+          "THA-05"
+        ],
+        "east_of": [],
+        "north_of": [
+          "THA-02",
+          "THA-03",
+          "THA-04",
+          "THA-05"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 6276,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.7484,
+          "CROPLAND": 0.2398,
+          "GRASS": 0.0069,
+          "WATER": 0.003,
+          "BUILT": 0.0018,
+          "BARE": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9994,
+          "TEMPERATE": 0.0006
+        },
+        "elevation_ratio": {
+          "MID": 0.5672,
+          "LOW": 0.2527,
+          "HIGH": 0.1797,
+          "ULTRA": 0.0003
+        },
+        "precip_ratio": {
+          "MID": 0.8894,
+          "LOW": 0.0741,
+          "WET": 0.0365
+        },
+        "flags_ratio": {
+          "forest": 0.7484,
+          "water": 0.7298,
+          "cropland": 0.2398,
+          "built": 0.0018
+        },
+        "cell_bbox_xy": {
+          "min_x": 6657,
+          "max_x": 6855,
+          "min_y": 1669,
+          "max_y": 1787
+        },
+        "cell_centroid": {
+          "x": 6739.644,
+          "y": 1723.304,
+          "lon": 100.839322,
+          "lat": 18.174813
+        }
+      }
+    },
+    {
+      "id": "THA-02",
+      "area_id": 593,
+      "area_seq_in_source": 2,
+      "name": "タイ東北部",
+      "name_en": "Northeastern Thailand (Isan)",
+      "reason": "コーラート台地が広がり、雨量が少なく農作物が育ちにくい地域。貧困地域として知られる一方、独自の文化や言語（ラーオ語の影響）を持つ。",
+      "geometry_wkt": "POLYGON ((101.381836 18.583776, 105.886230 18.583776, 105.886230 16.320139, 101.381836 16.320139, 101.381836 18.583776))",
+      "bbox": {
+        "minx": 101.381836,
+        "maxx": 105.88623,
+        "miny": 16.320139,
+        "maxy": 18.583776
+      },
+      "centroid": {
+        "x": 103.634033,
+        "y": 17.451957
+      },
+      "size": {
+        "width": 4.504394,
+        "height": 2.263637
+      },
+      "relative_position": {
+        "x_norm": 0.7463,
+        "y_norm": 0.7902,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "THA-01",
+          "THA-03",
+          "THA-04",
+          "THA-05"
+        ],
+        "north_of": [
+          "THA-03",
+          "THA-04",
+          "THA-05"
+        ],
+        "south_of": [
+          "THA-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 2401,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "CROPLAND": 0.566,
+          "TREE": 0.4211,
+          "WATER": 0.0083,
+          "GRASS": 0.0025,
+          "BUILT": 0.0021
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.504,
+          "LOW": 0.4519,
+          "HIGH": 0.0441
+        },
+        "precip_ratio": {
+          "MID": 0.8967,
+          "WET": 0.0812,
+          "LOW": 0.0221
+        },
+        "flags_ratio": {
+          "water": 0.7143,
+          "cropland": 0.566,
+          "forest": 0.4211,
+          "built": 0.0021
+        },
+        "cell_bbox_xy": {
+          "min_x": 6753,
+          "max_x": 6809,
+          "min_y": 1717,
+          "max_y": 1767
+        },
+        "cell_centroid": {
+          "x": 6782.378,
+          "y": 1746.159,
+          "lon": 102.619907,
+          "lat": 17.222537
+        }
+      }
+    },
+    {
+      "id": "THA-03",
+      "area_id": 594,
+      "area_seq_in_source": 3,
+      "name": "タイ中部",
+      "name_en": "Central Thailand",
+      "reason": "チャオプラヤー川が形成する豊かな平野（デルタ地帯）が広がり、世界有数の稲作地帯。政治・経済・文化の中心であり、首都バンコクを含む。",
+      "geometry_wkt": "POLYGON ((97.470703 17.685895, 101.337891 17.685895, 101.337891 11.824341, 97.470703 11.824341, 97.470703 17.685895))",
+      "bbox": {
+        "minx": 97.470703,
+        "maxx": 101.337891,
+        "miny": 11.824341,
+        "maxy": 17.685895
+      },
+      "centroid": {
+        "x": 99.404297,
+        "y": 14.755118
+      },
+      "size": {
+        "width": 3.867188,
+        "height": 5.861554
+      },
+      "relative_position": {
+        "x_norm": 0.2698,
+        "y_norm": 0.6123,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "THA-02",
+          "THA-04",
+          "THA-05"
+        ],
+        "east_of": [
+          "THA-01"
+        ],
+        "north_of": [
+          "THA-04",
+          "THA-05"
+        ],
+        "south_of": [
+          "THA-01",
+          "THA-02"
+        ],
+        "overlaps": [
+          {
+            "id": "THA-04",
+            "x_overlap": 0.010987,
+            "y_overlap": 4.410609
+          },
+          {
+            "id": "THA-05",
+            "x_overlap": 3.867188,
+            "y_overlap": 0.021506
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 8383,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.4581,
+          "CROPLAND": 0.4003,
+          "OCEAN": 0.0984,
+          "BUILT": 0.0209,
+          "WATER": 0.0135,
+          "GRASS": 0.0082,
+          "BARE": 0.0002,
+          "MANGROVE": 0.0002,
+          "WETLAND": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.6578,
+          "MID": 0.2813,
+          "HIGH": 0.061
+        },
+        "precip_ratio": {
+          "MID": 0.813,
+          "LOW": 0.1528,
+          "WET": 0.0342
+        },
+        "flags_ratio": {
+          "water": 0.7899,
+          "forest": 0.4585,
+          "cropland": 0.4003,
+          "built": 0.021
+        },
+        "cell_bbox_xy": {
+          "min_x": 6667,
+          "max_x": 6751,
+          "min_y": 1736,
+          "max_y": 1877
+        },
+        "cell_centroid": {
+          "x": 6718.846,
+          "y": 1797.459,
+          "lon": 99.97276,
+          "lat": 15.085046
+        }
+      }
+    },
+    {
+      "id": "THA-04",
+      "area_id": 595,
+      "area_seq_in_source": 4,
+      "name": "タイ東部",
+      "name_en": "Eastern Thailand",
+      "reason": "東部経済回廊（EEC）地域として、自動車、石油化学、次世代自動車などのハイテク産業が集積。インフラ開発が進んでいる。",
+      "geometry_wkt": "POLYGON ((101.326904 16.277960, 105.831299 16.277960, 105.831299 11.867351, 101.326904 11.867351, 101.326904 16.277960))",
+      "bbox": {
+        "minx": 101.326904,
+        "maxx": 105.831299,
+        "miny": 11.867351,
+        "maxy": 16.27796
+      },
+      "centroid": {
+        "x": 103.579102,
+        "y": 14.072655
+      },
+      "size": {
+        "width": 4.504395,
+        "height": 4.410609
+      },
+      "relative_position": {
+        "x_norm": 0.7401,
+        "y_norm": 0.5672,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "THA-02"
+        ],
+        "east_of": [
+          "THA-01",
+          "THA-03",
+          "THA-05"
+        ],
+        "north_of": [
+          "THA-05"
+        ],
+        "south_of": [
+          "THA-01",
+          "THA-02",
+          "THA-03"
+        ],
+        "overlaps": [
+          {
+            "id": "THA-03",
+            "x_overlap": 0.010987,
+            "y_overlap": 4.410609
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 5643,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "CROPLAND": 0.5937,
+          "TREE": 0.3227,
+          "OCEAN": 0.0714,
+          "WATER": 0.0066,
+          "MANGROVE": 0.003,
+          "BUILT": 0.0019,
+          "GRASS": 0.0007
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.7133,
+          "MID": 0.2809,
+          "HIGH": 0.0058
+        },
+        "precip_ratio": {
+          "MID": 0.9268,
+          "WET": 0.0571,
+          "LOW": 0.0161
+        },
+        "flags_ratio": {
+          "water": 0.7746,
+          "cropland": 0.5937,
+          "forest": 0.3262,
+          "built": 0.0019
+        },
+        "cell_bbox_xy": {
+          "min_x": 6752,
+          "max_x": 6854,
+          "min_y": 1769,
+          "max_y": 1880
+        },
+        "cell_centroid": {
+          "x": 6786.728,
+          "y": 1810.24,
+          "lon": 102.801181,
+          "lat": 14.552502
+        }
+      }
+    },
+    {
+      "id": "THA-05",
+      "area_id": 596,
+      "area_seq_in_source": 5,
+      "name": "タイ南部",
+      "name_en": "Southern Thailand",
+      "reason": "マレー半島に位置し、アンダマン海とタイランド湾に面する。ゴムノキ畑が広がり、スズの採掘が盛んだった。マレー文化の影響を受け、深南部（最南部）ではイスラム教徒が多い。",
+      "geometry_wkt": "POLYGON ((97.009277 11.845847, 102.996826 11.845847, 102.996826 5.473832, 97.009277 5.473832, 97.009277 11.845847))",
+      "bbox": {
+        "minx": 97.009277,
+        "maxx": 102.996826,
+        "miny": 5.473832,
+        "maxy": 11.845847
+      },
+      "centroid": {
+        "x": 100.003051,
+        "y": 8.65984
+      },
+      "size": {
+        "width": 5.987549,
+        "height": 6.372015
+      },
+      "relative_position": {
+        "x_norm": 0.3373,
+        "y_norm": 0.2102,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "THA-02",
+          "THA-04"
+        ],
+        "east_of": [
+          "THA-01",
+          "THA-03"
+        ],
+        "north_of": [],
+        "south_of": [
+          "THA-01",
+          "THA-02",
+          "THA-03",
+          "THA-04"
+        ],
+        "overlaps": [
+          {
+            "id": "THA-03",
+            "x_overlap": 3.867188,
+            "y_overlap": 0.021506
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 7376,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.5251,
+          "TREE": 0.4424,
+          "WATER": 0.0163,
+          "MANGROVE": 0.0099,
+          "CROPLAND": 0.0043,
+          "GRASS": 0.0014,
+          "BUILT": 0.0007
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9999,
+          "POLAR": 0.0001
+        },
+        "elevation_ratio": {
+          "LOW": 0.8909,
+          "MID": 0.1049,
+          "HIGH": 0.0042
+        },
+        "precip_ratio": {
+          "MID": 0.7823,
+          "WET": 0.2176,
+          "ARID": 0.0001
+        },
+        "flags_ratio": {
+          "water": 0.9422,
+          "forest": 0.455,
+          "cropland": 0.0043,
+          "built": 0.0007
+        },
+        "cell_bbox_xy": {
+          "min_x": 6658,
+          "max_x": 6790,
+          "min_y": 1875,
+          "max_y": 2024
+        },
+        "cell_centroid": {
+          "x": 6712.672,
+          "y": 1956.645,
+          "lon": 99.715496,
+          "lat": 8.452283
+        }
+      }
+    }
+  ]
+}

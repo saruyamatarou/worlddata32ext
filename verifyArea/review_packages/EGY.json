@@ -1,0 +1,471 @@
+{
+  "iso_a3": "EGY",
+  "area_count": 5,
+  "country_bbox": {
+    "minx": 24.8,
+    "maxx": 37.2,
+    "miny": 21.8,
+    "maxy": 32.2
+  },
+  "areas": [
+    {
+      "id": "EGY-01",
+      "area_id": 201,
+      "area_seq_in_source": 1,
+      "name": "西部砂漠地域",
+      "name_en": "Western Desert Region",
+      "reason": "エジプトの広大な乾燥地帯であり、砂漠の景観とオアシスが特徴で、ナイル渓谷とは地理的・人口的に対照的な地域を形成しています。",
+      "geometry_wkt": "POLYGON ((24.8 21.8, 29.0 21.8, 29.0 32.2, 24.8 32.2, 24.8 21.8))",
+      "bbox": {
+        "minx": 24.8,
+        "maxx": 29.0,
+        "miny": 21.8,
+        "maxy": 32.2
+      },
+      "centroid": {
+        "x": 26.9,
+        "y": 27.0
+      },
+      "size": {
+        "width": 4.2,
+        "height": 10.4
+      },
+      "relative_position": {
+        "x_norm": 0.1694,
+        "y_norm": 0.5,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "EGY-02",
+          "EGY-03",
+          "EGY-04",
+          "EGY-05"
+        ],
+        "east_of": [],
+        "north_of": [
+          "EGY-04"
+        ],
+        "south_of": [
+          "EGY-02",
+          "EGY-03"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 28289,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.9078,
+          "OCEAN": 0.0876,
+          "CROPLAND": 0.0028,
+          "WATER": 0.0012,
+          "GRASS": 0.0004,
+          "BUILT": 0.0001,
+          "TREE": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9299,
+          "TEMPERATE": 0.07,
+          "POLAR": 0.0001
+        },
+        "elevation_ratio": {
+          "MID": 0.5427,
+          "LOW": 0.4239,
+          "HIGH": 0.0334
+        },
+        "precip_ratio": {
+          "ARID": 0.9124,
+          "MID": 0.0876
+        },
+        "flags_ratio": {
+          "water": 0.6605,
+          "cropland": 0.0028,
+          "built": 0.0001,
+          "forest": 0.0001
+        },
+        "cell_bbox_xy": {
+          "min_x": 4913,
+          "max_x": 5215,
+          "min_y": 1391,
+          "max_y": 1635
+        },
+        "cell_centroid": {
+          "x": 5002.958,
+          "y": 1526.49,
+          "lon": 28.477414,
+          "lat": 26.375413
+        }
+      }
+    },
+    {
+      "id": "EGY-02",
+      "area_id": 202,
+      "area_seq_in_source": 2,
+      "name": "ナイル・デルタ及び北部沿岸地域",
+      "name_en": "Nile Delta and Northern Coastal Region",
+      "reason": "地理的にナイル・デルタと地中海沿岸に位置し、主要な農業地帯であり人口密集地で、独自の経済的・文化的特徴を持つ地域です。",
+      "geometry_wkt": "POLYGON ((29.0 30.0, 33.0 30.0, 33.0 32.2, 29.0 32.2, 29.0 30.0))",
+      "bbox": {
+        "minx": 29.0,
+        "maxx": 33.0,
+        "miny": 30.0,
+        "maxy": 32.2
+      },
+      "centroid": {
+        "x": 31.0,
+        "y": 31.1
+      },
+      "size": {
+        "width": 4.0,
+        "height": 2.2
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.8942,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "EGY-05"
+        ],
+        "east_of": [
+          "EGY-01"
+        ],
+        "north_of": [
+          "EGY-01",
+          "EGY-03",
+          "EGY-04",
+          "EGY-05"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 3972,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "CROPLAND": 0.3424,
+          "BARE": 0.3099,
+          "OCEAN": 0.2797,
+          "BUILT": 0.0234,
+          "WATER": 0.0194,
+          "TREE": 0.0194,
+          "WETLAND": 0.0058
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.7203,
+          "TEMPERATE": 0.2797
+        },
+        "elevation_ratio": {
+          "LOW": 0.9569,
+          "MID": 0.0431
+        },
+        "precip_ratio": {
+          "ARID": 0.7203,
+          "MID": 0.2797
+        },
+        "flags_ratio": {
+          "water": 0.7842,
+          "cropland": 0.3442,
+          "built": 0.0237,
+          "forest": 0.0196
+        },
+        "cell_bbox_xy": {
+          "min_x": 5016,
+          "max_x": 5111,
+          "min_y": 1391,
+          "max_y": 1439
+        },
+        "cell_centroid": {
+          "x": 5064.616,
+          "y": 1418.33,
+          "lon": 31.046482,
+          "lat": 30.88207
+        }
+      }
+    },
+    {
+      "id": "EGY-03",
+      "area_id": 203,
+      "area_seq_in_source": 3,
+      "name": "中央ナイル渓谷地域",
+      "name_en": "Central Nile Valley Region",
+      "reason": "カイロを含むナイル渓谷中央部で、歴史的に重要な地域であり、現代的な都市開発が進む人口回廊を代表する地域です。",
+      "geometry_wkt": "POLYGON ((29.0 27.0, 33.0 27.0, 33.0 30.0, 29.0 30.0, 29.0 27.0))",
+      "bbox": {
+        "minx": 29.0,
+        "maxx": 33.0,
+        "miny": 27.0,
+        "maxy": 30.0
+      },
+      "centroid": {
+        "x": 31.0,
+        "y": 28.5
+      },
+      "size": {
+        "width": 4.0,
+        "height": 3.0
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.6442,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "EGY-05"
+        ],
+        "east_of": [
+          "EGY-01"
+        ],
+        "north_of": [
+          "EGY-01",
+          "EGY-04",
+          "EGY-05"
+        ],
+        "south_of": [
+          "EGY-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 6910,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.9009,
+          "CROPLAND": 0.0595,
+          "OCEAN": 0.0308,
+          "BUILT": 0.0035,
+          "WATER": 0.0035,
+          "TREE": 0.0019
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9551,
+          "TEMPERATE": 0.0449
+        },
+        "elevation_ratio": {
+          "MID": 0.4902,
+          "LOW": 0.4858,
+          "HIGH": 0.024
+        },
+        "precip_ratio": {
+          "ARID": 0.9692,
+          "MID": 0.0308
+        },
+        "flags_ratio": {
+          "water": 0.6159,
+          "cropland": 0.0595,
+          "built": 0.0036,
+          "forest": 0.0019
+        },
+        "cell_bbox_xy": {
+          "min_x": 5016,
+          "max_x": 5113,
+          "min_y": 1440,
+          "max_y": 1511
+        },
+        "cell_centroid": {
+          "x": 5063.489,
+          "y": 1475.518,
+          "lon": 30.999554,
+          "lat": 28.499264
+        }
+      }
+    },
+    {
+      "id": "EGY-04",
+      "area_id": 204,
+      "area_seq_in_source": 4,
+      "name": "南部ナイル渓谷及びヌビア地域",
+      "name_en": "Southern Nile Valley and Nubia Region",
+      "reason": "上エジプトとして知られ、古代遺跡と独特の文化的遺産を持つ南部ナイル渓谷で、スーダン国境まで広がっています。",
+      "geometry_wkt": "POLYGON ((29.0 21.8, 33.0 21.8, 33.0 27.0, 29.0 27.0, 29.0 21.8))",
+      "bbox": {
+        "minx": 29.0,
+        "maxx": 33.0,
+        "miny": 21.8,
+        "maxy": 27.0
+      },
+      "centroid": {
+        "x": 31.0,
+        "y": 24.4
+      },
+      "size": {
+        "width": 4.0,
+        "height": 5.2
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.25,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "EGY-05"
+        ],
+        "east_of": [
+          "EGY-01"
+        ],
+        "north_of": [],
+        "south_of": [
+          "EGY-01",
+          "EGY-02",
+          "EGY-03",
+          "EGY-05"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 10752,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.9448,
+          "WATER": 0.0298,
+          "CROPLAND": 0.0233,
+          "TREE": 0.0017,
+          "BUILT": 0.0005
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.7315,
+          "LOW": 0.2685
+        },
+        "precip_ratio": {
+          "ARID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.6616,
+          "cropland": 0.0233,
+          "forest": 0.0017,
+          "built": 0.0005
+        },
+        "cell_bbox_xy": {
+          "min_x": 5016,
+          "max_x": 5111,
+          "min_y": 1512,
+          "max_y": 1623
+        },
+        "cell_centroid": {
+          "x": 5063.5,
+          "y": 1567.5,
+          "lon": 31.0,
+          "lat": 24.666667
+        }
+      }
+    },
+    {
+      "id": "EGY-05",
+      "area_id": 205,
+      "area_seq_in_source": 5,
+      "name": "東部砂漠及びシナイ半島地域",
+      "name_en": "Eastern Desert and Sinai Peninsula Region",
+      "reason": "東部砂漠とシナイ半島を合わせた地域で、砂漠から山岳地帯、紅海沿岸までの多様な景観を持ち、独自の戦略的・文化的重要性を持つ地域です。",
+      "geometry_wkt": "POLYGON ((33.0 21.8, 37.2 21.8, 37.2 32.2, 33.0 32.2, 33.0 21.8))",
+      "bbox": {
+        "minx": 33.0,
+        "maxx": 37.2,
+        "miny": 21.8,
+        "maxy": 32.2
+      },
+      "centroid": {
+        "x": 35.1,
+        "y": 27.0
+      },
+      "size": {
+        "width": 4.2,
+        "height": 10.4
+      },
+      "relative_position": {
+        "x_norm": 0.8306,
+        "y_norm": 0.5,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "EGY-01",
+          "EGY-02",
+          "EGY-03",
+          "EGY-04"
+        ],
+        "north_of": [
+          "EGY-04"
+        ],
+        "south_of": [
+          "EGY-02",
+          "EGY-03"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 7226,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.8328,
+          "OCEAN": 0.1607,
+          "WATER": 0.0032,
+          "CROPLAND": 0.0029,
+          "GRASS": 0.0003,
+          "BUILT": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.7789,
+          "TEMPERATE": 0.2211
+        },
+        "elevation_ratio": {
+          "MID": 0.642,
+          "LOW": 0.2818,
+          "HIGH": 0.0758,
+          "ULTRA": 0.0004
+        },
+        "precip_ratio": {
+          "ARID": 0.8393,
+          "MID": 0.1607
+        },
+        "flags_ratio": {
+          "water": 0.6823,
+          "cropland": 0.0029,
+          "built": 0.0001
+        },
+        "cell_bbox_xy": {
+          "min_x": 5107,
+          "max_x": 5153,
+          "min_y": 1400,
+          "max_y": 1623
+        },
+        "cell_centroid": {
+          "x": 5127.831,
+          "y": 1517.337,
+          "lon": 33.680465,
+          "lat": 26.756804
+        }
+      }
+    }
+  ]
+}

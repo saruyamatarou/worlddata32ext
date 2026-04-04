@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">MDV review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(72.202148, -1.340210) - (74.399414, 7.427837)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="45.60" y="40.00" width="1080.80" height="345.57" fill="none" stroke="black" stroke-width="2"/>
+<text x="49.60" y="56.00" font-size="12" font-family="Arial, sans-serif">MDV-01 | 北マーレ環礁エリア</text>
+<circle cx="586.00" cy="212.79" r="2.5" fill="black"/>
+<rect x="40.00" y="385.57" width="1120.00" height="474.43" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="401.57" font-size="12" font-family="Arial, sans-serif">MDV-02 | 南マーレ環礁・その他エリア</text>
+<circle cx="600.00" cy="622.79" r="2.5" fill="black"/>
+</svg>

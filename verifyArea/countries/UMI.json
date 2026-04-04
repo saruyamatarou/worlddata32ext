@@ -1,0 +1,38 @@
+[
+  {
+    "id": "UMI-01",
+    "name": "ウェーク島全域",
+    "name_en": "Entire Wake Island",
+    "reason": "ウェーク島は単一の環礁であり、地理的・行政的に一体であるため、単一のエリアとして定義する。",
+    "geometry_wkt": "POLYGON ((166.354980 19.539084, 166.898804 19.539084, 166.898804 19.051734, 166.354980 19.051734, 166.354980 19.539084))",
+    "area_id": 633,
+    "source_row_index": 633,
+    "iso_a3_source": "UMI",
+    "iso_a3": "UMI",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "UMI-02",
+    "name": "中米の島",
+    "name_en": "Islands of Central America",
+    "reason": "ドミニカの左にある島",
+    "geometry_wkt": "POLYGON ((-75.289307 18.656654, -74.750977 18.656654, -74.750977 18.145852, -75.289307 18.145852, -75.289307 18.656654))",
+    "area_id": 634,
+    "source_row_index": 634,
+    "iso_a3_source": "UMI",
+    "iso_a3": "UMI",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "UMI-03",
+    "name": "その他離島",
+    "name_en": "Other remote islands",
+    "reason": "太平洋に点在する米国領の離島",
+    "geometry_wkt": "POLYGON ((-178.593750 30.221102, -158.115234 30.221102, -158.115234 -2.372369, -178.593750 -2.372369, -178.593750 30.221102))",
+    "area_id": 635,
+    "source_row_index": 635,
+    "iso_a3_source": "UMI",
+    "iso_a3": "UMI",
+    "area_seq_in_source": 3
+  }
+]

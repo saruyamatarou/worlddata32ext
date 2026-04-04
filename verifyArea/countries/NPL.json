@@ -1,0 +1,38 @@
+[
+  {
+    "id": "NPL-01",
+    "name": "ネパール北部・ヒマラヤ地域",
+    "name_en": "Northern Nepal - Himalayan Region",
+    "reason": "ネパールの大部分を占めるヒマラヤ山脈地域で、最高峰エベレストを含む世界最高峰の山々が連なる。人口は少なく、厳しい自然環境が特徴。",
+    "geometry_wkt": "POLYGON ((79.672852 30.450000, 84.968262 30.450000, 84.968262 28.844674, 79.672852 28.844674, 79.672852 30.450000))",
+    "area_id": 457,
+    "source_row_index": 457,
+    "iso_a3_source": "NPL",
+    "iso_a3": "NPL",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "NPL-02",
+    "name": "ネパール中部・丘陵地域",
+    "name_en": "Central Nepal - Hilly Region",
+    "reason": "国土の大部分を占める丘陵地帯で、マハバーラト山脈やチュリア丘陵が含まれる。古くからの民族が多く居住し、首都カトマンズもこの地域にある。気候は比較的温暖で、多くの湖や谷が存在する。",
+    "geometry_wkt": "POLYGON ((80.013428 28.835050, 88.220215 28.835050, 88.220215 27.303452, 80.013428 27.303452, 80.013428 28.835050))",
+    "area_id": 458,
+    "source_row_index": 458,
+    "iso_a3_source": "NPL",
+    "iso_a3": "NPL",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "NPL-03",
+    "name": "ネパール南部・テライ平野地域",
+    "name_en": "Southern Nepal - Terai Plains Region",
+    "reason": "インドとの国境に接する低地帯で、肥沃な農耕地が広がる。国土の約17%を占め、人口密度が高い。インド文化の影響も強く見られる。",
+    "geometry_wkt": "POLYGON ((84.276123 27.293689, 88.319092 27.293689, 88.319092 26.273714, 84.276123 26.273714, 84.276123 27.293689))",
+    "area_id": 459,
+    "source_row_index": 459,
+    "iso_a3_source": "NPL",
+    "iso_a3": "NPL",
+    "area_seq_in_source": 3
+  }
+]

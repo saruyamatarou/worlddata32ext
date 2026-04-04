@@ -1,0 +1,387 @@
+{
+  "iso_a3": "NGA",
+  "area_count": 4,
+  "country_bbox": {
+    "minx": 2.340088,
+    "maxx": 14.771118,
+    "miny": 4.083453,
+    "maxy": 14.0
+  },
+  "areas": [
+    {
+      "id": "NGA-01",
+      "area_id": 445,
+      "area_seq_in_source": 1,
+      "name": "ナイジェリア北部",
+      "name_en": "Northern Nigeria",
+      "reason": "乾燥したサバンナ気候とイスラム文化が優勢な地域。ハウサ族やフラニ族が多く居住。",
+      "geometry_wkt": "POLYGON ((3.229980 14.000000, 14.771118 14.000000, 14.771118 11.318481, 3.229980 11.318481, 3.229980 14.000000))",
+      "bbox": {
+        "minx": 3.22998,
+        "maxx": 14.771118,
+        "miny": 11.318481,
+        "maxy": 14.0
+      },
+      "centroid": {
+        "x": 9.000549,
+        "y": 12.65924
+      },
+      "size": {
+        "width": 11.541138,
+        "height": 2.681519
+      },
+      "relative_position": {
+        "x_norm": 0.5358,
+        "y_norm": 0.8648,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "NGA-04"
+        ],
+        "east_of": [
+          "NGA-02",
+          "NGA-03"
+        ],
+        "north_of": [
+          "NGA-02",
+          "NGA-03",
+          "NGA-04"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 12932,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "CROPLAND": 0.5662,
+          "GRASS": 0.34,
+          "SHRUB": 0.066,
+          "WETLAND": 0.0154,
+          "TREE": 0.0074,
+          "BUILT": 0.0027,
+          "WATER": 0.0015,
+          "BARE": 0.0008
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.9742,
+          "LOW": 0.0237,
+          "HIGH": 0.0021
+        },
+        "precip_ratio": {
+          "LOW": 0.9795,
+          "MID": 0.0179,
+          "ARID": 0.0026
+        },
+        "flags_ratio": {
+          "water": 0.7277,
+          "cropland": 0.5662,
+          "forest": 0.0735,
+          "built": 0.0027
+        },
+        "cell_bbox_xy": {
+          "min_x": 4386,
+          "max_x": 4671,
+          "min_y": 1827,
+          "max_y": 1963
+        },
+        "cell_centroid": {
+          "x": 4535.229,
+          "y": 1866.268,
+          "lon": 8.988723,
+          "lat": 12.217983
+        }
+      }
+    },
+    {
+      "id": "NGA-02",
+      "area_id": 446,
+      "area_seq_in_source": 2,
+      "name": "ナイジェリア中央高地",
+      "name_en": "Central Nigerian Highlands",
+      "reason": "ジョス高原などの高原地帯が含まれ、鉱物資源が豊富。多様な民族が混在。",
+      "geometry_wkt": "POLYGON ((2.504883 11.307708, 14.655762 11.307708, 14.655762 8.189742, 2.504883 8.189742, 2.504883 11.307708))",
+      "bbox": {
+        "minx": 2.504883,
+        "maxx": 14.655762,
+        "miny": 8.189742,
+        "maxy": 11.307708
+      },
+      "centroid": {
+        "x": 8.580322,
+        "y": 9.748725
+      },
+      "size": {
+        "width": 12.150879,
+        "height": 3.117966
+      },
+      "relative_position": {
+        "x_norm": 0.502,
+        "y_norm": 0.5713,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "NGA-01",
+          "NGA-04"
+        ],
+        "east_of": [
+          "NGA-03"
+        ],
+        "north_of": [
+          "NGA-03",
+          "NGA-04"
+        ],
+        "south_of": [
+          "NGA-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 17282,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "CROPLAND": 0.5557,
+          "SHRUB": 0.2423,
+          "GRASS": 0.1087,
+          "TREE": 0.0809,
+          "WATER": 0.0068,
+          "BUILT": 0.0053,
+          "WETLAND": 0.0003
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.7574,
+          "LOW": 0.1966,
+          "HIGH": 0.046
+        },
+        "precip_ratio": {
+          "MID": 0.7574,
+          "LOW": 0.2426
+        },
+        "flags_ratio": {
+          "water": 0.6985,
+          "cropland": 0.5557,
+          "forest": 0.3232,
+          "built": 0.0053
+        },
+        "cell_bbox_xy": {
+          "min_x": 4385,
+          "max_x": 4639,
+          "min_y": 1889,
+          "max_y": 1962
+        },
+        "cell_centroid": {
+          "x": 4515.454,
+          "y": 1925.629,
+          "lon": 8.164755,
+          "lat": 9.744624
+        }
+      }
+    },
+    {
+      "id": "NGA-03",
+      "area_id": 447,
+      "area_seq_in_source": 3,
+      "name": "ナイジェリア南西部",
+      "name_en": "Southwestern Nigeria",
+      "reason": "ヨルバ族が中心の地域。経済の中心地ラゴスを含み、サービス業や製造業が発展。",
+      "geometry_wkt": "POLYGON ((2.340088 8.178868, 8.503418 8.178868, 8.503418 4.083453, 2.340088 4.083453, 2.340088 8.178868))",
+      "bbox": {
+        "minx": 2.340088,
+        "maxx": 8.503418,
+        "miny": 4.083453,
+        "maxy": 8.178868
+      },
+      "centroid": {
+        "x": 5.421753,
+        "y": 6.131161
+      },
+      "size": {
+        "width": 6.16333,
+        "height": 4.095415
+      },
+      "relative_position": {
+        "x_norm": 0.2479,
+        "y_norm": 0.2065,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "NGA-01",
+          "NGA-02",
+          "NGA-04"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "NGA-01",
+          "NGA-02",
+          "NGA-04"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 11243,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.6244,
+          "OCEAN": 0.1547,
+          "GRASS": 0.0544,
+          "CROPLAND": 0.0502,
+          "SHRUB": 0.0444,
+          "MANGROVE": 0.0417,
+          "BUILT": 0.0227,
+          "WATER": 0.0069,
+          "WETLAND": 0.0005,
+          "BARE": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.7663,
+          "MID": 0.2337
+        },
+        "precip_ratio": {
+          "MID": 0.7346,
+          "WET": 0.2654
+        },
+        "flags_ratio": {
+          "water": 0.8986,
+          "forest": 0.7158,
+          "cropland": 0.0502,
+          "built": 0.0228
+        },
+        "cell_bbox_xy": {
+          "min_x": 4384,
+          "max_x": 4523,
+          "min_y": 1964,
+          "max_y": 2066
+        },
+        "cell_centroid": {
+          "x": 4463.276,
+          "y": 2006.903,
+          "lon": 5.990652,
+          "lat": 6.358221
+        }
+      }
+    },
+    {
+      "id": "NGA-04",
+      "area_id": 448,
+      "area_seq_in_source": 4,
+      "name": "ナイジェリア南東部",
+      "name_en": "Southeastern Nigeria",
+      "reason": "イボ族が中心の地域。ニジェール・デルタ地帯を含み、石油資源が豊富。農業も重要。",
+      "geometry_wkt": "POLYGON ((8.514404 8.184305, 13.051758 8.184305, 13.051758 4.280680, 8.514404 4.280680, 8.514404 8.184305))",
+      "bbox": {
+        "minx": 8.514404,
+        "maxx": 13.051758,
+        "miny": 4.28068,
+        "maxy": 8.184305
+      },
+      "centroid": {
+        "x": 10.783081,
+        "y": 6.232493
+      },
+      "size": {
+        "width": 4.537354,
+        "height": 3.903625
+      },
+      "relative_position": {
+        "x_norm": 0.6792,
+        "y_norm": 0.2167,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "NGA-01",
+          "NGA-02",
+          "NGA-03"
+        ],
+        "north_of": [
+          "NGA-03"
+        ],
+        "south_of": [
+          "NGA-01",
+          "NGA-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 3378,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.4778,
+          "CROPLAND": 0.2806,
+          "GRASS": 0.1226,
+          "SHRUB": 0.114,
+          "BUILT": 0.0027,
+          "OCEAN": 0.0012,
+          "WATER": 0.0006,
+          "MANGROVE": 0.0006
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.5038,
+          "MID": 0.3807,
+          "HIGH": 0.1155
+        },
+        "precip_ratio": {
+          "MID": 0.8982,
+          "WET": 0.1018
+        },
+        "flags_ratio": {
+          "water": 0.8025,
+          "forest": 0.5933,
+          "cropland": 0.2806,
+          "built": 0.0027
+        },
+        "cell_bbox_xy": {
+          "min_x": 4524,
+          "max_x": 4612,
+          "min_y": 1964,
+          "max_y": 2047
+        },
+        "cell_centroid": {
+          "x": 4559.004,
+          "y": 1986.105,
+          "lon": 9.979315,
+          "lat": 7.224776
+        }
+      }
+    }
+  ]
+}

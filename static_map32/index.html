@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>Map32 Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <style>
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+    #wrap { display:grid; grid-template-columns: 1fr 500px; height:100vh; }
+    #map { height:100%; }
+    #side { padding:12px; border-left:1px solid #ddd; overflow:auto; }
+    .row { display:flex; gap:8px; align-items:center; margin:8px 0; }
+    select { width:100%; padding:6px; }
+    .card { background:#f6f6f6; border-radius:10px; padding:10px; }
+    .k { color:#666; font-size:12px; margin-bottom:2px; }
+    .grid { display:grid; gap:10px; }
+    .muted { color:#666; font-size:12px; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+  </style>
+</head>
+<body>
+<div id="wrap">
+  <div id="map"></div>
+  <div id="side">
+    <h2 style="margin:0 0 6px;">Map32 確認ビューア</h2>
+    <div class="muted">地図クリック → map32.bin を4byte読んで、日本語一覧で表示します。</div>
+    <div class="row" style="margin-top:10px;">
+      <label style="min-width:90px;">オーバーレイ</label>
+      <select id="layer">
+        <option value="none">なし</option>
+        <option value="region">地域ID（濃淡）</option>
+        <option value="wc_dom">土地被覆（濃淡）</option>
+        <option value="flags">追加フラグ（濃淡）</option>
+        <option value="t2">気温4段階（濃淡）</option>
+        <option value="e2">標高4段階（濃淡）</option>
+        <option value="p2">降水4段階（濃淡）</option>
+      </select>
+    </div>
+    <div id="out" class="grid"><div class="card">クリック待ち…</div></div>
+  </div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script>
+  const map = L.map("map").setView([20, 0], 3);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap" }).addTo(map);
+  let clickMarker = null;
+  let cellRect = null;
+  let regionRect = null;
+  let overlay = null;
+  const out = document.getElementById("out");
+  const sel = document.getElementById("layer");
+  const LANDCOVER_JA = {UNKNOWN:"不明",TREE:"森林",SHRUB:"低木",GRASS:"草地",CROPLAND:"農地",BUILT:"市街地",BARE:"裸地",SNOW_ICE:"雪氷",WATER:"内水域",WETLAND:"湿地",MANGROVE:"マングローブ",MOSS_LICHEN:"コケ・地衣類",OCEAN:"海"};
+  const T2_NAMES_JA = ["極寒冷", "寒冷", "温帯", "熱帯"];
+  const E2_NAMES_JA = ["低地", "中位", "高地", "超高地"];
+  const P2_NAMES_JA = ["極乾燥", "少なめ", "中間", "多雨"];
+  const FLAG_LABELS = ["水域", "市街地", "農地", "礁", "森林", "氷"];
+  function fmt(n, d=6){ try { return Number(n).toFixed(d); } catch { return String(n); } }
+  function escapeHtml(s){ return String(s).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;"); }
+  function formatRegion(region10, meta){
+    if (!meta) return `地域ID ${region10}`;
+    const parts = [];
+    if (meta.name) parts.push(meta.name);
+    if (meta.name_ja) parts.push(meta.name_ja);
+    if (meta.country_name_ja) parts.push(`国:${meta.country_name_ja}`);
+    else if (meta.country_name_ja) parts.push(`Country:${meta.country_name_ja}`);
+    if (meta.country_iso_a3) parts.push(`ISO3:${meta.country_iso_a3}`);
+    parts.push(`ID:${region10}`);
+    return parts.join(" / ");
+  }
+  function renderInfo(j){
+    const d = j.decoded;
+    const landEn = d.wc_name ? String(d.wc_name) : null;
+    const landText = landEn ? (LANDCOVER_JA[landEn] || landEn) : `土地被覆 ${d.landcover4}`;
+    const rows = [
+      ["地域", formatRegion(d.region10, j.region_legend)],
+      ["土地", landText],
+      ["気温", T2_NAMES_JA[d.t2] ?? `気温=${d.t2}`],
+      ["標高", E2_NAMES_JA[d.e2] ?? `標高=${d.e2}`],
+      ["降水", P2_NAMES_JA[d.p2] ?? `降水=${d.p2}`],
+      [FLAG_LABELS[0], d.flags_bits[0] ? "有" : "無"],
+      [FLAG_LABELS[1], d.flags_bits[1] ? "有" : "無"],
+      [FLAG_LABELS[2], d.flags_bits[2] ? "有" : "無"],
+      [FLAG_LABELS[3], d.flags_bits[3] ? "有" : "無"],
+      [FLAG_LABELS[4], d.flags_bits[4] ? "有" : "無"],
+      [FLAG_LABELS[5], d.flags_bits[5] ? "有" : "無"],
+    ];
+    const lines = rows.map(([k,v]) => `${k}\t\t${v}`).join('\n');
+    const b = j.cell.bounds;
+    const regionText = j.region_bounds ? `
+region lat ${fmt(j.region_bounds.lat_bottom)}..${fmt(j.region_bounds.lat_top)} / lon ${fmt(j.region_bounds.lon_left)}..${fmt(j.region_bounds.lon_right)}` : ""; 
+    const meta = `
+
+---
+グリッド x=${j.x} y=${j.y} idx=${j.idx}
+lat ${fmt(b.lat_bottom)}..${fmt(b.lat_top)} / lon ${fmt(b.lon_left)}..${fmt(b.lon_right)}${regionText}
+raw u32=${j.raw.u32} / decode=${j.decode_layout} / ext6=${d.ext6_reserved}`;
+    return `<div class="card"><div class="k">判定結果（日本語）</div><pre class="mono" style="margin:0; white-space:pre-wrap;">${escapeHtml(lines + meta)}</pre></div>`;
+  }
+  function setOverlay(layerName){
+    if (overlay) { map.removeLayer(overlay); overlay = null; }
+    if (layerName === "none") return;
+    overlay = L.tileLayer(`/tile.png?z={z}&x={x}&y={y}&layer=${layerName}`, { maxZoom: 10, opacity: 0.55 });
+    overlay.addTo(map);
+  }
+  sel.addEventListener("change", () => setOverlay(sel.value));
+  setOverlay(sel.value);
+  map.on("click", async (e) => {
+    const { lat, lng } = e.latlng;
+    if (clickMarker) map.removeLayer(clickMarker);
+    clickMarker = L.circleMarker([lat, lng], { radius: 6 }).addTo(map);
+    try {
+      const r = await fetch(`/decode?lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lng)}`);
+      const j = await r.json();
+      const b = j.cell.bounds;
+      if (cellRect) map.removeLayer(cellRect);
+      cellRect = L.rectangle([[b.lat_bottom, b.lon_left], [b.lat_top, b.lon_right]], { weight: 2 }).addTo(map);
+      if (regionRect) { map.removeLayer(regionRect); regionRect = null; }
+      if (j.region_bounds) {
+        const rb = j.region_bounds;
+        regionRect = L.rectangle([[rb.lat_bottom, rb.lon_left], [rb.lat_top, rb.lon_right]], { weight: 2, color: "#ff0000", fill: false }).addTo(map);
+      }
+      out.innerHTML = renderInfo(j);
+    } catch (err) {
+      out.innerHTML = `<div class="card">エラー: ${escapeHtml(String(err))}</div>`;
+    }
+  });
+</script>
+</body>
+</html>

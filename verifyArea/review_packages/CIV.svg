@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">CIV review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-8.723145, 3.294082) - (-2.395020, 10.876465)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="79.49" y="40.00" width="1080.51" height="419.22" fill="none" stroke="black" stroke-width="2"/>
+<text x="83.49" y="56.00" font-size="12" font-family="Arial, sans-serif">CIV-01 | コートジボワール北部・サバンナ地域</text>
+<circle cx="619.75" cy="249.61" r="2.5" fill="black"/>
+<rect x="40.00" y="462.46" width="1096.67" height="397.54" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="478.46" font-size="12" font-family="Arial, sans-serif">CIV-02 | コートジボワール南部・沿岸・熱帯雨…</text>
+<circle cx="588.33" cy="661.23" r="2.5" fill="black"/>
+</svg>

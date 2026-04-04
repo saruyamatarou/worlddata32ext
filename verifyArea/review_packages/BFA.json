@@ -1,0 +1,275 @@
+{
+  "iso_a3": "BFA",
+  "area_count": 3,
+  "country_bbox": {
+    "minx": -5.679932,
+    "maxx": 2.614746,
+    "miny": 9.275622,
+    "maxy": 15.24179
+  },
+  "areas": [
+    {
+      "id": "BF-01",
+      "area_id": 64,
+      "area_seq_in_source": 1,
+      "name": "ブルキナファソ北部",
+      "name_en": "Northern Burkina Faso",
+      "reason": "サヘル地帯に位置し、乾燥気候と砂漠化の進行が見られる地域。農業生産性が低く、干ばつの影響を受けやすい特徴を持つ。",
+      "geometry_wkt": "POLYGON ((-3.515625 15.241790, 1.768799 15.241790, 1.768799 13.560562, -3.515625 13.560562, -3.515625 15.241790))",
+      "bbox": {
+        "minx": -3.515625,
+        "maxx": 1.768799,
+        "miny": 13.560562,
+        "maxy": 15.24179
+      },
+      "centroid": {
+        "x": -0.873413,
+        "y": 14.401176
+      },
+      "size": {
+        "width": 5.284424,
+        "height": 1.681228
+      },
+      "relative_position": {
+        "x_norm": 0.5795,
+        "y_norm": 0.8591,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "BF-02",
+          "BF-03"
+        ],
+        "north_of": [
+          "BF-02",
+          "BF-03"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 10794,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.4879,
+          "CROPLAND": 0.2675,
+          "SHRUB": 0.216,
+          "BARE": 0.0126,
+          "TREE": 0.011,
+          "BUILT": 0.0028,
+          "WATER": 0.0015,
+          "WETLAND": 0.0008
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.9908,
+          "LOW": 0.0092
+        },
+        "precip_ratio": {
+          "LOW": 0.874,
+          "MID": 0.126
+        },
+        "flags_ratio": {
+          "water": 0.663,
+          "cropland": 0.2675,
+          "forest": 0.227,
+          "built": 0.0028
+        },
+        "cell_bbox_xy": {
+          "min_x": 4188,
+          "max_x": 4376,
+          "min_y": 1798,
+          "max_y": 1934
+        },
+        "cell_centroid": {
+          "x": 4279.528,
+          "y": 1860.766,
+          "lon": -1.665493,
+          "lat": 12.447239
+        }
+      }
+    },
+    {
+      "id": "BF-02",
+      "area_id": 65,
+      "area_seq_in_source": 2,
+      "name": "ブルキナファソ中央部",
+      "name_en": "Central Burkina Faso",
+      "reason": "首都ワガドゥーグーを含む経済・行政の中心地であり、モシ高原が広がる。",
+      "geometry_wkt": "POLYGON ((-5.646973 13.560562, 2.614746 13.560562, 2.614746 11.307708, -5.646973 11.307708, -5.646973 13.560562))",
+      "bbox": {
+        "minx": -5.646973,
+        "maxx": 2.614746,
+        "miny": 11.307708,
+        "maxy": 13.560562
+      },
+      "centroid": {
+        "x": -1.516114,
+        "y": 12.434135
+      },
+      "size": {
+        "width": 8.261719,
+        "height": 2.252854
+      },
+      "relative_position": {
+        "x_norm": 0.502,
+        "y_norm": 0.5294,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "BF-01"
+        ],
+        "east_of": [
+          "BF-03"
+        ],
+        "north_of": [
+          "BF-03"
+        ],
+        "south_of": [
+          "BF-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 1716,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "CROPLAND": 0.535,
+          "SHRUB": 0.2372,
+          "GRASS": 0.2162,
+          "WATER": 0.0099,
+          "TREE": 0.0012,
+          "BUILT": 0.0006
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.9272,
+          "LOW": 0.0728
+        },
+        "precip_ratio": {
+          "LOW": 0.9895,
+          "MID": 0.0105
+        },
+        "flags_ratio": {
+          "water": 0.6801,
+          "cropland": 0.535,
+          "forest": 0.2383,
+          "built": 0.0006
+        },
+        "cell_bbox_xy": {
+          "min_x": 4200,
+          "max_x": 4373,
+          "min_y": 1878,
+          "max_y": 1888
+        },
+        "cell_centroid": {
+          "x": 4278.762,
+          "y": 1883.131,
+          "lon": -1.697431,
+          "lat": 11.51537
+        }
+      }
+    },
+    {
+      "id": "BF-03",
+      "area_id": 66,
+      "area_seq_in_source": 3,
+      "name": "ブルキナファソ南部",
+      "name_en": "Southern Burkina Faso",
+      "reason": "サバナ気候で比較的降雨に恵まれ、農業が盛んな地域。ボルタ川流域が含まれる。",
+      "geometry_wkt": "POLYGON ((-5.679932 11.307708, 1.439209 11.307708, 1.439209 9.275622, -5.679932 9.275622, -5.679932 11.307708))",
+      "bbox": {
+        "minx": -5.679932,
+        "maxx": 1.439209,
+        "miny": 9.275622,
+        "maxy": 11.307708
+      },
+      "centroid": {
+        "x": -2.120362,
+        "y": 10.291665
+      },
+      "size": {
+        "width": 7.119141,
+        "height": 2.032086
+      },
+      "relative_position": {
+        "x_norm": 0.4291,
+        "y_norm": 0.1703,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "BF-01",
+          "BF-02"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "BF-01",
+          "BF-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 529,
+        "dominant_landcover": "SHRUB",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "SHRUB": 0.3705,
+          "CROPLAND": 0.3648,
+          "GRASS": 0.2098,
+          "TREE": 0.0416,
+          "BUILT": 0.0132
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 1.0
+        },
+        "precip_ratio": {
+          "LOW": 0.7505,
+          "MID": 0.2495
+        },
+        "flags_ratio": {
+          "water": 0.62,
+          "forest": 0.4121,
+          "cropland": 0.3648,
+          "built": 0.0132
+        },
+        "cell_bbox_xy": {
+          "min_x": 4200,
+          "max_x": 4305,
+          "min_y": 1889,
+          "max_y": 1898
+        },
+        "cell_centroid": {
+          "x": 4228.911,
+          "y": 1892.998,
+          "lon": -3.774535,
+          "lat": 11.104245
+        }
+      }
+    }
+  ]
+}

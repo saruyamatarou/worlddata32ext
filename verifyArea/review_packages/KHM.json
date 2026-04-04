@@ -1,0 +1,332 @@
+{
+  "iso_a3": "KHM",
+  "area_count": 4,
+  "country_bbox": {
+    "minx": 102.23877,
+    "maxx": 107.869263,
+    "miny": 10.09867,
+    "maxy": 14.8
+  },
+  "areas": [
+    {
+      "id": "KHM-01",
+      "area_id": 341,
+      "area_seq_in_source": 1,
+      "name": "北部山地・高原",
+      "name_en": "Northern Highlands",
+      "reason": "ラオス国境に近い北部の山地・高原地域。内陸性が強く、平野部とは地形的に異なる。",
+      "geometry_wkt": "POLYGON ((102.370605 14.800000, 107.748413 14.800000, 107.748413 13.662001, 102.370605 13.662001, 102.370605 14.800000))",
+      "bbox": {
+        "minx": 102.370605,
+        "maxx": 107.748413,
+        "miny": 13.662001,
+        "maxy": 14.8
+      },
+      "centroid": {
+        "x": 105.059509,
+        "y": 14.231001
+      },
+      "size": {
+        "width": 5.377808,
+        "height": 1.137999
+      },
+      "relative_position": {
+        "x_norm": 0.501,
+        "y_norm": 0.879,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "KHM-03"
+        ],
+        "east_of": [
+          "KHM-02",
+          "KHM-04"
+        ],
+        "north_of": [
+          "KHM-02",
+          "KHM-03",
+          "KHM-04"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 7799,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.4803,
+          "CROPLAND": 0.3909,
+          "GRASS": 0.0837,
+          "WATER": 0.0214,
+          "WETLAND": 0.0153,
+          "OCEAN": 0.0062,
+          "BUILT": 0.0021,
+          "MANGROVE": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.8632,
+          "MID": 0.1232,
+          "HIGH": 0.0136
+        },
+        "precip_ratio": {
+          "MID": 0.7598,
+          "WET": 0.2366,
+          "LOW": 0.0036
+        },
+        "flags_ratio": {
+          "water": 0.8738,
+          "forest": 0.4806,
+          "cropland": 0.3909,
+          "built": 0.0021
+        },
+        "cell_bbox_xy": {
+          "min_x": 6776,
+          "max_x": 6902,
+          "min_y": 1807,
+          "max_y": 1912
+        },
+        "cell_centroid": {
+          "x": 6839.935,
+          "y": 1850.606,
+          "lon": 105.018119,
+          "lat": 12.8706
+        }
+      }
+    },
+    {
+      "id": "KHM-02",
+      "area_id": 342,
+      "area_seq_in_source": 2,
+      "name": "北西部トンレサップ・アンコール圏",
+      "name_en": "Northwest Tonle Sap and Angkor",
+      "reason": "トンレサップ湖北西部とアンコール遺跡圏を含む地域。歴史遺産と内陸水系のまとまりが強い。",
+      "geometry_wkt": "POLYGON ((102.238770 13.645987, 105.281982 13.645987, 105.281982 12.254128, 102.238770 12.254128, 102.238770 13.645987))",
+      "bbox": {
+        "minx": 102.23877,
+        "maxx": 105.281982,
+        "miny": 12.254128,
+        "maxy": 13.645987
+      },
+      "centroid": {
+        "x": 103.760376,
+        "y": 12.950057
+      },
+      "size": {
+        "width": 3.043212,
+        "height": 1.391859
+      },
+      "relative_position": {
+        "x_norm": 0.2702,
+        "y_norm": 0.6065,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "KHM-01",
+          "KHM-03",
+          "KHM-04"
+        ],
+        "east_of": [],
+        "north_of": [
+          "KHM-03",
+          "KHM-04"
+        ],
+        "south_of": [
+          "KHM-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "KHM-03",
+      "area_id": 343,
+      "area_seq_in_source": 3,
+      "name": "中南部メコン平野",
+      "name_en": "Central and Southern Mekong Plain",
+      "reason": "プノンペンを含むカンボジアの人口・経済中心。メコン川とトンレサップ川流域の平野部。",
+      "geometry_wkt": "POLYGON ((105.281982 13.651325, 107.869263 13.651325, 107.869263 10.390572, 105.281982 10.390572, 105.281982 13.651325))",
+      "bbox": {
+        "minx": 105.281982,
+        "maxx": 107.869263,
+        "miny": 10.390572,
+        "maxy": 13.651325
+      },
+      "centroid": {
+        "x": 106.575623,
+        "y": 12.020948
+      },
+      "size": {
+        "width": 2.587281,
+        "height": 3.260753
+      },
+      "relative_position": {
+        "x_norm": 0.7702,
+        "y_norm": 0.4089,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "KHM-01",
+          "KHM-02",
+          "KHM-04"
+        ],
+        "north_of": [
+          "KHM-04"
+        ],
+        "south_of": [
+          "KHM-01",
+          "KHM-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 30,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "CROPLAND": 0.9,
+          "TREE": 0.1
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "cropland": 0.9,
+          "water": 0.8667,
+          "forest": 0.1
+        },
+        "cell_bbox_xy": {
+          "min_x": 6847,
+          "max_x": 6856,
+          "min_y": 1875,
+          "max_y": 1877
+        },
+        "cell_centroid": {
+          "x": 6851.5,
+          "y": 1876.0,
+          "lon": 105.5,
+          "lat": 11.8125
+        }
+      }
+    },
+    {
+      "id": "KHM-04",
+      "area_id": 344,
+      "area_seq_in_source": 4,
+      "name": "南西沿岸・カルダモン山地",
+      "name_en": "Southwest Coast and Cardamom Mountains",
+      "reason": "タイ湾沿岸と南西部山地を含む地域。沿岸港湾と山地森林を併せ持ち、中央平野とは性格が異なる。",
+      "geometry_wkt": "POLYGON ((102.500000 12.248760, 105.276489 12.248760, 105.276489 10.098670, 102.500000 10.098670, 102.500000 12.248760))",
+      "bbox": {
+        "minx": 102.5,
+        "maxx": 105.276489,
+        "miny": 10.09867,
+        "maxy": 12.24876
+      },
+      "centroid": {
+        "x": 103.888244,
+        "y": 11.173715
+      },
+      "size": {
+        "width": 2.776489,
+        "height": 2.15009
+      },
+      "relative_position": {
+        "x_norm": 0.293,
+        "y_norm": 0.2287,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "KHM-01",
+          "KHM-03"
+        ],
+        "east_of": [
+          "KHM-02"
+        ],
+        "north_of": [],
+        "south_of": [
+          "KHM-01",
+          "KHM-02",
+          "KHM-03"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 1435,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.439,
+          "OCEAN": 0.3645,
+          "CROPLAND": 0.1213,
+          "GRASS": 0.046,
+          "MANGROVE": 0.0146,
+          "WATER": 0.0139,
+          "BUILT": 0.0007
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.7833,
+          "MID": 0.2028,
+          "HIGH": 0.0139
+        },
+        "precip_ratio": {
+          "MID": 0.5387,
+          "WET": 0.4613
+        },
+        "flags_ratio": {
+          "water": 0.8997,
+          "forest": 0.4578,
+          "cropland": 0.1213,
+          "built": 0.0014
+        },
+        "cell_bbox_xy": {
+          "min_x": 6783,
+          "max_x": 6846,
+          "min_y": 1875,
+          "max_y": 1916
+        },
+        "cell_centroid": {
+          "x": 6805.952,
+          "y": 1892.688,
+          "lon": 103.602163,
+          "lat": 11.117175
+        }
+      }
+    }
+  ]
+}

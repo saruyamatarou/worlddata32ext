@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">COL review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-82.485352, -4.499762) - (-66.181641, 16.425548)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="40.00" y="40.00" width="828.68" height="338.08" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="56.00" font-size="12" font-family="Arial, sans-serif">COL-01 | カリブ海沿岸地域</text>
+<circle cx="454.34" cy="209.04" r="2.5" fill="black"/>
+<rect x="62.64" y="378.08" width="402.26" height="304.72" fill="none" stroke="black" stroke-width="2"/>
+<text x="66.64" y="394.08" font-size="12" font-family="Arial, sans-serif">COL-02 | 太平洋沿岸地域</text>
+<circle cx="263.77" cy="530.45" r="2.5" fill="black"/>
+<rect x="466.42" y="378.08" width="307.17" height="154.15" fill="none" stroke="black" stroke-width="2"/>
+<text x="470.42" y="394.08" font-size="12" font-family="Arial, sans-serif">COL-03 | アンデス地域北部</text>
+<circle cx="620.00" cy="455.16" r="2.5" fill="black"/>
+<rect x="464.15" y="531.81" width="234.72" height="253.00" fill="none" stroke="black" stroke-width="2"/>
+<text x="468.15" y="547.81" font-size="12" font-family="Arial, sans-serif">COL-04 | アンデス地域南部</text>
+<circle cx="581.51" cy="658.31" r="2.5" fill="black"/>
+<rect x="774.34" y="378.94" width="339.75" height="153.30" fill="none" stroke="black" stroke-width="2"/>
+<text x="778.34" y="394.94" font-size="12" font-family="Arial, sans-serif">COL-05 | オリノキア地域（平原地帯）</text>
+<circle cx="944.21" cy="455.59" r="2.5" fill="black"/>
+<rect x="699.62" y="533.10" width="460.38" height="326.90" fill="none" stroke="black" stroke-width="2"/>
+<text x="703.62" y="549.10" font-size="12" font-family="Arial, sans-serif">COL-06 | アマゾン地域</text>
+<circle cx="929.81" cy="696.55" r="2.5" fill="black"/>
+</svg>

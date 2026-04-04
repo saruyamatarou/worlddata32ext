@@ -1,0 +1,152 @@
+{
+  "iso_a3": "GEO",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": 39.484863,
+    "maxx": 47.0,
+    "miny": 41.0,
+    "maxy": 43.755225
+  },
+  "areas": [
+    {
+      "id": "GEO-01",
+      "area_id": 241,
+      "area_seq_in_source": 1,
+      "name": "ジョージア西部（黒海沿岸）",
+      "name_en": "Western Georgia (Black Sea Coast)",
+      "reason": "黒海沿岸に位置し、亜熱帯性気候で柑橘類や茶の栽培が盛ん。また、リゾート地としても栄えている。",
+      "geometry_wkt": "POLYGON ((39.484863 43.755225, 43.000000 43.755225, 43.000000 41.000000, 39.484863 41.000000, 39.484863 43.755225))",
+      "bbox": {
+        "minx": 39.484863,
+        "maxx": 43.0,
+        "miny": 41.0,
+        "maxy": 43.755225
+      },
+      "centroid": {
+        "x": 41.242431,
+        "y": 42.377612
+      },
+      "size": {
+        "width": 3.515137,
+        "height": 2.755225
+      },
+      "relative_position": {
+        "x_norm": 0.2339,
+        "y_norm": 0.5,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "GEO-02"
+        ],
+        "east_of": [],
+        "north_of": [
+          "GEO-02"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 4974,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.5231,
+          "GRASS": 0.2606,
+          "OCEAN": 0.1218,
+          "CROPLAND": 0.0684,
+          "BARE": 0.0117,
+          "SNOW_ICE": 0.0046,
+          "WATER": 0.004,
+          "BUILT": 0.004,
+          "WETLAND": 0.0012,
+          "MOSS_LICHEN": 0.0006
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.7628,
+          "COLD": 0.2362,
+          "POLAR": 0.001
+        },
+        "elevation_ratio": {
+          "HIGH": 0.3802,
+          "MID": 0.2294,
+          "LOW": 0.2187,
+          "ULTRA": 0.1717
+        },
+        "precip_ratio": {
+          "MID": 0.5754,
+          "LOW": 0.4154,
+          "WET": 0.0092
+        },
+        "flags_ratio": {
+          "water": 0.7614,
+          "forest": 0.5231,
+          "cropland": 0.0684,
+          "ice": 0.0046,
+          "built": 0.004
+        },
+        "cell_bbox_xy": {
+          "min_x": 5278,
+          "max_x": 5440,
+          "min_y": 1114,
+          "max_y": 1174
+        },
+        "cell_centroid": {
+          "x": 5356.26,
+          "y": 1146.308,
+          "lon": 43.19834,
+          "lat": 42.21635
+        }
+      }
+    },
+    {
+      "id": "GEO-02",
+      "area_id": 242,
+      "area_seq_in_source": 2,
+      "name": "ジョージア東部（内陸・山岳部）",
+      "name_en": "Eastern Georgia (Inland and Mountainous Region)",
+      "reason": "内陸部であり、乾燥した大陸性気候から高山気候まで多様。山岳地帯には豊かな自然と歴史的な教会や修道院が点在し、ワイン文化も根付いている。",
+      "geometry_wkt": "POLYGON ((43.0 43.5, 47.0 43.5, 47.0 41.0, 43.0 41.0, 43.0 43.5))",
+      "bbox": {
+        "minx": 43.0,
+        "maxx": 47.0,
+        "miny": 41.0,
+        "maxy": 43.5
+      },
+      "centroid": {
+        "x": 45.0,
+        "y": 42.25
+      },
+      "size": {
+        "width": 4.0,
+        "height": 2.5
+      },
+      "relative_position": {
+        "x_norm": 0.7339,
+        "y_norm": 0.4537,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "GEO-01"
+        ],
+        "north_of": [],
+        "south_of": [
+          "GEO-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    }
+  ]
+}

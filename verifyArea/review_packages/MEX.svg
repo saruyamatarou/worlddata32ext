@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">MEX review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-119.003906, 14.000000) - (-85.539551, 32.800000)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="40.00" y="40.00" width="333.87" height="653.76" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="56.00" font-size="12" font-family="Arial, sans-serif">MEX-01 | バハ・カリフォルニア半島</text>
+<circle cx="206.93" cy="366.88" r="2.5" fill="black"/>
+<rect x="374.60" y="40.00" width="344.90" height="320.88" fill="none" stroke="black" stroke-width="2"/>
+<text x="378.60" y="56.00" font-size="12" font-family="Arial, sans-serif">MEX-02 | 北西内陸・ソノラ＝チワワ地域</text>
+<circle cx="547.05" cy="200.44" r="2.5" fill="black"/>
+<rect x="376.07" y="362.61" width="343.43" height="328.41" fill="none" stroke="black" stroke-width="2"/>
+<text x="380.07" y="378.61" font-size="12" font-family="Arial, sans-serif">MEX-03 | 中央高原・首都圏</text>
+<circle cx="547.79" cy="526.81" r="2.5" fill="black"/>
+<rect x="718.77" y="302.36" width="268.42" height="388.66" fill="none" stroke="black" stroke-width="2"/>
+<text x="722.77" y="318.36" font-size="12" font-family="Arial, sans-serif">MEX-04 | 北東部・メキシコ湾沿岸地域</text>
+<circle cx="852.97" cy="496.69" r="2.5" fill="black"/>
+<rect x="458.49" y="690.11" width="577.97" height="169.89" fill="none" stroke="black" stroke-width="2"/>
+<text x="462.49" y="706.11" font-size="12" font-family="Arial, sans-serif">MEX-05 | 南部太平洋・地峡地域</text>
+<circle cx="747.47" cy="775.05" r="2.5" fill="black"/>
+<rect x="987.92" y="476.17" width="172.08" height="221.24" fill="none" stroke="black" stroke-width="2"/>
+<text x="991.92" y="492.17" font-size="12" font-family="Arial, sans-serif">MEX-06 | ユカタン半島</text>
+<circle cx="1073.96" cy="586.79" r="2.5" fill="black"/>
+</svg>

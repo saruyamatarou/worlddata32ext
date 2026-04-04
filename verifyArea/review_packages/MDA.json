@@ -1,0 +1,139 @@
+{
+  "iso_a3": "MDA",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": 26.520996,
+    "maxx": 30.327759,
+    "miny": 45.375302,
+    "maxy": 48.57479
+  },
+  "areas": [
+    {
+      "id": "MDA-01",
+      "area_id": 384,
+      "area_seq_in_source": 1,
+      "name": "北部モルドバ",
+      "name_en": "Northern Moldova",
+      "reason": "モルドバ北部は、ルーマニアとの国境に近く、歴史的、文化的にもルーマニアの影響が強い地域です。また、この地域はブコヴィナ地方の一部であり、豊かな自然とブドウ畑が広がっています。",
+      "geometry_wkt": "POLYGON ((26.520996 48.574790, 29.355469 48.574790, 29.355469 47.491225, 26.520996 47.491225, 26.520996 48.574790))",
+      "bbox": {
+        "minx": 26.520996,
+        "maxx": 29.355469,
+        "miny": 47.491225,
+        "maxy": 48.57479
+      },
+      "centroid": {
+        "x": 27.938232,
+        "y": 48.033007
+      },
+      "size": {
+        "width": 2.834473,
+        "height": 1.083565
+      },
+      "relative_position": {
+        "x_norm": 0.3723,
+        "y_norm": 0.8307,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "MDA-02"
+        ],
+        "east_of": [],
+        "north_of": [
+          "MDA-02"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 2277,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "CROPLAND": 0.8129,
+          "TREE": 0.144,
+          "GRASS": 0.0321,
+          "BUILT": 0.0079,
+          "WATER": 0.0022,
+          "WETLAND": 0.0009
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.834,
+          "MID": 0.166
+        },
+        "precip_ratio": {
+          "LOW": 1.0
+        },
+        "flags_ratio": {
+          "cropland": 0.8129,
+          "water": 0.6254,
+          "forest": 0.144,
+          "built": 0.0079
+        },
+        "cell_bbox_xy": {
+          "min_x": 4959,
+          "max_x": 5042,
+          "min_y": 996,
+          "max_y": 1068
+        },
+        "cell_centroid": {
+          "x": 5002.576,
+          "y": 1026.796,
+          "lon": 28.46149,
+          "lat": 47.196009
+        }
+      }
+    },
+    {
+      "id": "MDA-02",
+      "area_id": 385,
+      "area_seq_in_source": 2,
+      "name": "南部モルドバ",
+      "name_en": "Southern Moldova",
+      "reason": "モルドバ南部は、ウクライナとの国境に接し、ドニエストル川とプルト川の合流点に近い地域です。この地域は、ガガウズ自治区やカフール郡など、多様な民族的・文化的な特徴を持つエリアを含みます。",
+      "geometry_wkt": "POLYGON ((27.317505 47.487513, 30.327759 47.487513, 30.327759 45.375302, 27.317505 45.375302, 27.317505 47.487513))",
+      "bbox": {
+        "minx": 27.317505,
+        "maxx": 30.327759,
+        "miny": 45.375302,
+        "maxy": 47.487513
+      },
+      "centroid": {
+        "x": 28.822632,
+        "y": 46.431407
+      },
+      "size": {
+        "width": 3.010254,
+        "height": 2.112211
+      },
+      "relative_position": {
+        "x_norm": 0.6046,
+        "y_norm": 0.3301,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "MDA-01"
+        ],
+        "north_of": [],
+        "south_of": [
+          "MDA-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    }
+  ]
+}

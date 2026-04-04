@@ -1,0 +1,358 @@
+{
+  "iso_a3": "ATF",
+  "area_count": 4,
+  "country_bbox": {
+    "minx": 37.573242,
+    "maxx": 79.118042,
+    "miny": -50.8,
+    "maxy": -8.146243
+  },
+  "areas": [
+    {
+      "id": "ATF-01",
+      "area_id": 36,
+      "area_seq_in_source": 1,
+      "name": "クロゼ諸島",
+      "name_en": "Crozet Islands",
+      "reason": "南インド洋の亜南極域にある群島。TAAF の南方島嶼群の一角で、他地区から十分に離れているため独立区分が自然。",
+      "geometry_wkt": "POLYGON ((49.152832 -45.000000, 52.800000 -45.000000, 52.800000 -47.159840, 49.152832 -47.159840, 49.152832 -45.000000))",
+      "bbox": {
+        "minx": 49.152832,
+        "maxx": 52.8,
+        "miny": -47.15984,
+        "maxy": -45.0
+      },
+      "centroid": {
+        "x": 50.976416,
+        "y": -46.07992
+      },
+      "size": {
+        "width": 3.647168,
+        "height": 2.15984
+      },
+      "relative_position": {
+        "x_norm": 0.3226,
+        "y_norm": 0.1107,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ATF-02",
+          "ATF-03"
+        ],
+        "east_of": [
+          "ATF-05"
+        ],
+        "north_of": [
+          "ATF-02"
+        ],
+        "south_of": [
+          "ATF-03",
+          "ATF-05"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 1119,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "COLD",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9848,
+          "GRASS": 0.0089,
+          "WATER": 0.0054,
+          "BARE": 0.0009
+        },
+        "temperature_ratio": {
+          "COLD": 0.7096,
+          "TROPICAL": 0.2833,
+          "TEMPERATE": 0.0071
+        },
+        "elevation_ratio": {
+          "LOW": 0.992,
+          "MID": 0.008
+        },
+        "precip_ratio": {
+          "MID": 0.9848,
+          "WET": 0.0143,
+          "LOW": 0.0009
+        },
+        "flags_ratio": {
+          "water": 0.9902
+        },
+        "cell_bbox_xy": {
+          "min_x": 5278,
+          "max_x": 5574,
+          "min_y": 2686,
+          "max_y": 3284
+        },
+        "cell_centroid": {
+          "x": 5471.962,
+          "y": 3106.968,
+          "lon": 48.019232,
+          "lat": -39.477826
+        }
+      }
+    },
+    {
+      "id": "ATF-02",
+      "area_id": 37,
+      "area_seq_in_source": 2,
+      "name": "ケルゲレン諸島",
+      "name_en": "Kerguelen Islands",
+      "reason": "TAAF の中で最大の島嶼群であり、南インド洋中央部の主要拠点。単独区分とする価値が高い。",
+      "geometry_wkt": "POLYGON ((67.0 -48.0, 71.8 -48.0, 71.8 -50.8, 67.0 -50.8, 67.0 -48.0))",
+      "bbox": {
+        "minx": 67.0,
+        "maxx": 71.8,
+        "miny": -50.8,
+        "maxy": -48.0
+      },
+      "centroid": {
+        "x": 69.4,
+        "y": -49.4
+      },
+      "size": {
+        "width": 4.8,
+        "height": 2.8
+      },
+      "relative_position": {
+        "x_norm": 0.7661,
+        "y_norm": 0.0328,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ATF-03"
+        ],
+        "east_of": [
+          "ATF-01",
+          "ATF-05"
+        ],
+        "north_of": [],
+        "south_of": [
+          "ATF-01",
+          "ATF-03",
+          "ATF-05"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 2293,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "COLD",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.7824,
+          "BARE": 0.0898,
+          "GRASS": 0.0763,
+          "SNOW_ICE": 0.027,
+          "WATER": 0.0244
+        },
+        "temperature_ratio": {
+          "COLD": 0.9895,
+          "TEMPERATE": 0.0105
+        },
+        "elevation_ratio": {
+          "LOW": 0.8801,
+          "MID": 0.1151,
+          "HIGH": 0.0048
+        },
+        "precip_ratio": {
+          "MID": 0.7824,
+          "LOW": 0.2176
+        },
+        "flags_ratio": {
+          "water": 0.8068,
+          "ice": 0.027,
+          "forest": 0.0004
+        },
+        "cell_bbox_xy": {
+          "min_x": 5957,
+          "max_x": 6023,
+          "min_y": 3317,
+          "max_y": 3362
+        },
+        "cell_centroid": {
+          "x": 5987.281,
+          "y": 3341.227,
+          "lon": 69.490869,
+          "lat": -49.238616
+        }
+      }
+    },
+    {
+      "id": "ATF-03",
+      "area_id": 38,
+      "area_seq_in_source": 3,
+      "name": "サンポール・アムステルダム諸島",
+      "name_en": "Saint Paul and Amsterdam Islands",
+      "reason": "ケルゲレンより北に位置する独立した小規模地区。行政上も別地区であり、単独管理しやすい。",
+      "geometry_wkt": "POLYGON ((76.000000 -36.826875, 79.118042 -36.826875, 79.118042 -39.533703, 76.000000 -39.533703, 76.000000 -36.826875))",
+      "bbox": {
+        "minx": 76.0,
+        "maxx": 79.118042,
+        "miny": -39.533703,
+        "maxy": -36.826875
+      },
+      "centroid": {
+        "x": 77.559021,
+        "y": -38.180289
+      },
+      "size": {
+        "width": 3.118042,
+        "height": 2.706828
+      },
+      "relative_position": {
+        "x_norm": 0.9625,
+        "y_norm": 0.2959,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "ATF-01",
+          "ATF-02",
+          "ATF-05"
+        ],
+        "north_of": [
+          "ATF-01",
+          "ATF-02"
+        ],
+        "south_of": [
+          "ATF-05"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 655,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9954,
+          "UNKNOWN": 0.0046
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.9969,
+          "MID": 0.0031
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.9954
+        },
+        "cell_bbox_xy": {
+          "min_x": 6170,
+          "max_x": 6191,
+          "min_y": 3058,
+          "max_y": 3099
+        },
+        "cell_centroid": {
+          "x": 6180.258,
+          "y": 3078.163,
+          "lon": 77.531584,
+          "lat": -38.27764
+        }
+      }
+    },
+    {
+      "id": "ATF-05",
+      "area_id": 39,
+      "area_seq_in_source": 4,
+      "name": "散在諸島",
+      "name_en": "Scattered Islands",
+      "reason": "マダガスカル周辺およびモザンビーク海峡・レユニオン北方に散在する島々の集合。TAAF の他地区とは緯度帯も位置も大きく異なる。",
+      "geometry_wkt": "POLYGON ((37.573242 -8.146243, 55.800000 -8.146243, 55.800000 -26.500000, 37.573242 -26.500000, 37.573242 -8.146243))",
+      "bbox": {
+        "minx": 37.573242,
+        "maxx": 55.8,
+        "miny": -26.5,
+        "maxy": -8.146243
+      },
+      "centroid": {
+        "x": 46.686621,
+        "y": -17.323121
+      },
+      "size": {
+        "width": 18.226758,
+        "height": 18.353757
+      },
+      "relative_position": {
+        "x_norm": 0.2194,
+        "y_norm": 0.7849,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ATF-01",
+          "ATF-02",
+          "ATF-03"
+        ],
+        "east_of": [],
+        "north_of": [
+          "ATF-01",
+          "ATF-02",
+          "ATF-03"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 317,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9968,
+          "WATER": 0.0032
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9968,
+          "LOW": 0.0032
+        },
+        "flags_ratio": {
+          "water": 1.0
+        },
+        "cell_bbox_xy": {
+          "min_x": 5335,
+          "max_x": 5355,
+          "min_y": 2559,
+          "max_y": 2579
+        },
+        "cell_centroid": {
+          "x": 5345.0,
+          "y": 2569.0,
+          "lon": 42.729167,
+          "lat": -17.0625
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "iso_a3": "ATG",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -62.440796,
+    "maxx": -61.490479,
+    "miny": 16.804541,
+    "maxy": 17.929089
+  },
+  "areas": [
+    {
+      "id": "ATG-01",
+      "area_id": 40,
+      "area_seq_in_source": 1,
+      "name": "バーブーダ島",
+      "name_en": "Barbuda",
+      "reason": "バーブーダ島はアンティグア・バーブーダを構成する主要な島の一つであり、その地理的、生態学的、文化的な独自性から単独のエリアとして定義する。特に、手つかずの自然が多く残る環境、フリゲートバードの繁殖地、そしてピンクサンドビーチなどの特徴が挙げられる。また、ハリケーン・イルマにより壊滅的な被害を受けた歴史的経緯も考慮し、復興と保全の観点から独立したエリアとする。",
+      "geometry_wkt": "POLYGON ((-62.440796 17.929089, -61.490479 17.929089, -61.490479 16.804541, -62.440796 16.804541, -62.440796 17.929089))",
+      "bbox": {
+        "minx": -62.440796,
+        "maxx": -61.490479,
+        "miny": 16.804541,
+        "maxy": 17.929089
+      },
+      "centroid": {
+        "x": -61.965637,
+        "y": 17.366815
+      },
+      "size": {
+        "width": 0.950317,
+        "height": 1.124548
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 617,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9643,
+          "TREE": 0.0227,
+          "WATER": 0.0113,
+          "GRASS": 0.0016
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.987,
+          "LOW": 0.013
+        },
+        "flags_ratio": {
+          "water": 0.9757,
+          "forest": 0.0227
+        },
+        "cell_bbox_xy": {
+          "min_x": 2825,
+          "max_x": 2849,
+          "min_y": 1725,
+          "max_y": 1759
+        },
+        "cell_centroid": {
+          "x": 2837.178,
+          "y": 1741.425,
+          "lon": -61.763405,
+          "lat": 17.419807
+        }
+      }
+    }
+  ]
+}

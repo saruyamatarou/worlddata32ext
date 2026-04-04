@@ -1,0 +1,87 @@
+{
+  "iso_a3": "AIA",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -63.693237,
+    "maxx": -62.613831,
+    "miny": 18.067535,
+    "maxy": 18.85431
+  },
+  "areas": [
+    {
+      "id": "AIA-01",
+      "area_id": 10,
+      "area_seq_in_source": 1,
+      "name": "アンギラ全島",
+      "name_en": "Entire Anguilla",
+      "reason": "アンギラは単一の主要な島とその周辺の小島群で構成されており、地理的・行政的に一体となっているため、分割せず単一のエリアとする。",
+      "geometry_wkt": "POLYGON ((-63.693237 18.854310, -62.613831 18.854310, -62.613831 18.067535, -63.693237 18.067535, -63.693237 18.854310))",
+      "bbox": {
+        "minx": -63.693237,
+        "maxx": -62.613831,
+        "miny": 18.067535,
+        "maxy": 18.85431
+      },
+      "centroid": {
+        "x": -63.153534,
+        "y": 18.460923
+      },
+      "size": {
+        "width": 1.079406,
+        "height": 0.786775
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 268,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9813,
+          "WATER": 0.0149,
+          "SHRUB": 0.0037
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9813,
+          "LOW": 0.0187
+        },
+        "flags_ratio": {
+          "water": 0.9963,
+          "forest": 0.0037
+        },
+        "cell_bbox_xy": {
+          "min_x": 2794,
+          "max_x": 2818,
+          "min_y": 1711,
+          "max_y": 1727
+        },
+        "cell_centroid": {
+          "x": 2805.638,
+          "y": 1718.933,
+          "lon": -63.077581,
+          "lat": 18.356965
+        }
+      }
+    }
+  ]
+}

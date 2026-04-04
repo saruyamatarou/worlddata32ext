@@ -1,0 +1,85 @@
+{
+  "iso_a3": "BMU",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -65.500488,
+    "maxx": -64.099731,
+    "miny": 31.793555,
+    "maxy": 32.879587
+  },
+  "areas": [
+    {
+      "id": "BMU-01",
+      "area_id": 90,
+      "area_seq_in_source": 1,
+      "name": "バミューダ諸島",
+      "name_en": "Bermuda",
+      "reason": "バミューダ諸島は単一の主要な群島であり、地理的・行政的に単一の単位として扱われるため。",
+      "geometry_wkt": "POLYGON ((-65.500488 32.879587, -64.099731 32.879587, -64.099731 31.793555, -65.500488 31.793555, -65.500488 32.879587))",
+      "bbox": {
+        "minx": -65.500488,
+        "maxx": -64.099731,
+        "miny": 31.793555,
+        "maxy": 32.879587
+      },
+      "centroid": {
+        "x": -64.80011,
+        "y": 32.336571
+      },
+      "size": {
+        "width": 1.400757,
+        "height": 1.086032
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 382,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9921,
+          "WATER": 0.0079
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9921,
+          "TROPICAL": 0.0079
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 1.0
+        },
+        "cell_bbox_xy": {
+          "min_x": 2753,
+          "max_x": 2776,
+          "min_y": 1374,
+          "max_y": 1395
+        },
+        "cell_centroid": {
+          "x": 2764.508,
+          "y": 1384.552,
+          "lon": -64.791339,
+          "lat": 32.289485
+        }
+      }
+    }
+  ]
+}

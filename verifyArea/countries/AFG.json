@@ -1,0 +1,50 @@
+[
+  {
+    "id": "AFG-01",
+    "name": "北東部山岳地帯",
+    "name_en": "Northeastern Highlands",
+    "reason": "ヒンドゥークシュ山脈が広がり、標高が高く険しい地形が特徴。ワハン回廊やパミール高原の一部を含み、地理的に隔絶されている。",
+    "geometry_wkt": "POLYGON ((64.489746 38.616870, 74.981689 38.616870, 74.981689 36.368222, 64.489746 36.368222, 64.489746 38.616870))",
+    "area_id": 2,
+    "source_row_index": 2,
+    "iso_a3_source": "AFG",
+    "iso_a3": "AFG",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "AFG-02",
+    "name": "北部平原地帯",
+    "name_en": "Northern Plains",
+    "reason": "中央高地より北に位置し、農業の中心地（「食料庫」とも呼ばれる）。肥沃な土壌と丘陵地帯が広がり、天然ガスや石油などの鉱物資源も豊富。",
+    "geometry_wkt": "POLYGON ((60.578613 36.368222, 72.048340 36.368222, 72.048340 34.488448, 60.578613 34.488448, 60.578613 36.368222))",
+    "area_id": 3,
+    "source_row_index": 3,
+    "iso_a3_source": "AFG",
+    "iso_a3": "AFG",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "AFG-03",
+    "name": "中央高原・山岳地帯",
+    "name_en": "Central Highlands",
+    "reason": "国の中心部を東西に走るヒンドゥークシュ山脈の主軸。広大で複雑な山岳地帯であり、多くの地域で標高が高く、多くのコミュニティが隔絶されている。",
+    "geometry_wkt": "POLYGON ((60.358887 34.452218, 71.169434 34.452218, 71.169434 32.472695, 60.358887 32.472695, 60.358887 34.452218))",
+    "area_id": 4,
+    "source_row_index": 4,
+    "iso_a3_source": "AFG",
+    "iso_a3": "AFG",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "AFG-04",
+    "name": "南西部高原・砂漠地帯",
+    "name_en": "Southwestern Plateau and Desert",
+    "reason": "中央高地の南に位置し、高地、砂漠、半砂漠地帯が広がる。ヘルマンド川などの河川が横断し、リゲスタン砂漠やマルゴブ砂漠などがある。",
+    "geometry_wkt": "POLYGON ((60.600586 32.481963, 69.422607 32.481963, 69.422607 29.132970, 60.600586 29.132970, 60.600586 32.481963))",
+    "area_id": 5,
+    "source_row_index": 5,
+    "iso_a3_source": "AFG",
+    "iso_a3": "AFG",
+    "area_seq_in_source": 4
+  }
+]

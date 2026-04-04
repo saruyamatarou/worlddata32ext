@@ -1,0 +1,508 @@
+{
+  "iso_a3": "TCD",
+  "area_count": 5,
+  "country_bbox": {
+    "minx": 13.348389,
+    "maxx": 24.060059,
+    "miny": 7.297088,
+    "maxy": 24.0
+  },
+  "areas": [
+    {
+      "id": "TCD-01",
+      "area_id": 586,
+      "area_seq_in_source": 1,
+      "name": "北チャド砂漠地帯",
+      "name_en": "Northern Chad Desert Zone",
+      "reason": "チャド北部に広がるサハラ砂漠地帯で、地理的に孤立しており、遊牧民が多く居住する地域。",
+      "geometry_wkt": "POLYGON ((14.000000 24.000000, 20.236816 24.000000, 20.236816 16.024696, 14.000000 16.024696, 14.000000 24.000000))",
+      "bbox": {
+        "minx": 14.0,
+        "maxx": 20.236816,
+        "miny": 16.024696,
+        "maxy": 24.0
+      },
+      "centroid": {
+        "x": 17.118408,
+        "y": 20.012348
+      },
+      "size": {
+        "width": 6.236816,
+        "height": 7.975304
+      },
+      "relative_position": {
+        "x_norm": 0.352,
+        "y_norm": 0.7613,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "TCD-02",
+          "TCD-03",
+          "TCD-05"
+        ],
+        "east_of": [
+          "TCD-04"
+        ],
+        "north_of": [
+          "TCD-02",
+          "TCD-03",
+          "TCD-04",
+          "TCD-05"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "TCD-03",
+            "x_overlap": 4.086914,
+            "y_overlap": 0.021117
+          },
+          {
+            "id": "TCD-04",
+            "x_overlap": 2.149902,
+            "y_overlap": 0.010559
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 18059,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.992,
+          "GRASS": 0.0076,
+          "CROPLAND": 0.0003
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9828,
+          "TEMPERATE": 0.0172
+        },
+        "elevation_ratio": {
+          "MID": 0.6921,
+          "HIGH": 0.2523,
+          "LOW": 0.0351,
+          "ULTRA": 0.0205
+        },
+        "precip_ratio": {
+          "ARID": 0.992,
+          "LOW": 0.008
+        },
+        "flags_ratio": {
+          "water": 0.7081,
+          "cropland": 0.0003
+        },
+        "cell_bbox_xy": {
+          "min_x": 4672,
+          "max_x": 4851,
+          "min_y": 1597,
+          "max_y": 1833
+        },
+        "cell_centroid": {
+          "x": 4744.444,
+          "y": 1696.85,
+          "lon": 17.705981,
+          "lat": 19.277074
+        }
+      }
+    },
+    {
+      "id": "TCD-02",
+      "area_id": 587,
+      "area_seq_in_source": 2,
+      "name": "北東部高地・高原地帯",
+      "name_en": "Northeastern Highlands and Plateaus",
+      "reason": "ティブスティ山地やエネディ高原など、起伏に富んだ地形が特徴で、比較的乾燥している地域。",
+      "geometry_wkt": "POLYGON ((20.236816 22.000000, 24.000000 22.000000, 24.000000 16.024696, 20.236816 16.024696, 20.236816 22.000000))",
+      "bbox": {
+        "minx": 20.236816,
+        "maxx": 24.0,
+        "miny": 16.024696,
+        "maxy": 22.0
+      },
+      "centroid": {
+        "x": 22.118408,
+        "y": 19.012348
+      },
+      "size": {
+        "width": 3.763184,
+        "height": 5.975304
+      },
+      "relative_position": {
+        "x_norm": 0.8187,
+        "y_norm": 0.7014,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "TCD-01",
+          "TCD-03",
+          "TCD-04",
+          "TCD-05"
+        ],
+        "north_of": [
+          "TCD-03",
+          "TCD-04",
+          "TCD-05"
+        ],
+        "south_of": [
+          "TCD-01"
+        ],
+        "overlaps": [
+          {
+            "id": "TCD-03",
+            "x_overlap": 3.763184,
+            "y_overlap": 0.021117
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 9440,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 1.0
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.7839,
+          "HIGH": 0.2161
+        },
+        "precip_ratio": {
+          "ARID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.6585
+        },
+        "cell_bbox_xy": {
+          "min_x": 4806,
+          "max_x": 4895,
+          "min_y": 1648,
+          "max_y": 1774
+        },
+        "cell_centroid": {
+          "x": 4847.32,
+          "y": 1721.27,
+          "lon": 21.992519,
+          "lat": 18.2596
+        }
+      }
+    },
+    {
+      "id": "TCD-03",
+      "area_id": 588,
+      "area_seq_in_source": 3,
+      "name": "中央サヘル地帯",
+      "name_en": "Central Sahel Zone",
+      "reason": "サハラ砂漠と南部サバンナ地帯の中間に位置し、乾燥したステップ気候で、遊牧民と定住民が混在する地域。",
+      "geometry_wkt": "POLYGON ((16.149902 16.045813, 24.060059 16.045813, 24.060059 13.624633, 16.149902 13.624633, 16.149902 16.045813))",
+      "bbox": {
+        "minx": 16.149902,
+        "maxx": 24.060059,
+        "miny": 13.624633,
+        "maxy": 16.045813
+      },
+      "centroid": {
+        "x": 20.10498,
+        "y": 14.835223
+      },
+      "size": {
+        "width": 7.910157,
+        "height": 2.42118
+      },
+      "relative_position": {
+        "x_norm": 0.6308,
+        "y_norm": 0.4513,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "TCD-02"
+        ],
+        "east_of": [
+          "TCD-01",
+          "TCD-04",
+          "TCD-05"
+        ],
+        "north_of": [
+          "TCD-04",
+          "TCD-05"
+        ],
+        "south_of": [
+          "TCD-01",
+          "TCD-02"
+        ],
+        "overlaps": [
+          {
+            "id": "TCD-01",
+            "x_overlap": 4.086914,
+            "y_overlap": 0.021117
+          },
+          {
+            "id": "TCD-02",
+            "x_overlap": 3.763184,
+            "y_overlap": 0.021117
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 9214,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "GRASS": 0.5793,
+          "BARE": 0.4124,
+          "SHRUB": 0.0062,
+          "CROPLAND": 0.0021
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.8533,
+          "HIGH": 0.1467
+        },
+        "precip_ratio": {
+          "ARID": 0.7544,
+          "LOW": 0.2456
+        },
+        "flags_ratio": {
+          "water": 0.7535,
+          "forest": 0.0062,
+          "cropland": 0.0021
+        },
+        "cell_bbox_xy": {
+          "min_x": 4708,
+          "max_x": 4895,
+          "min_y": 1775,
+          "max_y": 1832
+        },
+        "cell_centroid": {
+          "x": 4787.48,
+          "y": 1802.24,
+          "lon": 19.499186,
+          "lat": 14.88583
+        }
+      }
+    },
+    {
+      "id": "TCD-04",
+      "area_id": 589,
+      "area_seq_in_source": 4,
+      "name": "南西部河川・湖沼地帯",
+      "name_en": "Southwestern River and Lake Zone",
+      "reason": "チャド湖、シャリ川、ロゴーネ川流域に広がり、比較的降水量が多く、農業が営まれ、人口が密集する地域。",
+      "geometry_wkt": "POLYGON ((13.348389 16.035255, 16.149902 16.035255, 16.149902 7.297088, 13.348389 7.297088, 13.348389 16.035255))",
+      "bbox": {
+        "minx": 13.348389,
+        "maxx": 16.149902,
+        "miny": 7.297088,
+        "maxy": 16.035255
+      },
+      "centroid": {
+        "x": 14.749146,
+        "y": 11.666171
+      },
+      "size": {
+        "width": 2.801513,
+        "height": 8.738167
+      },
+      "relative_position": {
+        "x_norm": 0.1308,
+        "y_norm": 0.2616,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "TCD-01",
+          "TCD-02",
+          "TCD-03",
+          "TCD-05"
+        ],
+        "east_of": [],
+        "north_of": [
+          "TCD-05"
+        ],
+        "south_of": [
+          "TCD-01",
+          "TCD-02",
+          "TCD-03"
+        ],
+        "overlaps": [
+          {
+            "id": "TCD-01",
+            "x_overlap": 2.149902,
+            "y_overlap": 0.010559
+          },
+          {
+            "id": "TCD-05",
+            "x_overlap": 0.021972,
+            "y_overlap": 6.19723
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 7745,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.482,
+          "BARE": 0.2001,
+          "CROPLAND": 0.152,
+          "SHRUB": 0.0852,
+          "WETLAND": 0.0518,
+          "TREE": 0.0168,
+          "WATER": 0.0108,
+          "BUILT": 0.0013
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.9995,
+          "HIGH": 0.0005
+        },
+        "precip_ratio": {
+          "LOW": 0.4484,
+          "ARID": 0.4303,
+          "MID": 0.1212
+        },
+        "flags_ratio": {
+          "water": 0.7726,
+          "cropland": 0.152,
+          "forest": 0.102,
+          "built": 0.0013
+        },
+        "cell_bbox_xy": {
+          "min_x": 4643,
+          "max_x": 4707,
+          "min_y": 1775,
+          "max_y": 1980
+        },
+        "cell_centroid": {
+          "x": 4684.719,
+          "y": 1860.16,
+          "lon": 15.217476,
+          "lat": 12.47248
+        }
+      }
+    },
+    {
+      "id": "TCD-05",
+      "area_id": 590,
+      "area_seq_in_source": 5,
+      "name": "南東部サバンナ地帯",
+      "name_en": "Southeastern Savanna Zone",
+      "reason": "スーダンとの国境付近に広がるサバンナ地帯で、農業や牧畜が営まれ、多様な民族が居住する地域。",
+      "geometry_wkt": "POLYGON ((16.127930 13.603278, 23.994141 13.603278, 23.994141 7.406048, 16.127930 7.406048, 16.127930 13.603278))",
+      "bbox": {
+        "minx": 16.12793,
+        "maxx": 23.994141,
+        "miny": 7.406048,
+        "maxy": 13.603278
+      },
+      "centroid": {
+        "x": 20.061035,
+        "y": 10.504663
+      },
+      "size": {
+        "width": 7.866211,
+        "height": 6.19723
+      },
+      "relative_position": {
+        "x_norm": 0.6267,
+        "y_norm": 0.192,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "TCD-02",
+          "TCD-03"
+        ],
+        "east_of": [
+          "TCD-01",
+          "TCD-04"
+        ],
+        "north_of": [],
+        "south_of": [
+          "TCD-01",
+          "TCD-02",
+          "TCD-03",
+          "TCD-04"
+        ],
+        "overlaps": [
+          {
+            "id": "TCD-04",
+            "x_overlap": 0.021972,
+            "y_overlap": 6.19723
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 17097,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.5592,
+          "SHRUB": 0.3244,
+          "CROPLAND": 0.0631,
+          "TREE": 0.0459,
+          "WETLAND": 0.0061,
+          "WATER": 0.0012,
+          "BUILT": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.995,
+          "HIGH": 0.005
+        },
+        "precip_ratio": {
+          "LOW": 0.9066,
+          "MID": 0.0934
+        },
+        "flags_ratio": {
+          "water": 0.7376,
+          "forest": 0.3703,
+          "cropland": 0.0631,
+          "built": 0.0001
+        },
+        "cell_bbox_xy": {
+          "min_x": 4707,
+          "max_x": 4870,
+          "min_y": 1834,
+          "max_y": 1978
+        },
+        "cell_centroid": {
+          "x": 4772.963,
+          "y": 1893.247,
+          "lon": 18.894308,
+          "lat": 11.093882
+        }
+      }
+    }
+  ]
+}

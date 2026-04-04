@@ -1,0 +1,88 @@
+{
+  "iso_a3": "ASM",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -171.738281,
+    "maxx": -166.68457,
+    "miny": -16.341226,
+    "maxy": -10.379765
+  },
+  "areas": [
+    {
+      "id": "ASM-01",
+      "area_id": 27,
+      "area_seq_in_source": 1,
+      "name": "スウェインズ島全域",
+      "name_en": "Swains Island Full Area",
+      "reason": "対象が単一の環礁であり、地理的・経済的に分割不可能な最小単位であるため。領土境界に対し約0.2度のマージンを設定。",
+      "geometry_wkt": "POLYGON ((-171.738281 -10.379765, -166.684570 -10.379765, -166.684570 -16.341226, -171.738281 -16.341226, -171.738281 -10.379765))",
+      "bbox": {
+        "minx": -171.738281,
+        "maxx": -166.68457,
+        "miny": -16.341226,
+        "maxy": -10.379765
+      },
+      "centroid": {
+        "x": -169.211426,
+        "y": -13.360495
+      },
+      "size": {
+        "width": 5.053711,
+        "height": 5.961461
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 779,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9859,
+          "TREE": 0.009,
+          "WATER": 0.0051
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.9974,
+          "MID": 0.0026
+        },
+        "precip_ratio": {
+          "MID": 0.9859,
+          "WET": 0.0141
+        },
+        "flags_ratio": {
+          "water": 0.991,
+          "forest": 0.0103
+        },
+        "cell_bbox_xy": {
+          "min_x": 211,
+          "max_x": 262,
+          "min_y": 2491,
+          "max_y": 2514
+        },
+        "cell_centroid": {
+          "x": 235.71,
+          "y": 2502.198,
+          "lon": -170.157921,
+          "lat": -14.27907
+        }
+      }
+    }
+  ]
+}

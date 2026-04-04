@@ -1,0 +1,90 @@
+{
+  "iso_a3": "BHR",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": 50.3,
+    "maxx": 50.9,
+    "miny": 25.3,
+    "maxy": 26.4
+  },
+  "areas": [
+    {
+      "id": "BHR-01",
+      "area_id": 74,
+      "area_seq_in_source": 1,
+      "name": "バーレーン中央部",
+      "name_en": "Central Bahrain",
+      "reason": "バーレーンは国土の大部分が平坦な砂漠または石灰岩質の地形であり、明確な地理的区分が難しいため、主要な都市であるマナーマ、ムハッラク、ハマド・タウン、リファーなどが集まる人口密集地域を中心に、国全体を一つのエリアとして定義するのが最も適切であると考えられます。",
+      "geometry_wkt": "POLYGON ((50.30 26.40, 50.90 26.40, 50.90 25.30, 50.30 25.30, 50.30 26.40))",
+      "bbox": {
+        "minx": 50.3,
+        "maxx": 50.9,
+        "miny": 25.3,
+        "maxy": 26.4
+      },
+      "centroid": {
+        "x": 50.6,
+        "y": 25.85
+      },
+      "size": {
+        "width": 0.6,
+        "height": 1.1
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 317,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.8864,
+          "BARE": 0.0694,
+          "BUILT": 0.0379,
+          "WATER": 0.0063
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.8864,
+          "TROPICAL": 0.1136
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.8864,
+          "ARID": 0.1136
+        },
+        "flags_ratio": {
+          "water": 0.8927,
+          "reef": 0.0978,
+          "built": 0.0442
+        },
+        "cell_bbox_xy": {
+          "min_x": 5527,
+          "max_x": 5543,
+          "min_y": 1519,
+          "max_y": 1546
+        },
+        "cell_centroid": {
+          "x": 5534.464,
+          "y": 1531.845,
+          "lon": 50.623488,
+          "lat": 26.152274
+        }
+      }
+    }
+  ]
+}

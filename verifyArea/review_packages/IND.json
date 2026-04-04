@@ -1,0 +1,886 @@
+{
+  "iso_a3": "IND",
+  "area_count": 8,
+  "country_bbox": {
+    "minx": 68.0,
+    "maxx": 97.756348,
+    "miny": 4.214943,
+    "maxy": 36.031332
+  },
+  "areas": [
+    {
+      "id": "IND-01",
+      "area_id": 286,
+      "area_seq_in_source": 1,
+      "name": "インド北部",
+      "name_en": "Northern India",
+      "reason": "ヒマラヤ山脈、インド・ガンジス平原、タール砂漠といった地理的特徴を持ち、文化や気候も多様であるため。",
+      "geometry_wkt": "POLYGON ((71.279297 36.031332, 82.705078 36.031332, 82.705078 28.033198, 71.279297 28.033198, 71.279297 36.031332))",
+      "bbox": {
+        "minx": 71.279297,
+        "maxx": 82.705078,
+        "miny": 28.033198,
+        "maxy": 36.031332
+      },
+      "centroid": {
+        "x": 76.992188,
+        "y": 32.032265
+      },
+      "size": {
+        "width": 11.425781,
+        "height": 7.998134
+      },
+      "relative_position": {
+        "x_norm": 0.3022,
+        "y_norm": 0.8743,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "IND-03",
+          "IND-04",
+          "IND-06",
+          "IND-08"
+        ],
+        "east_of": [
+          "IND-02",
+          "IND-05",
+          "IND-07"
+        ],
+        "north_of": [
+          "IND-02",
+          "IND-03",
+          "IND-04",
+          "IND-05",
+          "IND-06",
+          "IND-07",
+          "IND-08"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 37134,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "CROPLAND": 0.3933,
+          "TREE": 0.2714,
+          "BARE": 0.214,
+          "GRASS": 0.0382,
+          "SNOW_ICE": 0.0279,
+          "SHRUB": 0.0215,
+          "WATER": 0.0118,
+          "MOSS_LICHEN": 0.0064,
+          "BUILT": 0.0061,
+          "OCEAN": 0.006,
+          "WETLAND": 0.0034,
+          "MANGROVE": 0.0
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.7048,
+          "TEMPERATE": 0.1206,
+          "COLD": 0.1031,
+          "POLAR": 0.0715
+        },
+        "elevation_ratio": {
+          "MID": 0.3513,
+          "LOW": 0.298,
+          "ULTRA": 0.2355,
+          "HIGH": 0.1151
+        },
+        "precip_ratio": {
+          "LOW": 0.3933,
+          "MID": 0.2759,
+          "ARID": 0.2089,
+          "WET": 0.1219
+        },
+        "flags_ratio": {
+          "water": 0.8075,
+          "cropland": 0.3933,
+          "forest": 0.293,
+          "ice": 0.0279,
+          "built": 0.0061
+        },
+        "cell_bbox_xy": {
+          "min_x": 5954,
+          "max_x": 6656,
+          "min_y": 1308,
+          "max_y": 1949
+        },
+        "cell_centroid": {
+          "x": 6213.049,
+          "y": 1462.14,
+          "lon": 78.897868,
+          "lat": 29.056669
+        }
+      }
+    },
+    {
+      "id": "IND-02",
+      "area_id": 287,
+      "area_seq_in_source": 2,
+      "name": "インド西部",
+      "name_en": "Western India",
+      "reason": "タール砂漠、グジャラート州の海岸線、ラジャスタン州の砂漠地帯などの地理的特徴を持つ。",
+      "geometry_wkt": "POLYGON((68.0 28.0, 77.0 28.0, 77.0 20.0, 68.0 20.0, 68.0 28.0))",
+      "bbox": {
+        "minx": 68.0,
+        "maxx": 77.0,
+        "miny": 20.0,
+        "maxy": 28.0
+      },
+      "centroid": {
+        "x": 72.5,
+        "y": 24.0
+      },
+      "size": {
+        "width": 9.0,
+        "height": 8.0
+      },
+      "relative_position": {
+        "x_norm": 0.1512,
+        "y_norm": 0.6219,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "IND-01",
+          "IND-03",
+          "IND-04",
+          "IND-05",
+          "IND-06",
+          "IND-07",
+          "IND-08"
+        ],
+        "east_of": [],
+        "north_of": [
+          "IND-03",
+          "IND-05",
+          "IND-06",
+          "IND-07",
+          "IND-08"
+        ],
+        "south_of": [
+          "IND-01",
+          "IND-04"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 27055,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "CROPLAND": 0.6949,
+          "GRASS": 0.0949,
+          "OCEAN": 0.0864,
+          "TREE": 0.0494,
+          "SHRUB": 0.0449,
+          "WATER": 0.0127,
+          "BARE": 0.0108,
+          "BUILT": 0.0055,
+          "MANGROVE": 0.0004,
+          "WETLAND": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.999,
+          "TEMPERATE": 0.0009,
+          "POLAR": 0.0
+        },
+        "elevation_ratio": {
+          "MID": 0.581,
+          "LOW": 0.4147,
+          "HIGH": 0.0042
+        },
+        "precip_ratio": {
+          "LOW": 0.8267,
+          "MID": 0.1597,
+          "WET": 0.012,
+          "ARID": 0.0016
+        },
+        "flags_ratio": {
+          "water": 0.7242,
+          "cropland": 0.696,
+          "forest": 0.0949,
+          "built": 0.0055
+        },
+        "cell_bbox_xy": {
+          "min_x": 5948,
+          "max_x": 6167,
+          "min_y": 1488,
+          "max_y": 1679
+        },
+        "cell_centroid": {
+          "x": 6087.935,
+          "y": 1597.613,
+          "lon": 73.684774,
+          "lat": 23.411969
+        }
+      }
+    },
+    {
+      "id": "IND-03",
+      "area_id": 288,
+      "area_seq_in_source": 3,
+      "name": "インド中央部",
+      "name_en": "Central India",
+      "reason": "デカン高原北部に位置し、広大な平野と高原が混在する地域。文化や経済の中心地でもある。",
+      "geometry_wkt": "POLYGON ((77.000000 28.000000, 87.714844 28.000000, 87.714844 19.973349, 77.000000 19.973349, 77.000000 28.000000))",
+      "bbox": {
+        "minx": 77.0,
+        "maxx": 87.714844,
+        "miny": 19.973349,
+        "maxy": 28.0
+      },
+      "centroid": {
+        "x": 82.357422,
+        "y": 23.986674
+      },
+      "size": {
+        "width": 10.714844,
+        "height": 8.026651
+      },
+      "relative_position": {
+        "x_norm": 0.4825,
+        "y_norm": 0.6214,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "IND-04",
+          "IND-08"
+        ],
+        "east_of": [
+          "IND-01",
+          "IND-02",
+          "IND-05",
+          "IND-06",
+          "IND-07"
+        ],
+        "north_of": [
+          "IND-05",
+          "IND-06",
+          "IND-07",
+          "IND-08"
+        ],
+        "south_of": [
+          "IND-01",
+          "IND-02",
+          "IND-04"
+        ],
+        "overlaps": [
+          {
+            "id": "IND-04",
+            "x_overlap": 0.021973,
+            "y_overlap": 8.026651
+          },
+          {
+            "id": "IND-06",
+            "x_overlap": 9.879883,
+            "y_overlap": 0.026651
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 43999,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "CROPLAND": 0.6813,
+          "TREE": 0.232,
+          "GRASS": 0.0608,
+          "OCEAN": 0.0131,
+          "WATER": 0.0058,
+          "BUILT": 0.0047,
+          "SHRUB": 0.0019,
+          "BARE": 0.0003,
+          "MANGROVE": 0.0002,
+          "WETLAND": 0.0
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.5856,
+          "LOW": 0.3998,
+          "HIGH": 0.0146
+        },
+        "precip_ratio": {
+          "MID": 0.7428,
+          "LOW": 0.2556,
+          "WET": 0.0016
+        },
+        "flags_ratio": {
+          "water": 0.8172,
+          "cropland": 0.6814,
+          "forest": 0.2341,
+          "built": 0.0047
+        },
+        "cell_bbox_xy": {
+          "min_x": 6168,
+          "max_x": 6425,
+          "min_y": 1488,
+          "max_y": 1686
+        },
+        "cell_centroid": {
+          "x": 6288.84,
+          "y": 1592.33,
+          "lon": 82.055852,
+          "lat": 23.632071
+        }
+      }
+    },
+    {
+      "id": "IND-04",
+      "area_id": 289,
+      "area_seq_in_source": 4,
+      "name": "インド東部",
+      "name_en": "Eastern India",
+      "reason": "ベンガル湾に面し、ガンジス川デルタ地帯や森林地帯を含む。多様な文化と民族が混在する。",
+      "geometry_wkt": "POLYGON ((87.692871 29.630771, 97.756348 29.630771, 97.756348 19.952696, 87.692871 19.952696, 87.692871 29.630771))",
+      "bbox": {
+        "minx": 87.692871,
+        "maxx": 97.756348,
+        "miny": 19.952696,
+        "maxy": 29.630771
+      },
+      "centroid": {
+        "x": 92.724609,
+        "y": 24.791733
+      },
+      "size": {
+        "width": 10.063477,
+        "height": 9.678075
+      },
+      "relative_position": {
+        "x_norm": 0.8309,
+        "y_norm": 0.6467,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "IND-08"
+        ],
+        "east_of": [
+          "IND-01",
+          "IND-02",
+          "IND-03",
+          "IND-05",
+          "IND-06",
+          "IND-07"
+        ],
+        "north_of": [
+          "IND-02",
+          "IND-03",
+          "IND-05",
+          "IND-06",
+          "IND-07",
+          "IND-08"
+        ],
+        "south_of": [
+          "IND-01"
+        ],
+        "overlaps": [
+          {
+            "id": "IND-03",
+            "x_overlap": 0.021973,
+            "y_overlap": 8.026651
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 11463,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.5663,
+          "CROPLAND": 0.311,
+          "OCEAN": 0.0401,
+          "WATER": 0.0252,
+          "GRASS": 0.0192,
+          "SNOW_ICE": 0.0104,
+          "MOSS_LICHEN": 0.0104,
+          "MANGROVE": 0.0099,
+          "BARE": 0.0042,
+          "BUILT": 0.0032
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.7816,
+          "TEMPERATE": 0.1661,
+          "COLD": 0.0491,
+          "POLAR": 0.0032
+        },
+        "elevation_ratio": {
+          "LOW": 0.5489,
+          "HIGH": 0.1698,
+          "MID": 0.1438,
+          "ULTRA": 0.1376
+        },
+        "precip_ratio": {
+          "MID": 0.4901,
+          "WET": 0.4188,
+          "LOW": 0.091,
+          "ARID": 0.0001
+        },
+        "flags_ratio": {
+          "water": 0.9485,
+          "forest": 0.5768,
+          "cropland": 0.3112,
+          "ice": 0.0104,
+          "built": 0.0032
+        },
+        "cell_bbox_xy": {
+          "min_x": 6425,
+          "max_x": 6637,
+          "min_y": 1455,
+          "max_y": 1652
+        },
+        "cell_centroid": {
+          "x": 6511.386,
+          "y": 1541.138,
+          "lon": 91.328595,
+          "lat": 25.765094
+        }
+      }
+    },
+    {
+      "id": "IND-05",
+      "area_id": 290,
+      "area_seq_in_source": 5,
+      "name": "インド南西部",
+      "name_en": "Southwestern India",
+      "reason": "デカン高原の西部、西ガーツ山脈に沿った地域。豊かな自然と独自の文化を持つ。",
+      "geometry_wkt": "POLYGON ((71.411133 20.000000, 77.000000 20.000000, 77.000000 9.903921, 71.411133 9.903921, 71.411133 20.000000))",
+      "bbox": {
+        "minx": 71.411133,
+        "maxx": 77.0,
+        "miny": 9.903921,
+        "maxy": 20.0
+      },
+      "centroid": {
+        "x": 74.205567,
+        "y": 14.951961
+      },
+      "size": {
+        "width": 5.588867,
+        "height": 10.096079
+      },
+      "relative_position": {
+        "x_norm": 0.2085,
+        "y_norm": 0.3375,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "IND-01",
+          "IND-03",
+          "IND-04",
+          "IND-06",
+          "IND-07",
+          "IND-08"
+        ],
+        "east_of": [
+          "IND-02"
+        ],
+        "north_of": [
+          "IND-07",
+          "IND-08"
+        ],
+        "south_of": [
+          "IND-01",
+          "IND-02",
+          "IND-03",
+          "IND-04",
+          "IND-06"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 19361,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "CROPLAND": 0.4957,
+          "TREE": 0.262,
+          "OCEAN": 0.1545,
+          "GRASS": 0.0485,
+          "SHRUB": 0.0232,
+          "WATER": 0.0095,
+          "BUILT": 0.0061,
+          "MANGROVE": 0.0003,
+          "WETLAND": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9967,
+          "TEMPERATE": 0.0033
+        },
+        "elevation_ratio": {
+          "MID": 0.6301,
+          "LOW": 0.2843,
+          "HIGH": 0.0841,
+          "ULTRA": 0.0015
+        },
+        "precip_ratio": {
+          "LOW": 0.5257,
+          "WET": 0.2399,
+          "MID": 0.2344
+        },
+        "flags_ratio": {
+          "water": 0.815,
+          "cropland": 0.4958,
+          "forest": 0.2866,
+          "built": 0.0063,
+          "reef": 0.001
+        },
+        "cell_bbox_xy": {
+          "min_x": 6042,
+          "max_x": 6167,
+          "min_y": 1677,
+          "max_y": 1923
+        },
+        "cell_centroid": {
+          "x": 6122.564,
+          "y": 1779.322,
+          "lon": 75.127652,
+          "lat": 15.840742
+        }
+      }
+    },
+    {
+      "id": "IND-06",
+      "area_id": 291,
+      "area_seq_in_source": 6,
+      "name": "インド南東部",
+      "name_en": "Southeastern India",
+      "reason": "デカン高原の東部、東ガーツ山脈に沿った地域。海岸線に沿って平野部が広がる。",
+      "geometry_wkt": "POLYGON ((77.000000 20.000000, 86.879883 20.000000, 86.879883 9.947209, 77.000000 9.947209, 77.000000 20.000000))",
+      "bbox": {
+        "minx": 77.0,
+        "maxx": 86.879883,
+        "miny": 9.947209,
+        "maxy": 20.0
+      },
+      "centroid": {
+        "x": 81.939942,
+        "y": 14.973605
+      },
+      "size": {
+        "width": 9.879883,
+        "height": 10.052791
+      },
+      "relative_position": {
+        "x_norm": 0.4685,
+        "y_norm": 0.3381,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "IND-03",
+          "IND-04",
+          "IND-08"
+        ],
+        "east_of": [
+          "IND-01",
+          "IND-02",
+          "IND-05",
+          "IND-07"
+        ],
+        "north_of": [
+          "IND-05",
+          "IND-07",
+          "IND-08"
+        ],
+        "south_of": [
+          "IND-01",
+          "IND-02",
+          "IND-03",
+          "IND-04"
+        ],
+        "overlaps": [
+          {
+            "id": "IND-03",
+            "x_overlap": 9.879883,
+            "y_overlap": 0.026651
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 29277,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "CROPLAND": 0.5159,
+          "TREE": 0.2662,
+          "OCEAN": 0.1199,
+          "SHRUB": 0.0458,
+          "GRASS": 0.0337,
+          "WATER": 0.0098,
+          "BUILT": 0.0072,
+          "BARE": 0.0006,
+          "MANGROVE": 0.0006,
+          "WETLAND": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9984,
+          "TEMPERATE": 0.0016
+        },
+        "elevation_ratio": {
+          "MID": 0.5239,
+          "LOW": 0.4233,
+          "HIGH": 0.0523,
+          "ULTRA": 0.0006
+        },
+        "precip_ratio": {
+          "MID": 0.5286,
+          "LOW": 0.4701,
+          "WET": 0.0013
+        },
+        "flags_ratio": {
+          "water": 0.7493,
+          "cropland": 0.5163,
+          "forest": 0.3129,
+          "built": 0.0072
+        },
+        "cell_bbox_xy": {
+          "min_x": 6168,
+          "max_x": 6399,
+          "min_y": 1680,
+          "max_y": 1925
+        },
+        "cell_centroid": {
+          "x": 6238.062,
+          "y": 1774.368,
+          "lon": 79.940075,
+          "lat": 16.047157
+        }
+      }
+    },
+    {
+      "id": "IND-07",
+      "area_id": 292,
+      "area_seq_in_source": 7,
+      "name": "インド南部",
+      "name_en": "Southern India",
+      "reason": "インド半島の最南端に位置し、地理的、文化的に他の地域と区別される。",
+      "geometry_wkt": "POLYGON ((71.674805 9.903921, 80.156250 9.903921, 80.156250 6.686431, 71.674805 6.686431, 71.674805 9.903921))",
+      "bbox": {
+        "minx": 71.674805,
+        "maxx": 80.15625,
+        "miny": 6.686431,
+        "maxy": 9.903921
+      },
+      "centroid": {
+        "x": 75.915527,
+        "y": 8.295176
+      },
+      "size": {
+        "width": 8.481445,
+        "height": 3.21749
+      },
+      "relative_position": {
+        "x_norm": 0.266,
+        "y_norm": 0.1282,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "IND-01",
+          "IND-03",
+          "IND-04",
+          "IND-06",
+          "IND-08"
+        ],
+        "east_of": [
+          "IND-02",
+          "IND-05"
+        ],
+        "north_of": [],
+        "south_of": [
+          "IND-01",
+          "IND-02",
+          "IND-03",
+          "IND-04",
+          "IND-05",
+          "IND-06",
+          "IND-08"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 3588,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.4585,
+          "TREE": 0.2651,
+          "CROPLAND": 0.1906,
+          "GRASS": 0.0348,
+          "SHRUB": 0.0315,
+          "WATER": 0.0139,
+          "BUILT": 0.0042,
+          "WETLAND": 0.0008,
+          "BARE": 0.0006
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9997,
+          "POLAR": 0.0003
+        },
+        "elevation_ratio": {
+          "LOW": 0.8779,
+          "MID": 0.0764,
+          "HIGH": 0.0457
+        },
+        "precip_ratio": {
+          "MID": 0.5711,
+          "LOW": 0.2907,
+          "WET": 0.138,
+          "ARID": 0.0003
+        },
+        "flags_ratio": {
+          "water": 0.8804,
+          "forest": 0.2968,
+          "cropland": 0.1912,
+          "built": 0.0042,
+          "reef": 0.0008
+        },
+        "cell_bbox_xy": {
+          "min_x": 6063,
+          "max_x": 6227,
+          "min_y": 1922,
+          "max_y": 1975
+        },
+        "cell_centroid": {
+          "x": 6171.956,
+          "y": 1944.632,
+          "lon": 77.185665,
+          "lat": 8.952829
+        }
+      }
+    },
+    {
+      "id": "IND-08",
+      "area_id": 293,
+      "area_seq_in_source": 8,
+      "name": "インド島嶼部",
+      "name_en": "islands",
+      "reason": "アンダマン・ニコバル諸島",
+      "geometry_wkt": "POLYGON ((90.527344 16.045813, 95.976563 16.045813, 95.976563 4.214943, 90.527344 4.214943, 90.527344 16.045813))",
+      "bbox": {
+        "minx": 90.527344,
+        "maxx": 95.976563,
+        "miny": 4.214943,
+        "maxy": 16.045813
+      },
+      "centroid": {
+        "x": 93.251953,
+        "y": 10.130378
+      },
+      "size": {
+        "width": 5.449219,
+        "height": 11.83087
+      },
+      "relative_position": {
+        "x_norm": 0.8486,
+        "y_norm": 0.1859,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "IND-01",
+          "IND-02",
+          "IND-03",
+          "IND-04",
+          "IND-05",
+          "IND-06",
+          "IND-07"
+        ],
+        "north_of": [
+          "IND-07"
+        ],
+        "south_of": [
+          "IND-01",
+          "IND-02",
+          "IND-03",
+          "IND-04",
+          "IND-05",
+          "IND-06"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 4465,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9214,
+          "TREE": 0.062,
+          "WATER": 0.0152,
+          "MANGROVE": 0.0011,
+          "GRASS": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9993,
+          "POLAR": 0.0007
+        },
+        "elevation_ratio": {
+          "LOW": 0.9978,
+          "MID": 0.0022
+        },
+        "precip_ratio": {
+          "MID": 0.9214,
+          "WET": 0.0779,
+          "ARID": 0.0007
+        },
+        "flags_ratio": {
+          "water": 0.9731,
+          "forest": 0.0694
+        },
+        "cell_bbox_xy": {
+          "min_x": 6524,
+          "max_x": 6583,
+          "min_y": 1828,
+          "max_y": 2007
+        },
+        "cell_centroid": {
+          "x": 6553.437,
+          "y": 1912.956,
+          "lon": 93.080706,
+          "lat": 10.272672
+        }
+      }
+    }
+  ]
+}

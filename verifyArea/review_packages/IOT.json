@@ -1,0 +1,86 @@
+{
+  "iso_a3": "IOT",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": 72.0,
+    "maxx": 73.0,
+    "miny": -8.0,
+    "maxy": 7.0
+  },
+  "areas": [
+    {
+      "id": "DGA-01",
+      "area_id": 294,
+      "area_seq_in_source": 1,
+      "name": "ディエゴ・ガルシア島",
+      "name_en": "Diego Garcia Island",
+      "reason": "ディエゴ・ガルシア島は、インド洋の中心に位置する単一の環礁であり、地理的・政治的に一つのまとまりを形成しているため。",
+      "geometry_wkt": "POLYGON ((73.0 7.0, 72.0 7.0, 72.0 -8.0, 73.0 -8.0, 73.0 7.0))",
+      "bbox": {
+        "minx": 72.0,
+        "maxx": 73.0,
+        "miny": -8.0,
+        "maxy": 7.0
+      },
+      "centroid": {
+        "x": 72.5,
+        "y": -0.5
+      },
+      "size": {
+        "width": 1.0,
+        "height": 15.0
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 951,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9968,
+          "WATER": 0.0032
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9968,
+          "WET": 0.0032
+        },
+        "flags_ratio": {
+          "water": 1.0,
+          "reef": 0.0084
+        },
+        "cell_bbox_xy": {
+          "min_x": 6022,
+          "max_x": 6068,
+          "min_y": 2280,
+          "max_y": 2346
+        },
+        "cell_centroid": {
+          "x": 6044.0,
+          "y": 2311.333,
+          "lon": 71.854167,
+          "lat": -6.326389
+        }
+      }
+    }
+  ]
+}

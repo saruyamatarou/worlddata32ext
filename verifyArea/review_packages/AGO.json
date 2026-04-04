@@ -1,0 +1,371 @@
+{
+  "iso_a3": "AGO",
+  "area_count": 4,
+  "country_bbox": {
+    "minx": 10.678711,
+    "maxx": 24.5,
+    "miny": -18.16673,
+    "maxy": -4.258768
+  },
+  "areas": [
+    {
+      "id": "AGO-01",
+      "area_id": 6,
+      "area_seq_in_source": 1,
+      "name": "北部沿岸地域",
+      "name_en": "Northern Coastal Region",
+      "reason": "首都ルアンダを含み、経済活動の中心地であり、カビンダ州へのアクセスを考慮した地域。",
+      "geometry_wkt": "POLYGON ((10.700684 -4.258768, 17.556152 -4.258768, 17.556152 -12.254128, 10.700684 -12.254128, 10.700684 -4.258768))",
+      "bbox": {
+        "minx": 10.700684,
+        "maxx": 17.556152,
+        "miny": -12.254128,
+        "maxy": -4.258768
+      },
+      "centroid": {
+        "x": 14.128418,
+        "y": -8.256448
+      },
+      "size": {
+        "width": 6.855468,
+        "height": 7.99536
+      },
+      "relative_position": {
+        "x_norm": 0.2496,
+        "y_norm": 0.7126,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "AGO-02",
+          "AGO-04"
+        ],
+        "east_of": [
+          "AGO-03"
+        ],
+        "north_of": [
+          "AGO-02",
+          "AGO-03",
+          "AGO-04"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "AGO-02",
+            "x_overlap": 0.021972,
+            "y_overlap": 0.754128
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 38598,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.4211,
+          "GRASS": 0.3513,
+          "SHRUB": 0.1512,
+          "OCEAN": 0.0497,
+          "CROPLAND": 0.0101,
+          "WETLAND": 0.009,
+          "BARE": 0.0044,
+          "WATER": 0.0016,
+          "BUILT": 0.0012,
+          "MANGROVE": 0.0004
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9995,
+          "TEMPERATE": 0.0005
+        },
+        "elevation_ratio": {
+          "HIGH": 0.7271,
+          "MID": 0.1603,
+          "LOW": 0.1124,
+          "ULTRA": 0.0002
+        },
+        "precip_ratio": {
+          "MID": 0.7545,
+          "LOW": 0.2388,
+          "ARID": 0.0067
+        },
+        "flags_ratio": {
+          "water": 0.7581,
+          "forest": 0.5727,
+          "cropland": 0.0101,
+          "built": 0.0012
+        },
+        "cell_bbox_xy": {
+          "min_x": 4592,
+          "max_x": 4896,
+          "min_y": 2265,
+          "max_y": 2592
+        },
+        "cell_centroid": {
+          "x": 4743.155,
+          "y": 2415.605,
+          "lon": 17.652309,
+          "lat": -10.671021
+        }
+      }
+    },
+    {
+      "id": "AGO-02",
+      "area_id": 7,
+      "area_seq_in_source": 2,
+      "name": "中央高地",
+      "name_en": "Central Highlands",
+      "reason": "国土の約3分の2を占める高原地帯で、鉱物資源や農業のポテンシャルが高く、主要都市も点在するため。",
+      "geometry_wkt": "POLYGON ((17.534180 -11.500000, 24.257813 -11.500000, 24.257813 -18.166730, 17.534180 -18.166730, 17.534180 -11.500000))",
+      "bbox": {
+        "minx": 17.53418,
+        "maxx": 24.257813,
+        "miny": -18.16673,
+        "maxy": -11.5
+      },
+      "centroid": {
+        "x": 20.895996,
+        "y": -14.833365
+      },
+      "size": {
+        "width": 6.723633,
+        "height": 6.66673
+      },
+      "relative_position": {
+        "x_norm": 0.7392,
+        "y_norm": 0.2397,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "AGO-04"
+        ],
+        "east_of": [
+          "AGO-01",
+          "AGO-03"
+        ],
+        "north_of": [
+          "AGO-03"
+        ],
+        "south_of": [
+          "AGO-01",
+          "AGO-04"
+        ],
+        "overlaps": [
+          {
+            "id": "AGO-01",
+            "x_overlap": 0.021972,
+            "y_overlap": 0.754128
+          },
+          {
+            "id": "AGO-04",
+            "x_overlap": 6.679688,
+            "y_overlap": 0.001557
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 9984,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.5051,
+          "SHRUB": 0.425,
+          "GRASS": 0.0516,
+          "WETLAND": 0.0181,
+          "BUILT": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "HIGH": 1.0
+        },
+        "precip_ratio": {
+          "LOW": 0.6668,
+          "MID": 0.3332
+        },
+        "flags_ratio": {
+          "forest": 0.9301,
+          "water": 0.6888,
+          "built": 0.0002
+        },
+        "cell_bbox_xy": {
+          "min_x": 4741,
+          "max_x": 4844,
+          "min_y": 2467,
+          "max_y": 2562
+        },
+        "cell_centroid": {
+          "x": 4792.5,
+          "y": 2514.5,
+          "lon": 19.708333,
+          "lat": -14.791667
+        }
+      }
+    },
+    {
+      "id": "AGO-03",
+      "area_id": 8,
+      "area_seq_in_source": 3,
+      "name": "南部砂漠・高原地域",
+      "name_en": "Southern Desert and Plateau Region",
+      "reason": "ナミビアとの国境に接し、ナミブ砂漠を含む乾燥地帯と、その北に広がる高原地帯を合わせた地域。",
+      "geometry_wkt": "POLYGON ((10.678711 -12.275599, 17.490234 -12.275599, 17.490234 -17.916023, 10.678711 -17.916023, 10.678711 -12.275599))",
+      "bbox": {
+        "minx": 10.678711,
+        "maxx": 17.490234,
+        "miny": -17.916023,
+        "maxy": -12.275599
+      },
+      "centroid": {
+        "x": 14.084473,
+        "y": -15.095811
+      },
+      "size": {
+        "width": 6.811523,
+        "height": 5.640424
+      },
+      "relative_position": {
+        "x_norm": 0.2464,
+        "y_norm": 0.2208,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "AGO-01",
+          "AGO-02",
+          "AGO-04"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "AGO-01",
+          "AGO-02",
+          "AGO-04"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 14304,
+        "dominant_landcover": "SHRUB",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "SHRUB": 0.4922,
+          "TREE": 0.1971,
+          "OCEAN": 0.0922,
+          "CROPLAND": 0.0849,
+          "GRASS": 0.0675,
+          "BARE": 0.061,
+          "WATER": 0.0037,
+          "BUILT": 0.0009,
+          "WETLAND": 0.0005
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9836,
+          "TEMPERATE": 0.0164
+        },
+        "elevation_ratio": {
+          "HIGH": 0.7092,
+          "MID": 0.1641,
+          "LOW": 0.1238,
+          "ULTRA": 0.0029
+        },
+        "precip_ratio": {
+          "LOW": 0.5489,
+          "MID": 0.3633,
+          "ARID": 0.0878
+        },
+        "flags_ratio": {
+          "water": 0.7462,
+          "forest": 0.6894,
+          "cropland": 0.0849,
+          "built": 0.0009
+        },
+        "cell_bbox_xy": {
+          "min_x": 4590,
+          "max_x": 4739,
+          "min_y": 2450,
+          "max_y": 2564
+        },
+        "cell_centroid": {
+          "x": 4669.876,
+          "y": 2512.032,
+          "lon": 14.599011,
+          "lat": -14.688831
+        }
+      }
+    },
+    {
+      "id": "AGO-04",
+      "area_id": 9,
+      "area_seq_in_source": 4,
+      "name": "東部内陸地域",
+      "name_en": "Eastern Interior Region",
+      "reason": "ザンビア、コンゴ民主共和国と接する広大な内陸部で、多様な民族文化や河川系が存在するため。",
+      "geometry_wkt": "POLYGON ((17.578125 -5.500000, 24.500000 -5.500000, 24.500000 -11.501557, 17.578125 -11.501557, 17.578125 -5.500000))",
+      "bbox": {
+        "minx": 17.578125,
+        "maxx": 24.5,
+        "miny": -11.501557,
+        "maxy": -5.5
+      },
+      "centroid": {
+        "x": 21.039062,
+        "y": -8.500778
+      },
+      "size": {
+        "width": 6.921875,
+        "height": 6.001557
+      },
+      "relative_position": {
+        "x_norm": 0.7496,
+        "y_norm": 0.695,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "AGO-01",
+          "AGO-02",
+          "AGO-03"
+        ],
+        "north_of": [
+          "AGO-02",
+          "AGO-03"
+        ],
+        "south_of": [
+          "AGO-01"
+        ],
+        "overlaps": [
+          {
+            "id": "AGO-02",
+            "x_overlap": 6.679688,
+            "y_overlap": 0.001557
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    }
+  ]
+}

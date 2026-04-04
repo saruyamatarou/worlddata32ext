@@ -1,0 +1,282 @@
+{
+  "iso_a3": "ZMB",
+  "area_count": 3,
+  "country_bbox": {
+    "minx": 21.862793,
+    "maxx": 33.903809,
+    "miny": -18.145852,
+    "maxy": -8.0
+  },
+  "areas": [
+    {
+      "id": "ZMB-01",
+      "area_id": 699,
+      "area_seq_in_source": 1,
+      "name": "北部高地・カッパーベルト地域",
+      "name_en": "Northern Highlands & Copperbelt Region",
+      "reason": "この地域は、コンゴ盆地からの影響を受けた文化と、国の経済を支える主要な銅鉱山が存在する地域である。また、標高が高く、冷涼な気候を持つ。",
+      "geometry_wkt": "POLYGON ((28.190918 -8.000000, 33.903809 -8.000000, 33.903809 -12.211180, 28.190918 -12.211180, 28.190918 -8.000000))",
+      "bbox": {
+        "minx": 28.190918,
+        "maxx": 33.903809,
+        "miny": -12.21118,
+        "maxy": -8.0
+      },
+      "centroid": {
+        "x": 31.047364,
+        "y": -10.10559
+      },
+      "size": {
+        "width": 5.712891,
+        "height": 4.21118
+      },
+      "relative_position": {
+        "x_norm": 0.7628,
+        "y_norm": 0.7925,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "ZMB-02",
+          "ZMB-03"
+        ],
+        "north_of": [
+          "ZMB-02",
+          "ZMB-03"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 12348,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.4807,
+          "SHRUB": 0.2281,
+          "GRASS": 0.164,
+          "WETLAND": 0.0493,
+          "WATER": 0.045,
+          "CROPLAND": 0.031,
+          "BUILT": 0.0019
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9985,
+          "TEMPERATE": 0.0015
+        },
+        "elevation_ratio": {
+          "HIGH": 0.8737,
+          "MID": 0.1263
+        },
+        "precip_ratio": {
+          "MID": 0.6773,
+          "LOW": 0.3227
+        },
+        "flags_ratio": {
+          "forest": 0.7088,
+          "water": 0.6976,
+          "cropland": 0.031,
+          "built": 0.0019
+        },
+        "cell_bbox_xy": {
+          "min_x": 4926,
+          "max_x": 5127,
+          "min_y": 2357,
+          "max_y": 2593
+        },
+        "cell_centroid": {
+          "x": 5044.126,
+          "y": 2441.06,
+          "lon": 30.192747,
+          "lat": -11.731667
+        }
+      }
+    },
+    {
+      "id": "ZMB-02",
+      "area_id": 700,
+      "area_seq_in_source": 2,
+      "name": "中部高原・農業地帯",
+      "name_en": "Central Plateau & Agricultural Zone",
+      "reason": "ザンベジ川流域の一部を含み、農業が盛んな地域。首都ルサカもこの地域に位置し、人口が集中している。",
+      "geometry_wkt": "POLYGON ((28.179932 -12.232655, 33.717041 -12.232655, 33.717041 -17.098792, 28.179932 -17.098792, 28.179932 -12.232655))",
+      "bbox": {
+        "minx": 28.179932,
+        "maxx": 33.717041,
+        "miny": -17.098792,
+        "maxy": -12.232655
+      },
+      "centroid": {
+        "x": 30.948487,
+        "y": -14.665723
+      },
+      "size": {
+        "width": 5.537109,
+        "height": 4.866137
+      },
+      "relative_position": {
+        "x_norm": 0.7546,
+        "y_norm": 0.343,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ZMB-01"
+        ],
+        "east_of": [
+          "ZMB-03"
+        ],
+        "north_of": [],
+        "south_of": [
+          "ZMB-01",
+          "ZMB-03"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 6486,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.5042,
+          "SHRUB": 0.2128,
+          "CROPLAND": 0.1736,
+          "GRASS": 0.1055,
+          "BUILT": 0.0031,
+          "WATER": 0.0006,
+          "WETLAND": 0.0002,
+          "BARE": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9998,
+          "TEMPERATE": 0.0002
+        },
+        "elevation_ratio": {
+          "HIGH": 0.7185,
+          "MID": 0.2815
+        },
+        "precip_ratio": {
+          "LOW": 0.634,
+          "MID": 0.366
+        },
+        "flags_ratio": {
+          "forest": 0.7169,
+          "water": 0.6559,
+          "cropland": 0.1736,
+          "built": 0.0031
+        },
+        "cell_bbox_xy": {
+          "min_x": 4996,
+          "max_x": 5124,
+          "min_y": 2454,
+          "max_y": 2525
+        },
+        "cell_centroid": {
+          "x": 5051.969,
+          "y": 2487.213,
+          "lon": 30.519536,
+          "lat": -13.654705
+        }
+      }
+    },
+    {
+      "id": "ZMB-03",
+      "area_id": 701,
+      "area_seq_in_source": 3,
+      "name": "南部・ザンベジ川流域",
+      "name_en": "Southern & Zambezi River Basin",
+      "reason": "ザンベジ川が国境の一部を形成し、ビクトリアの滝などの観光資源がある。また、ジンバブエとの交易や文化交流が盛んな地域。",
+      "geometry_wkt": "POLYGON ((21.862793 -10.725381, 28.168945 -10.725381, 28.168945 -18.145852, 21.862793 -18.145852, 21.862793 -10.725381))",
+      "bbox": {
+        "minx": 21.862793,
+        "maxx": 28.168945,
+        "miny": -18.145852,
+        "maxy": -10.725381
+      },
+      "centroid": {
+        "x": 25.015869,
+        "y": -14.435617
+      },
+      "size": {
+        "width": 6.306152,
+        "height": 7.420471
+      },
+      "relative_position": {
+        "x_norm": 0.2619,
+        "y_norm": 0.3657,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ZMB-01",
+          "ZMB-02"
+        ],
+        "east_of": [],
+        "north_of": [
+          "ZMB-02"
+        ],
+        "south_of": [
+          "ZMB-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 17322,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.6146,
+          "GRASS": 0.1947,
+          "SHRUB": 0.1119,
+          "WETLAND": 0.043,
+          "CROPLAND": 0.0337,
+          "WATER": 0.0013,
+          "BUILT": 0.0006,
+          "BARE": 0.0003
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "HIGH": 1.0
+        },
+        "precip_ratio": {
+          "LOW": 0.6471,
+          "MID": 0.3529
+        },
+        "flags_ratio": {
+          "forest": 0.7265,
+          "water": 0.7089,
+          "cropland": 0.0337,
+          "built": 0.0006
+        },
+        "cell_bbox_xy": {
+          "min_x": 4848,
+          "max_x": 4995,
+          "min_y": 2421,
+          "max_y": 2585
+        },
+        "cell_centroid": {
+          "x": 4920.272,
+          "y": 2510.291,
+          "lon": 25.032151,
+          "lat": -14.616297
+        }
+      }
+    }
+  ]
+}

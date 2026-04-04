@@ -1,0 +1,290 @@
+{
+  "iso_a3": "CUB",
+  "area_count": 3,
+  "country_bbox": {
+    "minx": -85.396729,
+    "maxx": -73.432617,
+    "miny": 18.583776,
+    "maxy": 23.865745
+  },
+  "areas": [
+    {
+      "id": "CUB-01",
+      "area_id": 167,
+      "area_seq_in_source": 1,
+      "name": "西部キューバ",
+      "name_en": "Western Cuba",
+      "reason": "ハバナを含むキューバの政治・経済・文化の中心地であり、歴史的建造物も多い地域。",
+      "geometry_wkt": "POLYGON ((-85.396729 23.805450, -82.353516 23.805450, -82.353516 20.694462, -85.396729 20.694462, -85.396729 23.805450))",
+      "bbox": {
+        "minx": -85.396729,
+        "maxx": -82.353516,
+        "miny": 20.694462,
+        "maxy": 23.80545
+      },
+      "centroid": {
+        "x": -83.875123,
+        "y": 22.249956
+      },
+      "size": {
+        "width": 3.043213,
+        "height": 3.110988
+      },
+      "relative_position": {
+        "x_norm": 0.1272,
+        "y_norm": 0.6941,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CUB-02",
+          "CUB-03"
+        ],
+        "east_of": [],
+        "north_of": [
+          "CUB-02",
+          "CUB-03"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 3031,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.7301,
+          "TREE": 0.165,
+          "GRASS": 0.0511,
+          "WATER": 0.0211,
+          "CROPLAND": 0.0158,
+          "MANGROVE": 0.0109,
+          "WETLAND": 0.004,
+          "BUILT": 0.002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9987,
+          "TEMPERATE": 0.0013
+        },
+        "elevation_ratio": {
+          "LOW": 0.9815,
+          "MID": 0.0185
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.835,
+          "forest": 0.1788,
+          "cropland": 0.0158,
+          "reef": 0.004,
+          "built": 0.002
+        },
+        "cell_bbox_xy": {
+          "min_x": 2271,
+          "max_x": 2543,
+          "min_y": 1595,
+          "max_y": 1687
+        },
+        "cell_centroid": {
+          "x": 2319.625,
+          "y": 1627.204,
+          "lon": -83.328144,
+          "lat": 22.179004
+        }
+      }
+    },
+    {
+      "id": "CUB-02",
+      "area_id": 168,
+      "area_seq_in_source": 2,
+      "name": "中部キューバ",
+      "name_en": "Central Cuba",
+      "reason": "サトウキビ農業が盛んな地域であり、キューバの経済を支える農業地帯。",
+      "geometry_wkt": "POLYGON ((-82.330322 23.865745, -78.222656 23.865745, -78.222656 19.777042, -82.330322 19.777042, -82.330322 23.865745))",
+      "bbox": {
+        "minx": -82.330322,
+        "maxx": -78.222656,
+        "miny": 19.777042,
+        "maxy": 23.865745
+      },
+      "centroid": {
+        "x": -80.276489,
+        "y": 21.821393
+      },
+      "size": {
+        "width": 4.107666,
+        "height": 4.088703
+      },
+      "relative_position": {
+        "x_norm": 0.428,
+        "y_norm": 0.613,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "CUB-03"
+        ],
+        "east_of": [
+          "CUB-01"
+        ],
+        "north_of": [
+          "CUB-03"
+        ],
+        "south_of": [
+          "CUB-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 5677,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.6016,
+          "TREE": 0.1892,
+          "GRASS": 0.1279,
+          "WETLAND": 0.0329,
+          "WATER": 0.0225,
+          "CROPLAND": 0.0153,
+          "MANGROVE": 0.0095,
+          "BUILT": 0.0011
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9813,
+          "TEMPERATE": 0.0187
+        },
+        "elevation_ratio": {
+          "LOW": 0.9808,
+          "MID": 0.0187,
+          "HIGH": 0.0005
+        },
+        "precip_ratio": {
+          "MID": 0.9982,
+          "LOW": 0.0018
+        },
+        "flags_ratio": {
+          "water": 0.8573,
+          "forest": 0.1998,
+          "cropland": 0.0153,
+          "reef": 0.0018,
+          "built": 0.0011
+        },
+        "cell_bbox_xy": {
+          "min_x": 2341,
+          "max_x": 2447,
+          "min_y": 1593,
+          "max_y": 1676
+        },
+        "cell_centroid": {
+          "x": 2395.361,
+          "y": 1627.875,
+          "lon": -80.172447,
+          "lat": 22.151044
+        }
+      }
+    },
+    {
+      "id": "CUB-03",
+      "area_id": 169,
+      "area_seq_in_source": 3,
+      "name": "東部キューバ",
+      "name_en": "Eastern Cuba",
+      "reason": "シエラ・マエストラ山脈などの自然が豊かで、歴史的な背景も持つ地域。",
+      "geometry_wkt": "POLYGON ((-78.217316 23.133020, -73.432617 23.133020, -73.432617 18.583776, -78.217316 18.583776, -78.217316 23.133020))",
+      "bbox": {
+        "minx": -78.217316,
+        "maxx": -73.432617,
+        "miny": 18.583776,
+        "maxy": 23.13302
+      },
+      "centroid": {
+        "x": -75.824966,
+        "y": 20.858398
+      },
+      "size": {
+        "width": 4.784699,
+        "height": 4.549244
+      },
+      "relative_position": {
+        "x_norm": 0.8,
+        "y_norm": 0.4306,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "CUB-01",
+          "CUB-02"
+        ],
+        "north_of": [],
+        "south_of": [
+          "CUB-01",
+          "CUB-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 5161,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.5233,
+          "TREE": 0.2996,
+          "GRASS": 0.1391,
+          "WATER": 0.0174,
+          "SHRUB": 0.0064,
+          "MANGROVE": 0.0058,
+          "CROPLAND": 0.0052,
+          "WETLAND": 0.0017,
+          "BUILT": 0.0012,
+          "BARE": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9998,
+          "TEMPERATE": 0.0002
+        },
+        "elevation_ratio": {
+          "LOW": 0.8963,
+          "MID": 0.0982,
+          "HIGH": 0.0054
+        },
+        "precip_ratio": {
+          "MID": 0.9636,
+          "LOW": 0.0296,
+          "WET": 0.0068
+        },
+        "flags_ratio": {
+          "water": 0.7826,
+          "forest": 0.3129,
+          "reef": 0.0099,
+          "cropland": 0.0052,
+          "built": 0.0012
+        },
+        "cell_bbox_xy": {
+          "min_x": 2442,
+          "max_x": 2550,
+          "min_y": 1613,
+          "max_y": 1693
+        },
+        "cell_centroid": {
+          "x": 2484.958,
+          "y": 1662.54,
+          "lon": -76.439252,
+          "lat": 20.706658
+        }
+      }
+    }
+  ]
+}

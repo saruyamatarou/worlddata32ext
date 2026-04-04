@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">ISR review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(34.101563, 29.238477) - (35.991211, 33.523079)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="254.88" y="40.00" width="905.12" height="284.60" fill="none" stroke="black" stroke-width="2"/>
+<text x="258.88" y="56.00" font-size="12" font-family="Arial, sans-serif">ISR-01 | 北イスラエル</text>
+<circle cx="707.44" cy="182.30" r="2.5" fill="black"/>
+<rect x="40.00" y="326.38" width="892.09" height="533.62" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="342.38" font-size="12" font-family="Arial, sans-serif">ISR-02 | 南イスラエル</text>
+<circle cx="486.05" cy="593.19" r="2.5" fill="black"/>
+</svg>

@@ -1,0 +1,84 @@
+{
+  "iso_a3": "BLM",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -63.237305,
+    "maxx": -62.556152,
+    "miny": 17.581194,
+    "maxy": 18.271086
+  },
+  "areas": [
+    {
+      "id": "BLM-01",
+      "area_id": 79,
+      "area_seq_in_source": 1,
+      "name": "サン・バルテルミー島全体",
+      "name_en": "Entire Saint Barthélemy",
+      "reason": "サン・バルテルミー島は単一の島であり、地理的、経済的、文化的に均質であるため、単一のエリアとして定義する。",
+      "geometry_wkt": "POLYGON ((-63.237305 18.271086, -62.556152 18.271086, -62.556152 17.581194, -63.237305 17.581194, -63.237305 18.271086))",
+      "bbox": {
+        "minx": -63.237305,
+        "maxx": -62.556152,
+        "miny": 17.581194,
+        "maxy": 18.271086
+      },
+      "centroid": {
+        "x": -62.896728,
+        "y": 17.92614
+      },
+      "size": {
+        "width": 0.681153,
+        "height": 0.689892
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 159,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9874,
+          "WATER": 0.0126
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 1.0
+        },
+        "cell_bbox_xy": {
+          "min_x": 2805,
+          "max_x": 2822,
+          "min_y": 1722,
+          "max_y": 1736
+        },
+        "cell_centroid": {
+          "x": 2814.881,
+          "y": 1730.057,
+          "lon": -62.692479,
+          "lat": 17.893475
+        }
+      }
+    }
+  ]
+}

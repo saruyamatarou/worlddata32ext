@@ -1,0 +1,50 @@
+[
+  {
+    "id": "SSD-01",
+    "name": "北部サバンナ地域",
+    "name_en": "Northern Savannah Region",
+    "reason": "この地域は、スーダンとの国境に近く、乾燥したサバンナ気候が特徴です。石油資源が豊富であり、経済的に重要なエリアですが、インフラは未整備な部分が多いです。",
+    "geometry_wkt": "POLYGON ((24.000000 12.361466, 34.167480 12.361466, 34.167480 8.722218, 24.000000 8.722218, 24.000000 12.361466))",
+    "area_id": 566,
+    "source_row_index": 566,
+    "iso_a3_source": "SSD",
+    "iso_a3": "SSD",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "SSD-02",
+    "name": "中央湿地・ナイル川流域",
+    "name_en": "Central Wetland and Nile River Basin",
+    "reason": "スーダンの広大な湿地帯（スッド）とナイル川流域が広がる地域です。水資源が豊富で、農業や漁業のポテンシャルがありますが、湿地帯特有のインフラの課題も存在します。",
+    "geometry_wkt": "POLYGON ((28.234863 8.700499, 32.080078 8.700499, 32.080078 3.359889, 28.234863 3.359889, 28.234863 8.700499))",
+    "area_id": 567,
+    "source_row_index": 567,
+    "iso_a3_source": "SSD",
+    "iso_a3": "SSD",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "SSD-03",
+    "name": "東部高原・エチオピア国境地域",
+    "name_en": "Eastern Plateau and Ethiopian Border Region",
+    "reason": "エチオピアとの国境に接する高原地帯で、一部山岳地帯も含まれます。気候は比較的変化に富み、地域によっては農業に適していますが、歴史的に不安定な地域でもあります。",
+    "geometry_wkt": "POLYGON ((32.080078 8.711359, 35.925293 8.711359, 35.925293 3.409241, 32.080078 3.409241, 32.080078 8.711359))",
+    "area_id": 568,
+    "source_row_index": 568,
+    "iso_a3_source": "SSD",
+    "iso_a3": "SSD",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "SSD-04",
+    "name": "南部国境・森林・山岳地域",
+    "name_en": "Southern Border, Forest and Mountain Region",
+    "reason": "ケニア、ウガンダ、コンゴ民主共和国との国境に接する地域で、イマトン山脈などの山岳地帯や森林が含まれます。生物多様性が豊かですが、アクセスが困難な地域もあります。",
+    "geometry_wkt": "POLYGON ((23.999634 8.722218, 28.234863 8.722218, 28.234863 4.182073, 23.999634 4.182073, 23.999634 8.722218))",
+    "area_id": 569,
+    "source_row_index": 569,
+    "iso_a3_source": "SSD",
+    "iso_a3": "SSD",
+    "area_seq_in_source": 4
+  }
+]

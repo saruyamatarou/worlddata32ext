@@ -1,0 +1,26 @@
+[
+  {
+    "id": "SVK-01",
+    "name": "スロバキア西部・経済中心地",
+    "name_en": "Western Slovakia - Economic Center",
+    "reason": "首都ブラチスラバを含み、オーストリアやハンガリーとの国境に近く、経済活動が活発な地域であるため。",
+    "geometry_wkt": "POLYGON ((16.700000 49.624946, 19.160156 49.624946, 19.160156 47.500000, 16.700000 47.500000, 16.700000 49.624946))",
+    "area_id": 573,
+    "source_row_index": 573,
+    "iso_a3_source": "SVK",
+    "iso_a3": "SVK",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "SVK-02",
+    "name": "スロバキア東部・山岳・文化地域",
+    "name_en": "Eastern Slovakia - Mountainous & Cultural Region",
+    "reason": "タトラ山脈などの山岳地帯が広がり、伝統的な文化や自然が色濃く残る地域であるため。",
+    "geometry_wkt": "POLYGON ((19.182129 49.632062, 22.500000 49.632062, 22.500000 47.953145, 19.182129 47.953145, 19.182129 49.632062))",
+    "area_id": 574,
+    "source_row_index": 574,
+    "iso_a3_source": "SVK",
+    "iso_a3": "SVK",
+    "area_seq_in_source": 2
+  }
+]

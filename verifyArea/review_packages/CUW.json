@@ -1,0 +1,90 @@
+{
+  "iso_a3": "CUW",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -69.337463,
+    "maxx": -68.536835,
+    "miny": 11.774603,
+    "maxy": 12.584052
+  },
+  "areas": [
+    {
+      "id": "CUW-01",
+      "area_id": 170,
+      "area_seq_in_source": 1,
+      "name": "キュラソー全域",
+      "name_en": "Entire Curaçao",
+      "reason": "キュラソーは比較的小さな島国であり、地理的・経済的・文化的に均質性が高いため、単一のエリアとして定義するのが適切です。そのため、国境から適切なマージンを設けた矩形で表現します。",
+      "geometry_wkt": "POLYGON ((-69.337463 12.584052, -68.536835 12.584052, -68.536835 11.774603, -69.337463 11.774603, -69.337463 12.584052))",
+      "bbox": {
+        "minx": -69.337463,
+        "maxx": -68.536835,
+        "miny": 11.774603,
+        "maxy": 12.584052
+      },
+      "centroid": {
+        "x": -68.937149,
+        "y": 12.179327
+      },
+      "size": {
+        "width": 0.800628,
+        "height": 0.809449
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 459,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9521,
+          "SHRUB": 0.0196,
+          "BUILT": 0.0109,
+          "TREE": 0.0087,
+          "WATER": 0.0087
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9521,
+          "LOW": 0.0479
+        },
+        "flags_ratio": {
+          "water": 0.9608,
+          "forest": 0.0283,
+          "built": 0.0109
+        },
+        "cell_bbox_xy": {
+          "min_x": 2651,
+          "max_x": 2675,
+          "min_y": 1853,
+          "max_y": 1878
+        },
+        "cell_centroid": {
+          "x": 2662.876,
+          "y": 1865.719,
+          "lon": -69.026008,
+          "lat": 12.240877
+        }
+      }
+    }
+  ]
+}

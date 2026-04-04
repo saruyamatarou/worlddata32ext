@@ -1,0 +1,673 @@
+{
+  "iso_a3": "ALA",
+  "area_count": 10,
+  "country_bbox": {
+    "minx": -180.0,
+    "maxx": 180.0,
+    "miny": 50.0,
+    "maxy": 71.5
+  },
+  "areas": [
+    {
+      "id": "AX-01",
+      "area_id": 11,
+      "area_seq_in_source": 1,
+      "name": "オーランド諸島",
+      "name_en": "Åland Islands",
+      "reason": "オーランド諸島は、フィンランドの自治領でありながら、スウェーデン語を公用語とし、独自の文化と歴史を持つ島嶼群である。地理的にはバルト海に位置し、多数の島々から構成されるため、全体を一つのエリアとして定義する。",
+      "geometry_wkt": "POLYGON ((21.7 60.5, 21.7 59.7, 19.7 59.7, 19.7 60.5, 21.7 60.5))",
+      "bbox": {
+        "minx": 19.7,
+        "maxx": 21.7,
+        "miny": 59.7,
+        "maxy": 60.5
+      },
+      "centroid": {
+        "x": 20.7,
+        "y": 60.1
+      },
+      "size": {
+        "width": 2.0,
+        "height": 0.8
+      },
+      "relative_position": {
+        "x_norm": 0.5575,
+        "y_norm": 0.4698,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "ALA-01",
+          "ALA-02",
+          "ALA-03",
+          "ALA-04",
+          "ALA-05",
+          "ALA-06",
+          "ALA-07",
+          "ALA-08",
+          "ALA-09"
+        ],
+        "north_of": [
+          "ALA-04",
+          "ALA-05",
+          "ALA-06",
+          "ALA-07",
+          "ALA-08"
+        ],
+        "south_of": [
+          "ALA-01",
+          "ALA-02",
+          "ALA-03",
+          "ALA-09"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 1188,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "POLAR",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9209,
+          "TREE": 0.0589,
+          "WATER": 0.0194,
+          "CROPLAND": 0.0008
+        },
+        "temperature_ratio": {
+          "POLAR": 0.5623,
+          "COLD": 0.3586,
+          "TEMPERATE": 0.0791
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9209,
+          "LOW": 0.0791
+        },
+        "flags_ratio": {
+          "water": 0.9402,
+          "forest": 0.0833,
+          "cropland": 0.0008
+        },
+        "cell_bbox_xy": {
+          "min_x": 4780,
+          "max_x": 4831,
+          "min_y": 700,
+          "max_y": 731
+        },
+        "cell_centroid": {
+          "x": 4805.391,
+          "y": 715.835,
+          "lon": 20.245441,
+          "lat": 60.152708
+        }
+      }
+    },
+    {
+      "id": "ALA-01",
+      "area_id": 655,
+      "area_seq_in_source": 1,
+      "name": "北極圏地域",
+      "name_en": "Arctic Region",
+      "reason": "イヌピアット族の伝統的居住地であり、ツンドラ気候と北極海に面した地理的特徴を持つ。",
+      "geometry_wkt": "POLYGON ((180 71.5, -170 71.5, -170 68, 180 68, 180 71.5))",
+      "bbox": {
+        "minx": -170.0,
+        "maxx": 180.0,
+        "miny": 68.0,
+        "maxy": 71.5
+      },
+      "centroid": {
+        "x": 5.0,
+        "y": 69.75
+      },
+      "size": {
+        "width": 350.0,
+        "height": 3.5
+      },
+      "relative_position": {
+        "x_norm": 0.5139,
+        "y_norm": 0.9186,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "AX-01"
+        ],
+        "east_of": [
+          "ALA-02",
+          "ALA-03",
+          "ALA-04",
+          "ALA-05",
+          "ALA-06",
+          "ALA-07",
+          "ALA-08",
+          "ALA-09"
+        ],
+        "north_of": [
+          "AX-01",
+          "ALA-02",
+          "ALA-03",
+          "ALA-04",
+          "ALA-05",
+          "ALA-06",
+          "ALA-07",
+          "ALA-08",
+          "ALA-09"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "ALA-02",
+      "area_id": 656,
+      "area_seq_in_source": 2,
+      "name": "北西地域",
+      "name_en": "Northwest Region",
+      "reason": "ベリング海峡に面し、ユーピック族やイヌピアット族の文化圏と重なる地域。ユーコン・クスコクウィム川流域の一部を含む。",
+      "geometry_wkt": "POLYGON ((-170 68, -155 68, -155 60, -170 60, -170 68))",
+      "bbox": {
+        "minx": -170.0,
+        "maxx": -155.0,
+        "miny": 60.0,
+        "maxy": 68.0
+      },
+      "centroid": {
+        "x": -162.5,
+        "y": 64.0
+      },
+      "size": {
+        "width": 15.0,
+        "height": 8.0
+      },
+      "relative_position": {
+        "x_norm": 0.0486,
+        "y_norm": 0.6512,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "AX-01",
+          "ALA-01",
+          "ALA-03",
+          "ALA-04",
+          "ALA-06",
+          "ALA-07",
+          "ALA-08",
+          "ALA-09"
+        ],
+        "east_of": [
+          "ALA-05"
+        ],
+        "north_of": [
+          "AX-01",
+          "ALA-04",
+          "ALA-05",
+          "ALA-06",
+          "ALA-07",
+          "ALA-08"
+        ],
+        "south_of": [
+          "ALA-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "ALA-03",
+      "area_id": 657,
+      "area_seq_in_source": 3,
+      "name": "内陸部（フェアバンクス周辺）",
+      "name_en": "Interior Region (Fairbanks Area)",
+      "reason": "アサバスカン族の伝統的領域であり、アラスカ山脈とブルックス山脈に挟まれた広大な内陸部。フェアバンクスを経済的中心とする。",
+      "geometry_wkt": "POLYGON ((-155 68, -141 68, -141 60, -155 60, -155 68))",
+      "bbox": {
+        "minx": -155.0,
+        "maxx": -141.0,
+        "miny": 60.0,
+        "maxy": 68.0
+      },
+      "centroid": {
+        "x": -148.0,
+        "y": 64.0
+      },
+      "size": {
+        "width": 14.0,
+        "height": 8.0
+      },
+      "relative_position": {
+        "x_norm": 0.0889,
+        "y_norm": 0.6512,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "AX-01",
+          "ALA-01",
+          "ALA-06",
+          "ALA-09"
+        ],
+        "east_of": [
+          "ALA-02",
+          "ALA-05",
+          "ALA-07",
+          "ALA-08"
+        ],
+        "north_of": [
+          "AX-01",
+          "ALA-04",
+          "ALA-05",
+          "ALA-06",
+          "ALA-07",
+          "ALA-08"
+        ],
+        "south_of": [
+          "ALA-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "ALA-04",
+      "area_id": 658,
+      "area_seq_in_source": 4,
+      "name": "南中央部（アンカレッジ周辺）",
+      "name_en": "Southcentral Region (Anchorage Area)",
+      "reason": "アラスカで最も人口が多く、アンカレッジを中心とする経済・交通の要衝。山脈、湾、火山活動など多様な地形を持つ。",
+      "geometry_wkt": "POLYGON ((-155 60, -141 60, -141 55, -155 55, -155 60))",
+      "bbox": {
+        "minx": -155.0,
+        "maxx": -141.0,
+        "miny": 55.0,
+        "maxy": 60.0
+      },
+      "centroid": {
+        "x": -148.0,
+        "y": 57.5
+      },
+      "size": {
+        "width": 14.0,
+        "height": 5.0
+      },
+      "relative_position": {
+        "x_norm": 0.0889,
+        "y_norm": 0.3488,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "AX-01",
+          "ALA-01",
+          "ALA-06",
+          "ALA-09"
+        ],
+        "east_of": [
+          "ALA-02",
+          "ALA-05",
+          "ALA-07",
+          "ALA-08"
+        ],
+        "north_of": [
+          "ALA-05",
+          "ALA-07"
+        ],
+        "south_of": [
+          "AX-01",
+          "ALA-01",
+          "ALA-02",
+          "ALA-03",
+          "ALA-09"
+        ],
+        "overlaps": [
+          {
+            "id": "ALA-08",
+            "x_overlap": 10.0,
+            "y_overlap": 5.0
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "ALA-05",
+      "area_id": 659,
+      "area_seq_in_source": 5,
+      "name": "アリューシャン列島・南西部",
+      "name_en": "Aleutian Islands & Southwest",
+      "reason": "火山活動が活発なアリューシャン列島と、カトマイ国立公園などを含む南西部の沿岸地域。ユニークな生態系と文化を持つ。",
+      "geometry_wkt": "POLYGON ((-180 55, -170 55, -170 50, -180 50, -180 55))",
+      "bbox": {
+        "minx": -180.0,
+        "maxx": -170.0,
+        "miny": 50.0,
+        "maxy": 55.0
+      },
+      "centroid": {
+        "x": -175.0,
+        "y": 52.5
+      },
+      "size": {
+        "width": 10.0,
+        "height": 5.0
+      },
+      "relative_position": {
+        "x_norm": 0.0139,
+        "y_norm": 0.1163,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "AX-01",
+          "ALA-01",
+          "ALA-02",
+          "ALA-03",
+          "ALA-04",
+          "ALA-06",
+          "ALA-07",
+          "ALA-08",
+          "ALA-09"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "AX-01",
+          "ALA-01",
+          "ALA-02",
+          "ALA-03",
+          "ALA-04",
+          "ALA-06",
+          "ALA-08",
+          "ALA-09"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "ALA-06",
+      "area_id": 660,
+      "area_seq_in_source": 6,
+      "name": "南東部（パンハンドル地域）",
+      "name_en": "Southeast Region (Panhandle)",
+      "reason": "温帯雨林が広がり、トリンギット族、ハイダ族などの文化が色濃く残る地域。フィヨルドと島々が特徴的。",
+      "geometry_wkt": "POLYGON ((-135 60, -130 60, -130 55, -135 55, -135 60))",
+      "bbox": {
+        "minx": -135.0,
+        "maxx": -130.0,
+        "miny": 55.0,
+        "maxy": 60.0
+      },
+      "centroid": {
+        "x": -132.5,
+        "y": 57.5
+      },
+      "size": {
+        "width": 5.0,
+        "height": 5.0
+      },
+      "relative_position": {
+        "x_norm": 0.1319,
+        "y_norm": 0.3488,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "AX-01",
+          "ALA-01"
+        ],
+        "east_of": [
+          "ALA-02",
+          "ALA-03",
+          "ALA-04",
+          "ALA-05",
+          "ALA-07",
+          "ALA-08",
+          "ALA-09"
+        ],
+        "north_of": [
+          "ALA-05",
+          "ALA-07"
+        ],
+        "south_of": [
+          "AX-01",
+          "ALA-01",
+          "ALA-02",
+          "ALA-03",
+          "ALA-09"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "ALA-07",
+      "area_id": 661,
+      "area_seq_in_source": 7,
+      "name": "太平洋沿岸（南西部）",
+      "name_en": "Pacific Coast (Southwest)",
+      "reason": "アラスカ半島とクック湾南西部を含む地域で、豊かな漁場と国立公園を有する。",
+      "geometry_wkt": "POLYGON ((-165 55, -155 55, -155 50, -165 50, -165 55))",
+      "bbox": {
+        "minx": -165.0,
+        "maxx": -155.0,
+        "miny": 50.0,
+        "maxy": 55.0
+      },
+      "centroid": {
+        "x": -160.0,
+        "y": 52.5
+      },
+      "size": {
+        "width": 10.0,
+        "height": 5.0
+      },
+      "relative_position": {
+        "x_norm": 0.0556,
+        "y_norm": 0.1163,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "AX-01",
+          "ALA-01",
+          "ALA-03",
+          "ALA-04",
+          "ALA-06",
+          "ALA-08",
+          "ALA-09"
+        ],
+        "east_of": [
+          "ALA-02",
+          "ALA-05"
+        ],
+        "north_of": [],
+        "south_of": [
+          "AX-01",
+          "ALA-01",
+          "ALA-02",
+          "ALA-03",
+          "ALA-04",
+          "ALA-06",
+          "ALA-08",
+          "ALA-09"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "ALA-08",
+      "area_id": 662,
+      "area_seq_in_source": 8,
+      "name": "アラスカ湾沿岸",
+      "name_en": "Gulf of Alaska Coast",
+      "reason": "プリンスウィリアム湾やコディアック島周辺の海岸線で、海洋生物資源が豊富で、スグピアク族などの文化圏。",
+      "geometry_wkt": "POLYGON ((-155 60, -145 60, -145 55, -155 55, -155 60))",
+      "bbox": {
+        "minx": -155.0,
+        "maxx": -145.0,
+        "miny": 55.0,
+        "maxy": 60.0
+      },
+      "centroid": {
+        "x": -150.0,
+        "y": 57.5
+      },
+      "size": {
+        "width": 10.0,
+        "height": 5.0
+      },
+      "relative_position": {
+        "x_norm": 0.0833,
+        "y_norm": 0.3488,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "AX-01",
+          "ALA-01",
+          "ALA-03",
+          "ALA-04",
+          "ALA-06",
+          "ALA-09"
+        ],
+        "east_of": [
+          "ALA-02",
+          "ALA-05",
+          "ALA-07"
+        ],
+        "north_of": [
+          "ALA-05",
+          "ALA-07"
+        ],
+        "south_of": [
+          "AX-01",
+          "ALA-01",
+          "ALA-02",
+          "ALA-03",
+          "ALA-09"
+        ],
+        "overlaps": [
+          {
+            "id": "ALA-04",
+            "x_overlap": 10.0,
+            "y_overlap": 5.0
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "ALA-09",
+      "area_id": 663,
+      "area_seq_in_source": 9,
+      "name": "東部国境地域",
+      "name_en": "Eastern Border Region",
+      "reason": "カナダとの国境に接する地域で、山岳地帯と国立公園が含まれる。",
+      "geometry_wkt": "POLYGON ((-141 68, -130 68, -130 60, -141 60, -141 68))",
+      "bbox": {
+        "minx": -141.0,
+        "maxx": -130.0,
+        "miny": 60.0,
+        "maxy": 68.0
+      },
+      "centroid": {
+        "x": -135.5,
+        "y": 64.0
+      },
+      "size": {
+        "width": 11.0,
+        "height": 8.0
+      },
+      "relative_position": {
+        "x_norm": 0.1236,
+        "y_norm": 0.6512,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "AX-01",
+          "ALA-01",
+          "ALA-06"
+        ],
+        "east_of": [
+          "ALA-02",
+          "ALA-03",
+          "ALA-04",
+          "ALA-05",
+          "ALA-07",
+          "ALA-08"
+        ],
+        "north_of": [
+          "AX-01",
+          "ALA-04",
+          "ALA-05",
+          "ALA-06",
+          "ALA-07",
+          "ALA-08"
+        ],
+        "south_of": [
+          "ALA-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    }
+  ]
+}

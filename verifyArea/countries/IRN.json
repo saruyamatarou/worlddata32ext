@@ -1,0 +1,74 @@
+[
+  {
+    "id": "IRN-01",
+    "name": "カスピ海沿岸北部",
+    "name_en": "Northern Caspian Coastal Region",
+    "reason": "アルボルズ山脈の北側に広がる湿潤な沿岸低地。イラン国内では気候・植生がかなり独特で、他地域と分ける意味が大きい。",
+    "geometry_wkt": "POLYGON ((48.361816 38.900000, 57.249756 38.900000, 57.249756 36.208823, 48.361816 36.208823, 48.361816 38.900000))",
+    "area_id": 299,
+    "source_row_index": 299,
+    "iso_a3_source": "IRN",
+    "iso_a3": "IRN",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "IRN-02",
+    "name": "北西山地・アゼルバイジャン地方",
+    "name_en": "Northwestern Highlands and Azerbaijan Region",
+    "reason": "タブリーズ周辺を含む北西高地。コーカサス・アナトリア方面との結節点で、山地性が強い。",
+    "geometry_wkt": "POLYGON ((44.000000 39.900000, 48.405762 39.900000, 48.405762 36.226550, 44.000000 36.226550, 44.000000 39.900000))",
+    "area_id": 300,
+    "source_row_index": 300,
+    "iso_a3_source": "IRN",
+    "iso_a3": "IRN",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "IRN-03",
+    "name": "西部ザグロス山麓地域",
+    "name_en": "Western Zagros and Foothill Region",
+    "reason": "イラク国境沿いから南西へ伸びるザグロス山系とその山麓地帯。イラン西部の地形的骨格をなす地域。",
+    "geometry_wkt": "POLYGON ((44.000000 36.208823, 50.800781 36.208823, 50.800781 30.637912, 44.000000 30.637912, 44.000000 36.208823))",
+    "area_id": 301,
+    "source_row_index": 301,
+    "iso_a3_source": "IRN",
+    "iso_a3": "IRN",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "IRN-04",
+    "name": "中央高原・内陸盆地",
+    "name_en": "Central Plateau and Inland Basins",
+    "reason": "テヘラン南方からエスファハーン、ヤズド方面へ広がる中央高原。イラン高原の中核であり、内陸都市と盆地が連なる。",
+    "geometry_wkt": "POLYGON ((50.800000 36.191092, 57.259369 36.191092, 57.259369 30.634367, 50.800000 30.634367, 50.800000 36.191092))",
+    "area_id": 302,
+    "source_row_index": 302,
+    "iso_a3_source": "IRN",
+    "iso_a3": "IRN",
+    "area_seq_in_source": 4
+  },
+  {
+    "id": "IRN-05",
+    "name": "東部乾燥高原・国境地帯",
+    "name_en": "Eastern Arid Plateau and Border Region",
+    "reason": "ダシュテ・ルート、ダシュテ・カヴィール東縁、アフガニスタン・パキスタン国境側を含む乾燥地域。人口密度が低く、広域管理向き。",
+    "geometry_wkt": "POLYGON ((57.260742 38.800000, 63.500000 38.800000, 63.500000 30.600094, 57.260742 30.600094, 57.260742 38.800000))",
+    "area_id": 303,
+    "source_row_index": 303,
+    "iso_a3_source": "IRN",
+    "iso_a3": "IRN",
+    "area_seq_in_source": 5
+  },
+  {
+    "id": "IRN-06",
+    "name": "南部湾岸・マクラン地域",
+    "name_en": "Southern Gulf and Makran Region",
+    "reason": "ペルシャ湾・ホルムズ海峡・オマーン湾に面する南岸地域。海岸低地と南部山地を含み、湾岸性格が強い。",
+    "geometry_wkt": "POLYGON ((47.109375 30.637912, 63.457031 30.637912, 63.457031 24.086589, 47.109375 24.086589, 47.109375 30.637912))",
+    "area_id": 304,
+    "source_row_index": 304,
+    "iso_a3_source": "IRN",
+    "iso_a3": "IRN",
+    "area_seq_in_source": 6
+  }
+]

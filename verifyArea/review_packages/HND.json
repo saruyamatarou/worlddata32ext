@@ -1,0 +1,186 @@
+{
+  "iso_a3": "HND",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": -89.494629,
+    "maxx": -82.96875,
+    "miny": 12.918907,
+    "maxy": 17.66496
+  },
+  "areas": [
+    {
+      "id": "HND-01",
+      "area_id": 269,
+      "area_seq_in_source": 1,
+      "name": "ホンジュラス北部沿岸地域",
+      "name_en": "Northern Coastal Region of Honduras",
+      "reason": "この地域はカリブ海に面し、バナナやパーム油のプランテーションが盛んな経済的特徴を持つ。また、ハリケーンなどの自然災害の影響を受けやすい地理的特徴も有する。",
+      "geometry_wkt": "POLYGON ((-89.461670 17.664960, -82.968750 17.664960, -82.968750 14.870469, -89.461670 14.870469, -89.461670 17.664960))",
+      "bbox": {
+        "minx": -89.46167,
+        "maxx": -82.96875,
+        "miny": 14.870469,
+        "maxy": 17.66496
+      },
+      "centroid": {
+        "x": -86.21521,
+        "y": 16.267715
+      },
+      "size": {
+        "width": 6.49292,
+        "height": 2.794491
+      },
+      "relative_position": {
+        "x_norm": 0.5025,
+        "y_norm": 0.7056,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "HND-02"
+        ],
+        "north_of": [
+          "HND-02"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 7169,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.5787,
+          "OCEAN": 0.2643,
+          "GRASS": 0.1127,
+          "WETLAND": 0.0218,
+          "WATER": 0.0124,
+          "CROPLAND": 0.0061,
+          "MANGROVE": 0.0024,
+          "BUILT": 0.0013,
+          "SHRUB": 0.0003
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9766,
+          "TEMPERATE": 0.0234
+        },
+        "elevation_ratio": {
+          "LOW": 0.4504,
+          "MID": 0.2933,
+          "HIGH": 0.2537,
+          "ULTRA": 0.0025
+        },
+        "precip_ratio": {
+          "MID": 0.8167,
+          "WET": 0.17,
+          "LOW": 0.0133
+        },
+        "flags_ratio": {
+          "water": 0.8577,
+          "forest": 0.5824,
+          "cropland": 0.0061,
+          "built": 0.0013
+        },
+        "cell_bbox_xy": {
+          "min_x": 2175,
+          "max_x": 2329,
+          "min_y": 1754,
+          "max_y": 1847
+        },
+        "cell_centroid": {
+          "x": 2247.253,
+          "y": 1796.149,
+          "lon": -86.343606,
+          "lat": 15.139626
+        }
+      }
+    },
+    {
+      "id": "HND-02",
+      "area_id": 270,
+      "area_seq_in_source": 2,
+      "name": "ホンジュラス内陸高原地域",
+      "name_en": "Inland Highland Region of Honduras",
+      "reason": "この地域は国土の大部分を占める山岳地帯であり、コーヒー栽培が盛んである。また、首都テグシガルパもこの地域に位置し、政治・経済の中心となっている。",
+      "geometry_wkt": "POLYGON ((-89.494629 14.849231, -83.089600 14.849231, -83.089600 12.918907, -89.494629 12.918907, -89.494629 14.849231))",
+      "bbox": {
+        "minx": -89.494629,
+        "maxx": -83.0896,
+        "miny": 12.918907,
+        "maxy": 14.849231
+      },
+      "centroid": {
+        "x": -86.292114,
+        "y": 13.884069
+      },
+      "size": {
+        "width": 6.405029,
+        "height": 1.930324
+      },
+      "relative_position": {
+        "x_norm": 0.4907,
+        "y_norm": 0.2034,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "HND-01"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "HND-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 158,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.9241,
+          "GRASS": 0.0696,
+          "WATER": 0.0063
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9747,
+          "TEMPERATE": 0.0253
+        },
+        "elevation_ratio": {
+          "HIGH": 0.6772,
+          "MID": 0.3101,
+          "LOW": 0.0127
+        },
+        "precip_ratio": {
+          "MID": 0.9494,
+          "WET": 0.0506
+        },
+        "flags_ratio": {
+          "forest": 0.9241,
+          "water": 0.8418
+        },
+        "cell_bbox_xy": {
+          "min_x": 2179,
+          "max_x": 2286,
+          "min_y": 1804,
+          "max_y": 1808
+        },
+        "cell_centroid": {
+          "x": 2196.722,
+          "y": 1805.962,
+          "lon": -88.449103,
+          "lat": 14.730749
+        }
+      }
+    }
+  ]
+}

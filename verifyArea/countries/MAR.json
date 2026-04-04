@@ -1,0 +1,62 @@
+[
+  {
+    "id": "MAR-01",
+    "name": "北部リーフ・地中海地域",
+    "name_en": "Northern Rif and Mediterranean Region",
+    "reason": "リーフ山脈と地中海沿岸を含む北部地域であり、山地性と沿岸都市の性格が強く、他地域と分ける意味が大きいため。",
+    "geometry_wkt": "POLYGON ((-6.8 36.2, -1.8 36.2, -1.8 34.4, -6.8 34.4, -6.8 36.2))",
+    "area_id": 378,
+    "source_row_index": 378,
+    "iso_a3_source": "MAR",
+    "iso_a3": "MAR",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "MAR-02",
+    "name": "北西大西洋沿岸・首都圏",
+    "name_en": "Northwestern Atlantic Coast and Capital Corridor",
+    "reason": "タンジェ・ラバト・カサブランカ方面を含む大西洋沿岸中核帯であり、人口・経済・港湾機能が集中するため。",
+    "geometry_wkt": "POLYGON ((-11.360756 34.360839, -5.416706 34.360839, -5.416706 31.090192, -11.360756 31.090192, -11.360756 34.360839))",
+    "area_id": 379,
+    "source_row_index": 379,
+    "iso_a3_source": "MAR",
+    "iso_a3": "MAR",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "MAR-03",
+    "name": "中央アトラス・内陸高地",
+    "name_en": "Central Atlas and Inland Highlands",
+    "reason": "中部から東寄りにかけてのアトラス山系と高地内陸を含み、山地・盆地・内陸都市圏を一体で扱いやすいため。",
+    "geometry_wkt": "POLYGON ((-13.754883 31.090574, -5.493164 31.090574, -5.493164 26.843677, -13.754883 26.843677, -13.754883 31.090574))",
+    "area_id": 380,
+    "source_row_index": 380,
+    "iso_a3_source": "MAR",
+    "iso_a3": "MAR",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "MAR-04",
+    "name": "南西部・スース＝アンチアトラス地域",
+    "name_en": "Southwestern Sous and Anti-Atlas Region",
+    "reason": "アガディール周辺、スース谷、アンチアトラスを含む南西部であり、沿岸平野と乾燥山地のまとまりを表しやすいため。",
+    "geometry_wkt": "POLYGON ((-18.061523 26.824071, -10.986328 26.824071, -10.986328 21.289374, -18.061523 21.289374, -18.061523 26.824071))",
+    "area_id": 381,
+    "source_row_index": 381,
+    "iso_a3_source": "MAR",
+    "iso_a3": "MAR",
+    "area_seq_in_source": 4
+  },
+  {
+    "id": "MAR-05",
+    "name": "東部・南東内陸乾燥地域",
+    "name_en": "Eastern and Southeastern Arid Interior",
+    "reason": "アルジェリア国境側の東部から南東部に広がる乾燥内陸であり、山脈の背後に広がる半砂漠・砂漠縁辺部を独立して管理しやすいため。",
+    "geometry_wkt": "POLYGON ((-5.428139 34.397108, -0.878906 34.397108, -0.878906 29.286399, -5.428139 29.286399, -5.428139 34.397108))",
+    "area_id": 382,
+    "source_row_index": 382,
+    "iso_a3_source": "MAR",
+    "iso_a3": "MAR",
+    "area_seq_in_source": 5
+  }
+]

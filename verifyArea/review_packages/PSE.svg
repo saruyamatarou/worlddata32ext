@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">PSE review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(34.134521, 31.201056) - (35.664368, 32.565333)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="524.60" y="40.00" width="635.40" height="760.72" fill="none" stroke="black" stroke-width="2"/>
+<text x="528.60" y="56.00" font-size="12" font-family="Arial, sans-serif">PSE-01 | ヨルダン川西岸地区</text>
+<circle cx="842.30" cy="420.36" r="2.5" fill="black"/>
+<rect x="40.00" y="619.05" width="319.71" height="240.95" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="635.05" font-size="12" font-family="Arial, sans-serif">PSE-02 | ガザ地区</text>
+<circle cx="199.86" cy="739.53" r="2.5" fill="black"/>
+</svg>

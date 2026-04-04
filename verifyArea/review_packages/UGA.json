@@ -1,0 +1,283 @@
+{
+  "iso_a3": "UGA",
+  "area_count": 3,
+  "country_bbox": {
+    "minx": 29.443359,
+    "maxx": 35.48584,
+    "miny": -1.603794,
+    "maxy": 4.247812
+  },
+  "areas": [
+    {
+      "id": "UGA-01",
+      "area_id": 626,
+      "area_seq_in_source": 1,
+      "name": "北部ウガンダ",
+      "name_en": "Northern Uganda",
+      "reason": "この地域は、スーダンとの国境に近接し、過去には紛争の影響を受けた歴史を持ち、経済的にも北部地域は他地域と比較して開発が遅れている傾向がある。文化的には、アチョリ族などの独自の文化圏が形成されている。",
+      "geometry_wkt": "POLYGON ((30.574951 4.247812, 35.485840 4.247812, 35.485840 2.723583, 30.574951 2.723583, 30.574951 4.247812))",
+      "bbox": {
+        "minx": 30.574951,
+        "maxx": 35.48584,
+        "miny": 2.723583,
+        "maxy": 4.247812
+      },
+      "centroid": {
+        "x": 33.030395,
+        "y": 3.485697
+      },
+      "size": {
+        "width": 4.910889,
+        "height": 1.524229
+      },
+      "relative_position": {
+        "x_norm": 0.5936,
+        "y_norm": 0.8698,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "UGA-02",
+          "UGA-03"
+        ],
+        "north_of": [
+          "UGA-02",
+          "UGA-03"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 2364,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "GRASS": 0.5664,
+          "SHRUB": 0.2221,
+          "CROPLAND": 0.1028,
+          "TREE": 0.1024,
+          "WATER": 0.0034,
+          "WETLAND": 0.0021,
+          "BUILT": 0.0008
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9979,
+          "TEMPERATE": 0.0021
+        },
+        "elevation_ratio": {
+          "HIGH": 0.849,
+          "MID": 0.1489,
+          "ULTRA": 0.0021
+        },
+        "precip_ratio": {
+          "MID": 0.6975,
+          "LOW": 0.3025
+        },
+        "flags_ratio": {
+          "water": 0.6722,
+          "forest": 0.3245,
+          "cropland": 0.1028,
+          "built": 0.0008
+        },
+        "cell_bbox_xy": {
+          "min_x": 5038,
+          "max_x": 5153,
+          "min_y": 2059,
+          "max_y": 2145
+        },
+        "cell_centroid": {
+          "x": 5104.608,
+          "y": 2084.45,
+          "lon": 32.712828,
+          "lat": 3.12708
+        }
+      }
+    },
+    {
+      "id": "UGA-02",
+      "area_id": 627,
+      "area_seq_in_source": 2,
+      "name": "西部・中央ウガンダ",
+      "name_en": "Western and Central Uganda",
+      "reason": "この地域は、ルウェンゾリ山脈などの地理的特徴があり、また、国土の大部分を占める農業地帯であり、コーヒーなどの主要農産物の生産が盛んである。経済的にも、カンパラを中心とした経済活動が活発であり、文化的には多様な民族が共存している。",
+      "geometry_wkt": "POLYGON ((29.663086 2.723583, 35.057373 2.723583, 35.057373 0.604237, 29.663086 0.604237, 29.663086 2.723583))",
+      "bbox": {
+        "minx": 29.663086,
+        "maxx": 35.057373,
+        "miny": 0.604237,
+        "maxy": 2.723583
+      },
+      "centroid": {
+        "x": 32.36023,
+        "y": 1.66391
+      },
+      "size": {
+        "width": 5.394287,
+        "height": 2.119346
+      },
+      "relative_position": {
+        "x_norm": 0.4827,
+        "y_norm": 0.5584,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "UGA-01"
+        ],
+        "east_of": [
+          "UGA-03"
+        ],
+        "north_of": [
+          "UGA-03"
+        ],
+        "south_of": [
+          "UGA-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 4913,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "GRASS": 0.3041,
+          "SHRUB": 0.1993,
+          "TREE": 0.1976,
+          "CROPLAND": 0.1926,
+          "WATER": 0.0747,
+          "WETLAND": 0.0318
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9855,
+          "TEMPERATE": 0.0145
+        },
+        "elevation_ratio": {
+          "HIGH": 0.8988,
+          "MID": 0.0869,
+          "ULTRA": 0.0142
+        },
+        "precip_ratio": {
+          "MID": 0.8687,
+          "LOW": 0.1313
+        },
+        "flags_ratio": {
+          "water": 0.7051,
+          "forest": 0.3969,
+          "cropland": 0.1926
+        },
+        "cell_bbox_xy": {
+          "min_x": 5038,
+          "max_x": 5159,
+          "min_y": 2095,
+          "max_y": 2144
+        },
+        "cell_centroid": {
+          "x": 5104.442,
+          "y": 2120.067,
+          "lon": 32.705912,
+          "lat": 1.64306
+        }
+      }
+    },
+    {
+      "id": "UGA-03",
+      "area_id": 628,
+      "area_seq_in_source": 3,
+      "name": "東部・南部ウガンダ",
+      "name_en": "Eastern and Southern Uganda",
+      "reason": "この地域は、ビクトリア湖に面し、ケニアやタンザニアとの国境を接している。経済的には、湖を利用した漁業や、国境貿易が盛んである。文化的には、バガンダ王国などの歴史的な地域も含まれ、多様な文化が混在している。",
+      "geometry_wkt": "POLYGON ((29.443359 0.593251, 34.365234 0.593251, 34.365234 -1.603794, 29.443359 -1.603794, 29.443359 0.593251))",
+      "bbox": {
+        "minx": 29.443359,
+        "maxx": 34.365234,
+        "miny": -1.603794,
+        "maxy": 0.593251
+      },
+      "centroid": {
+        "x": 31.904297,
+        "y": -0.505271
+      },
+      "size": {
+        "width": 4.921875,
+        "height": 2.197045
+      },
+      "relative_position": {
+        "x_norm": 0.4073,
+        "y_norm": 0.1877,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "UGA-01",
+          "UGA-02"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "UGA-01",
+          "UGA-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 4047,
+        "dominant_landcover": "WATER",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "WATER": 0.3575,
+          "TREE": 0.2728,
+          "GRASS": 0.2384,
+          "SHRUB": 0.1006,
+          "WETLAND": 0.0126,
+          "CROPLAND": 0.0121,
+          "BUILT": 0.0059
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9548,
+          "TEMPERATE": 0.0447,
+          "COLD": 0.0005
+        },
+        "elevation_ratio": {
+          "HIGH": 0.9731,
+          "ULTRA": 0.0269
+        },
+        "precip_ratio": {
+          "MID": 0.6852,
+          "LOW": 0.2856,
+          "WET": 0.0292
+        },
+        "flags_ratio": {
+          "water": 0.7793,
+          "forest": 0.3734,
+          "cropland": 0.0121,
+          "built": 0.0059
+        },
+        "cell_bbox_xy": {
+          "min_x": 5029,
+          "max_x": 5138,
+          "min_y": 2146,
+          "max_y": 2194
+        },
+        "cell_centroid": {
+          "x": 5081.589,
+          "y": 2165.578,
+          "lon": 31.753712,
+          "lat": -0.253248
+        }
+      }
+    }
+  ]
+}

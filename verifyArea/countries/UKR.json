@@ -1,0 +1,50 @@
+[
+  {
+    "id": "UKR-01",
+    "name": "ウクライナ西部（カルパティア山脈地域）",
+    "name_en": "Western Ukraine (Carpathian Mountains Region)",
+    "reason": "国土の西部に位置し、カルパティア山脈が存在する独特な地形を持つ。歴史的にもリヴィウなどの文化的な中心地があり、多様な文化が混在する地域である。",
+    "geometry_wkt": "POLYGON ((21.950684 50.513427, 27.971191 50.513427, 27.971191 47.576526, 21.950684 47.576526, 21.950684 50.513427))",
+    "area_id": 629,
+    "source_row_index": 629,
+    "iso_a3_source": "UKR",
+    "iso_a3": "UKR",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "UKR-02",
+    "name": "ウクライナ北部（森林・湿地帯）",
+    "name_en": "Northern Ukraine (Forest and Wetland Region)",
+    "reason": "国土の北部、特にポレーシエ湿地帯に広がる森林地帯。北欧に近い気候的特徴を持ち、歴史的にも独自の文化を育んできた。",
+    "geometry_wkt": "POLYGON ((23.247070 52.456009, 35.837402 52.456009, 35.837402 50.527397, 23.247070 50.527397, 23.247070 52.456009))",
+    "area_id": 630,
+    "source_row_index": 630,
+    "iso_a3_source": "UKR",
+    "iso_a3": "UKR",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "UKR-03",
+    "name": "ウクライナ中央部・東部（黒土地帯・工業地帯）",
+    "name_en": "Central and Eastern Ukraine (Black Soil and Industrial Region)",
+    "reason": "国土の大部分を占める肥沃な黒土地帯であり、主要な農業地域。また、ドネツクやハルキウなどの工業都市も多く、経済的にも重要な地域。",
+    "geometry_wkt": "POLYGON ((28.000000 50.527397, 40.352783 50.527397, 40.352783 47.768868, 28.000000 47.768868, 28.000000 50.527397))",
+    "area_id": 631,
+    "source_row_index": 631,
+    "iso_a3_source": "UKR",
+    "iso_a3": "UKR",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "UKR-04",
+    "name": "ウクライナ南部（黒海沿岸・クリミア地域）",
+    "name_en": "Southern Ukraine (Black Sea Coast and Crimea Region)",
+    "reason": "黒海に面した温暖な気候の地域であり、オデッサなどの港湾都市やクリミア半島の観光地を含む。歴史的にも多様な民族や文化の影響を受けてきた。",
+    "geometry_wkt": "POLYGON ((27.971191 47.768868, 38.891602 47.768868, 38.891602 45.081279, 27.971191 45.081279, 27.971191 47.768868))",
+    "area_id": 632,
+    "source_row_index": 632,
+    "iso_a3_source": "UKR",
+    "iso_a3": "UKR",
+    "area_seq_in_source": 4
+  }
+]

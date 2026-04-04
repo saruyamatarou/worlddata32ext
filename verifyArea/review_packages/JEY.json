@@ -1,0 +1,92 @@
+{
+  "iso_a3": "JEY",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -2.269363,
+    "maxx": -1.992645,
+    "miny": 49.143538,
+    "maxy": 49.274077
+  },
+  "areas": [
+    {
+      "id": "JE-01",
+      "area_id": 320,
+      "area_seq_in_source": 1,
+      "name": "ジャージー島全土",
+      "name_en": "Jersey Island",
+      "reason": "首都セントヘリアを中心とする南部の経済集積地、自然景観に富む北部・西部、農業と特徴的な海岸線を持つ東部および周辺小島群へのアクセス圏に分かれる。",
+      "geometry_wkt": "POLYGON ((-2.269363 49.274077, -1.992645 49.274077, -1.992645 49.143538, -2.269363 49.143538, -2.269363 49.274077))",
+      "bbox": {
+        "minx": -2.269363,
+        "maxx": -1.992645,
+        "miny": 49.143538,
+        "maxy": 49.274077
+      },
+      "centroid": {
+        "x": -2.131004,
+        "y": 49.208807
+      },
+      "size": {
+        "width": 0.276718,
+        "height": 0.130539
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 179,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "COLD",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9609,
+          "TREE": 0.0168,
+          "WATER": 0.0112,
+          "GRASS": 0.0056,
+          "CROPLAND": 0.0056
+        },
+        "temperature_ratio": {
+          "COLD": 0.9609,
+          "TEMPERATE": 0.0391
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9609,
+          "LOW": 0.0391
+        },
+        "flags_ratio": {
+          "water": 0.9721,
+          "forest": 0.0223,
+          "built": 0.0056,
+          "cropland": 0.0056
+        },
+        "cell_bbox_xy": {
+          "min_x": 4258,
+          "max_x": 4275,
+          "min_y": 971,
+          "max_y": 985
+        },
+        "cell_centroid": {
+          "x": 4267.073,
+          "y": 979.274,
+          "lon": -2.184474,
+          "lat": 49.176094
+        }
+      }
+    }
+  ]
+}

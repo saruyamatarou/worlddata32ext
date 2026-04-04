@@ -1,0 +1,89 @@
+{
+  "iso_a3": "ABW",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -70.250702,
+    "maxx": -69.675293,
+    "miny": 12.242049,
+    "maxy": 12.829209
+  },
+  "areas": [
+    {
+      "id": "ABW-01",
+      "area_id": 1,
+      "area_seq_in_source": 1,
+      "name": "アルバ中央部",
+      "name_en": "Central Aruba",
+      "reason": "アルバは比較的小さな島であり、単一のエリアとして定義するのが最も適切である。地理的な分断や文化的な差異が顕著ではないため。",
+      "geometry_wkt": "POLYGON ((-70.250702 12.829209, -69.675293 12.829209, -69.675293 12.242049, -70.250702 12.242049, -70.250702 12.829209))",
+      "bbox": {
+        "minx": -70.250702,
+        "maxx": -69.675293,
+        "miny": 12.242049,
+        "maxy": 12.829209
+      },
+      "centroid": {
+        "x": -69.962998,
+        "y": 12.535629
+      },
+      "size": {
+        "width": 0.575409,
+        "height": 0.58716
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 302,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9735,
+          "SHRUB": 0.0132,
+          "BUILT": 0.0066,
+          "WATER": 0.0066
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9735,
+          "LOW": 0.0265
+        },
+        "flags_ratio": {
+          "water": 0.9801,
+          "forest": 0.0166,
+          "built": 0.0066
+        },
+        "cell_bbox_xy": {
+          "min_x": 2629,
+          "max_x": 2651,
+          "min_y": 1848,
+          "max_y": 1865
+        },
+        "cell_centroid": {
+          "x": 2640.566,
+          "y": 1856.791,
+          "lon": -69.955574,
+          "lat": 12.612859
+        }
+      }
+    }
+  ]
+}

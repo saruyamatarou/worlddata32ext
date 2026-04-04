@@ -1,0 +1,384 @@
+{
+  "iso_a3": "PYF",
+  "area_count": 4,
+  "country_bbox": {
+    "minx": -156.950684,
+    "maxx": -134.0,
+    "miny": -29.22889,
+    "maxy": -6.184246
+  },
+  "areas": [
+    {
+      "id": "PYF-01",
+      "area_id": 513,
+      "area_seq_in_source": 1,
+      "name": "マルキーズ諸島",
+      "name_en": "Marquesas Islands",
+      "reason": "フランス領ポリネシア北東端に位置する独立性の高い群島。他の主要群島から大きく離れているため、単独で扱うのが自然。",
+      "geometry_wkt": "POLYGON ((-142.382813 -6.184246, -137.548828 -6.184246, -137.548828 -11.436955, -142.382813 -11.436955, -142.382813 -6.184246))",
+      "bbox": {
+        "minx": -142.382813,
+        "maxx": -137.548828,
+        "miny": -11.436955,
+        "maxy": -6.184246
+      },
+      "centroid": {
+        "x": -139.965821,
+        "y": -8.8106
+      },
+      "size": {
+        "width": 4.833985,
+        "height": 5.252709
+      },
+      "relative_position": {
+        "x_norm": 0.7401,
+        "y_norm": 0.886,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "PYF-02",
+          "PYF-03",
+          "PYF-04"
+        ],
+        "north_of": [
+          "PYF-02",
+          "PYF-03",
+          "PYF-04"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 2105,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9762,
+          "TREE": 0.0128,
+          "WATER": 0.0071,
+          "GRASS": 0.0038
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9976,
+          "POLAR": 0.0024
+        },
+        "elevation_ratio": {
+          "LOW": 0.9829,
+          "MID": 0.0162,
+          "HIGH": 0.001
+        },
+        "precip_ratio": {
+          "MID": 0.9943,
+          "WET": 0.0029,
+          "ARID": 0.0024,
+          "LOW": 0.0005
+        },
+        "flags_ratio": {
+          "water": 0.9834,
+          "forest": 0.0143
+        },
+        "cell_bbox_xy": {
+          "min_x": 933,
+          "max_x": 1002,
+          "min_y": 2341,
+          "max_y": 2422
+        },
+        "cell_centroid": {
+          "x": 968.608,
+          "y": 2382.885,
+          "lon": -139.620517,
+          "lat": -9.30769
+        }
+      }
+    },
+    {
+      "id": "PYF-02",
+      "area_id": 514,
+      "area_seq_in_source": 2,
+      "name": "ソシエテ諸島",
+      "name_en": "Society Islands",
+      "reason": "タヒチ、モーレア、ボラボラを含む政治・人口・観光の中核地域。首都パペーテもこの群にある。",
+      "geometry_wkt": "POLYGON ((-155.800000 -15.379543, -148.798828 -15.379543, -148.798828 -18.800000, -155.800000 -18.800000, -155.800000 -15.379543))",
+      "bbox": {
+        "minx": -155.8,
+        "maxx": -148.798828,
+        "miny": -18.8,
+        "maxy": -15.379543
+      },
+      "centroid": {
+        "x": -152.299414,
+        "y": -17.089772
+      },
+      "size": {
+        "width": 7.001172,
+        "height": 3.420457
+      },
+      "relative_position": {
+        "x_norm": 0.2027,
+        "y_norm": 0.5268,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "PYF-01",
+          "PYF-03",
+          "PYF-04"
+        ],
+        "east_of": [],
+        "north_of": [
+          "PYF-03",
+          "PYF-04"
+        ],
+        "south_of": [
+          "PYF-01"
+        ],
+        "overlaps": [
+          {
+            "id": "PYF-03",
+            "x_overlap": 0.043945,
+            "y_overlap": 3.420457
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 1936,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9628,
+          "TREE": 0.0294,
+          "WATER": 0.0077
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.9783,
+          "MID": 0.0196,
+          "HIGH": 0.0021
+        },
+        "precip_ratio": {
+          "MID": 0.9917,
+          "WET": 0.0083
+        },
+        "flags_ratio": {
+          "water": 0.9706,
+          "reef": 0.0517,
+          "forest": 0.0351
+        },
+        "cell_bbox_xy": {
+          "min_x": 601,
+          "max_x": 749,
+          "min_y": 2529,
+          "max_y": 2598
+        },
+        "cell_centroid": {
+          "x": 692.481,
+          "y": 2566.165,
+          "lon": -151.125796,
+          "lat": -16.944366
+        }
+      }
+    },
+    {
+      "id": "PYF-03",
+      "area_id": 515,
+      "area_seq_in_source": 3,
+      "name": "ツアモツ・ガンビエ諸島",
+      "name_en": "Tuamotu-Gambier Islands",
+      "reason": "東西に長く連なるツアモツ諸島と、その南東側に位置するガンビエ諸島をまとめた実装向け区分。行政上も Tuamotu-Gambier として扱われる。",
+      "geometry_wkt": "POLYGON ((-148.842773 -13.539201, -134.000000 -13.539201, -134.000000 -23.382598, -148.842773 -23.382598, -148.842773 -13.539201))",
+      "bbox": {
+        "minx": -148.842773,
+        "maxx": -134.0,
+        "miny": -23.382598,
+        "maxy": -13.539201
+      },
+      "centroid": {
+        "x": -141.421386,
+        "y": -18.4609
+      },
+      "size": {
+        "width": 14.842773,
+        "height": 9.843397
+      },
+      "relative_position": {
+        "x_norm": 0.6766,
+        "y_norm": 0.4673,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "PYF-01"
+        ],
+        "east_of": [
+          "PYF-02",
+          "PYF-04"
+        ],
+        "north_of": [
+          "PYF-04"
+        ],
+        "south_of": [
+          "PYF-01",
+          "PYF-02"
+        ],
+        "overlaps": [
+          {
+            "id": "PYF-02",
+            "x_overlap": 0.043945,
+            "y_overlap": 3.420457
+          },
+          {
+            "id": "PYF-04",
+            "x_overlap": 6.306152,
+            "y_overlap": 2.134176
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 6157,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9942,
+          "WATER": 0.0058
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9989,
+          "POLAR": 0.001,
+          "TEMPERATE": 0.0002
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.999,
+          "ARID": 0.001
+        },
+        "flags_ratio": {
+          "water": 1.0,
+          "reef": 0.0747,
+          "forest": 0.0002
+        },
+        "cell_bbox_xy": {
+          "min_x": 741,
+          "max_x": 1090,
+          "min_y": 2490,
+          "max_y": 2724
+        },
+        "cell_centroid": {
+          "x": 887.251,
+          "y": 2569.776,
+          "lon": -143.010391,
+          "lat": -17.094821
+        }
+      }
+    },
+    {
+      "id": "PYF-04",
+      "area_id": 516,
+      "area_seq_in_source": 4,
+      "name": "オーストラル諸島",
+      "name_en": "Austral Islands",
+      "reason": "フランス領ポリネシア南部に独立して点在する群島。ソシエテやツアモツから南に離れているため、別群として扱うのが自然。",
+      "geometry_wkt": "POLYGON ((-156.950684 -21.248422, -142.536621 -21.248422, -142.536621 -29.228890, -156.950684 -29.228890, -156.950684 -21.248422))",
+      "bbox": {
+        "minx": -156.950684,
+        "maxx": -142.536621,
+        "miny": -29.22889,
+        "maxy": -21.248422
+      },
+      "centroid": {
+        "x": -149.743652,
+        "y": -25.238656
+      },
+      "size": {
+        "width": 14.414063,
+        "height": 7.980468
+      },
+      "relative_position": {
+        "x_norm": 0.314,
+        "y_norm": 0.1732,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "PYF-01",
+          "PYF-03"
+        ],
+        "east_of": [
+          "PYF-02"
+        ],
+        "north_of": [],
+        "south_of": [
+          "PYF-01",
+          "PYF-02",
+          "PYF-03"
+        ],
+        "overlaps": [
+          {
+            "id": "PYF-03",
+            "x_overlap": 6.306152,
+            "y_overlap": 2.134176
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 655,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9954,
+          "WATER": 0.0046
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.6809,
+          "TROPICAL": 0.3191
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 1.0,
+          "reef": 0.0061,
+          "forest": 0.0031
+        },
+        "cell_bbox_xy": {
+          "min_x": 722,
+          "max_x": 866,
+          "min_y": 2711,
+          "max_y": 2832
+        },
+        "cell_centroid": {
+          "x": 795.988,
+          "y": 2772.861,
+          "lon": -146.813009,
+          "lat": -25.556711
+        }
+      }
+    }
+  ]
+}

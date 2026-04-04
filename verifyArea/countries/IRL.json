@@ -1,0 +1,50 @@
+[
+  {
+    "id": "IRL-01",
+    "name": "東部首都圏・レンスター",
+    "name_en": "Eastern Capital Region and Leinster Core",
+    "reason": "ダブリンを中心とする人口・経済の中核地域。東岸の都市圏とレンスター中核部をまとめて扱う実装向け区分。",
+    "geometry_wkt": "POLYGON ((-8.173828 54.386955, -5.284424 54.386955, -5.284424 52.502848, -8.173828 52.502848, -8.173828 54.386955))",
+    "area_id": 295,
+    "source_row_index": 295,
+    "iso_a3_source": "IRL",
+    "iso_a3": "IRL",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "IRL-02",
+    "name": "南部・マンスター",
+    "name_en": "Southern Ireland and Munster",
+    "reason": "コーク、リムリック、ウォーターフォードを含む南部地域。南岸と南西部の経済・港湾・農牧業圏をまとめる。",
+    "geometry_wkt": "POLYGON ((-10.859985 52.502848, -6.000000 52.502848, -6.000000 51.200000, -10.859985 51.200000, -10.859985 52.502848))",
+    "area_id": 296,
+    "source_row_index": 296,
+    "iso_a3_source": "IRL",
+    "iso_a3": "IRL",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "IRL-03",
+    "name": "西部・コノート",
+    "name_en": "Western Ireland and Connacht",
+    "reason": "ゴールウェイ、メイヨー、スライゴ方面を含む大西洋側の西部地域。山地・湖沼・海岸地形の比重が高い。",
+    "geometry_wkt": "POLYGON ((-10.843506 54.386955, -8.200000 54.386955, -8.200000 52.500000, -10.843506 52.500000, -10.843506 54.386955))",
+    "area_id": 297,
+    "source_row_index": 297,
+    "iso_a3_source": "IRL",
+    "iso_a3": "IRL",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "IRL-04",
+    "name": "北西部・国境周辺",
+    "name_en": "Northwestern Border Region",
+    "reason": "ドニゴールを中心とする北西端地域。共和国本体の中でも地理的に独立性が高く、北アイルランド境界の影響も受けやすい。",
+    "geometry_wkt": "POLYGON ((-9.102173 55.606281, -6.773071 55.606281, -6.773071 54.386955, -9.102173 54.386955, -9.102173 55.606281))",
+    "area_id": 298,
+    "source_row_index": 298,
+    "iso_a3_source": "IRL",
+    "iso_a3": "IRL",
+    "area_seq_in_source": 4
+  }
+]

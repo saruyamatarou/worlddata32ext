@@ -1,0 +1,194 @@
+{
+  "iso_a3": "CZE",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": 12.0,
+    "maxx": 18.962402,
+    "miny": 48.494768,
+    "maxy": 51.138001
+  },
+  "areas": [
+    {
+      "id": "CZE-01",
+      "area_id": 174,
+      "area_seq_in_source": 1,
+      "name": "ボヘミア北部・西部",
+      "name_en": "Northern and Western Bohemia",
+      "reason": "歴史的にボヘミア王国の中核をなし、ドイツとの国境に接する工業地帯。",
+      "geometry_wkt": "POLYGON ((12.000000 51.131108, 14.996338 51.131108, 14.996338 48.500000, 12.000000 48.500000, 12.000000 51.131108))",
+      "bbox": {
+        "minx": 12.0,
+        "maxx": 14.996338,
+        "miny": 48.5,
+        "maxy": 51.131108
+      },
+      "centroid": {
+        "x": 13.498169,
+        "y": 49.815554
+      },
+      "size": {
+        "width": 2.996338,
+        "height": 2.631108
+      },
+      "relative_position": {
+        "x_norm": 0.2152,
+        "y_norm": 0.4997,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CZE-02"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "CZE-02"
+        ],
+        "overlaps": [
+          {
+            "id": "CZE-02",
+            "x_overlap": 0.010986,
+            "y_overlap": 2.631108
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 5572,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.5368,
+          "CROPLAND": 0.3961,
+          "GRASS": 0.0599,
+          "BUILT": 0.0059,
+          "WATER": 0.0011,
+          "BARE": 0.0002
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9824,
+          "COLD": 0.0176
+        },
+        "elevation_ratio": {
+          "MID": 0.9223,
+          "HIGH": 0.0413,
+          "LOW": 0.0364
+        },
+        "precip_ratio": {
+          "LOW": 0.9691,
+          "MID": 0.0309
+        },
+        "flags_ratio": {
+          "water": 0.6116,
+          "forest": 0.5368,
+          "cropland": 0.3961,
+          "built": 0.0059
+        },
+        "cell_bbox_xy": {
+          "min_x": 4610,
+          "max_x": 4771,
+          "min_y": 935,
+          "max_y": 994
+        },
+        "cell_centroid": {
+          "x": 4686.688,
+          "y": 965.593,
+          "lon": 15.299489,
+          "lat": 49.746126
+        }
+      }
+    },
+    {
+      "id": "CZE-02",
+      "area_id": 175,
+      "area_seq_in_source": 2,
+      "name": "モラヴィア・ボヘミア南部",
+      "name_en": "Moravia and Southern Bohemia",
+      "reason": "モラヴィア地方とボヘミア南部の、より農業的で文化的な地域。",
+      "geometry_wkt": "POLYGON ((14.985352 51.138001, 18.962402 51.138001, 18.962402 48.494768, 14.985352 48.494768, 14.985352 51.138001))",
+      "bbox": {
+        "minx": 14.985352,
+        "maxx": 18.962402,
+        "miny": 48.494768,
+        "maxy": 51.138001
+      },
+      "centroid": {
+        "x": 16.973877,
+        "y": 49.816384
+      },
+      "size": {
+        "width": 3.97705,
+        "height": 2.643233
+      },
+      "relative_position": {
+        "x_norm": 0.7144,
+        "y_norm": 0.5,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "CZE-01"
+        ],
+        "north_of": [
+          "CZE-01"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "CZE-01",
+            "x_overlap": 0.010986,
+            "y_overlap": 2.631108
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 79,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "CROPLAND": 0.7595,
+          "TREE": 0.1772,
+          "WATER": 0.038,
+          "BUILT": 0.0127,
+          "GRASS": 0.0127
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.7468,
+          "LOW": 0.2532
+        },
+        "precip_ratio": {
+          "LOW": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.9873,
+          "cropland": 0.7595,
+          "forest": 0.1772,
+          "built": 0.0127
+        },
+        "cell_bbox_xy": {
+          "min_x": 4694,
+          "max_x": 4720,
+          "min_y": 986,
+          "max_y": 990
+        },
+        "cell_centroid": {
+          "x": 4709.177,
+          "y": 987.215,
+          "lon": 16.236551,
+          "lat": 48.8452
+        }
+      }
+    }
+  ]
+}

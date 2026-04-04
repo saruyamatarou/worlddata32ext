@@ -1,0 +1,86 @@
+{
+  "version": "map32-v1",
+  "layout": {
+    "byte0": "bits0-3 landcover4, bits4-5 t2, bits6-7 e2",
+    "byte1": "bits0-1 p2, bits2-7 flags6(water,built,crop,reef,forest,ice)",
+    "byte2": "bits0-7 region10[0:7]",
+    "byte3": "bits0-1 region10[8:9], bits2-7 ext6_reserved"
+  },
+  "fields": {
+    "landcover4": {
+      "offset": 0,
+      "bits": 4
+    },
+    "t2": {
+      "offset": 4,
+      "bits": 2
+    },
+    "e2": {
+      "offset": 6,
+      "bits": 2
+    },
+    "p2": {
+      "offset": 8,
+      "bits": 2
+    },
+    "flags6": {
+      "offset": 10,
+      "bits": 6
+    },
+    "region10": {
+      "offset": 16,
+      "bits": 10
+    },
+    "ext6_reserved": {
+      "offset": 26,
+      "bits": 6
+    }
+  },
+  "landcover4": {
+    "0": "UNKNOWN",
+    "1": "TREE",
+    "2": "SHRUB",
+    "3": "GRASS",
+    "4": "CROPLAND",
+    "5": "BUILT",
+    "6": "BARE",
+    "7": "SNOW_ICE",
+    "8": "WATER",
+    "9": "WETLAND",
+    "10": "MANGROVE",
+    "11": "MOSS_LICHEN",
+    "12": "OCEAN"
+  },
+  "t2": {
+    "0": "POLAR",
+    "1": "COLD",
+    "2": "TEMPERATE",
+    "3": "TROPICAL"
+  },
+  "e2": {
+    "0": "LOW",
+    "1": "MID",
+    "2": "HIGH",
+    "3": "ULTRA"
+  },
+  "p2": {
+    "0": "ARID",
+    "1": "LOW",
+    "2": "MID",
+    "3": "WET"
+  },
+  "flags6_bits": {
+    "0": "water",
+    "1": "built",
+    "2": "cropland",
+    "3": "reef",
+    "4": "forest(tree+shrub+mangrove)",
+    "5": "ice"
+  },
+  "region_table": "country_area_legend.json",
+  "notes": [
+    "low 16bit is binary-compatible with prior map24 lo16 payload",
+    "region10 replaces country8 and supports up to 1023 regions",
+    "ext6_reserved is reserved for future expansion and must be written as 0 in v1"
+  ]
+}

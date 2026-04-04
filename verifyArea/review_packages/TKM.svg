@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">TKM review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(51.745605, 35.119909) - (66.730957, 42.924252)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="40.00" y="40.00" width="803.78" height="202.18" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="56.00" font-size="12" font-family="Arial, sans-serif">TKM-01 | 北部トルクメニスタン</text>
+<circle cx="441.89" cy="141.09" r="2.5" fill="black"/>
+<rect x="59.01" y="242.18" width="366.91" height="397.92" fill="none" stroke="black" stroke-width="2"/>
+<text x="63.01" y="258.18" font-size="12" font-family="Arial, sans-serif">TKM-02 | 西部トルクメニスタン</text>
+<circle cx="242.47" cy="441.14" r="2.5" fill="black"/>
+<rect x="429.21" y="244.29" width="599.41" height="232.07" fill="none" stroke="black" stroke-width="2"/>
+<text x="433.21" y="260.29" font-size="12" font-family="Arial, sans-serif">TKM-03 | 中央トルクメニスタン</text>
+<circle cx="728.91" cy="360.33" r="2.5" fill="black"/>
+<rect x="422.64" y="476.36" width="737.36" height="383.64" fill="none" stroke="black" stroke-width="2"/>
+<text x="426.64" y="492.36" font-size="12" font-family="Arial, sans-serif">TKM-04 | 東部・南部トルクメニスタン</text>
+<circle cx="791.32" cy="668.18" r="2.5" fill="black"/>
+</svg>

@@ -1,0 +1,444 @@
+{
+  "iso_a3": "NLD",
+  "area_count": 5,
+  "country_bbox": {
+    "minx": -68.626099,
+    "maxx": 7.289429,
+    "miny": 11.751748,
+    "maxy": 53.8
+  },
+  "areas": [
+    {
+      "id": "NLD-01",
+      "area_id": 452,
+      "area_seq_in_source": 1,
+      "name": "北オランダ低地",
+      "name_en": "Northern Netherlands Lowlands",
+      "reason": "北部の低地・沿岸・農業地帯を中心とする地域であり、北海側と北東側の広い平坦地を一体で扱いやすいため。",
+      "geometry_wkt": "POLYGON ((4.200000 53.800000, 7.289429 53.800000, 7.289429 52.596375, 4.200000 52.596375, 4.200000 53.800000))",
+      "bbox": {
+        "minx": 4.2,
+        "maxx": 7.289429,
+        "miny": 52.596375,
+        "maxy": 53.8
+      },
+      "centroid": {
+        "x": 5.744715,
+        "y": 53.198188
+      },
+      "size": {
+        "width": 3.089429,
+        "height": 1.203625
+      },
+      "relative_position": {
+        "x_norm": 0.9797,
+        "y_norm": 0.9857,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "NLD-03"
+        ],
+        "east_of": [
+          "NLD-02",
+          "NLD-04",
+          "NLD-05"
+        ],
+        "north_of": [
+          "NLD-02",
+          "NLD-03",
+          "NLD-04",
+          "NLD-05"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "NLD-02",
+            "x_overlap": 1.376935,
+            "y_overlap": 0.000834
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 2275,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.5121,
+          "GRASS": 0.2321,
+          "CROPLAND": 0.1345,
+          "WATER": 0.0673,
+          "TREE": 0.036,
+          "BUILT": 0.0149,
+          "SHRUB": 0.0031
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.4818,
+          "COLD": 0.3516,
+          "TROPICAL": 0.1662,
+          "POLAR": 0.0004
+        },
+        "elevation_ratio": {
+          "LOW": 0.9996,
+          "MID": 0.0004
+        },
+        "precip_ratio": {
+          "MID": 0.5121,
+          "LOW": 0.4875,
+          "ARID": 0.0004
+        },
+        "flags_ratio": {
+          "water": 0.8352,
+          "cropland": 0.1349,
+          "forest": 0.0391,
+          "built": 0.0149
+        },
+        "cell_bbox_xy": {
+          "min_x": 2671,
+          "max_x": 4492,
+          "min_y": 866,
+          "max_y": 1880
+        },
+        "cell_centroid": {
+          "x": 4161.393,
+          "y": 1049.7,
+          "lon": -6.587793,
+          "lat": 46.241676
+        }
+      }
+    },
+    {
+      "id": "NLD-02",
+      "area_id": 453,
+      "area_seq_in_source": 2,
+      "name": "西中部ランドスタット・デルタ地域",
+      "name_en": "West-Central Randstad and Delta Region",
+      "reason": "アムステルダム、ユトレヒト、ロッテルダム、ハーグを含む西中部の都市・港湾・交通の中核地域であり、オランダ本体の中心性が最も高いため。",
+      "geometry_wkt": "POLYGON ((3.087158 52.597209, 5.576935 52.597209, 5.576935 51.082822, 3.087158 51.082822, 3.087158 52.597209))",
+      "bbox": {
+        "minx": 3.087158,
+        "maxx": 5.576935,
+        "miny": 51.082822,
+        "maxy": 52.597209
+      },
+      "centroid": {
+        "x": 4.332046,
+        "y": 51.840015
+      },
+      "size": {
+        "width": 2.489777,
+        "height": 1.514387
+      },
+      "relative_position": {
+        "x_norm": 0.961,
+        "y_norm": 0.9534,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "NLD-01",
+          "NLD-03"
+        ],
+        "east_of": [
+          "NLD-04",
+          "NLD-05"
+        ],
+        "north_of": [
+          "NLD-03",
+          "NLD-04",
+          "NLD-05"
+        ],
+        "south_of": [
+          "NLD-01"
+        ],
+        "overlaps": [
+          {
+            "id": "NLD-01",
+            "x_overlap": 1.376935,
+            "y_overlap": 0.000834
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 1498,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "OCEAN": 0.3158,
+          "GRASS": 0.2724,
+          "CROPLAND": 0.1515,
+          "TREE": 0.0948,
+          "BUILT": 0.0888,
+          "WATER": 0.0761,
+          "WETLAND": 0.0007
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.6842,
+          "COLD": 0.3158
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "LOW": 0.6842,
+          "MID": 0.3158
+        },
+        "flags_ratio": {
+          "water": 0.8224,
+          "cropland": 0.1535,
+          "forest": 0.0948,
+          "built": 0.0895
+        },
+        "cell_bbox_xy": {
+          "min_x": 4395,
+          "max_x": 4453,
+          "min_y": 895,
+          "max_y": 928
+        },
+        "cell_centroid": {
+          "x": 4427.628,
+          "y": 913.332,
+          "lon": 4.50534,
+          "lat": 51.923648
+        }
+      }
+    },
+    {
+      "id": "NLD-03",
+      "area_id": 454,
+      "area_seq_in_source": 3,
+      "name": "東南オランダ内陸地域",
+      "name_en": "Southeastern Inland Netherlands",
+      "reason": "東部内陸から北ブラバント、リンブルフまでを含む地域であり、ドイツ・ベルギー国境側の内陸性と南部のまとまりを一体で表しやすいため。",
+      "geometry_wkt": "POLYGON ((5.578995 52.596375, 7.229004 52.596375, 7.229004 50.680797, 5.578995 50.680797, 5.578995 52.596375))",
+      "bbox": {
+        "minx": 5.578995,
+        "maxx": 7.229004,
+        "miny": 50.680797,
+        "maxy": 52.596375
+      },
+      "centroid": {
+        "x": 6.403999,
+        "y": 51.638586
+      },
+      "size": {
+        "width": 1.650009,
+        "height": 1.915578
+      },
+      "relative_position": {
+        "x_norm": 0.9883,
+        "y_norm": 0.9486,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "NLD-01",
+          "NLD-02",
+          "NLD-04",
+          "NLD-05"
+        ],
+        "north_of": [
+          "NLD-04",
+          "NLD-05"
+        ],
+        "south_of": [
+          "NLD-01",
+          "NLD-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 693,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.5281,
+          "TREE": 0.2973,
+          "CROPLAND": 0.1328,
+          "BUILT": 0.0361,
+          "WATER": 0.0058
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "LOW": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.7518,
+          "forest": 0.2973,
+          "cropland": 0.1328,
+          "built": 0.0361
+        },
+        "cell_bbox_xy": {
+          "min_x": 4454,
+          "max_x": 4488,
+          "min_y": 898,
+          "max_y": 928
+        },
+        "cell_centroid": {
+          "x": 4466.639,
+          "y": 909.968,
+          "lon": 6.130802,
+          "lat": 52.063823
+        }
+      }
+    },
+    {
+      "id": "NLD-04",
+      "area_id": 455,
+      "area_seq_in_source": 4,
+      "name": "ボネール島",
+      "name_en": "Bonaire",
+      "reason": "3島の中で最も大きく、クラレンダイクを中心とする行政・観光・交通の中核であり、他の2島から地理的にも離れているため。",
+      "geometry_wkt": "POLYGON ((-68.626099 12.527753, -67.873535 12.527753, -67.873535 11.751748, -68.626099 11.751748, -68.626099 12.527753))",
+      "bbox": {
+        "minx": -68.626099,
+        "maxx": -67.873535,
+        "miny": 11.751748,
+        "maxy": 12.527753
+      },
+      "centroid": {
+        "x": -68.249817,
+        "y": 12.13975
+      },
+      "size": {
+        "width": 0.752564,
+        "height": 0.776005
+      },
+      "relative_position": {
+        "x_norm": 0.005,
+        "y_norm": 0.0092,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "NLD-01",
+          "NLD-02",
+          "NLD-03",
+          "NLD-05"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "NLD-01",
+          "NLD-02",
+          "NLD-03",
+          "NLD-05"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "NLD-05",
+      "area_id": 456,
+      "area_seq_in_source": 5,
+      "name": "シント・ユースタティウス島およびサバ島",
+      "name_en": "Sint Eustatius and Saba",
+      "reason": "カリブ北東部で比較的近接する2島をまとめた区分であり、ボネールとは別の小規模火山島・歴史港湾島のまとまりとして扱いやすいため。",
+      "geometry_wkt": "POLYGON ((-63.572388 17.931702, -62.704468 17.931702, -62.704468 17.214264, -63.572388 17.214264, -63.572388 17.931702))",
+      "bbox": {
+        "minx": -63.572388,
+        "maxx": -62.704468,
+        "miny": 17.214264,
+        "maxy": 17.931702
+      },
+      "centroid": {
+        "x": -63.138428,
+        "y": 17.572983
+      },
+      "size": {
+        "width": 0.86792,
+        "height": 0.717438
+      },
+      "relative_position": {
+        "x_norm": 0.0723,
+        "y_norm": 0.1384,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "NLD-01",
+          "NLD-02",
+          "NLD-03"
+        ],
+        "east_of": [
+          "NLD-04"
+        ],
+        "north_of": [
+          "NLD-04"
+        ],
+        "south_of": [
+          "NLD-01",
+          "NLD-02",
+          "NLD-03"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 150,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9933,
+          "WATER": 0.0067
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 1.0
+        },
+        "cell_bbox_xy": {
+          "min_x": 2798,
+          "max_x": 2812,
+          "min_y": 1734,
+          "max_y": 1749
+        },
+        "cell_centroid": {
+          "x": 2804.34,
+          "y": 1740.3,
+          "lon": -63.131667,
+          "lat": 17.466667
+        }
+      }
+    }
+  ]
+}

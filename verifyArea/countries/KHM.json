@@ -1,0 +1,50 @@
+[
+  {
+    "id": "KHM-01",
+    "name": "北部山地・高原",
+    "name_en": "Northern Highlands",
+    "reason": "ラオス国境に近い北部の山地・高原地域。内陸性が強く、平野部とは地形的に異なる。",
+    "geometry_wkt": "POLYGON ((102.370605 14.800000, 107.748413 14.800000, 107.748413 13.662001, 102.370605 13.662001, 102.370605 14.800000))",
+    "area_id": 341,
+    "source_row_index": 341,
+    "iso_a3_source": "KHM",
+    "iso_a3": "KHM",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "KHM-02",
+    "name": "北西部トンレサップ・アンコール圏",
+    "name_en": "Northwest Tonle Sap and Angkor",
+    "reason": "トンレサップ湖北西部とアンコール遺跡圏を含む地域。歴史遺産と内陸水系のまとまりが強い。",
+    "geometry_wkt": "POLYGON ((102.238770 13.645987, 105.281982 13.645987, 105.281982 12.254128, 102.238770 12.254128, 102.238770 13.645987))",
+    "area_id": 342,
+    "source_row_index": 342,
+    "iso_a3_source": "KHM",
+    "iso_a3": "KHM",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "KHM-03",
+    "name": "中南部メコン平野",
+    "name_en": "Central and Southern Mekong Plain",
+    "reason": "プノンペンを含むカンボジアの人口・経済中心。メコン川とトンレサップ川流域の平野部。",
+    "geometry_wkt": "POLYGON ((105.281982 13.651325, 107.869263 13.651325, 107.869263 10.390572, 105.281982 10.390572, 105.281982 13.651325))",
+    "area_id": 343,
+    "source_row_index": 343,
+    "iso_a3_source": "KHM",
+    "iso_a3": "KHM",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "KHM-04",
+    "name": "南西沿岸・カルダモン山地",
+    "name_en": "Southwest Coast and Cardamom Mountains",
+    "reason": "タイ湾沿岸と南西部山地を含む地域。沿岸港湾と山地森林を併せ持ち、中央平野とは性格が異なる。",
+    "geometry_wkt": "POLYGON ((102.500000 12.248760, 105.276489 12.248760, 105.276489 10.098670, 102.500000 10.098670, 102.500000 12.248760))",
+    "area_id": 344,
+    "source_row_index": 344,
+    "iso_a3_source": "KHM",
+    "iso_a3": "KHM",
+    "area_seq_in_source": 4
+  }
+]

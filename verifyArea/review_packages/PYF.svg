@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">PYF review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-156.950684, -29.228890) - (-134.000000, -6.184246)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="750.92" y="40.00" width="235.90" height="186.91" fill="none" stroke="black" stroke-width="2"/>
+<text x="754.92" y="56.00" font-size="12" font-family="Arial, sans-serif">PYF-01 | マルキーズ諸島</text>
+<circle cx="868.87" cy="133.45" r="2.5" fill="black"/>
+<rect x="96.15" y="367.20" width="341.66" height="121.71" fill="none" stroke="black" stroke-width="2"/>
+<text x="100.15" y="383.20" font-size="12" font-family="Arial, sans-serif">PYF-02 | ソシエテ諸島</text>
+<circle cx="266.98" cy="428.05" r="2.5" fill="black"/>
+<rect x="435.67" y="301.71" width="724.33" height="350.26" fill="none" stroke="black" stroke-width="2"/>
+<text x="439.67" y="317.71" font-size="12" font-family="Arial, sans-serif">PYF-03 | ツアモツ・ガンビエ諸島</text>
+<circle cx="797.83" cy="476.84" r="2.5" fill="black"/>
+<rect x="40.00" y="576.03" width="703.41" height="283.97" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="592.03" font-size="12" font-family="Arial, sans-serif">PYF-04 | オーストラル諸島</text>
+<circle cx="391.71" cy="718.02" r="2.5" fill="black"/>
+</svg>

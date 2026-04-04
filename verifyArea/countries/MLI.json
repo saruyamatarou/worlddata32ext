@@ -1,0 +1,62 @@
+[
+  {
+    "id": "MLI-01",
+    "name": "サハラ・北部地域",
+    "name_en": "Sahara Northern Region",
+    "reason": "トゥアレグ文化圏および広大なサハラ砂漠地帯を包含する地理的特性に基づく",
+    "geometry_wkt": "POLYGON ((-6.987305 25.500000, 4.500000 25.500000, 4.500000 19.435514, -6.987305 19.435514, -6.987305 25.500000))",
+    "area_id": 401,
+    "source_row_index": 401,
+    "iso_a3_source": "MLI",
+    "iso_a3": "MLI",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "MLI-02",
+    "name": "トンブクトゥ・ガオ回廊",
+    "name_en": "Timbuktu-Gao Corridor",
+    "reason": "ニジェール川流域の歴史的な交易拠点とサヘル地帯の経済圏を反映",
+    "geometry_wkt": "POLYGON ((-6.306152 19.476950, 4.515381 19.476950, 4.515381 15.252389, -6.306152 15.252389, -6.306152 19.476950))",
+    "area_id": 402,
+    "source_row_index": 402,
+    "iso_a3_source": "MLI",
+    "iso_a3": "MLI",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "MLI-03",
+    "name": "中央デルタ・モプティ地域",
+    "name_en": "Inland Delta Mopti Region",
+    "reason": "ニジェール川内陸デルタの湿地帯とドゴン族の文化的景観に基づく",
+    "geometry_wkt": "POLYGON ((-5.000000 15.241790, 1.296387 15.241790, 1.296387 11.738302, -5.000000 11.738302, -5.000000 15.241790))",
+    "area_id": 403,
+    "source_row_index": 403,
+    "iso_a3_source": "MLI",
+    "iso_a3": "MLI",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "MLI-04",
+    "name": "バマコ・南部経済圏",
+    "name_en": "Bamako Southern Economic Zone",
+    "reason": "首都バマコを中心とした政治・経済の核心地であり、多湿な農業地帯",
+    "geometry_wkt": "POLYGON ((-9.0 15.5, -5.0 15.5, -5.0 10.0, -9.0 10.0, -9.0 15.5))",
+    "area_id": 404,
+    "source_row_index": 404,
+    "iso_a3_source": "MLI",
+    "iso_a3": "MLI",
+    "area_seq_in_source": 4
+  },
+  {
+    "id": "MLI-05",
+    "name": "西部カイ地域",
+    "name_en": "Western Kayes Region",
+    "reason": "セネガル・モーリタニア国境に近い鉱山資源と物流のゲートウェイ",
+    "geometry_wkt": "POLYGON ((-12.5 16.5, -9.0 16.5, -9.0 12.0, -12.5 12.0, -12.5 16.5))",
+    "area_id": 405,
+    "source_row_index": 405,
+    "iso_a3_source": "MLI",
+    "iso_a3": "MLI",
+    "area_seq_in_source": 5
+  }
+]

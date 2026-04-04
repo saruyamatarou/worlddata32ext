@@ -1,0 +1,544 @@
+{
+  "iso_a3": "KAZ",
+  "area_count": 5,
+  "country_bbox": {
+    "minx": 46.0,
+    "maxx": 87.84668,
+    "miny": 40.212441,
+    "maxy": 55.8
+  },
+  "areas": [
+    {
+      "id": "KAZ-01",
+      "area_id": 330,
+      "area_seq_in_source": 1,
+      "name": "北カザフ草原地帯",
+      "name_en": "Northern Kazakh Steppe",
+      "reason": "ロシア国境沿いに広がる大草原帯で、農業と広域平原の性格が強い地域。",
+      "geometry_wkt": "POLYGON ((59.886475 55.800000, 72.971191 55.800000, 72.971191 51.275662, 59.886475 51.275662, 59.886475 55.800000))",
+      "bbox": {
+        "minx": 59.886475,
+        "maxx": 72.971191,
+        "miny": 51.275662,
+        "maxy": 55.8
+      },
+      "centroid": {
+        "x": 66.428833,
+        "y": 53.537831
+      },
+      "size": {
+        "width": 13.084716,
+        "height": 4.524338
+      },
+      "relative_position": {
+        "x_norm": 0.4882,
+        "y_norm": 0.8549,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "KAZ-04",
+          "KAZ-05"
+        ],
+        "east_of": [
+          "KAZ-02",
+          "KAZ-03"
+        ],
+        "north_of": [
+          "KAZ-02",
+          "KAZ-03",
+          "KAZ-04",
+          "KAZ-05"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "KAZ-03",
+            "x_overlap": 13.084716,
+            "y_overlap": 0.013744
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 108539,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "COLD",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.6884,
+          "CROPLAND": 0.1824,
+          "BARE": 0.0632,
+          "TREE": 0.0198,
+          "SHRUB": 0.017,
+          "OCEAN": 0.0138,
+          "WATER": 0.0098,
+          "WETLAND": 0.0028,
+          "MOSS_LICHEN": 0.0013,
+          "BUILT": 0.0012,
+          "SNOW_ICE": 0.0004
+        },
+        "temperature_ratio": {
+          "COLD": 0.6975,
+          "TEMPERATE": 0.2986,
+          "POLAR": 0.0039
+        },
+        "elevation_ratio": {
+          "MID": 0.4938,
+          "LOW": 0.4185,
+          "HIGH": 0.0734,
+          "ULTRA": 0.0143
+        },
+        "precip_ratio": {
+          "LOW": 0.6936,
+          "ARID": 0.2925,
+          "MID": 0.0138
+        },
+        "flags_ratio": {
+          "water": 0.5971,
+          "cropland": 0.1824,
+          "forest": 0.0367,
+          "built": 0.0012,
+          "ice": 0.0004
+        },
+        "cell_bbox_xy": {
+          "min_x": 5436,
+          "max_x": 6415,
+          "min_y": 830,
+          "max_y": 1185
+        },
+        "cell_centroid": {
+          "x": 5944.709,
+          "y": 972.577,
+          "lon": 67.717032,
+          "lat": 49.455127
+        }
+      }
+    },
+    {
+      "id": "KAZ-02",
+      "area_id": 331,
+      "area_seq_in_source": 2,
+      "name": "西部カスピ海・ウラル低地",
+      "name_en": "Western Caspian and Ural Lowlands",
+      "reason": "カスピ海沿岸と西部低地を含む地域で、石油・ガス資源と沿岸・低地地形の性格が強い。",
+      "geometry_wkt": "POLYGON ((46.000000 51.835778, 54.580078 51.835778, 54.580078 40.313043, 46.000000 40.313043, 46.000000 51.835778))",
+      "bbox": {
+        "minx": 46.0,
+        "maxx": 54.580078,
+        "miny": 40.313043,
+        "maxy": 51.835778
+      },
+      "centroid": {
+        "x": 50.290039,
+        "y": 46.07441
+      },
+      "size": {
+        "width": 8.580078,
+        "height": 11.522735
+      },
+      "relative_position": {
+        "x_norm": 0.1025,
+        "y_norm": 0.3761,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "KAZ-01",
+          "KAZ-03",
+          "KAZ-04",
+          "KAZ-05"
+        ],
+        "east_of": [],
+        "north_of": [
+          "KAZ-05"
+        ],
+        "south_of": [
+          "KAZ-01",
+          "KAZ-03",
+          "KAZ-04"
+        ],
+        "overlaps": [
+          {
+            "id": "KAZ-03",
+            "x_overlap": 0.021973,
+            "y_overlap": 5.307711
+          },
+          {
+            "id": "KAZ-05",
+            "x_overlap": 0.08789,
+            "y_overlap": 5.686957
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 14049,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "GRASS": 0.6235,
+          "BARE": 0.2216,
+          "OCEAN": 0.1485,
+          "WATER": 0.0038,
+          "WETLAND": 0.0017,
+          "BUILT": 0.0009,
+          "SHRUB": 0.0001
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.8961,
+          "COLD": 0.1039
+        },
+        "elevation_ratio": {
+          "LOW": 0.9431,
+          "MID": 0.0569
+        },
+        "precip_ratio": {
+          "ARID": 0.8515,
+          "MID": 0.1485
+        },
+        "flags_ratio": {
+          "water": 0.6788,
+          "built": 0.0009,
+          "forest": 0.0001
+        },
+        "cell_bbox_xy": {
+          "min_x": 5531,
+          "max_x": 5628,
+          "min_y": 973,
+          "max_y": 1133
+        },
+        "cell_centroid": {
+          "x": 5582.059,
+          "y": 1050.216,
+          "lon": 52.606622,
+          "lat": 46.220174
+        }
+      }
+    },
+    {
+      "id": "KAZ-03",
+      "area_id": 332,
+      "area_seq_in_source": 3,
+      "name": "中央カザフ高地・乾燥内陸",
+      "name_en": "Central Kazakh Uplands and Arid Interior",
+      "reason": "カザフ高地を中心とする中央内陸部で、乾燥した草原・半砂漠・丘陵が広がる広域管理向きの地域。",
+      "geometry_wkt": "POLYGON ((54.558105 51.289406, 72.993164 51.289406, 72.993164 45.981695, 54.558105 45.981695, 54.558105 51.289406))",
+      "bbox": {
+        "minx": 54.558105,
+        "maxx": 72.993164,
+        "miny": 45.981695,
+        "maxy": 51.289406
+      },
+      "centroid": {
+        "x": 63.775634,
+        "y": 48.635551
+      },
+      "size": {
+        "width": 18.435059,
+        "height": 5.307711
+      },
+      "relative_position": {
+        "x_norm": 0.4248,
+        "y_norm": 0.5404,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "KAZ-01",
+          "KAZ-04",
+          "KAZ-05"
+        ],
+        "east_of": [
+          "KAZ-02"
+        ],
+        "north_of": [
+          "KAZ-02",
+          "KAZ-05"
+        ],
+        "south_of": [
+          "KAZ-01",
+          "KAZ-04"
+        ],
+        "overlaps": [
+          {
+            "id": "KAZ-01",
+            "x_overlap": 13.084716,
+            "y_overlap": 0.013744
+          },
+          {
+            "id": "KAZ-02",
+            "x_overlap": 0.021973,
+            "y_overlap": 5.307711
+          },
+          {
+            "id": "KAZ-05",
+            "x_overlap": 18.435059,
+            "y_overlap": 0.018305
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 30781,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "GRASS": 0.9552,
+          "BARE": 0.0344,
+          "WATER": 0.0091,
+          "WETLAND": 0.001,
+          "SHRUB": 0.0003,
+          "BUILT": 0.0
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9188,
+          "COLD": 0.0812
+        },
+        "elevation_ratio": {
+          "LOW": 0.5646,
+          "MID": 0.4298,
+          "HIGH": 0.0056
+        },
+        "precip_ratio": {
+          "ARID": 0.9734,
+          "LOW": 0.0266
+        },
+        "flags_ratio": {
+          "water": 0.5873,
+          "forest": 0.0003,
+          "built": 0.0
+        },
+        "cell_bbox_xy": {
+          "min_x": 5629,
+          "max_x": 6071,
+          "min_y": 973,
+          "max_y": 1056
+        },
+        "cell_centroid": {
+          "x": 5823.766,
+          "y": 1018.449,
+          "lon": 62.677767,
+          "lat": 47.543809
+        }
+      }
+    },
+    {
+      "id": "KAZ-04",
+      "area_id": 333,
+      "area_seq_in_source": 4,
+      "name": "東部アルタイ・山麓地域",
+      "name_en": "Eastern Altai and Foothill Region",
+      "reason": "アルタイ方面の東部高地とその山麓を含む地域で、国内でも山地性が強く、水源・鉱業面でも重要。",
+      "geometry_wkt": "POLYGON ((72.993164 54.901882, 87.846680 54.901882, 87.846680 46.000000, 72.993164 46.000000, 72.993164 54.901882))",
+      "bbox": {
+        "minx": 72.993164,
+        "maxx": 87.84668,
+        "miny": 46.0,
+        "maxy": 54.901882
+      },
+      "centroid": {
+        "x": 80.419922,
+        "y": 50.450941
+      },
+      "size": {
+        "width": 14.853516,
+        "height": 8.901882
+      },
+      "relative_position": {
+        "x_norm": 0.8225,
+        "y_norm": 0.6568,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "KAZ-01",
+          "KAZ-02",
+          "KAZ-03",
+          "KAZ-05"
+        ],
+        "north_of": [
+          "KAZ-02",
+          "KAZ-03",
+          "KAZ-05"
+        ],
+        "south_of": [
+          "KAZ-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 12836,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.863,
+          "WATER": 0.0982,
+          "BARE": 0.0178,
+          "WETLAND": 0.0101,
+          "CROPLAND": 0.0094,
+          "SHRUB": 0.0011,
+          "TREE": 0.0004,
+          "BUILT": 0.0001
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.5757,
+          "COLD": 0.423,
+          "POLAR": 0.0012
+        },
+        "elevation_ratio": {
+          "MID": 0.8545,
+          "HIGH": 0.1321,
+          "ULTRA": 0.0134
+        },
+        "precip_ratio": {
+          "LOW": 0.5357,
+          "ARID": 0.4643
+        },
+        "flags_ratio": {
+          "water": 0.6694,
+          "cropland": 0.0094,
+          "forest": 0.0015,
+          "built": 0.0001
+        },
+        "cell_bbox_xy": {
+          "min_x": 6072,
+          "max_x": 6375,
+          "min_y": 1008,
+          "max_y": 1055
+        },
+        "cell_centroid": {
+          "x": 6207.499,
+          "y": 1029.945,
+          "lon": 78.666628,
+          "lat": 47.064785
+        }
+      }
+    },
+    {
+      "id": "KAZ-05",
+      "area_id": 334,
+      "area_seq_in_source": 5,
+      "name": "南部オアシス・天山前縁地域",
+      "name_en": "Southern Oasis Belt and Tian Shan Foreland",
+      "reason": "シルダリヤ流域、南部盆地、南東の天山山麓を含む地域で、灌漑農業・都市・山麓地形が集中する。",
+      "geometry_wkt": "POLYGON ((54.492188 46.000000, 83.979492 46.000000, 83.979492 40.212441, 54.492188 40.212441, 54.492188 46.000000))",
+      "bbox": {
+        "minx": 54.492188,
+        "maxx": 83.979492,
+        "miny": 40.212441,
+        "maxy": 46.0
+      },
+      "centroid": {
+        "x": 69.23584,
+        "y": 43.10622
+      },
+      "size": {
+        "width": 29.487304,
+        "height": 5.787559
+      },
+      "relative_position": {
+        "x_norm": 0.5553,
+        "y_norm": 0.1856,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "KAZ-04"
+        ],
+        "east_of": [
+          "KAZ-01",
+          "KAZ-02",
+          "KAZ-03"
+        ],
+        "north_of": [],
+        "south_of": [
+          "KAZ-01",
+          "KAZ-02",
+          "KAZ-03",
+          "KAZ-04"
+        ],
+        "overlaps": [
+          {
+            "id": "KAZ-02",
+            "x_overlap": 0.08789,
+            "y_overlap": 5.686957
+          },
+          {
+            "id": "KAZ-03",
+            "x_overlap": 18.435059,
+            "y_overlap": 0.018305
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 26828,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "GRASS": 0.7912,
+          "BARE": 0.1192,
+          "SHRUB": 0.0425,
+          "CROPLAND": 0.0176,
+          "WATER": 0.017,
+          "WETLAND": 0.0079,
+          "MOSS_LICHEN": 0.0018,
+          "TREE": 0.0017,
+          "BUILT": 0.0008,
+          "SNOW_ICE": 0.0004
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9433,
+          "COLD": 0.0453,
+          "POLAR": 0.0114
+        },
+        "elevation_ratio": {
+          "MID": 0.6332,
+          "LOW": 0.2467,
+          "HIGH": 0.0863,
+          "ULTRA": 0.0338
+        },
+        "precip_ratio": {
+          "ARID": 0.6998,
+          "LOW": 0.3002
+        },
+        "flags_ratio": {
+          "water": 0.6499,
+          "forest": 0.0441,
+          "cropland": 0.0176,
+          "built": 0.0008,
+          "ice": 0.0004
+        },
+        "cell_bbox_xy": {
+          "min_x": 5628,
+          "max_x": 6302,
+          "min_y": 1056,
+          "max_y": 1131
+        },
+        "cell_centroid": {
+          "x": 6023.152,
+          "y": 1085.776,
+          "lon": 70.985486,
+          "lat": 44.738513
+        }
+      }
+    }
+  ]
+}

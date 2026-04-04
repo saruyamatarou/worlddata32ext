@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">PRT review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-31.816406, 29.754840) - (-6.097412, 42.195969)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="1012.17" y="40.00" width="147.83" height="99.33" fill="none" stroke="black" stroke-width="2"/>
+<text x="1016.17" y="56.00" font-size="12" font-family="Arial, sans-serif">PRT-01 | ポルトガル北部</text>
+<circle cx="1086.08" cy="89.66" r="2.5" fill="black"/>
+<rect x="1011.83" y="139.33" width="124.25" height="84.96" fill="none" stroke="black" stroke-width="2"/>
+<text x="1015.83" y="155.33" font-size="12" font-family="Arial, sans-serif">PRT-02 | ポルトガル中部・大西洋沿岸</text>
+<circle cx="1073.95" cy="181.81" r="2.5" fill="black"/>
+<rect x="999.01" y="224.28" width="125.59" height="170.76" fill="none" stroke="black" stroke-width="2"/>
+<text x="1003.01" y="240.28" font-size="12" font-family="Arial, sans-serif">PRT-03 | ポルトガル南部・内陸部</text>
+<circle cx="1061.80" cy="309.66" r="2.5" fill="black"/>
+<rect x="40.00" y="181.81" width="340.39" height="240.21" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="197.81" font-size="12" font-family="Arial, sans-serif">PRT-04 | アゾレス諸島</text>
+<circle cx="210.19" cy="301.91" r="2.5" fill="black"/>
+<rect x="650.38" y="619.75" width="107.74" height="240.25" fill="none" stroke="black" stroke-width="2"/>
+<text x="654.38" y="635.75" font-size="12" font-family="Arial, sans-serif">PRT-05 | マデイラ諸島</text>
+<circle cx="704.25" cy="739.87" r="2.5" fill="black"/>
+</svg>

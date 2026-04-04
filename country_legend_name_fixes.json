@@ -1,0 +1,154 @@
+[
+  {
+    "id": "11",
+    "iso_a3": "ASM",
+    "old_name_en": "American Samoa",
+    "old_name_ja": "スウェインズ島",
+    "new_name_en": "American Samoa",
+    "new_name_ja": "アメリカ領サモア"
+  },
+  {
+    "id": "12",
+    "iso_a3": "ATA",
+    "old_name_en": "Antarctica",
+    "old_name_ja": "サウス・オークニー諸島",
+    "new_name_en": "Antarctica",
+    "new_name_ja": "南極"
+  },
+  {
+    "id": "13",
+    "iso_a3": "ATF",
+    "old_name_en": "Fr. S. Antarctic Lands",
+    "old_name_ja": "トロメリン島",
+    "new_name_en": "French Southern and Antarctic Lands",
+    "new_name_ja": "フランス領南方・南極地域"
+  },
+  {
+    "id": "14",
+    "iso_a3": "ATG",
+    "old_name_en": "Antigua and Barb.",
+    "old_name_ja": "バーブーダ島",
+    "new_name_en": "Antigua and Barbuda",
+    "new_name_ja": "アンティグア・バーブーダ"
+  },
+  {
+    "id": "17",
+    "iso_a3": "AZE",
+    "old_name_en": "Azerbaijan",
+    "old_name_ja": "ナゴルノ・カラバフ",
+    "new_name_en": "Azerbaijan",
+    "new_name_ja": "アゼルバイジャン"
+  },
+  {
+    "id": "19",
+    "iso_a3": "BEL",
+    "old_name_en": "Belgium",
+    "old_name_ja": "ブラバン・ワロン州",
+    "new_name_en": "Belgium",
+    "new_name_ja": "ベルギー"
+  },
+  {
+    "id": "26",
+    "iso_a3": "BIH",
+    "old_name_en": "Bosnia and Herz.",
+    "old_name_ja": "スルプスカ共和国",
+    "new_name_en": "Bosnia and Herzegovina",
+    "new_name_ja": "ボスニア・ヘルツェゴビナ"
+  },
+  {
+    "id": "62",
+    "iso_a3": "ECU",
+    "old_name_en": "Ecuador",
+    "old_name_ja": "ガラパゴス県",
+    "new_name_en": "Ecuador",
+    "new_name_ja": "エクアドル"
+  },
+  {
+    "id": "75",
+    "iso_a3": "GBR",
+    "old_name_en": "United Kingdom",
+    "old_name_ja": "スコットランド",
+    "new_name_en": "United Kingdom",
+    "new_name_ja": "イギリス"
+  },
+  {
+    "id": "77",
+    "iso_a3": "GGY",
+    "old_name_en": "Guernsey",
+    "old_name_ja": "サーク島",
+    "new_name_en": "Guernsey",
+    "new_name_ja": "ガーンジー"
+  },
+  {
+    "id": "99",
+    "iso_a3": "IOT",
+    "old_name_en": "Br. Indian Ocean Ter.",
+    "old_name_ja": "ディエゴガルシア海軍支援施設",
+    "new_name_en": "British Indian Ocean Territory",
+    "new_name_ja": "イギリス領インド洋地域"
+  },
+  {
+    "id": "105",
+    "iso_a3": "ITA",
+    "old_name_en": "Italy",
+    "old_name_ja": "シチリア州",
+    "new_name_en": "Italy",
+    "new_name_ja": "イタリア"
+  },
+  {
+    "id": "185",
+    "iso_a3": "SGS",
+    "old_name_en": "S. Geo. and the Is.",
+    "old_name_ja": "S.サンドイッチ島",
+    "new_name_en": "South Georgia and the South Sandwich Islands",
+    "new_name_ja": "サウスジョージア・南サンドイッチ諸島"
+  },
+  {
+    "id": "186",
+    "iso_a3": "SHN",
+    "old_name_en": "Saint Helena",
+    "old_name_ja": "トリスタンダクーニャ",
+    "new_name_en": "Saint Helena, Ascension and Tristan da Cunha",
+    "new_name_ja": "セントヘレナ・アセンションおよびトリスタンダクーニャ"
+  },
+  {
+    "id": "195",
+    "iso_a3": "STP",
+    "old_name_en": "São Tomé and Principe",
+    "old_name_ja": "サントメ島",
+    "new_name_en": "São Tomé and Príncipe",
+    "new_name_ja": "サントメ・プリンシペ"
+  },
+  {
+    "id": "212",
+    "iso_a3": "TTO",
+    "old_name_en": "Trinidad and Tobago",
+    "old_name_ja": "トバゴ島",
+    "new_name_en": "Trinidad and Tobago",
+    "new_name_ja": "トリニダード・トバゴ"
+  },
+  {
+    "id": "216",
+    "iso_a3": "TWN",
+    "old_name_en": "Taiwan",
+    "old_name_ja": "中華民国",
+    "new_name_en": "Taiwan",
+    "new_name_ja": "台湾"
+  },
+  {
+    "id": "220",
+    "iso_a3": "UMI",
+    "old_name_en": "U.S. Minor Outlying Is.",
+    "old_name_ja": "ウェーク島",
+    "new_name_en": "United States Minor Outlying Islands",
+    "new_name_ja": "合衆国領有小離島"
+  },
+  {
+    "id": "222",
+    "iso_a3": "USA",
+    "old_name_en": "United States of America",
+    "old_name_ja": "アラスカ州",
+    "new_name_en": "United States of America",
+    "new_name_ja": "アメリカ合衆国"
+  }
+]

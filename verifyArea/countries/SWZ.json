@@ -1,0 +1,14 @@
+[
+  {
+    "id": "SWZ-01",
+    "name": "エスワティニ北部高原",
+    "name_en": "Northern Eswatini Highlands",
+    "reason": "国土の大部分を占める高原地帯であり、ムババーネなどの主要都市が存在する。標高が高く、比較的涼しい気候を持つ。",
+    "geometry_wkt": "POLYGON ((30.646362 -25.611810, 32.239380 -25.611810, 32.239380 -27.425414, 30.646362 -27.425414, 30.646362 -25.611810))",
+    "area_id": 579,
+    "source_row_index": 579,
+    "iso_a3_source": "SWZ",
+    "iso_a3": "SWZ",
+    "area_seq_in_source": 1
+  }
+]

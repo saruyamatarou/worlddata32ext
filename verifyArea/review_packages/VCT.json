@@ -1,0 +1,245 @@
+{
+  "iso_a3": "VCT",
+  "area_count": 3,
+  "country_bbox": {
+    "minx": -61.526184,
+    "maxx": -60.5,
+    "miny": 12.0,
+    "maxy": 13.547211
+  },
+  "areas": [
+    {
+      "id": "VC-01",
+      "area_id": 669,
+      "area_seq_in_source": 1,
+      "name": "セントビンセント本島",
+      "name_en": "Saint Vincent Island",
+      "reason": "セントビンセント・グレナディーン諸島の主要な島であり、首都キングスタウン、スフリエール山、植物園など、国の政治、経済、文化の中心地であるため。地理的にも火山島として特徴づけられる。",
+      "geometry_wkt": "POLYGON ((-61.526184 13.547211, -60.902710 13.547211, -60.902710 12.514347, -61.526184 12.514347, -61.526184 13.547211))",
+      "bbox": {
+        "minx": -61.526184,
+        "maxx": -60.90271,
+        "miny": 12.514347,
+        "maxy": 13.547211
+      },
+      "centroid": {
+        "x": -61.214447,
+        "y": 13.030779
+      },
+      "size": {
+        "width": 0.623474,
+        "height": 1.032864
+      },
+      "relative_position": {
+        "x_norm": 0.3038,
+        "y_norm": 0.6662,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "VC-02",
+          "VC-03"
+        ],
+        "east_of": [],
+        "north_of": [
+          "VC-03"
+        ],
+        "south_of": [
+          "VC-02"
+        ],
+        "overlaps": [
+          {
+            "id": "VC-02",
+            "x_overlap": 0.39729,
+            "y_overlap": 0.53333
+          },
+          {
+            "id": "VC-03",
+            "x_overlap": 0.39729,
+            "y_overlap": 0.285653
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 210,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.981,
+          "TREE": 0.0095,
+          "WATER": 0.0095
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.9905,
+          "MID": 0.0095
+        },
+        "precip_ratio": {
+          "MID": 0.9905,
+          "WET": 0.0095
+        },
+        "flags_ratio": {
+          "water": 0.9905,
+          "forest": 0.0095
+        },
+        "cell_bbox_xy": {
+          "min_x": 2835,
+          "max_x": 2862,
+          "min_y": 1832,
+          "max_y": 1858
+        },
+        "cell_centroid": {
+          "x": 2846.971,
+          "y": 1848.052,
+          "lon": -61.355357,
+          "lat": 12.976984
+        }
+      }
+    },
+    {
+      "id": "VC-02",
+      "area_id": 670,
+      "area_seq_in_source": 2,
+      "name": "グレナディーン諸島北部",
+      "name_en": "Northern Grenadines",
+      "reason": "グレナディーン諸島は、セントビンセント島とは異なり、珊瑚礁と小さな島々が集まっており、高級リゾート地として観光産業において重要な地域である。地理的に北部に位置する島々をまとめる。",
+      "geometry_wkt": "POLYGON ((-61.30000 13.33333, -60.50000 13.33333, -60.50000 12.80000, -61.30000 12.80000, -61.30000 13.33333))",
+      "bbox": {
+        "minx": -61.3,
+        "maxx": -60.5,
+        "miny": 12.8,
+        "maxy": 13.33333
+      },
+      "centroid": {
+        "x": -60.9,
+        "y": 13.066665
+      },
+      "size": {
+        "width": 0.8,
+        "height": 0.53333
+      },
+      "relative_position": {
+        "x_norm": 0.6102,
+        "y_norm": 0.6894,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "VC-01"
+        ],
+        "north_of": [
+          "VC-01",
+          "VC-03"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "VC-01",
+            "x_overlap": 0.39729,
+            "y_overlap": 0.53333
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 327,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.948,
+          "TREE": 0.0428,
+          "WATER": 0.0092
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.9725,
+          "MID": 0.0275
+        },
+        "precip_ratio": {
+          "MID": 0.9572,
+          "WET": 0.0428
+        },
+        "flags_ratio": {
+          "water": 0.9572,
+          "forest": 0.0428
+        },
+        "cell_bbox_xy": {
+          "min_x": 2839,
+          "max_x": 2862,
+          "min_y": 1833,
+          "max_y": 1855
+        },
+        "cell_centroid": {
+          "x": 2850.147,
+          "y": 1844.599,
+          "lon": -61.22305,
+          "lat": 13.120859
+        }
+      }
+    },
+    {
+      "id": "VC-03",
+      "area_id": 671,
+      "area_seq_in_source": 3,
+      "name": "グレナディーン諸島南部",
+      "name_en": "Southern Grenadines",
+      "reason": "グレナディーン諸島は、セントビンセント島とは異なり、珊瑚礁と小さな島々が集まっており、高級リゾート地として観光産業において重要な地域である。地理的に南部に位置する島々をまとめる。",
+      "geometry_wkt": "POLYGON ((-61.30000 12.80000, -60.50000 12.80000, -60.50000 12.00000, -61.30000 12.00000, -61.30000 12.80000))",
+      "bbox": {
+        "minx": -61.3,
+        "maxx": -60.5,
+        "miny": 12.0,
+        "maxy": 12.8
+      },
+      "centroid": {
+        "x": -60.9,
+        "y": 12.4
+      },
+      "size": {
+        "width": 0.8,
+        "height": 0.8
+      },
+      "relative_position": {
+        "x_norm": 0.6102,
+        "y_norm": 0.2585,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "VC-01"
+        ],
+        "north_of": [],
+        "south_of": [
+          "VC-01",
+          "VC-02"
+        ],
+        "overlaps": [
+          {
+            "id": "VC-01",
+            "x_overlap": 0.39729,
+            "y_overlap": 0.285653
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    }
+  ]
+}

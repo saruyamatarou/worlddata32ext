@@ -1,0 +1,50 @@
+[
+  {
+    "id": "YEM-01",
+    "name": "北部高原地域",
+    "name_en": "Northern Highlands",
+    "reason": "標高が高く、古代から農業が盛んで「緑のアラビア」とも呼ばれた地域。都市サヌアはこの地域に位置する。",
+    "geometry_wkt": "POLYGON ((42.385254 18.000000, 45.230713 18.000000, 45.230713 15.146369, 42.385254 15.146369, 42.385254 18.000000))",
+    "area_id": 689,
+    "source_row_index": 689,
+    "iso_a3_source": "YEM",
+    "iso_a3": "YEM",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "YEM-02",
+    "name": "西部沿岸平野（ティハーマ地方）",
+    "name_en": "Western Coastal Plain (Tihamah)",
+    "reason": "紅海に面した肥沃な平野部。高温多湿な気候で、農業も行われている。",
+    "geometry_wkt": "POLYGON ((42.462158 15.146369, 45.812988 15.146369, 45.812988 12.468760, 42.462158 12.468760, 42.462158 15.146369))",
+    "area_id": 690,
+    "source_row_index": 690,
+    "iso_a3_source": "YEM",
+    "iso_a3": "YEM",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "YEM-03",
+    "name": "南東部砂漠地帯",
+    "name_en": "Southeastern Desert Region",
+    "reason": "アラビア半島全体に広がる砂漠地帯の一部。人口密度は低く、遊牧民も存在する。",
+    "geometry_wkt": "POLYGON ((45.263672 19.051734, 53.162842 19.051734, 53.162842 16.573023, 45.263672 16.573023, 45.263672 19.051734))",
+    "area_id": 691,
+    "source_row_index": 691,
+    "iso_a3_source": "YEM",
+    "iso_a3": "YEM",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "YEM-04",
+    "name": "南部沿岸部（アデン湾周辺）",
+    "name_en": "Southern Coastal Area (Aden Gulf)",
+    "reason": "アデン湾に面し、古くから交易の要衝として栄えたアデン市がある地域。",
+    "geometry_wkt": "POLYGON ((45.241699 16.573023, 55.096436 16.573023, 55.096436 11.738302, 45.241699 11.738302, 45.241699 16.573023))",
+    "area_id": 692,
+    "source_row_index": 692,
+    "iso_a3_source": "YEM",
+    "iso_a3": "YEM",
+    "area_seq_in_source": 4
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "iso_a3": "GRD",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -61.99585,
+    "maxx": -61.276245,
+    "miny": 11.8109,
+    "maxy": 12.680535
+  },
+  "areas": [
+    {
+      "id": "GRD-01",
+      "area_id": 256,
+      "area_seq_in_source": 1,
+      "name": "グレナダ全域",
+      "name_en": "Entire Grenada",
+      "reason": "グレナダは比較的小さな島国であり、地理的・経済的・文化的な特徴が国全体で均質であるため、単一のエリアとして定義することが適切である。",
+      "geometry_wkt": "POLYGON ((-61.995850 12.680535, -61.276245 12.680535, -61.276245 11.810900, -61.995850 11.810900, -61.995850 12.680535))",
+      "bbox": {
+        "minx": -61.99585,
+        "maxx": -61.276245,
+        "miny": 11.8109,
+        "maxy": 12.680535
+      },
+      "centroid": {
+        "x": -61.636048,
+        "y": 12.245718
+      },
+      "size": {
+        "width": 0.719605,
+        "height": 0.869635
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 476,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9664,
+          "TREE": 0.0273,
+          "WATER": 0.0063
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.9832,
+          "MID": 0.0168
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.9727,
+          "forest": 0.0273
+        },
+        "cell_bbox_xy": {
+          "min_x": 2828,
+          "max_x": 2855,
+          "min_y": 1858,
+          "max_y": 1881
+        },
+        "cell_centroid": {
+          "x": 2840.277,
+          "y": 1868.433,
+          "lon": -61.634279,
+          "lat": 12.127801
+        }
+      }
+    }
+  ]
+}

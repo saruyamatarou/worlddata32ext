@@ -1,0 +1,402 @@
+{
+  "iso_a3": "AFG",
+  "area_count": 4,
+  "country_bbox": {
+    "minx": 60.358887,
+    "maxx": 74.981689,
+    "miny": 29.13297,
+    "maxy": 38.61687
+  },
+  "areas": [
+    {
+      "id": "AFG-01",
+      "area_id": 2,
+      "area_seq_in_source": 1,
+      "name": "北東部山岳地帯",
+      "name_en": "Northeastern Highlands",
+      "reason": "ヒンドゥークシュ山脈が広がり、標高が高く険しい地形が特徴。ワハン回廊やパミール高原の一部を含み、地理的に隔絶されている。",
+      "geometry_wkt": "POLYGON ((64.489746 38.616870, 74.981689 38.616870, 74.981689 36.368222, 64.489746 36.368222, 64.489746 38.616870))",
+      "bbox": {
+        "minx": 64.489746,
+        "maxx": 74.981689,
+        "miny": 36.368222,
+        "maxy": 38.61687
+      },
+      "centroid": {
+        "x": 69.735717,
+        "y": 37.492546
+      },
+      "size": {
+        "width": 10.491943,
+        "height": 2.248648
+      },
+      "relative_position": {
+        "x_norm": 0.6412,
+        "y_norm": 0.8814,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "AFG-02",
+          "AFG-03",
+          "AFG-04"
+        ],
+        "north_of": [
+          "AFG-02",
+          "AFG-03",
+          "AFG-04"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 22946,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "BARE": 0.7024,
+          "GRASS": 0.224,
+          "CROPLAND": 0.0469,
+          "TREE": 0.0111,
+          "SNOW_ICE": 0.0082,
+          "MOSS_LICHEN": 0.0031,
+          "SHRUB": 0.003,
+          "BUILT": 0.0007,
+          "WATER": 0.0004,
+          "WETLAND": 0.0001
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.5636,
+          "TROPICAL": 0.2768,
+          "COLD": 0.141,
+          "POLAR": 0.0186
+        },
+        "elevation_ratio": {
+          "HIGH": 0.3477,
+          "ULTRA": 0.3435,
+          "MID": 0.3088
+        },
+        "precip_ratio": {
+          "LOW": 0.5076,
+          "ARID": 0.4921,
+          "MID": 0.0003
+        },
+        "flags_ratio": {
+          "water": 0.656,
+          "cropland": 0.0469,
+          "forest": 0.0141,
+          "ice": 0.0082,
+          "built": 0.0007
+        },
+        "cell_bbox_xy": {
+          "min_x": 5772,
+          "max_x": 6116,
+          "min_y": 1237,
+          "max_y": 1454
+        },
+        "cell_centroid": {
+          "x": 5897.482,
+          "y": 1345.682,
+          "lon": 65.749241,
+          "lat": 33.90908
+        }
+      }
+    },
+    {
+      "id": "AFG-02",
+      "area_id": 3,
+      "area_seq_in_source": 2,
+      "name": "北部平原地帯",
+      "name_en": "Northern Plains",
+      "reason": "中央高地より北に位置し、農業の中心地（「食料庫」とも呼ばれる）。肥沃な土壌と丘陵地帯が広がり、天然ガスや石油などの鉱物資源も豊富。",
+      "geometry_wkt": "POLYGON ((60.578613 36.368222, 72.048340 36.368222, 72.048340 34.488448, 60.578613 34.488448, 60.578613 36.368222))",
+      "bbox": {
+        "minx": 60.578613,
+        "maxx": 72.04834,
+        "miny": 34.488448,
+        "maxy": 36.368222
+      },
+      "centroid": {
+        "x": 66.313476,
+        "y": 35.428335
+      },
+      "size": {
+        "width": 11.469727,
+        "height": 1.879774
+      },
+      "relative_position": {
+        "x_norm": 0.4072,
+        "y_norm": 0.6638,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "AFG-01"
+        ],
+        "east_of": [
+          "AFG-03",
+          "AFG-04"
+        ],
+        "north_of": [
+          "AFG-03",
+          "AFG-04"
+        ],
+        "south_of": [
+          "AFG-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 5625,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "COLD",
+        "dominant_e2": "ULTRA",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "BARE": 0.4789,
+          "GRASS": 0.4427,
+          "CROPLAND": 0.0425,
+          "TREE": 0.0244,
+          "MOSS_LICHEN": 0.0036,
+          "SHRUB": 0.0032,
+          "SNOW_ICE": 0.0023,
+          "BUILT": 0.0023,
+          "WATER": 0.0002
+        },
+        "temperature_ratio": {
+          "COLD": 0.4933,
+          "TEMPERATE": 0.4645,
+          "POLAR": 0.0224,
+          "TROPICAL": 0.0197
+        },
+        "elevation_ratio": {
+          "ULTRA": 0.7333,
+          "HIGH": 0.2425,
+          "MID": 0.0242
+        },
+        "precip_ratio": {
+          "LOW": 0.8612,
+          "MID": 0.0937,
+          "ARID": 0.0452
+        },
+        "flags_ratio": {
+          "water": 0.5767,
+          "cropland": 0.0425,
+          "forest": 0.0276,
+          "ice": 0.0023,
+          "built": 0.0023
+        },
+        "cell_bbox_xy": {
+          "min_x": 5844,
+          "max_x": 6020,
+          "min_y": 1287,
+          "max_y": 1331
+        },
+        "cell_centroid": {
+          "x": 5952.592,
+          "y": 1312.12,
+          "lon": 68.0455,
+          "lat": 35.3075
+        }
+      }
+    },
+    {
+      "id": "AFG-03",
+      "area_id": 4,
+      "area_seq_in_source": 3,
+      "name": "中央高原・山岳地帯",
+      "name_en": "Central Highlands",
+      "reason": "国の中心部を東西に走るヒンドゥークシュ山脈の主軸。広大で複雑な山岳地帯であり、多くの地域で標高が高く、多くのコミュニティが隔絶されている。",
+      "geometry_wkt": "POLYGON ((60.358887 34.452218, 71.169434 34.452218, 71.169434 32.472695, 60.358887 32.472695, 60.358887 34.452218))",
+      "bbox": {
+        "minx": 60.358887,
+        "maxx": 71.169434,
+        "miny": 32.472695,
+        "maxy": 34.452218
+      },
+      "centroid": {
+        "x": 65.764161,
+        "y": 33.462457
+      },
+      "size": {
+        "width": 10.810547,
+        "height": 1.979523
+      },
+      "relative_position": {
+        "x_norm": 0.3696,
+        "y_norm": 0.4565,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "AFG-01",
+          "AFG-02"
+        ],
+        "east_of": [
+          "AFG-04"
+        ],
+        "north_of": [
+          "AFG-04"
+        ],
+        "south_of": [
+          "AFG-01",
+          "AFG-02"
+        ],
+        "overlaps": [
+          {
+            "id": "AFG-04",
+            "x_overlap": 8.822021,
+            "y_overlap": 0.009268
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 3873,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "ULTRA",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "BARE": 0.7134,
+          "GRASS": 0.2675,
+          "CROPLAND": 0.0147,
+          "SHRUB": 0.0028,
+          "BUILT": 0.0013,
+          "TREE": 0.0003
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.534,
+          "COLD": 0.4294,
+          "TROPICAL": 0.0367
+        },
+        "elevation_ratio": {
+          "ULTRA": 0.7307,
+          "HIGH": 0.2486,
+          "MID": 0.0207
+        },
+        "precip_ratio": {
+          "LOW": 0.6907,
+          "ARID": 0.3093
+        },
+        "flags_ratio": {
+          "water": 0.6682,
+          "cropland": 0.0147,
+          "forest": 0.0031,
+          "built": 0.0013
+        },
+        "cell_bbox_xy": {
+          "min_x": 5844,
+          "max_x": 6020,
+          "min_y": 1333,
+          "max_y": 1379
+        },
+        "cell_centroid": {
+          "x": 5897.562,
+          "y": 1350.834,
+          "lon": 65.752566,
+          "lat": 33.694407
+        }
+      }
+    },
+    {
+      "id": "AFG-04",
+      "area_id": 5,
+      "area_seq_in_source": 4,
+      "name": "南西部高原・砂漠地帯",
+      "name_en": "Southwestern Plateau and Desert",
+      "reason": "中央高地の南に位置し、高地、砂漠、半砂漠地帯が広がる。ヘルマンド川などの河川が横断し、リゲスタン砂漠やマルゴブ砂漠などがある。",
+      "geometry_wkt": "POLYGON ((60.600586 32.481963, 69.422607 32.481963, 69.422607 29.132970, 60.600586 29.132970, 60.600586 32.481963))",
+      "bbox": {
+        "minx": 60.600586,
+        "maxx": 69.422607,
+        "miny": 29.13297,
+        "maxy": 32.481963
+      },
+      "centroid": {
+        "x": 65.011596,
+        "y": 30.807467
+      },
+      "size": {
+        "width": 8.822021,
+        "height": 3.348993
+      },
+      "relative_position": {
+        "x_norm": 0.3182,
+        "y_norm": 0.1766,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "AFG-01",
+          "AFG-02",
+          "AFG-03"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "AFG-01",
+          "AFG-02",
+          "AFG-03"
+        ],
+        "overlaps": [
+          {
+            "id": "AFG-03",
+            "x_overlap": 8.822021,
+            "y_overlap": 0.009268
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 3614,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.9209,
+          "CROPLAND": 0.0783,
+          "BUILT": 0.0006,
+          "WATER": 0.0003
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.7872,
+          "TEMPERATE": 0.2128
+        },
+        "elevation_ratio": {
+          "HIGH": 0.8379,
+          "MID": 0.1563,
+          "ULTRA": 0.0058
+        },
+        "precip_ratio": {
+          "ARID": 0.9823,
+          "LOW": 0.0177
+        },
+        "flags_ratio": {
+          "water": 0.7042,
+          "cropland": 0.0783,
+          "built": 0.0006
+        },
+        "cell_bbox_xy": {
+          "min_x": 5843,
+          "max_x": 5903,
+          "min_y": 1380,
+          "max_y": 1439
+        },
+        "cell_centroid": {
+          "x": 5873.382,
+          "y": 1409.589,
+          "lon": 64.745077,
+          "lat": 31.246288
+        }
+      }
+    }
+  ]
+}

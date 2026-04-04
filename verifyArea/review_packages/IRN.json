@@ -1,0 +1,659 @@
+{
+  "iso_a3": "IRN",
+  "area_count": 6,
+  "country_bbox": {
+    "minx": 44.0,
+    "maxx": 63.5,
+    "miny": 24.086589,
+    "maxy": 39.9
+  },
+  "areas": [
+    {
+      "id": "IRN-01",
+      "area_id": 299,
+      "area_seq_in_source": 1,
+      "name": "カスピ海沿岸北部",
+      "name_en": "Northern Caspian Coastal Region",
+      "reason": "アルボルズ山脈の北側に広がる湿潤な沿岸低地。イラン国内では気候・植生がかなり独特で、他地域と分ける意味が大きい。",
+      "geometry_wkt": "POLYGON ((48.361816 38.900000, 57.249756 38.900000, 57.249756 36.208823, 48.361816 36.208823, 48.361816 38.900000))",
+      "bbox": {
+        "minx": 48.361816,
+        "maxx": 57.249756,
+        "miny": 36.208823,
+        "maxy": 38.9
+      },
+      "centroid": {
+        "x": 52.805786,
+        "y": 37.554412
+      },
+      "size": {
+        "width": 8.88794,
+        "height": 2.691177
+      },
+      "relative_position": {
+        "x_norm": 0.4516,
+        "y_norm": 0.8517,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "IRN-04",
+          "IRN-05",
+          "IRN-06"
+        ],
+        "east_of": [
+          "IRN-02",
+          "IRN-03"
+        ],
+        "north_of": [
+          "IRN-03",
+          "IRN-04",
+          "IRN-05",
+          "IRN-06"
+        ],
+        "south_of": [
+          "IRN-02"
+        ],
+        "overlaps": [
+          {
+            "id": "IRN-02",
+            "x_overlap": 0.043946,
+            "y_overlap": 2.67345
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 26076,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "BARE": 0.4103,
+          "GRASS": 0.2747,
+          "CROPLAND": 0.1312,
+          "OCEAN": 0.1222,
+          "TREE": 0.0472,
+          "WATER": 0.0082,
+          "BUILT": 0.0031,
+          "WETLAND": 0.0021,
+          "SHRUB": 0.0008
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.688,
+          "TROPICAL": 0.3052,
+          "COLD": 0.0068
+        },
+        "elevation_ratio": {
+          "HIGH": 0.527,
+          "LOW": 0.2658,
+          "MID": 0.1332,
+          "ULTRA": 0.074
+        },
+        "precip_ratio": {
+          "LOW": 0.5528,
+          "ARID": 0.3155,
+          "MID": 0.1317
+        },
+        "flags_ratio": {
+          "water": 0.6572,
+          "cropland": 0.1312,
+          "forest": 0.0482,
+          "built": 0.0031
+        },
+        "cell_bbox_xy": {
+          "min_x": 5377,
+          "max_x": 5838,
+          "min_y": 1206,
+          "max_y": 1567
+        },
+        "cell_centroid": {
+          "x": 5623.278,
+          "y": 1355.978,
+          "lon": 54.324093,
+          "lat": 33.480097
+        }
+      }
+    },
+    {
+      "id": "IRN-02",
+      "area_id": 300,
+      "area_seq_in_source": 2,
+      "name": "北西山地・アゼルバイジャン地方",
+      "name_en": "Northwestern Highlands and Azerbaijan Region",
+      "reason": "タブリーズ周辺を含む北西高地。コーカサス・アナトリア方面との結節点で、山地性が強い。",
+      "geometry_wkt": "POLYGON ((44.000000 39.900000, 48.405762 39.900000, 48.405762 36.226550, 44.000000 36.226550, 44.000000 39.900000))",
+      "bbox": {
+        "minx": 44.0,
+        "maxx": 48.405762,
+        "miny": 36.22655,
+        "maxy": 39.9
+      },
+      "centroid": {
+        "x": 46.202881,
+        "y": 38.063275
+      },
+      "size": {
+        "width": 4.405762,
+        "height": 3.67345
+      },
+      "relative_position": {
+        "x_norm": 0.113,
+        "y_norm": 0.8839,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "IRN-01",
+          "IRN-03",
+          "IRN-04",
+          "IRN-05",
+          "IRN-06"
+        ],
+        "east_of": [],
+        "north_of": [
+          "IRN-01",
+          "IRN-03",
+          "IRN-04",
+          "IRN-05",
+          "IRN-06"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "IRN-01",
+            "x_overlap": 0.043946,
+            "y_overlap": 2.67345
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 4730,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.6182,
+          "CROPLAND": 0.2624,
+          "BARE": 0.0761,
+          "WATER": 0.0326,
+          "BUILT": 0.0051,
+          "TREE": 0.0049,
+          "SHRUB": 0.0008
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9782,
+          "COLD": 0.0218
+        },
+        "elevation_ratio": {
+          "HIGH": 0.7072,
+          "ULTRA": 0.2112,
+          "MID": 0.0634,
+          "LOW": 0.0182
+        },
+        "precip_ratio": {
+          "LOW": 0.9658,
+          "ARID": 0.0342
+        },
+        "flags_ratio": {
+          "water": 0.5856,
+          "cropland": 0.2624,
+          "forest": 0.0057,
+          "built": 0.0051
+        },
+        "cell_bbox_xy": {
+          "min_x": 5400,
+          "max_x": 5481,
+          "min_y": 1207,
+          "max_y": 1290
+        },
+        "cell_centroid": {
+          "x": 5446.938,
+          "y": 1249.97,
+          "lon": 46.976586,
+          "lat": 37.897102
+        }
+      }
+    },
+    {
+      "id": "IRN-03",
+      "area_id": 301,
+      "area_seq_in_source": 3,
+      "name": "西部ザグロス山麓地域",
+      "name_en": "Western Zagros and Foothill Region",
+      "reason": "イラク国境沿いから南西へ伸びるザグロス山系とその山麓地帯。イラン西部の地形的骨格をなす地域。",
+      "geometry_wkt": "POLYGON ((44.000000 36.208823, 50.800781 36.208823, 50.800781 30.637912, 44.000000 30.637912, 44.000000 36.208823))",
+      "bbox": {
+        "minx": 44.0,
+        "maxx": 50.800781,
+        "miny": 30.637912,
+        "maxy": 36.208823
+      },
+      "centroid": {
+        "x": 47.400391,
+        "y": 33.423367
+      },
+      "size": {
+        "width": 6.800781,
+        "height": 5.570911
+      },
+      "relative_position": {
+        "x_norm": 0.1744,
+        "y_norm": 0.5904,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "IRN-01",
+          "IRN-04",
+          "IRN-05",
+          "IRN-06"
+        ],
+        "east_of": [
+          "IRN-02"
+        ],
+        "north_of": [
+          "IRN-04",
+          "IRN-06"
+        ],
+        "south_of": [
+          "IRN-01",
+          "IRN-02",
+          "IRN-05"
+        ],
+        "overlaps": [
+          {
+            "id": "IRN-04",
+            "x_overlap": 0.000781,
+            "y_overlap": 5.55318
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 10187,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.4958,
+          "CROPLAND": 0.3419,
+          "BARE": 0.1566,
+          "BUILT": 0.003,
+          "WATER": 0.0009,
+          "TREE": 0.0008,
+          "WETLAND": 0.0007,
+          "SHRUB": 0.0003
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.7964,
+          "TROPICAL": 0.2034,
+          "COLD": 0.0002
+        },
+        "elevation_ratio": {
+          "HIGH": 0.5884,
+          "ULTRA": 0.2802,
+          "LOW": 0.073,
+          "MID": 0.0584
+        },
+        "precip_ratio": {
+          "LOW": 0.8579,
+          "ARID": 0.1421
+        },
+        "flags_ratio": {
+          "water": 0.6517,
+          "cropland": 0.3419,
+          "built": 0.003,
+          "forest": 0.0011
+        },
+        "cell_bbox_xy": {
+          "min_x": 5435,
+          "max_x": 5538,
+          "min_y": 1291,
+          "max_y": 1424
+        },
+        "cell_centroid": {
+          "x": 5497.314,
+          "y": 1347.369,
+          "lon": 49.075572,
+          "lat": 33.838792
+        }
+      }
+    },
+    {
+      "id": "IRN-04",
+      "area_id": 302,
+      "area_seq_in_source": 4,
+      "name": "中央高原・内陸盆地",
+      "name_en": "Central Plateau and Inland Basins",
+      "reason": "テヘラン南方からエスファハーン、ヤズド方面へ広がる中央高原。イラン高原の中核であり、内陸都市と盆地が連なる。",
+      "geometry_wkt": "POLYGON ((50.800000 36.191092, 57.259369 36.191092, 57.259369 30.634367, 50.800000 30.634367, 50.800000 36.191092))",
+      "bbox": {
+        "minx": 50.8,
+        "maxx": 57.259369,
+        "miny": 30.634367,
+        "maxy": 36.191092
+      },
+      "centroid": {
+        "x": 54.029685,
+        "y": 33.412729
+      },
+      "size": {
+        "width": 6.459369,
+        "height": 5.556725
+      },
+      "relative_position": {
+        "x_norm": 0.5143,
+        "y_norm": 0.5898,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "IRN-05",
+          "IRN-06"
+        ],
+        "east_of": [
+          "IRN-01",
+          "IRN-02",
+          "IRN-03"
+        ],
+        "north_of": [
+          "IRN-06"
+        ],
+        "south_of": [
+          "IRN-01",
+          "IRN-02",
+          "IRN-03",
+          "IRN-05"
+        ],
+        "overlaps": [
+          {
+            "id": "IRN-03",
+            "x_overlap": 0.000781,
+            "y_overlap": 5.55318
+          },
+          {
+            "id": "IRN-06",
+            "x_overlap": 6.459369,
+            "y_overlap": 0.003545
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 20536,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.894,
+          "GRASS": 0.0693,
+          "CROPLAND": 0.0231,
+          "BUILT": 0.0065,
+          "TREE": 0.0059,
+          "SHRUB": 0.001,
+          "WATER": 0.0001
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.5014,
+          "TROPICAL": 0.4948,
+          "COLD": 0.0038
+        },
+        "elevation_ratio": {
+          "HIGH": 0.6294,
+          "MID": 0.1928,
+          "ULTRA": 0.1778
+        },
+        "precip_ratio": {
+          "ARID": 0.9588,
+          "LOW": 0.0412
+        },
+        "flags_ratio": {
+          "water": 0.5982,
+          "cropland": 0.0231,
+          "forest": 0.0069,
+          "built": 0.0065
+        },
+        "cell_bbox_xy": {
+          "min_x": 5539,
+          "max_x": 5693,
+          "min_y": 1291,
+          "max_y": 1424
+        },
+        "cell_centroid": {
+          "x": 5615.168,
+          "y": 1358.115,
+          "lon": 53.986175,
+          "lat": 33.391029
+        }
+      }
+    },
+    {
+      "id": "IRN-05",
+      "area_id": 303,
+      "area_seq_in_source": 5,
+      "name": "東部乾燥高原・国境地帯",
+      "name_en": "Eastern Arid Plateau and Border Region",
+      "reason": "ダシュテ・ルート、ダシュテ・カヴィール東縁、アフガニスタン・パキスタン国境側を含む乾燥地域。人口密度が低く、広域管理向き。",
+      "geometry_wkt": "POLYGON ((57.260742 38.800000, 63.500000 38.800000, 63.500000 30.600094, 57.260742 30.600094, 57.260742 38.800000))",
+      "bbox": {
+        "minx": 57.260742,
+        "maxx": 63.5,
+        "miny": 30.600094,
+        "maxy": 38.8
+      },
+      "centroid": {
+        "x": 60.380371,
+        "y": 34.700047
+      },
+      "size": {
+        "width": 6.239258,
+        "height": 8.199906
+      },
+      "relative_position": {
+        "x_norm": 0.84,
+        "y_norm": 0.6712,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "IRN-01",
+          "IRN-02",
+          "IRN-03",
+          "IRN-04",
+          "IRN-06"
+        ],
+        "north_of": [
+          "IRN-03",
+          "IRN-04",
+          "IRN-06"
+        ],
+        "south_of": [
+          "IRN-01",
+          "IRN-02"
+        ],
+        "overlaps": [
+          {
+            "id": "IRN-06",
+            "x_overlap": 6.196289,
+            "y_overlap": 0.037818
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 9526,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.9777,
+          "CROPLAND": 0.0183,
+          "GRASS": 0.0029,
+          "BUILT": 0.0004,
+          "WATER": 0.0003,
+          "WETLAND": 0.0002,
+          "SHRUB": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.6366,
+          "TEMPERATE": 0.3634
+        },
+        "elevation_ratio": {
+          "HIGH": 0.7259,
+          "MID": 0.2399,
+          "ULTRA": 0.034,
+          "LOW": 0.0002
+        },
+        "precip_ratio": {
+          "ARID": 0.9644,
+          "LOW": 0.0356
+        },
+        "flags_ratio": {
+          "water": 0.6183,
+          "cropland": 0.0183,
+          "built": 0.0004,
+          "forest": 0.0001
+        },
+        "cell_bbox_xy": {
+          "min_x": 5694,
+          "max_x": 5803,
+          "min_y": 1317,
+          "max_y": 1424
+        },
+        "cell_centroid": {
+          "x": 5738.155,
+          "y": 1372.497,
+          "lon": 59.110623,
+          "lat": 32.791794
+        }
+      }
+    },
+    {
+      "id": "IRN-06",
+      "area_id": 304,
+      "area_seq_in_source": 6,
+      "name": "南部湾岸・マクラン地域",
+      "name_en": "Southern Gulf and Makran Region",
+      "reason": "ペルシャ湾・ホルムズ海峡・オマーン湾に面する南岸地域。海岸低地と南部山地を含み、湾岸性格が強い。",
+      "geometry_wkt": "POLYGON ((47.109375 30.637912, 63.457031 30.637912, 63.457031 24.086589, 47.109375 24.086589, 47.109375 30.637912))",
+      "bbox": {
+        "minx": 47.109375,
+        "maxx": 63.457031,
+        "miny": 24.086589,
+        "maxy": 30.637912
+      },
+      "centroid": {
+        "x": 55.283203,
+        "y": 27.362251
+      },
+      "size": {
+        "width": 16.347656,
+        "height": 6.551323
+      },
+      "relative_position": {
+        "x_norm": 0.5786,
+        "y_norm": 0.2071,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "IRN-05"
+        ],
+        "east_of": [
+          "IRN-01",
+          "IRN-02",
+          "IRN-03",
+          "IRN-04"
+        ],
+        "north_of": [],
+        "south_of": [
+          "IRN-01",
+          "IRN-02",
+          "IRN-03",
+          "IRN-04",
+          "IRN-05"
+        ],
+        "overlaps": [
+          {
+            "id": "IRN-04",
+            "x_overlap": 6.459369,
+            "y_overlap": 0.003545
+          },
+          {
+            "id": "IRN-05",
+            "x_overlap": 6.196289,
+            "y_overlap": 0.037818
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 24510,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.7518,
+          "OCEAN": 0.1009,
+          "GRASS": 0.0922,
+          "CROPLAND": 0.0357,
+          "SHRUB": 0.0139,
+          "WATER": 0.0031,
+          "BUILT": 0.0016,
+          "TREE": 0.0006,
+          "WETLAND": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.6169,
+          "TEMPERATE": 0.3831
+        },
+        "elevation_ratio": {
+          "HIGH": 0.3987,
+          "MID": 0.2887,
+          "LOW": 0.1766,
+          "ULTRA": 0.136
+        },
+        "precip_ratio": {
+          "ARID": 0.6812,
+          "LOW": 0.218,
+          "MID": 0.1009
+        },
+        "flags_ratio": {
+          "water": 0.6852,
+          "cropland": 0.0357,
+          "forest": 0.0145,
+          "built": 0.0018
+        },
+        "cell_bbox_xy": {
+          "min_x": 5488,
+          "max_x": 5797,
+          "min_y": 1425,
+          "max_y": 1563
+        },
+        "cell_centroid": {
+          "x": 5664.611,
+          "y": 1474.006,
+          "lon": 56.046274,
+          "lat": 28.562252
+        }
+      }
+    }
+  ]
+}

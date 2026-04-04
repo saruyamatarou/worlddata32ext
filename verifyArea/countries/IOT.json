@@ -1,0 +1,14 @@
+[
+  {
+    "id": "DGA-01",
+    "name": "ディエゴ・ガルシア島",
+    "name_en": "Diego Garcia Island",
+    "reason": "ディエゴ・ガルシア島は、インド洋の中心に位置する単一の環礁であり、地理的・政治的に一つのまとまりを形成しているため。",
+    "geometry_wkt": "POLYGON ((73.0 7.0, 72.0 7.0, 72.0 -8.0, 73.0 -8.0, 73.0 7.0))",
+    "area_id": 294,
+    "source_row_index": 294,
+    "iso_a3_source": "DGA",
+    "iso_a3": "IOT",
+    "area_seq_in_source": 1
+  }
+]

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">ESP review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-9.711914, 35.835628) - (4.921875, 44.024422)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="40.00" y="40.00" width="647.45" height="298.23" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="56.00" font-size="12" font-family="Arial, sans-serif">ESP-01 | 北部沿岸地域</text>
+<circle cx="363.72" cy="189.11" r="2.5" fill="black"/>
+<rect x="688.29" y="118.83" width="367.45" height="225.21" fill="none" stroke="black" stroke-width="2"/>
+<text x="692.29" y="134.83" font-size="12" font-family="Arial, sans-serif">ESP-02 | カタルーニャ地方</text>
+<circle cx="872.01" cy="231.43" r="2.5" fill="black"/>
+<rect x="188.83" y="339.06" width="480.96" height="307.19" fill="none" stroke="black" stroke-width="2"/>
+<text x="192.83" y="355.06" font-size="12" font-family="Arial, sans-serif">ESP-03 | 中部高原（メセタ）</text>
+<circle cx="429.31" cy="492.65" r="2.5" fill="black"/>
+<rect x="199.34" y="646.25" width="557.06" height="213.75" fill="none" stroke="black" stroke-width="2"/>
+<text x="203.34" y="662.25" font-size="12" font-family="Arial, sans-serif">ESP-04 | アンダルシア地方</text>
+<circle cx="477.87" cy="753.13" r="2.5" fill="black"/>
+<rect x="670.63" y="344.87" width="489.37" height="302.25" fill="none" stroke="black" stroke-width="2"/>
+<text x="674.63" y="360.87" font-size="12" font-family="Arial, sans-serif">ESP-05 | 東部地中海沿岸</text>
+<circle cx="915.32" cy="495.99" r="2.5" fill="black"/>
+</svg>

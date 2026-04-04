@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ARM-01",
+    "name": "アルメニア北部・山岳地域",
+    "name_en": "Northern Armenia and Mountainous Region",
+    "reason": "国土の大部分が標高1000m以上の山岳地帯であり、特に北部には険しい山脈が連なるため、地理的特徴を反映して分割。",
+    "geometry_wkt": "POLYGON ((43.352051 41.331451, 46.087646 41.331451, 46.087646 40.128491, 43.352051 40.128491, 43.352051 41.331451))",
+    "area_id": 25,
+    "source_row_index": 25,
+    "iso_a3_source": "ARM",
+    "iso_a3": "ARM",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "ARM-02",
+    "name": "アルメニア南部・アララト盆地",
+    "name_en": "Southern Armenia and Ararat Basin",
+    "reason": "首都エレバンが位置し、国土で最大の平地であり、農業に適したアララト盆地を含む南部地域。文化的・経済的な中心地。",
+    "geometry_wkt": "POLYGON ((43.560791 40.128491, 46.604004 40.128491, 46.604004 38.822591, 43.560791 38.822591, 43.560791 40.128491))",
+    "area_id": 26,
+    "source_row_index": 26,
+    "iso_a3_source": "ARM",
+    "iso_a3": "ARM",
+    "area_seq_in_source": 2
+  }
+]

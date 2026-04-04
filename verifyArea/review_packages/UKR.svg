@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">UKR review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(21.950684, 45.081279) - (40.352783, 52.456009)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="40.00" y="256.00" width="366.42" height="326.56" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="272.00" font-size="12" font-family="Arial, sans-serif">UKR-01 | ウクライナ西部（カルパティア山脈地…</text>
+<circle cx="223.21" cy="419.27" r="2.5" fill="black"/>
+<rect x="118.90" y="40.00" width="766.28" height="214.44" fill="none" stroke="black" stroke-width="2"/>
+<text x="122.90" y="56.00" font-size="12" font-family="Arial, sans-serif">UKR-02 | ウクライナ北部（森林・湿地帯）</text>
+<circle cx="502.04" cy="147.22" r="2.5" fill="black"/>
+<rect x="408.18" y="254.44" width="751.82" height="306.72" fill="none" stroke="black" stroke-width="2"/>
+<text x="412.18" y="270.44" font-size="12" font-family="Arial, sans-serif">UKR-03 | ウクライナ中央部・東部（黒土地帯・…</text>
+<circle cx="784.09" cy="407.80" r="2.5" fill="black"/>
+<rect x="406.42" y="561.17" width="664.64" height="298.83" fill="none" stroke="black" stroke-width="2"/>
+<text x="410.42" y="577.17" font-size="12" font-family="Arial, sans-serif">UKR-04 | ウクライナ南部（黒海沿岸・クリミア…</text>
+<circle cx="738.75" cy="710.58" r="2.5" fill="black"/>
+</svg>

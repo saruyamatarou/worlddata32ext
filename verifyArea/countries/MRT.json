@@ -1,0 +1,62 @@
+[
+  {
+    "id": "MRT-01",
+    "name": "北部サハラ・鉱山地域",
+    "name_en": "Northern Sahara and Mining Region",
+    "reason": "Tiris Zemmour を中心とする北部サハラ地帯で、広大な砂漠内陸と鉱山・オアシス拠点の性格が強い地域であるため。",
+    "geometry_wkt": "POLYGON ((-13.800000 27.500000, -7.283936 27.500000, -7.283936 22.796439, -13.800000 22.796439, -13.800000 27.500000))",
+    "area_id": 422,
+    "source_row_index": 422,
+    "iso_a3_source": "MRT",
+    "iso_a3": "MRT",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "MRT-02",
+    "name": "北西沿岸・首都圏",
+    "name_en": "Northwestern Coast and Capital Corridor",
+    "reason": "Nouadhibou と Nouakchott を含む大西洋岸の中核帯であり、港湾・首都機能・沿岸都市圏をまとめて扱いやすいため。",
+    "geometry_wkt": "POLYGON ((-17.500000 22.800000, -13.798828 22.800000, -13.798828 15.686510, -17.500000 15.686510, -17.500000 22.800000))",
+    "area_id": 423,
+    "source_row_index": 423,
+    "iso_a3_source": "MRT",
+    "iso_a3": "MRT",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "MRT-03",
+    "name": "中央高地・内陸地域",
+    "name_en": "Central Plateaus and Interior Region",
+    "reason": "Adrar と Tagant を軸とする中央内陸で、台地・断崖・乾燥高地のまとまりを表しやすい地域であるため。",
+    "geometry_wkt": "POLYGON ((-13.800000 22.800000, -7.294922 22.800000, -7.294922 16.762468, -13.800000 16.762468, -13.800000 22.800000))",
+    "area_id": 424,
+    "source_row_index": 424,
+    "iso_a3_source": "MRT",
+    "iso_a3": "MRT",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "MRT-04",
+    "name": "南部セネガル川・サヘル地域",
+    "name_en": "Southern Senegal River and Sahel Region",
+    "reason": "セネガル川流域を中心とする南部帯で、国内で最も明確な河川・農牧業・サヘル性のまとまりを持つ地域であるため。",
+    "geometry_wkt": "POLYGON ((-13.800000 16.800000, -7.283936 16.800000, -7.283936 14.615478, -13.800000 14.615478, -13.800000 16.800000))",
+    "area_id": 425,
+    "source_row_index": 425,
+    "iso_a3_source": "MRT",
+    "iso_a3": "MRT",
+    "area_seq_in_source": 4
+  },
+  {
+    "id": "MRT-05",
+    "name": "東部ホード・内陸国境地域",
+    "name_en": "Eastern Hodh and Inland Border Region",
+    "reason": "Hodh el Gharbi と Hodh Ech Chargui を中心とする東部内陸で、広い国境地帯と乾燥平原を一体で扱える地域であるため。",
+    "geometry_wkt": "POLYGON ((-7.272949 26.843677, -4.600000 26.843677, -4.600000 14.600000, -7.272949 14.600000, -7.272949 26.843677))",
+    "area_id": 426,
+    "source_row_index": 426,
+    "iso_a3_source": "MRT",
+    "iso_a3": "MRT",
+    "area_seq_in_source": 5
+  }
+]

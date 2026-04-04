@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">USA review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-180.263672, 18.000000) - (180.000000, 71.800000)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="357.23" y="405.80" width="36.44" height="124.64" fill="none" stroke="black" stroke-width="2"/>
+<text x="361.23" y="421.80" font-size="12" font-family="Arial, sans-serif">USA-01 | 北東部</text>
+<circle cx="375.45" cy="468.12" r="2.5" fill="black"/>
+<rect x="318.70" y="393.99" width="38.46" height="136.19" fill="none" stroke="black" stroke-width="2"/>
+<text x="322.70" y="409.99" font-size="12" font-family="Arial, sans-serif">USA-02 | 五大湖・中西部東</text>
+<circle cx="337.93" cy="462.08" r="2.5" fill="black"/>
+<rect x="272.43" y="379.89" width="46.14" height="113.31" fill="none" stroke="black" stroke-width="2"/>
+<text x="276.43" y="395.89" font-size="12" font-family="Arial, sans-serif">USA-03 | 中部平原北</text>
+<circle cx="295.50" cy="436.54" r="2.5" fill="black"/>
+<rect x="275.54" y="494.94" width="43.10" height="128.81" fill="none" stroke="black" stroke-width="2"/>
+<text x="279.54" y="510.94" font-size="12" font-family="Arial, sans-serif">USA-04 | 中部平原南</text>
+<circle cx="297.09" cy="559.35" r="2.5" fill="black"/>
+<rect x="318.70" y="530.69" width="52.19" height="164.02" fill="none" stroke="black" stroke-width="2"/>
+<text x="322.70" y="546.69" font-size="12" font-family="Arial, sans-serif">USA-05 | 南東部</text>
+<circle cx="344.80" cy="612.70" r="2.5" fill="black"/>
+<rect x="338.99" y="684.77" width="14.27" height="83.78" fill="none" stroke="black" stroke-width="2"/>
+<text x="342.99" y="700.77" font-size="12" font-family="Arial, sans-serif">USA-06 | フロリダ</text>
+<circle cx="346.12" cy="726.66" r="2.5" fill="black"/>
+<rect x="275.33" y="623.40" width="43.44" height="124.96" fill="none" stroke="black" stroke-width="2"/>
+<text x="279.33" y="639.40" font-size="12" font-family="Arial, sans-serif">USA-07 | テキサス・南中部</text>
+<circle cx="297.05" cy="685.89" r="2.5" fill="black"/>
+<rect x="235.12" y="379.89" width="37.27" height="113.81" fill="none" stroke="black" stroke-width="2"/>
+<text x="239.12" y="395.89" font-size="12" font-family="Arial, sans-serif">USA-08 | ロッキー北部</text>
+<circle cx="253.76" cy="436.79" r="2.5" fill="black"/>
+<rect x="235.12" y="494.69" width="40.20" height="192.41" fill="none" stroke="black" stroke-width="2"/>
+<text x="239.12" y="510.69" font-size="12" font-family="Arial, sans-serif">USA-09 | ロッキー南部・砂漠内陸</text>
+<circle cx="255.22" cy="590.90" r="2.5" fill="black"/>
+<rect x="210.25" y="379.89" width="24.70" height="268.03" fill="none" stroke="black" stroke-width="2"/>
+<text x="214.25" y="395.89" font-size="12" font-family="Arial, sans-serif">USA-10 | 西海岸</text>
+<circle cx="222.60" cy="513.90" r="2.5" fill="black"/>
+<rect x="78.13" y="40.00" width="83.94" height="57.92" fill="none" stroke="black" stroke-width="2"/>
+<text x="82.13" y="56.00" font-size="12" font-family="Arial, sans-serif">USA-11 | アラスカ北極圏・ノーススロープ</text>
+<circle cx="120.09" cy="68.96" r="2.5" fill="black"/>
+<rect x="74.70" y="98.30" width="87.36" height="60.07" fill="none" stroke="black" stroke-width="2"/>
+<text x="78.70" y="114.30" font-size="12" font-family="Arial, sans-serif">USA-12 | アラスカ内陸</text>
+<circle cx="118.38" cy="128.34" r="2.5" fill="black"/>
+<rect x="113.77" y="158.66" width="48.09" height="134.29" fill="none" stroke="black" stroke-width="2"/>
+<text x="117.77" y="174.66" font-size="12" font-family="Arial, sans-serif">USA-13 | アラスカ南中部</text>
+<circle cx="137.82" cy="225.81" r="2.5" fill="black"/>
+<rect x="161.86" y="213.54" width="35.95" height="90.14" fill="none" stroke="black" stroke-width="2"/>
+<text x="165.86" y="229.54" font-size="12" font-family="Arial, sans-serif">USA-14 | アラスカ南東部・パンハンドル</text>
+<circle cx="179.84" cy="258.61" r="2.5" fill="black"/>
+<rect x="40.00" y="158.66" width="73.77" height="200.26" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="174.66" font-size="12" font-family="Arial, sans-serif">USA-15 | アラスカ南西部・ベーリング海側</text>
+<circle cx="76.89" cy="258.80" r="2.5" fill="black"/>
+<rect x="1135.13" y="303.68" width="24.87" height="53.35" fill="none" stroke="black" stroke-width="2"/>
+<text x="1139.13" y="319.68" font-size="12" font-family="Arial, sans-serif">USA-16 | アリューシャン列島</text>
+<circle cx="1147.56" cy="330.35" r="2.5" fill="black"/>
+<rect x="43.14" y="690.61" width="78.51" height="169.39" fill="none" stroke="black" stroke-width="2"/>
+<text x="47.14" y="706.61" font-size="12" font-family="Arial, sans-serif">USA-17 | ハワイ</text>
+<circle cx="82.40" cy="775.30" r="2.5" fill="black"/>
+</svg>

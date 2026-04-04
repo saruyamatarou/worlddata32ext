@@ -1,0 +1,62 @@
+[
+  {
+    "id": "VNM-01",
+    "name": "北部経済圏",
+    "name_en": "Northern Economic Zone",
+    "reason": "ベトナムの政治・経済の中心地であり、ハノイを含む。工業化が進んでおり、人口密度も高い。",
+    "geometry_wkt": "POLYGON ((102.000000 23.543845, 108.083496 23.543845, 108.083496 19.983674, 102.000000 19.983674, 102.000000 23.543845))",
+    "area_id": 680,
+    "source_row_index": 680,
+    "iso_a3_source": "VNM",
+    "iso_a3": "VNM",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "VNM-02",
+    "name": "中部経済圏",
+    "name_en": "Central Economic Zone",
+    "reason": "海岸線が長く、港湾都市が多く、観光業も盛ん。フエやダナンなどの歴史的・文化的な都市が含まれる。",
+    "geometry_wkt": "POLYGON ((103.732910 19.973349, 109.094238 19.973349, 109.094238 15.517205, 103.732910 15.517205, 103.732910 19.973349))",
+    "area_id": 681,
+    "source_row_index": 681,
+    "iso_a3_source": "VNM",
+    "iso_a3": "VNM",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "VNM-03",
+    "name": "南部経済圏",
+    "name_en": "Southern Economic Zone",
+    "reason": "ベトナム最大の経済都市ホーチミン市を含む。経済活動が最も活発で、工業・商業の中心地。",
+    "geometry_wkt": "POLYGON ((104.337158 11.749059, 109.357910 11.749059, 109.357910 10.455402, 104.337158 10.455402, 104.337158 11.749059))",
+    "area_id": 682,
+    "source_row_index": 682,
+    "iso_a3_source": "VNM",
+    "iso_a3": "VNM",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "VNM-04",
+    "name": "メコンデルタ地域",
+    "name_en": "Mekong Delta Region",
+    "reason": "ベトナムの食料生産地であり、農業が盛ん。独特の河川文化を持つ。",
+    "geometry_wkt": "POLYGON ((103.738403 10.498614, 107.633057 10.498614, 107.633057 8.032034, 103.738403 8.032034, 103.738403 10.498614))",
+    "area_id": 683,
+    "source_row_index": 683,
+    "iso_a3_source": "VNM",
+    "iso_a3": "VNM",
+    "area_seq_in_source": 4
+  },
+  {
+    "id": "VNM-05",
+    "name": "中央高原地域",
+    "name_en": "Central Highlands Region",
+    "reason": "高原地帯であり、コーヒーなどのプランテーション農業が盛ん。少数民族が多く居住している。",
+    "geometry_wkt": "POLYGON ((105.710449 15.517205, 109.720459 15.517205, 109.720459 11.727546, 105.710449 11.727546, 105.710449 15.517205))",
+    "area_id": 684,
+    "source_row_index": 684,
+    "iso_a3_source": "VNM",
+    "iso_a3": "VNM",
+    "area_seq_in_source": 5
+  }
+]

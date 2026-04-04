@@ -1,0 +1,150 @@
+{
+  "iso_a3": "CHE",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": 5.9,
+    "maxx": 10.5,
+    "miny": 45.8,
+    "maxy": 47.8
+  },
+  "areas": [
+    {
+      "id": "CHE-01",
+      "area_id": 125,
+      "area_seq_in_source": 1,
+      "name": "北東スイス・アルプス",
+      "name_en": "Northeastern Swiss Alps",
+      "reason": "この地域は、アルプス山脈の北東部に位置し、険しい山岳地形と、チューリッヒなどの主要都市への近接性を特徴としています。経済的には、製造業（特に機械・化学・製薬）と金融サービスが発展しています。文化的には、ドイツ語圏の影響が強く、精密さや効率性を重んじる気質が見られます。",
+      "geometry_wkt": "POLYGON ((10.50 47.80, 10.50 46.00, 8.00 46.00, 8.00 47.80, 10.50 47.80))",
+      "bbox": {
+        "minx": 8.0,
+        "maxx": 10.5,
+        "miny": 46.0,
+        "maxy": 47.8
+      },
+      "centroid": {
+        "x": 9.25,
+        "y": 46.9
+      },
+      "size": {
+        "width": 2.5,
+        "height": 1.8
+      },
+      "relative_position": {
+        "x_norm": 0.7283,
+        "y_norm": 0.55,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "CHE-02"
+        ],
+        "north_of": [
+          "CHE-02"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 2801,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.4652,
+          "GRASS": 0.3592,
+          "CROPLAND": 0.0546,
+          "BARE": 0.0411,
+          "SNOW_ICE": 0.04,
+          "WATER": 0.0336,
+          "BUILT": 0.0061,
+          "MOSS_LICHEN": 0.0004
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.6076,
+          "COLD": 0.3831,
+          "POLAR": 0.0093
+        },
+        "elevation_ratio": {
+          "HIGH": 0.4063,
+          "MID": 0.3695,
+          "ULTRA": 0.2242
+        },
+        "precip_ratio": {
+          "MID": 0.8318,
+          "LOW": 0.1639,
+          "WET": 0.0021,
+          "ARID": 0.0021
+        },
+        "flags_ratio": {
+          "water": 0.87,
+          "forest": 0.4652,
+          "cropland": 0.0546,
+          "ice": 0.04,
+          "built": 0.0061
+        },
+        "cell_bbox_xy": {
+          "min_x": 4463,
+          "max_x": 4570,
+          "min_y": 1013,
+          "max_y": 1059
+        },
+        "cell_centroid": {
+          "x": 4516.707,
+          "y": 1036.332,
+          "lon": 8.216954,
+          "lat": 46.798651
+        }
+      }
+    },
+    {
+      "id": "CHE-02",
+      "area_id": 126,
+      "area_seq_in_source": 2,
+      "name": "南西スイス・ジュラ・レマン湖",
+      "name_en": "Southwestern Switzerland, Jura & Lake Geneva",
+      "reason": "この地域は、ジュラ山脈とレマン湖周辺に広がり、フランス語圏の影響が強いエリアです。国際機関が集まるジュネーブや、ローザンヌなどの都市が含まれます。経済的には、サービス業（特に金融、国際機関関連）が中心ですが、時計産業などの精密工業も盛んです。文化的には、国際色豊かで、洗練された雰囲気があります。",
+      "geometry_wkt": "POLYGON ((8.00 47.80, 8.00 45.80, 5.90 45.80, 5.90 47.80, 8.00 47.80))",
+      "bbox": {
+        "minx": 5.9,
+        "maxx": 8.0,
+        "miny": 45.8,
+        "maxy": 47.8
+      },
+      "centroid": {
+        "x": 6.95,
+        "y": 46.8
+      },
+      "size": {
+        "width": 2.1,
+        "height": 2.0
+      },
+      "relative_position": {
+        "x_norm": 0.2283,
+        "y_norm": 0.5,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CHE-01"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "CHE-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    }
+  ]
+}

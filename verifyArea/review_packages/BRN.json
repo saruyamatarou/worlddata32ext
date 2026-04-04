@@ -1,0 +1,92 @@
+{
+  "iso_a3": "BRN",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": 113.642578,
+    "maxx": 115.52124,
+    "miny": 3.908099,
+    "maxy": 5.36446
+  },
+  "areas": [
+    {
+      "id": "BRN-01",
+      "area_id": 106,
+      "area_seq_in_source": 1,
+      "name": "ブルネイ全土",
+      "name_en": "All Brunei",
+      "reason": "ブルネイは国土が小さく、地理的・経済的・文化的に均一性が高いため、1つのエリアとして定義するのが最も適切である。国の行政区分も4地区と細分化されているが、国全体としての一体性が強い。",
+      "geometry_wkt": "POLYGON ((113.642578 5.364460, 115.521240 5.364460, 115.521240 3.908099, 113.642578 3.908099, 113.642578 5.364460))",
+      "bbox": {
+        "minx": 113.642578,
+        "maxx": 115.52124,
+        "miny": 3.908099,
+        "maxy": 5.36446
+      },
+      "centroid": {
+        "x": 114.581909,
+        "y": 4.63628
+      },
+      "size": {
+        "width": 1.878662,
+        "height": 1.456361
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 516,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "WET",
+        "landcover_ratio": {
+          "TREE": 0.5,
+          "OCEAN": 0.4806,
+          "MANGROVE": 0.0097,
+          "WATER": 0.0078,
+          "BUILT": 0.0019
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.9516,
+          "MID": 0.0407,
+          "HIGH": 0.0078
+        },
+        "precip_ratio": {
+          "WET": 0.5194,
+          "MID": 0.4806
+        },
+        "flags_ratio": {
+          "water": 0.9767,
+          "forest": 0.5097,
+          "built": 0.0019
+        },
+        "cell_bbox_xy": {
+          "min_x": 7059,
+          "max_x": 7088,
+          "min_y": 2031,
+          "max_y": 2063
+        },
+        "cell_centroid": {
+          "x": 7071.422,
+          "y": 2045.657,
+          "lon": 114.663437,
+          "lat": 4.743459
+        }
+      }
+    }
+  ]
+}

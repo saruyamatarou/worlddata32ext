@@ -1,0 +1,170 @@
+{
+  "iso_a3": "MHL",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": 162.641602,
+    "maxx": 172.617188,
+    "miny": 4.171115,
+    "maxy": 14.881087
+  },
+  "areas": [
+    {
+      "id": "MHL-01",
+      "area_id": 398,
+      "area_seq_in_source": 1,
+      "name": "ラタック列島",
+      "name_en": "Ratak Chain",
+      "reason": "ラタック列島はマーシャル諸島の東部に位置し、首都マジュロを含む主要な環礁が含まれるため、経済活動と人口の中心となっています。このエリアは、マーシャル諸島の現代的な経済活動と行政の中心地としての特徴を反映しています。",
+      "geometry_wkt": "POLYGON ((169.914551 14.008696, 172.617188 14.008696, 172.617188 4.521666, 169.914551 4.521666, 169.914551 14.008696))",
+      "bbox": {
+        "minx": 169.914551,
+        "maxx": 172.617188,
+        "miny": 4.521666,
+        "maxy": 14.008696
+      },
+      "centroid": {
+        "x": 171.26587,
+        "y": 9.265181
+      },
+      "size": {
+        "width": 2.702637,
+        "height": 9.48703
+      },
+      "relative_position": {
+        "x_norm": 0.8645,
+        "y_norm": 0.4756,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "MHL-02"
+        ],
+        "north_of": [],
+        "south_of": [
+          "MHL-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 593,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9933,
+          "WATER": 0.0067
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9983,
+          "POLAR": 0.0017
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9933,
+          "WET": 0.0051,
+          "ARID": 0.0017
+        },
+        "flags_ratio": {
+          "water": 1.0,
+          "reef": 0.1113
+        },
+        "cell_bbox_xy": {
+          "min_x": 8417,
+          "max_x": 8451,
+          "min_y": 1979,
+          "max_y": 2002
+        },
+        "cell_centroid": {
+          "x": 8434.074,
+          "y": 1990.398,
+          "lon": 171.440592,
+          "lat": 7.045918
+        }
+      }
+    },
+    {
+      "id": "MHL-02",
+      "area_id": 399,
+      "area_seq_in_source": 2,
+      "name": "ラリック列島",
+      "name_en": "Ralik Chain",
+      "reason": "ラリック列島はマーシャル諸島の西部に位置し、伝統的な生活様式や文化がより色濃く残る地域です。地理的な分散と、伝統文化の維持という観点から、ラタック列島とは別のエリアとして定義しました。",
+      "geometry_wkt": "POLYGON ((162.641602 14.881087, 169.892578 14.881087, 169.892578 4.171115, 162.641602 4.171115, 162.641602 14.881087))",
+      "bbox": {
+        "minx": 162.641602,
+        "maxx": 169.892578,
+        "miny": 4.171115,
+        "maxy": 14.881087
+      },
+      "centroid": {
+        "x": 166.26709,
+        "y": 9.526101
+      },
+      "size": {
+        "width": 7.250976,
+        "height": 10.709972
+      },
+      "relative_position": {
+        "x_norm": 0.3634,
+        "y_norm": 0.5,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "MHL-01"
+        ],
+        "east_of": [],
+        "north_of": [
+          "MHL-01"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 951,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9968,
+          "WATER": 0.0032
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9989,
+          "POLAR": 0.0011
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9968,
+          "WET": 0.0021,
+          "ARID": 0.0011
+        },
+        "flags_ratio": {
+          "water": 1.0,
+          "reef": 0.0915
+        },
+        "cell_bbox_xy": {
+          "min_x": 8314,
+          "max_x": 8401,
+          "min_y": 1882,
+          "max_y": 2028
+        },
+        "cell_centroid": {
+          "x": 8360.0,
+          "y": 1963.667,
+          "lon": 168.354167,
+          "lat": 8.159722
+        }
+      }
+    }
+  ]
+}

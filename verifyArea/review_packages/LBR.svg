@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">LBR review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-11.520000, 4.072494) - (-7.294922, 8.646196)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="40.00" y="335.14" width="1120.00" height="524.86" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="351.14" font-size="12" font-family="Arial, sans-serif">LBR-01 | リベリア沿岸部</text>
+<circle cx="600.00" cy="597.57" r="2.5" fill="black"/>
+<rect x="40.00" y="40.00" width="920.51" height="295.14" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="56.00" font-size="12" font-family="Arial, sans-serif">LBR-02 | リベリア内陸部</text>
+<circle cx="500.25" cy="187.57" r="2.5" fill="black"/>
+</svg>

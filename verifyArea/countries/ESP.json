@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ESP-01",
+    "name": "北部沿岸地域",
+    "name_en": "Northern Coastal Region",
+    "reason": "大西洋の影響を受け、比較的温暖で降水量が多い気候。緑豊かな景観と独自の文化（バスク、ガリシアなど）を持つ。",
+    "geometry_wkt": "POLYGON ((-9.711914 44.024422, -1.252441 44.024422, -1.252441 41.046217, -9.711914 41.046217, -9.711914 44.024422))",
+    "area_id": 210,
+    "source_row_index": 210,
+    "iso_a3_source": "ESP",
+    "iso_a3": "ESP",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "ESP-02",
+    "name": "カタルーニャ地方",
+    "name_en": "Catalonia",
+    "reason": "地中海沿岸に位置し、温暖で雨が少ない気候。バルセロナを中心とした経済的・文化的中心地であり、独自の言語（カタルーニャ語）が話される。",
+    "geometry_wkt": "POLYGON ((-1.241455 43.237199, 3.559570 43.237199, 3.559570 40.988192, -1.241455 40.988192, -1.241455 43.237199))",
+    "area_id": 211,
+    "source_row_index": 211,
+    "iso_a3_source": "ESP",
+    "iso_a3": "ESP",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "ESP-03",
+    "name": "中部高原（メセタ）",
+    "name_en": "Central Plateau (Meseta)",
+    "reason": "内陸部の乾燥した高原地帯。マドリードを首都とし、夏は暑く冬は寒い大陸性気候。スペインの政治・経済の中心。",
+    "geometry_wkt": "POLYGON ((-7.767334 41.037931, -1.483154 41.037931, -1.483154 37.970185, -7.767334 37.970185, -7.767334 41.037931))",
+    "area_id": 212,
+    "source_row_index": 212,
+    "iso_a3_source": "ESP",
+    "iso_a3": "ESP",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "ESP-04",
+    "name": "アンダルシア地方",
+    "name_en": "Andalusia",
+    "reason": "南部地域で、夏は非常に暑く乾燥している。イスラム文化の影響が色濃く残り、フラメンコ発祥の地。観光資源が豊富。",
+    "geometry_wkt": "POLYGON ((-7.630005 37.970185, -0.351563 37.970185, -0.351563 35.835628, -7.630005 35.835628, -7.630005 37.970185))",
+    "area_id": 213,
+    "source_row_index": 213,
+    "iso_a3_source": "ESP",
+    "iso_a3": "ESP",
+    "area_seq_in_source": 4
+  },
+  {
+    "id": "ESP-05",
+    "name": "東部地中海沿岸",
+    "name_en": "Eastern Mediterranean Coast",
+    "reason": "温暖で雨が少なく、リゾート地として発展。バレンシアなどが含まれ、農業（柑橘類）や観光が盛ん。",
+    "geometry_wkt": "POLYGON ((-1.472168 40.979898, 4.921875 40.979898, 4.921875 37.961523, -1.472168 37.961523, -1.472168 40.979898))",
+    "area_id": 214,
+    "source_row_index": 214,
+    "iso_a3_source": "ESP",
+    "iso_a3": "ESP",
+    "area_seq_in_source": 5
+  }
+]

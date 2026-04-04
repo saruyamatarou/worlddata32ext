@@ -1,0 +1,411 @@
+{
+  "iso_a3": "UZB",
+  "area_count": 4,
+  "country_bbox": {
+    "minx": 55.854492,
+    "maxx": 73.828125,
+    "miny": 37.07271,
+    "maxy": 45.690833
+  },
+  "areas": [
+    {
+      "id": "UZB-01",
+      "area_id": 664,
+      "area_seq_in_source": 1,
+      "name": "北部乾燥地帯",
+      "name_en": "Northern Arid Zone",
+      "reason": "国土の大部分を占めるキジルクム砂漠とアラル海周辺の乾燥した気候、および遊牧文化の歴史的背景に基づいています。",
+      "geometry_wkt": "POLYGON ((55.854492 45.690833, 66.203613 45.690833, 66.203613 42.932296, 55.854492 42.932296, 55.854492 45.690833))",
+      "bbox": {
+        "minx": 55.854492,
+        "maxx": 66.203613,
+        "miny": 42.932296,
+        "maxy": 45.690833
+      },
+      "centroid": {
+        "x": 61.029053,
+        "y": 44.311565
+      },
+      "size": {
+        "width": 10.349121,
+        "height": 2.758537
+      },
+      "relative_position": {
+        "x_norm": 0.2879,
+        "y_norm": 0.84,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "UZB-02",
+          "UZB-03",
+          "UZB-04"
+        ],
+        "east_of": [],
+        "north_of": [
+          "UZB-02",
+          "UZB-03",
+          "UZB-04"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "UZB-02",
+            "x_overlap": 10.316162,
+            "y_overlap": 0.008043
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 8122,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.7699,
+          "GRASS": 0.1359,
+          "SHRUB": 0.0491,
+          "CROPLAND": 0.0206,
+          "WATER": 0.0169,
+          "WETLAND": 0.0074,
+          "BUILT": 0.0002
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.9288,
+          "MID": 0.0712
+        },
+        "precip_ratio": {
+          "ARID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.6285,
+          "forest": 0.0491,
+          "cropland": 0.0206,
+          "built": 0.0002
+        },
+        "cell_bbox_xy": {
+          "min_x": 5663,
+          "max_x": 5896,
+          "min_y": 1067,
+          "max_y": 1128
+        },
+        "cell_centroid": {
+          "x": 5745.231,
+          "y": 1105.797,
+          "lon": 59.405452,
+          "lat": 43.904303
+        }
+      }
+    },
+    {
+      "id": "UZB-02",
+      "area_id": 665,
+      "area_seq_in_source": 2,
+      "name": "西部山麓・盆地",
+      "name_en": "Western Foothills and Basin",
+      "reason": "フェルガナ盆地やアムダリア川、シルダリア川流域の肥沃な土地と、農業・灌漑の重要性、そしてシルクロードの交易路としての歴史的重要性に基づいています。",
+      "geometry_wkt": "POLYGON ((55.887451 42.940339, 66.236572 42.940339, 66.236572 40.563895, 55.887451 40.563895, 55.887451 42.940339))",
+      "bbox": {
+        "minx": 55.887451,
+        "maxx": 66.236572,
+        "miny": 40.563895,
+        "maxy": 42.940339
+      },
+      "centroid": {
+        "x": 61.062011,
+        "y": 41.752117
+      },
+      "size": {
+        "width": 10.349121,
+        "height": 2.376444
+      },
+      "relative_position": {
+        "x_norm": 0.2897,
+        "y_norm": 0.543,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "UZB-03",
+          "UZB-04"
+        ],
+        "east_of": [
+          "UZB-01"
+        ],
+        "north_of": [
+          "UZB-03",
+          "UZB-04"
+        ],
+        "south_of": [
+          "UZB-01"
+        ],
+        "overlaps": [
+          {
+            "id": "UZB-01",
+            "x_overlap": 10.316162,
+            "y_overlap": 0.008043
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 9655,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.8012,
+          "GRASS": 0.0828,
+          "CROPLAND": 0.0758,
+          "SHRUB": 0.0281,
+          "WATER": 0.0095,
+          "BUILT": 0.0026
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.6349,
+          "MID": 0.3635,
+          "HIGH": 0.0016
+        },
+        "precip_ratio": {
+          "ARID": 0.9949,
+          "LOW": 0.0051
+        },
+        "flags_ratio": {
+          "water": 0.5958,
+          "cropland": 0.0758,
+          "forest": 0.0281,
+          "built": 0.0026
+        },
+        "cell_bbox_xy": {
+          "min_x": 5663,
+          "max_x": 5909,
+          "min_y": 1129,
+          "max_y": 1185
+        },
+        "cell_centroid": {
+          "x": 5809.358,
+          "y": 1152.534,
+          "lon": 62.077397,
+          "lat": 41.956924
+        }
+      }
+    },
+    {
+      "id": "UZB-03",
+      "area_id": 666,
+      "area_seq_in_source": 3,
+      "name": "東部山岳・高原地帯",
+      "name_en": "Eastern Mountains and Highlands",
+      "reason": "パミール高原に連なる山岳地帯であり、気候や景観の多様性、そして鉱物資源の存在を示唆しています。",
+      "geometry_wkt": "POLYGON ((66.269531 42.940339, 73.828125 42.940339, 73.828125 39.478606, 66.269531 39.478606, 66.269531 42.940339))",
+      "bbox": {
+        "minx": 66.269531,
+        "maxx": 73.828125,
+        "miny": 39.478606,
+        "maxy": 42.940339
+      },
+      "centroid": {
+        "x": 70.048828,
+        "y": 41.209473
+      },
+      "size": {
+        "width": 7.558594,
+        "height": 3.461733
+      },
+      "relative_position": {
+        "x_norm": 0.7897,
+        "y_norm": 0.48,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "UZB-01",
+          "UZB-02",
+          "UZB-04"
+        ],
+        "north_of": [
+          "UZB-04"
+        ],
+        "south_of": [
+          "UZB-01",
+          "UZB-02"
+        ],
+        "overlaps": [
+          {
+            "id": "UZB-04",
+            "x_overlap": 2.241211,
+            "y_overlap": 1.085289
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 3172,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.431,
+          "CROPLAND": 0.3982,
+          "WATER": 0.0599,
+          "BARE": 0.0586,
+          "BUILT": 0.0422,
+          "TREE": 0.0054,
+          "SHRUB": 0.0022,
+          "MOSS_LICHEN": 0.0019,
+          "SNOW_ICE": 0.0006
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9209,
+          "COLD": 0.0753,
+          "POLAR": 0.0038
+        },
+        "elevation_ratio": {
+          "MID": 0.7358,
+          "HIGH": 0.1693,
+          "ULTRA": 0.0949
+        },
+        "precip_ratio": {
+          "LOW": 0.7011,
+          "ARID": 0.2989
+        },
+        "flags_ratio": {
+          "water": 0.7412,
+          "cropland": 0.3982,
+          "built": 0.0422,
+          "forest": 0.0076,
+          "ice": 0.0006
+        },
+        "cell_bbox_xy": {
+          "min_x": 5910,
+          "max_x": 6075,
+          "min_y": 1145,
+          "max_y": 1209
+        },
+        "cell_centroid": {
+          "x": 5991.121,
+          "y": 1177.217,
+          "lon": 69.650891,
+          "lat": 40.928463
+        }
+      }
+    },
+    {
+      "id": "UZB-04",
+      "area_id": 667,
+      "area_seq_in_source": 4,
+      "name": "中央都市・経済中心部",
+      "name_en": "Central Urban and Economic Hub",
+      "reason": "首都タシケントを含む主要都市、経済活動の中心地であり、近代化と人口集積を反映しています。",
+      "geometry_wkt": "POLYGON ((62.028809 40.563895, 68.510742 40.563895, 68.510742 37.072710, 62.028809 37.072710, 62.028809 40.563895))",
+      "bbox": {
+        "minx": 62.028809,
+        "maxx": 68.510742,
+        "miny": 37.07271,
+        "maxy": 40.563895
+      },
+      "centroid": {
+        "x": 65.269775,
+        "y": 38.818303
+      },
+      "size": {
+        "width": 6.481933,
+        "height": 3.491185
+      },
+      "relative_position": {
+        "x_norm": 0.5238,
+        "y_norm": 0.2025,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "UZB-03"
+        ],
+        "east_of": [
+          "UZB-01",
+          "UZB-02"
+        ],
+        "north_of": [],
+        "south_of": [
+          "UZB-01",
+          "UZB-02",
+          "UZB-03"
+        ],
+        "overlaps": [
+          {
+            "id": "UZB-03",
+            "x_overlap": 2.241211,
+            "y_overlap": 1.085289
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 7012,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.4481,
+          "CROPLAND": 0.2908,
+          "BARE": 0.2375,
+          "BUILT": 0.0096,
+          "WATER": 0.0084,
+          "SHRUB": 0.0054,
+          "TREE": 0.0001,
+          "MOSS_LICHEN": 0.0001
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9679,
+          "COLD": 0.0314,
+          "TROPICAL": 0.0007
+        },
+        "elevation_ratio": {
+          "MID": 0.6167,
+          "HIGH": 0.1891,
+          "LOW": 0.1389,
+          "ULTRA": 0.0553
+        },
+        "precip_ratio": {
+          "LOW": 0.5153,
+          "ARID": 0.4847
+        },
+        "flags_ratio": {
+          "water": 0.6438,
+          "cropland": 0.2908,
+          "built": 0.0096,
+          "forest": 0.0056
+        },
+        "cell_bbox_xy": {
+          "min_x": 5812,
+          "max_x": 5963,
+          "min_y": 1186,
+          "max_y": 1267
+        },
+        "cell_centroid": {
+          "x": 5901.887,
+          "y": 1214.477,
+          "lon": 65.9328,
+          "lat": 39.375957
+        }
+      }
+    }
+  ]
+}

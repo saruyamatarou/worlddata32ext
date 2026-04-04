@@ -1,0 +1,187 @@
+{
+  "iso_a3": "LKA",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": 79.343262,
+    "maxx": 82.045898,
+    "miny": 5.730777,
+    "maxy": 9.995901
+  },
+  "areas": [
+    {
+      "id": "LKA-01",
+      "area_id": 367,
+      "area_seq_in_source": 1,
+      "name": "スリランカ北部",
+      "name_en": "Northern Sri Lanka",
+      "reason": "タミル文化圏の中心であり、歴史的・文化的な地域区分に基づく。また、北部は乾燥地域であり、他の地域と気候的特徴が異なる。",
+      "geometry_wkt": "POLYGON ((79.343262 9.995901, 81.830000 9.995901, 81.830000 8.000000, 79.343262 8.000000, 79.343262 9.995901))",
+      "bbox": {
+        "minx": 79.343262,
+        "maxx": 81.83,
+        "miny": 8.0,
+        "maxy": 9.995901
+      },
+      "centroid": {
+        "x": 80.586631,
+        "y": 8.99795
+      },
+      "size": {
+        "width": 2.486738,
+        "height": 1.995901
+      },
+      "relative_position": {
+        "x_norm": 0.4601,
+        "y_norm": 0.766,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "LKA-03"
+        ],
+        "east_of": [],
+        "north_of": [
+          "LKA-03"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 2294,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.534,
+          "TREE": 0.384,
+          "CROPLAND": 0.0375,
+          "WATER": 0.0262,
+          "GRASS": 0.0179,
+          "MANGROVE": 0.0004
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.9996,
+          "MID": 0.0004
+        },
+        "precip_ratio": {
+          "MID": 0.9983,
+          "LOW": 0.0017
+        },
+        "flags_ratio": {
+          "water": 0.888,
+          "forest": 0.3849,
+          "cropland": 0.0379
+        },
+        "cell_bbox_xy": {
+          "min_x": 6223,
+          "max_x": 6283,
+          "min_y": 1915,
+          "max_y": 1967
+        },
+        "cell_centroid": {
+          "x": 6250.456,
+          "y": 1945.472,
+          "lon": 80.456481,
+          "lat": 8.917847
+        }
+      }
+    },
+    {
+      "id": "LKA-03",
+      "area_id": 368,
+      "area_seq_in_source": 2,
+      "name": "スリランカ南部",
+      "name_en": "South Sri Lanka",
+      "reason": "国土の約3割を占め、人口が集中する地域。コロンボなどの主要都市があり、経済・文化の中心地。湿潤地帯であり、農業も盛ん。",
+      "geometry_wkt": "POLYGON ((79.354248 7.999397, 82.045898 7.999397, 82.045898 5.730777, 79.354248 5.730777, 79.354248 7.999397))",
+      "bbox": {
+        "minx": 79.354248,
+        "maxx": 82.045898,
+        "miny": 5.730777,
+        "maxy": 7.999397
+      },
+      "centroid": {
+        "x": 80.700073,
+        "y": 6.865087
+      },
+      "size": {
+        "width": 2.69165,
+        "height": 2.26862
+      },
+      "relative_position": {
+        "x_norm": 0.502,
+        "y_norm": 0.266,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "LKA-01"
+        ],
+        "north_of": [],
+        "south_of": [
+          "LKA-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 3535,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.5194,
+          "OCEAN": 0.4167,
+          "CROPLAND": 0.0314,
+          "WATER": 0.0147,
+          "GRASS": 0.0147,
+          "BUILT": 0.0031
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9926,
+          "TEMPERATE": 0.0071,
+          "POLAR": 0.0003
+        },
+        "elevation_ratio": {
+          "LOW": 0.83,
+          "MID": 0.1211,
+          "HIGH": 0.0481,
+          "ULTRA": 0.0008
+        },
+        "precip_ratio": {
+          "MID": 0.7703,
+          "WET": 0.2226,
+          "LOW": 0.0068,
+          "ARID": 0.0003
+        },
+        "flags_ratio": {
+          "water": 0.9279,
+          "forest": 0.5194,
+          "cropland": 0.0314,
+          "built": 0.0031
+        },
+        "cell_bbox_xy": {
+          "min_x": 6223,
+          "max_x": 6294,
+          "min_y": 1961,
+          "max_y": 2027
+        },
+        "cell_centroid": {
+          "x": 6259.096,
+          "y": 1993.361,
+          "lon": 80.816508,
+          "lat": 6.92246
+        }
+      }
+    }
+  ]
+}

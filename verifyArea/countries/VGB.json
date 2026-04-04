@@ -1,0 +1,14 @@
+[
+  {
+    "id": "VGB-01",
+    "name": "イギリス領ヴァージン諸島",
+    "name_en": "British Virgin Islands",
+    "reason": "単一の島嶼群であるため、分割せずに全体を一つのエリアとして定義する。",
+    "geometry_wkt": "POLYGON ((-64.877014 18.960844, -64.066772 18.960844, -64.066772 18.247612, -64.877014 18.247612, -64.877014 18.960844))",
+    "area_id": 678,
+    "source_row_index": 678,
+    "iso_a3_source": "VGB",
+    "iso_a3": "VGB",
+    "area_seq_in_source": 1
+  }
+]

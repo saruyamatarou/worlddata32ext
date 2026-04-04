@@ -1,0 +1,86 @@
+{
+  "iso_a3": "PCN",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -131.52832,
+    "maxx": -124.5,
+    "miny": -25.938287,
+    "maxy": -21.5
+  },
+  "areas": [
+    {
+      "id": "PCN-01",
+      "area_id": 477,
+      "area_seq_in_source": 1,
+      "name": "ピトケアン諸島全域",
+      "name_en": "Pitcairn Islands Area",
+      "reason": "ピトケアン諸島は4つの島（ピトケアン島、ヘンダーソン島、デュシー島、オエノ島）から構成されるが、ピトケアン島のみが有人島であり、文化・経済活動もピトケアン島に集中している。地理的にも他の島々から離れているため、全域を一つのエリアとして定義するのが適切である。",
+      "geometry_wkt": "POLYGON ((-131.528320 -21.500000, -124.500000 -21.500000, -124.500000 -25.938287, -131.528320 -25.938287, -131.528320 -21.500000))",
+      "bbox": {
+        "minx": -131.52832,
+        "maxx": -124.5,
+        "miny": -25.938287,
+        "maxy": -21.5
+      },
+      "centroid": {
+        "x": -128.01416,
+        "y": -23.719144
+      },
+      "size": {
+        "width": 7.02832,
+        "height": 4.438287
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 338,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9941,
+          "TREE": 0.0059
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9941,
+          "TROPICAL": 0.0059
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.9941,
+          "forest": 0.0059
+        },
+        "cell_bbox_xy": {
+          "min_x": 1230,
+          "max_x": 1250,
+          "min_y": 2734,
+          "max_y": 2755
+        },
+        "cell_centroid": {
+          "x": 1240.0,
+          "y": 2744.5,
+          "lon": -128.3125,
+          "lat": -24.375
+        }
+      }
+    }
+  ]
+}

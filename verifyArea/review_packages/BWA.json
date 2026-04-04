@@ -1,0 +1,262 @@
+{
+  "iso_a3": "BWA",
+  "area_count": 3,
+  "country_bbox": {
+    "minx": 19.313965,
+    "maxx": 29.750977,
+    "miny": -27.059126,
+    "maxy": -17.581194
+  },
+  "areas": [
+    {
+      "id": "BWA-01",
+      "area_id": 109,
+      "area_seq_in_source": 1,
+      "name": "北西部オカバンゴ・デルタ地域",
+      "name_en": "Northwestern Okavango Delta Region",
+      "reason": "オカバンゴ・デルタはボツワナ最大の水域であり、ユニークな生態系と豊かな野生生物が生息しているため、この地域を一つのエリアとして定義する。地理的特徴が他の地域と大きく異なる。",
+      "geometry_wkt": "POLYGON ((20.566406 -17.581194, 28.608398 -17.581194, 28.608398 -21.432617, 20.566406 -21.432617, 20.566406 -17.581194))",
+      "bbox": {
+        "minx": 20.566406,
+        "maxx": 28.608398,
+        "miny": -21.432617,
+        "maxy": -17.581194
+      },
+      "centroid": {
+        "x": 24.587402,
+        "y": -19.506906
+      },
+      "size": {
+        "width": 8.041992,
+        "height": 3.851423
+      },
+      "relative_position": {
+        "x_norm": 0.5053,
+        "y_norm": 0.7968,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "BWA-02",
+          "BWA-03"
+        ],
+        "north_of": [
+          "BWA-02",
+          "BWA-03"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 21835,
+        "dominant_landcover": "SHRUB",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "SHRUB": 0.7361,
+          "GRASS": 0.2088,
+          "WETLAND": 0.0266,
+          "BARE": 0.0144,
+          "TREE": 0.0097,
+          "CROPLAND": 0.0022,
+          "WATER": 0.0016,
+          "BUILT": 0.0007
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "HIGH": 0.9806,
+          "MID": 0.0194
+        },
+        "precip_ratio": {
+          "LOW": 0.9744,
+          "ARID": 0.0256
+        },
+        "flags_ratio": {
+          "forest": 0.7458,
+          "water": 0.7411,
+          "cropland": 0.0022,
+          "built": 0.0007
+        },
+        "cell_bbox_xy": {
+          "min_x": 4799,
+          "max_x": 5023,
+          "min_y": 2587,
+          "max_y": 2804
+        },
+        "cell_centroid": {
+          "x": 4894.062,
+          "y": 2686.976,
+          "lon": 23.940099,
+          "lat": -21.978186
+        }
+      }
+    },
+    {
+      "id": "BWA-02",
+      "area_id": 110,
+      "area_seq_in_source": 2,
+      "name": "中央カラハリ砂漠地域",
+      "name_en": "Central Kalahari Desert Region",
+      "reason": "国土の大部分を占めるカラハリ砂漠は、ボツワナの地理的特徴の核であり、広大な乾燥地帯としてこの地域を定義する。",
+      "geometry_wkt": "POLYGON ((19.313965 -21.453069, 29.750977 -21.453069, 29.750977 -24.046464, 19.313965 -24.046464, 19.313965 -21.453069))",
+      "bbox": {
+        "minx": 19.313965,
+        "maxx": 29.750977,
+        "miny": -24.046464,
+        "maxy": -21.453069
+      },
+      "centroid": {
+        "x": 24.532471,
+        "y": -22.749766
+      },
+      "size": {
+        "width": 10.437012,
+        "height": 2.593395
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.4547,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "BWA-01"
+        ],
+        "east_of": [
+          "BWA-03"
+        ],
+        "north_of": [
+          "BWA-03"
+        ],
+        "south_of": [
+          "BWA-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 6621,
+        "dominant_landcover": "SHRUB",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "SHRUB": 0.8472,
+          "GRASS": 0.1513,
+          "TREE": 0.0015
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "HIGH": 1.0
+        },
+        "precip_ratio": {
+          "LOW": 1.0
+        },
+        "flags_ratio": {
+          "forest": 0.8487,
+          "water": 0.7469
+        },
+        "cell_bbox_xy": {
+          "min_x": 4826,
+          "max_x": 4980,
+          "min_y": 2675,
+          "max_y": 2736
+        },
+        "cell_centroid": {
+          "x": 4881.782,
+          "y": 2702.566,
+          "lon": 23.428425,
+          "lat": -22.627734
+        }
+      }
+    },
+    {
+      "id": "BWA-03",
+      "area_id": 111,
+      "area_seq_in_source": 3,
+      "name": "南東部経済・行政中心地域",
+      "name_en": "Southeastern Economic and Administrative Hub Region",
+      "reason": "首都ハボローネを含む南東部は、ボツワナの経済・行政の中心地であり、人口が集中している。他の地域とは異なり、都市化が進んだ経済・文化圏を形成している。",
+      "geometry_wkt": "POLYGON ((19.775391 -24.046464, 27.114258 -24.046464, 27.114258 -27.059126, 19.775391 -27.059126, 19.775391 -24.046464))",
+      "bbox": {
+        "minx": 19.775391,
+        "maxx": 27.114258,
+        "miny": -27.059126,
+        "maxy": -24.046464
+      },
+      "centroid": {
+        "x": 23.444824,
+        "y": -25.552795
+      },
+      "size": {
+        "width": 7.338867,
+        "height": 3.012662
+      },
+      "relative_position": {
+        "x_norm": 0.3958,
+        "y_norm": 0.1589,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "BWA-01",
+          "BWA-02"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "BWA-01",
+          "BWA-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 752,
+        "dominant_landcover": "SHRUB",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "SHRUB": 0.7819,
+          "GRASS": 0.2181
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "HIGH": 1.0
+        },
+        "precip_ratio": {
+          "LOW": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.7979,
+          "forest": 0.7819
+        },
+        "cell_bbox_xy": {
+          "min_x": 4826,
+          "max_x": 4919,
+          "min_y": 2737,
+          "max_y": 2744
+        },
+        "cell_centroid": {
+          "x": 4872.5,
+          "y": 2740.5,
+          "lon": 23.041667,
+          "lat": -24.208333
+        }
+      }
+    }
+  ]
+}

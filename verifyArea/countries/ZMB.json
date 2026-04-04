@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ZMB-01",
+    "name": "北部高地・カッパーベルト地域",
+    "name_en": "Northern Highlands & Copperbelt Region",
+    "reason": "この地域は、コンゴ盆地からの影響を受けた文化と、国の経済を支える主要な銅鉱山が存在する地域である。また、標高が高く、冷涼な気候を持つ。",
+    "geometry_wkt": "POLYGON ((28.190918 -8.000000, 33.903809 -8.000000, 33.903809 -12.211180, 28.190918 -12.211180, 28.190918 -8.000000))",
+    "area_id": 699,
+    "source_row_index": 699,
+    "iso_a3_source": "ZMB",
+    "iso_a3": "ZMB",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "ZMB-02",
+    "name": "中部高原・農業地帯",
+    "name_en": "Central Plateau & Agricultural Zone",
+    "reason": "ザンベジ川流域の一部を含み、農業が盛んな地域。首都ルサカもこの地域に位置し、人口が集中している。",
+    "geometry_wkt": "POLYGON ((28.179932 -12.232655, 33.717041 -12.232655, 33.717041 -17.098792, 28.179932 -17.098792, 28.179932 -12.232655))",
+    "area_id": 700,
+    "source_row_index": 700,
+    "iso_a3_source": "ZMB",
+    "iso_a3": "ZMB",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "ZMB-03",
+    "name": "南部・ザンベジ川流域",
+    "name_en": "Southern & Zambezi River Basin",
+    "reason": "ザンベジ川が国境の一部を形成し、ビクトリアの滝などの観光資源がある。また、ジンバブエとの交易や文化交流が盛んな地域。",
+    "geometry_wkt": "POLYGON ((21.862793 -10.725381, 28.168945 -10.725381, 28.168945 -18.145852, 21.862793 -18.145852, 21.862793 -10.725381))",
+    "area_id": 701,
+    "source_row_index": 701,
+    "iso_a3_source": "ZMB",
+    "iso_a3": "ZMB",
+    "area_seq_in_source": 3
+  }
+]

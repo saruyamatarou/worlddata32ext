@@ -1,0 +1,38 @@
+[
+  {
+    "id": "NAM-01",
+    "name": "北部・農業・畜産地域",
+    "name_en": "Northern Agricultural and Pastoral Region",
+    "reason": "ナミビアの人口の約40%が居住し、小規模農業や畜産業が営まれている地域。オバンボ族などの主要民族が多く居住している。年間降水量は他の地域に比べてやや多い傾向がある。",
+    "geometry_wkt": "POLYGON ((11.206055 -16.800000, 25.422363 -16.800000, 25.422363 -20.838278, 11.206055 -20.838278, 11.206055 -16.800000))",
+    "area_id": 434,
+    "source_row_index": 434,
+    "iso_a3_source": "NAM",
+    "iso_a3": "NAM",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "NAM-02",
+    "name": "中央・都市・鉱業地域",
+    "name_en": "Central Urban and Mining Region",
+    "reason": "首都ウィントフックが位置し、経済・行政の中心。ウラン、ダイヤモンド、銅などの鉱物資源が豊富で、経済の柱となっている。南アフリカからの影響も色濃く残る。",
+    "geometry_wkt": "POLYGON ((13.403320 -20.817741, 21.093750 -20.817741, 21.093750 -25.403585, 13.403320 -25.403585, 13.403320 -20.817741))",
+    "area_id": 435,
+    "source_row_index": 435,
+    "iso_a3_source": "NAM",
+    "iso_a3": "NAM",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "NAM-03",
+    "name": "南部・乾燥・文化地域",
+    "name_en": "Southern Arid and Cultural Region",
+    "reason": "カラハリ砂漠やナミブ砂漠の一部を含み、乾燥した気候の地域。サン族などの先住民族も居住し、独自の文化が残る。フィッシュ・リバー・キャニオンなどの自然景観も特徴的。",
+    "geometry_wkt": "POLYGON ((14.139404 -25.423431, 20.917969 -25.423431, 20.917969 -29.305561, 14.139404 -29.305561, 14.139404 -25.423431))",
+    "area_id": 436,
+    "source_row_index": 436,
+    "iso_a3_source": "NAM",
+    "iso_a3": "NAM",
+    "area_seq_in_source": 3
+  }
+]

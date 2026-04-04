@@ -1,0 +1,90 @@
+{
+  "iso_a3": "BRB",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -60.075989,
+    "maxx": -59.0,
+    "miny": 12.7,
+    "maxy": 13.694025
+  },
+  "areas": [
+    {
+      "id": "BRB-01",
+      "area_id": 105,
+      "area_seq_in_source": 1,
+      "name": "バルバドス島",
+      "name_en": "Barbados Island",
+      "reason": "バルバドスは比較的小さな島国であり、地理的、経済的、文化的な特徴において全体として均質性が高いため、単一のエリアとして定義するのが最も適切です。経済は観光業、軽工業、オフショア金融に依存しており、文化はアフリカとイギリスの影響が融合しています。",
+      "geometry_wkt": "POLYGON ((-60.075989 13.694025, -59.000000 13.694025, -59.000000 12.700000, -60.075989 12.700000, -60.075989 13.694025))",
+      "bbox": {
+        "minx": -60.075989,
+        "maxx": -59.0,
+        "miny": 12.7,
+        "maxy": 13.694025
+      },
+      "centroid": {
+        "x": -59.537994,
+        "y": 13.197012
+      },
+      "size": {
+        "width": 1.075989,
+        "height": 0.994025
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 508,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9547,
+          "TREE": 0.0157,
+          "WATER": 0.0118,
+          "GRASS": 0.0118,
+          "BUILT": 0.0059
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.9961,
+          "MID": 0.0039
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.9665,
+          "forest": 0.0157,
+          "built": 0.0059
+        },
+        "cell_bbox_xy": {
+          "min_x": 2878,
+          "max_x": 2903,
+          "min_y": 1830,
+          "max_y": 1856
+        },
+        "cell_centroid": {
+          "x": 2890.049,
+          "y": 1842.943,
+          "lon": -59.560449,
+          "lat": 13.189879
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "iso_a3": "TLS",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": 123.969727,
+    "maxx": 127.5,
+    "miny": -9.633246,
+    "maxy": -8.0
+  },
+  "areas": [
+    {
+      "id": "TLS-01",
+      "area_id": 603,
+      "area_seq_in_source": 1,
+      "name": "東ティモール北部・首都圏",
+      "name_en": "Northern Timor-Leste & Capital Region",
+      "reason": "首都ディリを含む北部沿岸地域であり、政治・経済・文化の中心地。地理的にも海岸線に沿った平野部が広がる。",
+      "geometry_wkt": "POLYGON ((124.854126 -8.000000, 127.500000 -8.000000, 127.500000 -9.622414, 124.854126 -9.622414, 124.854126 -8.000000))",
+      "bbox": {
+        "minx": 124.854126,
+        "maxx": 127.5,
+        "miny": -9.622414,
+        "maxy": -8.0
+      },
+      "centroid": {
+        "x": 126.177063,
+        "y": -8.811207
+      },
+      "size": {
+        "width": 2.645874,
+        "height": 1.622414
+      },
+      "relative_position": {
+        "x_norm": 0.6253,
+        "y_norm": 0.5033,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "TLS-02"
+        ],
+        "north_of": [
+          "TLS-02"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 1775,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.6203,
+          "TREE": 0.3003,
+          "GRASS": 0.0687,
+          "WATER": 0.0096,
+          "BUILT": 0.0011
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9949,
+          "TEMPERATE": 0.0051
+        },
+        "elevation_ratio": {
+          "LOW": 0.7251,
+          "MID": 0.2073,
+          "HIGH": 0.0654,
+          "ULTRA": 0.0023
+        },
+        "precip_ratio": {
+          "MID": 0.9217,
+          "WET": 0.0704,
+          "LOW": 0.0079
+        },
+        "flags_ratio": {
+          "water": 0.8051,
+          "forest": 0.3014,
+          "built": 0.0011
+        },
+        "cell_bbox_xy": {
+          "min_x": 7315,
+          "max_x": 7382,
+          "min_y": 2347,
+          "max_y": 2394
+        },
+        "cell_centroid": {
+          "x": 7346.101,
+          "y": 2370.412,
+          "lon": 126.108369,
+          "lat": -8.787993
+        }
+      }
+    },
+    {
+      "id": "TLS-02",
+      "area_id": 604,
+      "area_seq_in_source": 2,
+      "name": "東ティモール南部・内陸部",
+      "name_en": "Southern Timor-Leste & Interior",
+      "reason": "山岳地帯が多く、伝統的な農業が主体となっている内陸部。地理的、文化的に北部とは異なる特徴を持つ。",
+      "geometry_wkt": "POLYGON ((123.969727 -8.890499, 124.557495 -8.890499, 124.557495 -9.633246, 123.969727 -9.633246, 123.969727 -8.890499))",
+      "bbox": {
+        "minx": 123.969727,
+        "maxx": 124.557495,
+        "miny": -9.633246,
+        "maxy": -8.890499
+      },
+      "centroid": {
+        "x": 124.263611,
+        "y": -9.261872
+      },
+      "size": {
+        "width": 0.587768,
+        "height": 0.742747
+      },
+      "relative_position": {
+        "x_norm": 0.0832,
+        "y_norm": 0.2274,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "TLS-01"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "TLS-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 137,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.7372,
+          "TREE": 0.1387,
+          "GRASS": 0.1168,
+          "WATER": 0.0073
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.8102,
+          "MID": 0.1752,
+          "HIGH": 0.0146
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.8467,
+          "forest": 0.1387
+        },
+        "cell_bbox_xy": {
+          "min_x": 7294,
+          "max_x": 7306,
+          "min_y": 2372,
+          "max_y": 2387
+        },
+        "cell_centroid": {
+          "x": 7301.066,
+          "y": 2378.482,
+          "lon": 124.231904,
+          "lat": -9.12424
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "iso_a3": "PSE",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": 34.134521,
+    "maxx": 35.664368,
+    "miny": 31.201056,
+    "maxy": 32.565333
+  },
+  "areas": [
+    {
+      "id": "PSE-01",
+      "area_id": 511,
+      "area_seq_in_source": 1,
+      "name": "ヨルダン川西岸地区",
+      "name_en": "West Bank",
+      "reason": "パレスチナの政治的・経済的中心であり、歴史的・文化的にも重要な地域であるため。人口密度が高く、多くの主要都市を含む。",
+      "geometry_wkt": "POLYGON ((34.796448 32.565333, 35.664368 32.565333, 35.664368 31.299675, 34.796448 31.299675, 34.796448 32.565333))",
+      "bbox": {
+        "minx": 34.796448,
+        "maxx": 35.664368,
+        "miny": 31.299675,
+        "maxy": 32.565333
+      },
+      "centroid": {
+        "x": 35.230408,
+        "y": 31.932504
+      },
+      "size": {
+        "width": 0.86792,
+        "height": 1.265658
+      },
+      "relative_position": {
+        "x_norm": 0.7163,
+        "y_norm": 0.5361,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "PSE-02"
+        ],
+        "north_of": [
+          "PSE-02"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 315,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.5778,
+          "BARE": 0.181,
+          "SHRUB": 0.1429,
+          "BUILT": 0.0381,
+          "CROPLAND": 0.0317,
+          "WATER": 0.019,
+          "TREE": 0.0095
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.6032,
+          "TEMPERATE": 0.3968
+        },
+        "elevation_ratio": {
+          "MID": 0.6381,
+          "LOW": 0.3016,
+          "HIGH": 0.0603
+        },
+        "precip_ratio": {
+          "LOW": 0.8444,
+          "ARID": 0.1556
+        },
+        "flags_ratio": {
+          "water": 0.3238,
+          "forest": 0.1524,
+          "built": 0.0381,
+          "cropland": 0.0317
+        },
+        "cell_bbox_xy": {
+          "min_x": 5157,
+          "max_x": 5173,
+          "min_y": 1379,
+          "max_y": 1407
+        },
+        "cell_centroid": {
+          "x": 5165.546,
+          "y": 1392.673,
+          "lon": 35.251918,
+          "lat": 31.951124
+        }
+      }
+    },
+    {
+      "id": "PSE-02",
+      "area_id": 512,
+      "area_seq_in_source": 2,
+      "name": "ガザ地区",
+      "name_en": "Gaza Strip",
+      "reason": "地理的にヨルダン川西岸地区と分断されており、独自の人口動態と経済的課題を持つため。沿岸部に位置し、人口密度が非常に高い。",
+      "geometry_wkt": "POLYGON ((34.134521 31.601931, 34.571228 31.601931, 34.571228 31.201056, 34.134521 31.201056, 34.134521 31.601931))",
+      "bbox": {
+        "minx": 34.134521,
+        "maxx": 34.571228,
+        "miny": 31.201056,
+        "maxy": 31.601931
+      },
+      "centroid": {
+        "x": 34.352874,
+        "y": 31.401494
+      },
+      "size": {
+        "width": 0.436707,
+        "height": 0.400875
+      },
+      "relative_position": {
+        "x_norm": 0.1427,
+        "y_norm": 0.1469,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "PSE-01"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "PSE-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 104,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.8173,
+          "BUILT": 0.0865,
+          "TREE": 0.0288,
+          "WATER": 0.0288,
+          "CROPLAND": 0.0192,
+          "BARE": 0.0096,
+          "GRASS": 0.0096
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.8173,
+          "TROPICAL": 0.1827
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.8173,
+          "LOW": 0.1154,
+          "ARID": 0.0673
+        },
+        "flags_ratio": {
+          "water": 0.9904,
+          "built": 0.0865,
+          "forest": 0.0288,
+          "cropland": 0.0192
+        },
+        "cell_bbox_xy": {
+          "min_x": 5136,
+          "max_x": 5148,
+          "min_y": 1396,
+          "max_y": 1410
+        },
+        "cell_centroid": {
+          "x": 5141.481,
+          "y": 1402.019,
+          "lon": 34.249199,
+          "lat": 31.561699
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">IND review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(68.000000, 4.214943) - (97.756348, 36.031332)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="163.43" y="40.00" width="430.06" height="206.13" fill="none" stroke="black" stroke-width="2"/>
+<text x="167.43" y="56.00" font-size="12" font-family="Arial, sans-serif">IND-01 | インド北部</text>
+<circle cx="378.46" cy="143.07" r="2.5" fill="black"/>
+<rect x="40.00" y="246.99" width="338.75" height="206.18" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="262.99" font-size="12" font-family="Arial, sans-serif">IND-02 | インド西部</text>
+<circle cx="209.38" cy="350.08" r="2.5" fill="black"/>
+<rect x="378.75" y="246.99" width="403.30" height="206.87" fill="none" stroke="black" stroke-width="2"/>
+<text x="382.75" y="262.99" font-size="12" font-family="Arial, sans-serif">IND-03 | インド中央部</text>
+<circle cx="580.40" cy="350.43" r="2.5" fill="black"/>
+<rect x="781.22" y="204.96" width="378.78" height="249.43" fill="none" stroke="black" stroke-width="2"/>
+<text x="785.22" y="220.96" font-size="12" font-family="Arial, sans-serif">IND-04 | インド東部</text>
+<circle cx="970.61" cy="329.68" r="2.5" fill="black"/>
+<rect x="168.39" y="453.17" width="210.36" height="260.21" fill="none" stroke="black" stroke-width="2"/>
+<text x="172.39" y="469.17" font-size="12" font-family="Arial, sans-serif">IND-05 | インド南西部</text>
+<circle cx="273.57" cy="583.28" r="2.5" fill="black"/>
+<rect x="378.75" y="453.17" width="371.87" height="259.09" fill="none" stroke="black" stroke-width="2"/>
+<text x="382.75" y="469.17" font-size="12" font-family="Arial, sans-serif">IND-06 | インド南東部</text>
+<circle cx="564.69" cy="582.72" r="2.5" fill="black"/>
+<rect x="178.32" y="713.38" width="319.23" height="82.92" fill="none" stroke="black" stroke-width="2"/>
+<text x="182.32" y="729.38" font-size="12" font-family="Arial, sans-serif">IND-07 | インド南部</text>
+<circle cx="337.93" cy="754.84" r="2.5" fill="black"/>
+<rect x="887.91" y="555.08" width="205.10" height="304.92" fill="none" stroke="black" stroke-width="2"/>
+<text x="891.91" y="571.08" font-size="12" font-family="Arial, sans-serif">IND-08 | インド島嶼部</text>
+<circle cx="990.46" cy="707.54" r="2.5" fill="black"/>
+</svg>

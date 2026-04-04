@@ -1,0 +1,50 @@
+[
+  {
+    "id": "TKM-01",
+    "name": "北部トルクメニスタン",
+    "name_en": "Northern Turkmenistan",
+    "reason": "ウズベキスタンとの国境に近く、カラカルパクスタン共和国に隣接する地域。歴史的に遊牧文化の影響が色濃く、ダショグズ州などの農業地帯と、カスピ海沿岸の工業・資源開発地域を含む。",
+    "geometry_wkt": "POLYGON ((51.745605 42.924252, 62.500000 42.924252, 62.500000 41.000000, 51.745605 41.000000, 51.745605 42.924252))",
+    "area_id": 599,
+    "source_row_index": 599,
+    "iso_a3_source": "TKM",
+    "iso_a3": "TKM",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "TKM-02",
+    "name": "西部トルクメニスタン",
+    "name_en": "Western Turkmenistan",
+    "reason": "カスピ海に面し、バルカナバートなどの石油・天然ガス産業の中心地。イランとの国境地域も含む。",
+    "geometry_wkt": "POLYGON ((52.000000 41.000000, 56.909180 41.000000, 56.909180 37.212832, 52.000000 37.212832, 52.000000 41.000000))",
+    "area_id": 600,
+    "source_row_index": 600,
+    "iso_a3_source": "TKM",
+    "iso_a3": "TKM",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "TKM-03",
+    "name": "中央トルクメニスタン",
+    "name_en": "Central Turkmenistan",
+    "reason": "国土の大部分を占めるカラクム砂漠の中心部。歴史的な交易路の要衝であり、メルヴなどの古代都市遺跡が存在する。",
+    "geometry_wkt": "POLYGON ((56.953125 40.979898, 64.973145 40.979898, 64.973145 38.771216, 56.953125 38.771216, 56.953125 40.979898))",
+    "area_id": 601,
+    "source_row_index": 601,
+    "iso_a3_source": "TKM",
+    "iso_a3": "TKM",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "TKM-04",
+    "name": "東部・南部トルクメニスタン",
+    "name_en": "Eastern and Southern Turkmenistan",
+    "reason": "アフガニスタンおよびウズベキスタンとの国境地帯。ガルキニシュ・ガス田などの主要な天然ガス田が集中しており、経済的に重要な地域。コペトダグ山脈の南麓も含む。",
+    "geometry_wkt": "POLYGON ((56.865234 38.771216, 66.730957 38.771216, 66.730957 35.119909, 56.865234 35.119909, 56.865234 38.771216))",
+    "area_id": 602,
+    "source_row_index": 602,
+    "iso_a3_source": "TKM",
+    "iso_a3": "TKM",
+    "area_seq_in_source": 4
+  }
+]

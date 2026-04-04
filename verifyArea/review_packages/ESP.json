@@ -1,0 +1,510 @@
+{
+  "iso_a3": "ESP",
+  "area_count": 5,
+  "country_bbox": {
+    "minx": -9.711914,
+    "maxx": 4.921875,
+    "miny": 35.835628,
+    "maxy": 44.024422
+  },
+  "areas": [
+    {
+      "id": "ESP-01",
+      "area_id": 210,
+      "area_seq_in_source": 1,
+      "name": "北部沿岸地域",
+      "name_en": "Northern Coastal Region",
+      "reason": "大西洋の影響を受け、比較的温暖で降水量が多い気候。緑豊かな景観と独自の文化（バスク、ガリシアなど）を持つ。",
+      "geometry_wkt": "POLYGON ((-9.711914 44.024422, -1.252441 44.024422, -1.252441 41.046217, -9.711914 41.046217, -9.711914 44.024422))",
+      "bbox": {
+        "minx": -9.711914,
+        "maxx": -1.252441,
+        "miny": 41.046217,
+        "maxy": 44.024422
+      },
+      "centroid": {
+        "x": -5.482177,
+        "y": 42.535319
+      },
+      "size": {
+        "width": 8.459473,
+        "height": 2.978205
+      },
+      "relative_position": {
+        "x_norm": 0.289,
+        "y_norm": 0.8182,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ESP-02",
+          "ESP-03",
+          "ESP-04",
+          "ESP-05"
+        ],
+        "east_of": [],
+        "north_of": [
+          "ESP-02",
+          "ESP-03",
+          "ESP-04",
+          "ESP-05"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 18887,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.3434,
+          "TREE": 0.2949,
+          "GRASS": 0.1697,
+          "CROPLAND": 0.1697,
+          "WATER": 0.0074,
+          "BARE": 0.0069,
+          "SHRUB": 0.0056,
+          "BUILT": 0.0025
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9779,
+          "TROPICAL": 0.0134,
+          "COLD": 0.0086
+        },
+        "elevation_ratio": {
+          "LOW": 0.3998,
+          "MID": 0.2988,
+          "HIGH": 0.294,
+          "ULTRA": 0.0075
+        },
+        "precip_ratio": {
+          "MID": 0.5447,
+          "LOW": 0.4452,
+          "ARID": 0.0101
+        },
+        "flags_ratio": {
+          "water": 0.8,
+          "forest": 0.3009,
+          "cropland": 0.1697,
+          "built": 0.0025
+        },
+        "cell_bbox_xy": {
+          "min_x": 3874,
+          "max_x": 4408,
+          "min_y": 1099,
+          "max_y": 1506
+        },
+        "cell_centroid": {
+          "x": 4154.711,
+          "y": 1216.14,
+          "lon": -6.866212,
+          "lat": 39.306678
+        }
+      }
+    },
+    {
+      "id": "ESP-02",
+      "area_id": 211,
+      "area_seq_in_source": 2,
+      "name": "カタルーニャ地方",
+      "name_en": "Catalonia",
+      "reason": "地中海沿岸に位置し、温暖で雨が少ない気候。バルセロナを中心とした経済的・文化的中心地であり、独自の言語（カタルーニャ語）が話される。",
+      "geometry_wkt": "POLYGON ((-1.241455 43.237199, 3.559570 43.237199, 3.559570 40.988192, -1.241455 40.988192, -1.241455 43.237199))",
+      "bbox": {
+        "minx": -1.241455,
+        "maxx": 3.55957,
+        "miny": 40.988192,
+        "maxy": 43.237199
+      },
+      "centroid": {
+        "x": 1.159057,
+        "y": 42.112696
+      },
+      "size": {
+        "width": 4.801025,
+        "height": 2.249007
+      },
+      "relative_position": {
+        "x_norm": 0.7429,
+        "y_norm": 0.7665,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ESP-05"
+        ],
+        "east_of": [
+          "ESP-01",
+          "ESP-03",
+          "ESP-04"
+        ],
+        "north_of": [
+          "ESP-03",
+          "ESP-04",
+          "ESP-05"
+        ],
+        "south_of": [
+          "ESP-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 2679,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.3501,
+          "CROPLAND": 0.3389,
+          "OCEAN": 0.1766,
+          "GRASS": 0.1112,
+          "BUILT": 0.0138,
+          "WATER": 0.0049,
+          "SHRUB": 0.0037,
+          "BARE": 0.0007
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.6663,
+          "LOW": 0.2837,
+          "HIGH": 0.05
+        },
+        "precip_ratio": {
+          "LOW": 0.8234,
+          "MID": 0.1766
+        },
+        "flags_ratio": {
+          "water": 0.7182,
+          "forest": 0.3539,
+          "cropland": 0.3389,
+          "built": 0.0142
+        },
+        "cell_bbox_xy": {
+          "min_x": 4290,
+          "max_x": 4392,
+          "min_y": 1150,
+          "max_y": 1182
+        },
+        "cell_centroid": {
+          "x": 4339.356,
+          "y": 1163.263,
+          "lon": 0.827353,
+          "lat": 41.509884
+        }
+      }
+    },
+    {
+      "id": "ESP-03",
+      "area_id": 212,
+      "area_seq_in_source": 3,
+      "name": "中部高原（メセタ）",
+      "name_en": "Central Plateau (Meseta)",
+      "reason": "内陸部の乾燥した高原地帯。マドリードを首都とし、夏は暑く冬は寒い大陸性気候。スペインの政治・経済の中心。",
+      "geometry_wkt": "POLYGON ((-7.767334 41.037931, -1.483154 41.037931, -1.483154 37.970185, -7.767334 37.970185, -7.767334 41.037931))",
+      "bbox": {
+        "minx": -7.767334,
+        "maxx": -1.483154,
+        "miny": 37.970185,
+        "maxy": 41.037931
+      },
+      "centroid": {
+        "x": -4.625244,
+        "y": 39.504058
+      },
+      "size": {
+        "width": 6.28418,
+        "height": 3.067746
+      },
+      "relative_position": {
+        "x_norm": 0.3476,
+        "y_norm": 0.448,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "ESP-02",
+          "ESP-04",
+          "ESP-05"
+        ],
+        "east_of": [
+          "ESP-01"
+        ],
+        "north_of": [
+          "ESP-04",
+          "ESP-05"
+        ],
+        "south_of": [
+          "ESP-01",
+          "ESP-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 9274,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "CROPLAND": 0.3362,
+          "GRASS": 0.3295,
+          "TREE": 0.3213,
+          "SHRUB": 0.0059,
+          "BUILT": 0.0054,
+          "WATER": 0.0016
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.6276,
+          "HIGH": 0.3684,
+          "LOW": 0.0036,
+          "ULTRA": 0.0004
+        },
+        "precip_ratio": {
+          "LOW": 0.9884,
+          "MID": 0.0116
+        },
+        "flags_ratio": {
+          "water": 0.6498,
+          "cropland": 0.3362,
+          "forest": 0.3273,
+          "built": 0.0054
+        },
+        "cell_bbox_xy": {
+          "min_x": 4154,
+          "max_x": 4283,
+          "min_y": 1175,
+          "max_y": 1248
+        },
+        "cell_centroid": {
+          "x": 4220.692,
+          "y": 1212.34,
+          "lon": -4.116985,
+          "lat": 39.464996
+        }
+      }
+    },
+    {
+      "id": "ESP-04",
+      "area_id": 213,
+      "area_seq_in_source": 4,
+      "name": "アンダルシア地方",
+      "name_en": "Andalusia",
+      "reason": "南部地域で、夏は非常に暑く乾燥している。イスラム文化の影響が色濃く残り、フラメンコ発祥の地。観光資源が豊富。",
+      "geometry_wkt": "POLYGON ((-7.630005 37.970185, -0.351563 37.970185, -0.351563 35.835628, -7.630005 35.835628, -7.630005 37.970185))",
+      "bbox": {
+        "minx": -7.630005,
+        "maxx": -0.351563,
+        "miny": 35.835628,
+        "maxy": 37.970185
+      },
+      "centroid": {
+        "x": -3.990784,
+        "y": 36.902907
+      },
+      "size": {
+        "width": 7.278442,
+        "height": 2.134557
+      },
+      "relative_position": {
+        "x_norm": 0.391,
+        "y_norm": 0.1303,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ESP-02",
+          "ESP-05"
+        ],
+        "east_of": [
+          "ESP-01",
+          "ESP-03"
+        ],
+        "north_of": [],
+        "south_of": [
+          "ESP-01",
+          "ESP-02",
+          "ESP-03",
+          "ESP-05"
+        ],
+        "overlaps": [
+          {
+            "id": "ESP-05",
+            "x_overlap": 1.120605,
+            "y_overlap": 0.008662
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 5793,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.2871,
+          "OCEAN": 0.2833,
+          "GRASS": 0.216,
+          "CROPLAND": 0.1597,
+          "SHRUB": 0.0185,
+          "BARE": 0.0112,
+          "BUILT": 0.011,
+          "WATER": 0.0071,
+          "WETLAND": 0.0062
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9584,
+          "TROPICAL": 0.0402,
+          "COLD": 0.0014
+        },
+        "elevation_ratio": {
+          "LOW": 0.5075,
+          "MID": 0.3128,
+          "HIGH": 0.1737,
+          "ULTRA": 0.006
+        },
+        "precip_ratio": {
+          "LOW": 0.7078,
+          "MID": 0.284,
+          "ARID": 0.0083
+        },
+        "flags_ratio": {
+          "water": 0.7048,
+          "forest": 0.3055,
+          "cropland": 0.1597,
+          "built": 0.011
+        },
+        "cell_bbox_xy": {
+          "min_x": 4152,
+          "max_x": 4312,
+          "min_y": 1249,
+          "max_y": 1297
+        },
+        "cell_centroid": {
+          "x": 4223.447,
+          "y": 1268.077,
+          "lon": -4.002197,
+          "lat": 37.142633
+        }
+      }
+    },
+    {
+      "id": "ESP-05",
+      "area_id": 214,
+      "area_seq_in_source": 5,
+      "name": "東部地中海沿岸",
+      "name_en": "Eastern Mediterranean Coast",
+      "reason": "温暖で雨が少なく、リゾート地として発展。バレンシアなどが含まれ、農業（柑橘類）や観光が盛ん。",
+      "geometry_wkt": "POLYGON ((-1.472168 40.979898, 4.921875 40.979898, 4.921875 37.961523, -1.472168 37.961523, -1.472168 40.979898))",
+      "bbox": {
+        "minx": -1.472168,
+        "maxx": 4.921875,
+        "miny": 37.961523,
+        "maxy": 40.979898
+      },
+      "centroid": {
+        "x": 1.724854,
+        "y": 39.47071
+      },
+      "size": {
+        "width": 6.394043,
+        "height": 3.018375
+      },
+      "relative_position": {
+        "x_norm": 0.7815,
+        "y_norm": 0.4439,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "ESP-01",
+          "ESP-02",
+          "ESP-03",
+          "ESP-04"
+        ],
+        "north_of": [
+          "ESP-04"
+        ],
+        "south_of": [
+          "ESP-01",
+          "ESP-02",
+          "ESP-03"
+        ],
+        "overlaps": [
+          {
+            "id": "ESP-04",
+            "x_overlap": 1.120605,
+            "y_overlap": 0.008662
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 6069,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.524,
+          "TREE": 0.2323,
+          "GRASS": 0.1292,
+          "CROPLAND": 0.0657,
+          "SHRUB": 0.0318,
+          "WATER": 0.011,
+          "BUILT": 0.0051,
+          "WETLAND": 0.0005,
+          "BARE": 0.0003
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9949,
+          "TROPICAL": 0.0051
+        },
+        "elevation_ratio": {
+          "LOW": 0.6424,
+          "MID": 0.186,
+          "HIGH": 0.1715
+        },
+        "precip_ratio": {
+          "MID": 0.524,
+          "LOW": 0.476
+        },
+        "flags_ratio": {
+          "water": 0.7991,
+          "forest": 0.2641,
+          "cropland": 0.0657,
+          "built": 0.0051
+        },
+        "cell_bbox_xy": {
+          "min_x": 4285,
+          "max_x": 4433,
+          "min_y": 1176,
+          "max_y": 1253
+        },
+        "cell_centroid": {
+          "x": 4340.641,
+          "y": 1210.496,
+          "lon": 0.88088,
+          "lat": 39.541849
+        }
+      }
+    }
+  ]
+}

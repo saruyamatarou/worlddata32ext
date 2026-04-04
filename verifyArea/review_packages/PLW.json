@@ -1,0 +1,90 @@
+{
+  "iso_a3": "PLW",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": 130.319824,
+    "maxx": 136.054688,
+    "miny": 1.889306,
+    "maxy": 8.9936
+  },
+  "areas": [
+    {
+      "id": "PLW-01",
+      "area_id": 488,
+      "area_seq_in_source": 1,
+      "name": "パラオ全域",
+      "name_en": "All Palau",
+      "reason": "パラオは広範囲に点在する島嶼国であり、地理的・経済的・文化的に一体とみなせるため、単一のエリアとして定義する。",
+      "geometry_wkt": "POLYGON ((130.319824 8.993600, 136.054688 8.993600, 136.054688 1.889306, 130.319824 1.889306, 130.319824 8.993600))",
+      "bbox": {
+        "minx": 130.319824,
+        "maxx": 136.054688,
+        "miny": 1.889306,
+        "maxy": 8.9936
+      },
+      "centroid": {
+        "x": 133.187256,
+        "y": 5.441453
+      },
+      "size": {
+        "width": 5.734864,
+        "height": 7.104294
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 1036,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9768,
+          "WATER": 0.0116,
+          "TREE": 0.0116
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.999,
+          "POLAR": 0.001
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9768,
+          "WET": 0.0222,
+          "ARID": 0.001
+        },
+        "flags_ratio": {
+          "water": 0.9942,
+          "reef": 0.0792,
+          "forest": 0.0125
+        },
+        "cell_bbox_xy": {
+          "min_x": 7457,
+          "max_x": 7561,
+          "min_y": 1965,
+          "max_y": 2097
+        },
+        "cell_centroid": {
+          "x": 7522.389,
+          "y": 2014.847,
+          "lon": 133.453708,
+          "lat": 6.027188
+        }
+      }
+    }
+  ]
+}

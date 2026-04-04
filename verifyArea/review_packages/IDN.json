@@ -1,0 +1,908 @@
+{
+  "iso_a3": "IDN",
+  "area_count": 8,
+  "country_bbox": {
+    "minx": 94.504395,
+    "maxx": 141.0,
+    "miny": -11.824341,
+    "maxy": 6.380812
+  },
+  "areas": [
+    {
+      "id": "IDN-01",
+      "area_id": 277,
+      "area_seq_in_source": 1,
+      "name": "スマトラ島北部",
+      "name_en": "Northern Sumatra",
+      "reason": "スマトラ島は、インドネシアの経済において重要な役割を果たす島であり、特に北部地域はアチェ州や北スマトラ州などが位置し、多様な文化と経済活動が見られます。この地域を一つのエリアとすることで、地域ごとの特徴を捉えやすくなります。",
+      "geometry_wkt": "POLYGON ((94.504395 6.380812, 100.678711 6.380812, 100.678711 -3.886177, 94.504395 -3.886177, 94.504395 6.380812))",
+      "bbox": {
+        "minx": 94.504395,
+        "maxx": 100.678711,
+        "miny": -3.886177,
+        "maxy": 6.380812
+      },
+      "centroid": {
+        "x": 97.591553,
+        "y": 1.247317
+      },
+      "size": {
+        "width": 6.174316,
+        "height": 10.266989
+      },
+      "relative_position": {
+        "x_norm": 0.0664,
+        "y_norm": 0.718,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "IDN-02",
+          "IDN-03",
+          "IDN-04",
+          "IDN-05",
+          "IDN-06",
+          "IDN-07",
+          "IDN-08"
+        ],
+        "east_of": [],
+        "north_of": [
+          "IDN-02",
+          "IDN-03",
+          "IDN-04",
+          "IDN-05",
+          "IDN-06",
+          "IDN-07",
+          "IDN-08"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 30257,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "WET",
+        "landcover_ratio": {
+          "TREE": 0.5564,
+          "OCEAN": 0.4145,
+          "WATER": 0.0119,
+          "MANGROVE": 0.006,
+          "GRASS": 0.0057,
+          "CROPLAND": 0.0037,
+          "BUILT": 0.001,
+          "WETLAND": 0.0009
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9881,
+          "TEMPERATE": 0.0117,
+          "POLAR": 0.0002
+        },
+        "elevation_ratio": {
+          "LOW": 0.7249,
+          "MID": 0.1563,
+          "HIGH": 0.1138,
+          "ULTRA": 0.0051
+        },
+        "precip_ratio": {
+          "WET": 0.5505,
+          "MID": 0.4493,
+          "ARID": 0.0002
+        },
+        "flags_ratio": {
+          "water": 0.9442,
+          "forest": 0.5662,
+          "cropland": 0.0037,
+          "built": 0.001
+        },
+        "cell_bbox_xy": {
+          "min_x": 6591,
+          "max_x": 7703,
+          "min_y": 2008,
+          "max_y": 2390
+        },
+        "cell_centroid": {
+          "x": 6867.136,
+          "y": 2129.963,
+          "lon": 106.1515,
+          "lat": 1.230688
+        }
+      }
+    },
+    {
+      "id": "IDN-02",
+      "area_id": 278,
+      "area_seq_in_source": 2,
+      "name": "スマトラ島南部",
+      "name_en": "Southern Sumatra",
+      "reason": "スマトラ島南部は、南スマトラ州やランプン州などを含み、農業や天然資源が豊富な地域です。経済的な特色や地理的なまとまりを考慮して、北部と区分します。",
+      "geometry_wkt": "POLYGON ((100.832520 3.710782, 107.094727 3.710782, 107.094727 -5.965754, 100.832520 -5.965754, 100.832520 3.710782))",
+      "bbox": {
+        "minx": 100.83252,
+        "maxx": 107.094727,
+        "miny": -5.965754,
+        "maxy": 3.710782
+      },
+      "centroid": {
+        "x": 103.963624,
+        "y": -1.127486
+      },
+      "size": {
+        "width": 6.262207,
+        "height": 9.676536
+      },
+      "relative_position": {
+        "x_norm": 0.2034,
+        "y_norm": 0.5876,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "IDN-03",
+          "IDN-04",
+          "IDN-05",
+          "IDN-06",
+          "IDN-07",
+          "IDN-08"
+        ],
+        "east_of": [
+          "IDN-01"
+        ],
+        "north_of": [
+          "IDN-03",
+          "IDN-04",
+          "IDN-05",
+          "IDN-08"
+        ],
+        "south_of": [
+          "IDN-01",
+          "IDN-06",
+          "IDN-07"
+        ],
+        "overlaps": [
+          {
+            "id": "IDN-03",
+            "x_overlap": 2.263184,
+            "y_overlap": 0.087422
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 18948,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "WET",
+        "landcover_ratio": {
+          "TREE": 0.6022,
+          "OCEAN": 0.3487,
+          "CROPLAND": 0.0184,
+          "GRASS": 0.0119,
+          "MANGROVE": 0.0082,
+          "WATER": 0.0079,
+          "BUILT": 0.0013,
+          "SHRUB": 0.001,
+          "WETLAND": 0.0003
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9926,
+          "TEMPERATE": 0.0074
+        },
+        "elevation_ratio": {
+          "LOW": 0.8541,
+          "MID": 0.0928,
+          "HIGH": 0.0517,
+          "ULTRA": 0.0015
+        },
+        "precip_ratio": {
+          "WET": 0.6474,
+          "MID": 0.3526
+        },
+        "flags_ratio": {
+          "water": 0.9547,
+          "forest": 0.6157,
+          "cropland": 0.0184,
+          "built": 0.0014
+        },
+        "cell_bbox_xy": {
+          "min_x": 6730,
+          "max_x": 6893,
+          "min_y": 2069,
+          "max_y": 2311
+        },
+        "cell_centroid": {
+          "x": 6812.125,
+          "y": 2216.372,
+          "lon": 103.859389,
+          "lat": -2.369659
+        }
+      }
+    },
+    {
+      "id": "IDN-03",
+      "area_id": 279,
+      "area_seq_in_source": 3,
+      "name": "ジャワ島西部",
+      "name_en": "Western Java",
+      "reason": "ジャワ島はインドネシアで最も人口が密集しており、政治・経済の中心地です。西部はジャカルタ首都特別州や西ジャワ州を含み、都市化と産業が集積しています。この地域を明確に分けることで、国内の経済格差や都市構造を把握しやすくなります。",
+      "geometry_wkt": "POLYGON ((104.831543 -5.878332, 110.017090 -5.878332, 110.017090 -8.320212, 104.831543 -8.320212, 104.831543 -5.878332))",
+      "bbox": {
+        "minx": 104.831543,
+        "maxx": 110.01709,
+        "miny": -8.320212,
+        "maxy": -5.878332
+      },
+      "centroid": {
+        "x": 107.424317,
+        "y": -7.099272
+      },
+      "size": {
+        "width": 5.185547,
+        "height": 2.44188
+      },
+      "relative_position": {
+        "x_norm": 0.2779,
+        "y_norm": 0.2595,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "IDN-04",
+          "IDN-05",
+          "IDN-06",
+          "IDN-07",
+          "IDN-08"
+        ],
+        "east_of": [
+          "IDN-01",
+          "IDN-02"
+        ],
+        "north_of": [
+          "IDN-04",
+          "IDN-05"
+        ],
+        "south_of": [
+          "IDN-01",
+          "IDN-02",
+          "IDN-06",
+          "IDN-07",
+          "IDN-08"
+        ],
+        "overlaps": [
+          {
+            "id": "IDN-02",
+            "x_overlap": 2.263184,
+            "y_overlap": 0.087422
+          },
+          {
+            "id": "IDN-04",
+            "x_overlap": 0.021973,
+            "y_overlap": 2.44188
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 5700,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.4907,
+          "TREE": 0.367,
+          "CROPLAND": 0.0951,
+          "BUILT": 0.03,
+          "WATER": 0.0158,
+          "GRASS": 0.0007,
+          "WETLAND": 0.0004,
+          "MANGROVE": 0.0004
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9753,
+          "TEMPERATE": 0.0247
+        },
+        "elevation_ratio": {
+          "LOW": 0.7514,
+          "MID": 0.1742,
+          "HIGH": 0.0728,
+          "ULTRA": 0.0016
+        },
+        "precip_ratio": {
+          "MID": 0.5498,
+          "WET": 0.4502
+        },
+        "flags_ratio": {
+          "water": 0.9768,
+          "forest": 0.3686,
+          "cropland": 0.0954,
+          "built": 0.0302
+        },
+        "cell_bbox_xy": {
+          "min_x": 6833,
+          "max_x": 6959,
+          "min_y": 2292,
+          "max_y": 2357
+        },
+        "cell_centroid": {
+          "x": 6900.976,
+          "y": 2325.313,
+          "lon": 107.561506,
+          "lat": -6.908882
+        }
+      }
+    },
+    {
+      "id": "IDN-04",
+      "area_id": 280,
+      "area_seq_in_source": 4,
+      "name": "ジャワ島東部",
+      "name_en": "Eastern Java",
+      "reason": "ジャワ島東部は、中部ジャワ州、ジョグジャカルタ特別州、東ジャワ州を含みます。ジャワ島西部とは異なる文化や経済的特徴を持ち、農業や伝統産業が根付いています。",
+      "geometry_wkt": "POLYGON ((109.995117 -5.495704, 114.763184 -5.495704, 114.763184 -9.123792, 109.995117 -9.123792, 109.995117 -5.495704))",
+      "bbox": {
+        "minx": 109.995117,
+        "maxx": 114.763184,
+        "miny": -9.123792,
+        "maxy": -5.495704
+      },
+      "centroid": {
+        "x": 112.37915,
+        "y": -7.309748
+      },
+      "size": {
+        "width": 4.768067,
+        "height": 3.628088
+      },
+      "relative_position": {
+        "x_norm": 0.3844,
+        "y_norm": 0.248,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "IDN-05",
+          "IDN-06",
+          "IDN-07",
+          "IDN-08"
+        ],
+        "east_of": [
+          "IDN-01",
+          "IDN-02",
+          "IDN-03"
+        ],
+        "north_of": [
+          "IDN-05"
+        ],
+        "south_of": [
+          "IDN-01",
+          "IDN-02",
+          "IDN-03",
+          "IDN-06",
+          "IDN-07",
+          "IDN-08"
+        ],
+        "overlaps": [
+          {
+            "id": "IDN-03",
+            "x_overlap": 0.021973,
+            "y_overlap": 2.44188
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 7452,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.5518,
+          "TREE": 0.3074,
+          "CROPLAND": 0.1149,
+          "WATER": 0.0129,
+          "BUILT": 0.0113,
+          "GRASS": 0.0015,
+          "MANGROVE": 0.0003
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9855,
+          "TEMPERATE": 0.0145
+        },
+        "elevation_ratio": {
+          "LOW": 0.8192,
+          "MID": 0.141,
+          "HIGH": 0.0358,
+          "ULTRA": 0.0039
+        },
+        "precip_ratio": {
+          "MID": 0.7556,
+          "WET": 0.2444
+        },
+        "flags_ratio": {
+          "water": 0.9121,
+          "forest": 0.3103,
+          "cropland": 0.1151,
+          "built": 0.0114
+        },
+        "cell_bbox_xy": {
+          "min_x": 6957,
+          "max_x": 7079,
+          "min_y": 2287,
+          "max_y": 2380
+        },
+        "cell_centroid": {
+          "x": 7016.578,
+          "y": 2337.715,
+          "lon": 112.378249,
+          "lat": -7.425618
+        }
+      }
+    },
+    {
+      "id": "IDN-05",
+      "area_id": 281,
+      "area_seq_in_source": 5,
+      "name": "バリ島・ヌサ・トゥンガラ諸島",
+      "name_en": "Bali and Nusa Tenggara Islands",
+      "reason": "バリ島はインドネシアの中でも独特の文化（ヒンドゥー教）を持つ地域であり、ヌサ・トゥンガラ諸島（ロンボク島、ティモール島など）と共に、観光業が盛んで、経済的・文化的に特徴的なエリアです。",
+      "geometry_wkt": "POLYGON ((114.763184 -6.511815, 130.517578 -6.511815, 130.517578 -11.824341, 114.763184 -11.824341, 114.763184 -6.511815))",
+      "bbox": {
+        "minx": 114.763184,
+        "maxx": 130.517578,
+        "miny": -11.824341,
+        "maxy": -6.511815
+      },
+      "centroid": {
+        "x": 122.640381,
+        "y": -9.168078
+      },
+      "size": {
+        "width": 15.754394,
+        "height": 5.312526
+      },
+      "relative_position": {
+        "x_norm": 0.6051,
+        "y_norm": 0.1459,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "IDN-07",
+          "IDN-08"
+        ],
+        "east_of": [
+          "IDN-01",
+          "IDN-02",
+          "IDN-03",
+          "IDN-04",
+          "IDN-06"
+        ],
+        "north_of": [],
+        "south_of": [
+          "IDN-01",
+          "IDN-02",
+          "IDN-03",
+          "IDN-04",
+          "IDN-06",
+          "IDN-07",
+          "IDN-08"
+        ],
+        "overlaps": [
+          {
+            "id": "IDN-07",
+            "x_overlap": 11.82129,
+            "y_overlap": 0.02183
+          },
+          {
+            "id": "IDN-08",
+            "x_overlap": 0.043945,
+            "y_overlap": 3.488185
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 17104,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.8006,
+          "TREE": 0.1479,
+          "GRASS": 0.0309,
+          "WATER": 0.013,
+          "CROPLAND": 0.0065,
+          "BUILT": 0.0008,
+          "MANGROVE": 0.0002,
+          "BARE": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9981,
+          "TEMPERATE": 0.0018,
+          "POLAR": 0.0001
+        },
+        "elevation_ratio": {
+          "LOW": 0.8714,
+          "MID": 0.1103,
+          "HIGH": 0.0178,
+          "ULTRA": 0.0004
+        },
+        "precip_ratio": {
+          "MID": 0.9707,
+          "WET": 0.0248,
+          "LOW": 0.0044,
+          "ARID": 0.0001
+        },
+        "flags_ratio": {
+          "water": 0.8958,
+          "forest": 0.1516,
+          "cropland": 0.0067,
+          "built": 0.0008
+        },
+        "cell_bbox_xy": {
+          "min_x": 7074,
+          "max_x": 7451,
+          "min_y": 2311,
+          "max_y": 2431
+        },
+        "cell_centroid": {
+          "x": 7243.636,
+          "y": 2365.968,
+          "lon": 121.839012,
+          "lat": -8.602827
+        }
+      }
+    },
+    {
+      "id": "IDN-06",
+      "area_id": 282,
+      "area_seq_in_source": 6,
+      "name": "カリマンタン島",
+      "name_en": "Kalimantan (Borneo)",
+      "reason": "カリマンタン島（ボルネオ島）は、インドネシアの国土の約28%を占める広大な島です。天然資源が豊富で、地域によって経済構造が異なります。一つのエリアとすることで、この広大な島の全体像を捉えます。",
+      "geometry_wkt": "POLYGON ((107.094727 5.025283, 118.981934 5.025283, 118.981934 -5.375398, 107.094727 -5.375398, 107.094727 5.025283))",
+      "bbox": {
+        "minx": 107.094727,
+        "maxx": 118.981934,
+        "miny": -5.375398,
+        "maxy": 5.025283
+      },
+      "centroid": {
+        "x": 113.038331,
+        "y": -0.175057
+      },
+      "size": {
+        "width": 11.887207,
+        "height": 10.400681
+      },
+      "relative_position": {
+        "x_norm": 0.3986,
+        "y_norm": 0.6399,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "IDN-05",
+          "IDN-07",
+          "IDN-08"
+        ],
+        "east_of": [
+          "IDN-01",
+          "IDN-02",
+          "IDN-03",
+          "IDN-04"
+        ],
+        "north_of": [
+          "IDN-02",
+          "IDN-03",
+          "IDN-04",
+          "IDN-05",
+          "IDN-08"
+        ],
+        "south_of": [
+          "IDN-01",
+          "IDN-07"
+        ],
+        "overlaps": [
+          {
+            "id": "IDN-07",
+            "x_overlap": 0.373536,
+            "y_overlap": 10.400681
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 27370,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "WET",
+        "landcover_ratio": {
+          "TREE": 0.647,
+          "OCEAN": 0.3119,
+          "GRASS": 0.0152,
+          "WATER": 0.0079,
+          "SHRUB": 0.0056,
+          "MANGROVE": 0.0052,
+          "CROPLAND": 0.0049,
+          "WETLAND": 0.0012,
+          "BUILT": 0.0006,
+          "BARE": 0.0004
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9997,
+          "POLAR": 0.0003
+        },
+        "elevation_ratio": {
+          "LOW": 0.8372,
+          "MID": 0.1374,
+          "HIGH": 0.0254
+        },
+        "precip_ratio": {
+          "WET": 0.6519,
+          "MID": 0.3478,
+          "ARID": 0.0003
+        },
+        "flags_ratio": {
+          "water": 0.9538,
+          "forest": 0.6608,
+          "cropland": 0.0051,
+          "built": 0.0007
+        },
+        "cell_bbox_xy": {
+          "min_x": 6891,
+          "max_x": 7173,
+          "min_y": 2036,
+          "max_y": 2285
+        },
+        "cell_centroid": {
+          "x": 7034.641,
+          "y": 2183.729,
+          "lon": 113.13086,
+          "lat": -1.009531
+        }
+      }
+    },
+    {
+      "id": "IDN-07",
+      "area_id": 283,
+      "area_seq_in_source": 7,
+      "name": "スラウェシ島・モルッカ諸島",
+      "name_en": "Sulawesi and Maluku Islands",
+      "reason": "スラウェシ島は独特の地形と文化を持ち、モルッカ諸島は香辛料貿易の歴史を持ちます。これらの島々は地理的に近く、類似した経済的・文化的な特徴を共有する部分があるため、一つのエリアとしてまとめます。",
+      "geometry_wkt": "POLYGON ((118.608398 6.184246, 130.429688 6.184246, 130.429688 -6.533645, 118.608398 -6.533645, 118.608398 6.184246))",
+      "bbox": {
+        "minx": 118.608398,
+        "maxx": 130.429688,
+        "miny": -6.533645,
+        "maxy": 6.184246
+      },
+      "centroid": {
+        "x": 124.519043,
+        "y": -0.1747
+      },
+      "size": {
+        "width": 11.82129,
+        "height": 12.717891
+      },
+      "relative_position": {
+        "x_norm": 0.6455,
+        "y_norm": 0.6399,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "IDN-08"
+        ],
+        "east_of": [
+          "IDN-01",
+          "IDN-02",
+          "IDN-03",
+          "IDN-04",
+          "IDN-05",
+          "IDN-06"
+        ],
+        "north_of": [
+          "IDN-02",
+          "IDN-03",
+          "IDN-04",
+          "IDN-05",
+          "IDN-06",
+          "IDN-08"
+        ],
+        "south_of": [
+          "IDN-01"
+        ],
+        "overlaps": [
+          {
+            "id": "IDN-05",
+            "x_overlap": 11.82129,
+            "y_overlap": 0.02183
+          },
+          {
+            "id": "IDN-06",
+            "x_overlap": 0.373536,
+            "y_overlap": 10.400681
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 36687,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.6862,
+          "TREE": 0.2851,
+          "WATER": 0.0152,
+          "CROPLAND": 0.009,
+          "GRASS": 0.0032,
+          "MANGROVE": 0.0007,
+          "BUILT": 0.0004,
+          "WETLAND": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.99,
+          "TEMPERATE": 0.0099,
+          "POLAR": 0.0002
+        },
+        "elevation_ratio": {
+          "LOW": 0.8027,
+          "MID": 0.1304,
+          "HIGH": 0.0629,
+          "ULTRA": 0.004
+        },
+        "precip_ratio": {
+          "MID": 0.7863,
+          "WET": 0.2136,
+          "ARID": 0.0002
+        },
+        "flags_ratio": {
+          "water": 0.9092,
+          "forest": 0.2915,
+          "cropland": 0.009,
+          "built": 0.0004
+        },
+        "cell_bbox_xy": {
+          "min_x": 7160,
+          "max_x": 7459,
+          "min_y": 2041,
+          "max_y": 2322
+        },
+        "cell_centroid": {
+          "x": 7297.708,
+          "y": 2197.045,
+          "lon": 124.09199,
+          "lat": -1.56436
+        }
+      }
+    },
+    {
+      "id": "IDN-08",
+      "area_id": 284,
+      "area_seq_in_source": 8,
+      "name": "ニューギニア島（インドネシア領）",
+      "name_en": "Western New Guinea",
+      "reason": "ニューギニア島のインドネシア領（パプア州など）は、他の地域とは異なる文化や地理的特徴を持っています。先住民文化が色濃く残り、経済的にも開発途上の側面があるため、独立したエリアとします。",
+      "geometry_wkt": "POLYGON ((130.473633 1.625758, 141.000000 1.625758, 141.000000 -10.000000, 130.473633 -10.000000, 130.473633 1.625758))",
+      "bbox": {
+        "minx": 130.473633,
+        "maxx": 141.0,
+        "miny": -10.0,
+        "maxy": 1.625758
+      },
+      "centroid": {
+        "x": 135.736817,
+        "y": -4.187121
+      },
+      "size": {
+        "width": 10.526367,
+        "height": 11.625758
+      },
+      "relative_position": {
+        "x_norm": 0.8868,
+        "y_norm": 0.4195,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "IDN-01",
+          "IDN-02",
+          "IDN-03",
+          "IDN-04",
+          "IDN-05",
+          "IDN-06",
+          "IDN-07"
+        ],
+        "north_of": [
+          "IDN-03",
+          "IDN-04",
+          "IDN-05"
+        ],
+        "south_of": [
+          "IDN-01",
+          "IDN-02",
+          "IDN-06",
+          "IDN-07"
+        ],
+        "overlaps": [
+          {
+            "id": "IDN-05",
+            "x_overlap": 0.043945,
+            "y_overlap": 3.488185
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 33636,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "WET",
+        "landcover_ratio": {
+          "TREE": 0.4959,
+          "OCEAN": 0.4597,
+          "MANGROVE": 0.019,
+          "WETLAND": 0.0102,
+          "WATER": 0.0086,
+          "GRASS": 0.0062,
+          "SHRUB": 0.0003,
+          "BUILT": 0.0001,
+          "BARE": 0.0001,
+          "CROPLAND": 0.0
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9496,
+          "TEMPERATE": 0.0503,
+          "POLAR": 0.0001
+        },
+        "elevation_ratio": {
+          "LOW": 0.7785,
+          "MID": 0.1188,
+          "HIGH": 0.0626,
+          "ULTRA": 0.0402
+        },
+        "precip_ratio": {
+          "WET": 0.511,
+          "MID": 0.4889,
+          "ARID": 0.0001
+        },
+        "flags_ratio": {
+          "water": 0.957,
+          "forest": 0.5213,
+          "built": 0.0001,
+          "cropland": 0.0
+        },
+        "cell_bbox_xy": {
+          "min_x": 7444,
+          "max_x": 7702,
+          "min_y": 2150,
+          "max_y": 2373
+        },
+        "cell_centroid": {
+          "x": 7575.82,
+          "y": 2255.329,
+          "lon": 135.680008,
+          "lat": -3.992871
+        }
+      }
+    }
+  ]
+}

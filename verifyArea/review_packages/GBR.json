@@ -1,0 +1,759 @@
+{
+  "iso_a3": "GBR",
+  "area_count": 7,
+  "country_bbox": {
+    "minx": -14.282227,
+    "maxx": 1.845703,
+    "miny": 49.8,
+    "maxy": 61.2
+  },
+  "areas": [
+    {
+      "id": "GBR-01",
+      "area_id": 234,
+      "area_seq_in_source": 1,
+      "name": "スコットランド高地・島嶼部",
+      "name_en": "Scottish Highlands and Islands",
+      "reason": "高地・山地・フィヨルド状海岸と島嶼群の性格が強く、英国の highland zone を代表する地域であるため。",
+      "geometry_wkt": "POLYGON ((-14.282227 61.200000, -0.373535 61.200000, -0.373535 56.848972, -14.282227 56.848972, -14.282227 61.200000))",
+      "bbox": {
+        "minx": -14.282227,
+        "maxx": -0.373535,
+        "miny": 56.848972,
+        "maxy": 61.2
+      },
+      "centroid": {
+        "x": -7.327881,
+        "y": 59.024486
+      },
+      "size": {
+        "width": 13.908692,
+        "height": 4.351028
+      },
+      "relative_position": {
+        "x_norm": 0.4312,
+        "y_norm": 0.8092,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "GBR-02",
+          "GBR-03",
+          "GBR-04",
+          "GBR-05",
+          "GBR-06",
+          "GBR-07"
+        ],
+        "east_of": [],
+        "north_of": [
+          "GBR-02",
+          "GBR-03",
+          "GBR-04",
+          "GBR-05",
+          "GBR-06",
+          "GBR-07"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "GBR-02",
+            "x_overlap": 5.888672,
+            "y_overlap": 0.018019
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 14713,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "COLD",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.5891,
+          "GRASS": 0.3262,
+          "TREE": 0.0386,
+          "CROPLAND": 0.0311,
+          "WATER": 0.012,
+          "BUILT": 0.003
+        },
+        "temperature_ratio": {
+          "COLD": 0.5316,
+          "TEMPERATE": 0.4024,
+          "POLAR": 0.0661
+        },
+        "elevation_ratio": {
+          "LOW": 0.8666,
+          "MID": 0.1315,
+          "HIGH": 0.0018
+        },
+        "precip_ratio": {
+          "MID": 0.7956,
+          "LOW": 0.1521,
+          "WET": 0.0523
+        },
+        "flags_ratio": {
+          "water": 0.8418,
+          "forest": 0.0387,
+          "cropland": 0.0311,
+          "built": 0.0031
+        },
+        "cell_bbox_xy": {
+          "min_x": 4103,
+          "max_x": 4359,
+          "min_y": 690,
+          "max_y": 970
+        },
+        "cell_centroid": {
+          "x": 4228.502,
+          "y": 820.304,
+          "lon": -3.791589,
+          "lat": 55.799818
+        }
+      }
+    },
+    {
+      "id": "GBR-02",
+      "area_id": 235,
+      "area_seq_in_source": 2,
+      "name": "スコットランド低地",
+      "name_en": "Scottish Lowlands",
+      "reason": "エディンバラ・グラスゴーを含む南部低地帯であり、スコットランド内でも人口・都市機能が集中するため。",
+      "geometry_wkt": "POLYGON ((-7.053223 56.866991, -1.164551 56.866991, -1.164551 55.304138, -7.053223 55.304138, -7.053223 56.866991))",
+      "bbox": {
+        "minx": -7.053223,
+        "maxx": -1.164551,
+        "miny": 55.304138,
+        "maxy": 56.866991
+      },
+      "centroid": {
+        "x": -4.108887,
+        "y": 56.085565
+      },
+      "size": {
+        "width": 5.888672,
+        "height": 1.562853
+      },
+      "relative_position": {
+        "x_norm": 0.6308,
+        "y_norm": 0.5514,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "GBR-03",
+          "GBR-04",
+          "GBR-05",
+          "GBR-06"
+        ],
+        "east_of": [
+          "GBR-01",
+          "GBR-07"
+        ],
+        "north_of": [
+          "GBR-03",
+          "GBR-04",
+          "GBR-05",
+          "GBR-06",
+          "GBR-07"
+        ],
+        "south_of": [
+          "GBR-01"
+        ],
+        "overlaps": [
+          {
+            "id": "GBR-01",
+            "x_overlap": 5.888672,
+            "y_overlap": 0.018019
+          },
+          {
+            "id": "GBR-07",
+            "x_overlap": 1.75232,
+            "y_overlap": 0.025006
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 4831,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "GRASS": 0.4519,
+          "OCEAN": 0.3815,
+          "CROPLAND": 0.0787,
+          "TREE": 0.0596,
+          "WATER": 0.0178,
+          "BUILT": 0.0106
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.6084,
+          "COLD": 0.3916
+        },
+        "elevation_ratio": {
+          "LOW": 0.674,
+          "MID": 0.3256,
+          "HIGH": 0.0004
+        },
+        "precip_ratio": {
+          "MID": 0.7319,
+          "LOW": 0.1575,
+          "WET": 0.1105
+        },
+        "flags_ratio": {
+          "water": 0.7822,
+          "cropland": 0.0793,
+          "forest": 0.0619,
+          "built": 0.0108
+        },
+        "cell_bbox_xy": {
+          "min_x": 4143,
+          "max_x": 4291,
+          "min_y": 794,
+          "max_y": 835
+        },
+        "cell_centroid": {
+          "x": 4216.154,
+          "y": 813.714,
+          "lon": -4.306066,
+          "lat": 56.074437
+        }
+      }
+    },
+    {
+      "id": "GBR-03",
+      "area_id": 236,
+      "area_seq_in_source": 3,
+      "name": "北イングランド",
+      "name_en": "Northern England",
+      "reason": "ペナイン山脈と北部平野・沿岸を含み、歴史的にも中南部イングランドとは異なるまとまりを持つため。",
+      "geometry_wkt": "POLYGON ((-5.284424 55.297884, 0.600000 55.297884, 0.600000 53.494582, -5.284424 53.494582, -5.284424 55.297884))",
+      "bbox": {
+        "minx": -5.284424,
+        "maxx": 0.6,
+        "miny": 53.494582,
+        "maxy": 55.297884
+      },
+      "centroid": {
+        "x": -2.342212,
+        "y": 54.396233
+      },
+      "size": {
+        "width": 5.884424,
+        "height": 1.803302
+      },
+      "relative_position": {
+        "x_norm": 0.7403,
+        "y_norm": 0.4032,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "GBR-04"
+        ],
+        "east_of": [
+          "GBR-01",
+          "GBR-02",
+          "GBR-05",
+          "GBR-06",
+          "GBR-07"
+        ],
+        "north_of": [
+          "GBR-04",
+          "GBR-05",
+          "GBR-06"
+        ],
+        "south_of": [
+          "GBR-01",
+          "GBR-02",
+          "GBR-07"
+        ],
+        "overlaps": [
+          {
+            "id": "GBR-04",
+            "x_overlap": 3.18728,
+            "y_overlap": 0.003268
+          },
+          {
+            "id": "GBR-06",
+            "x_overlap": 2.686157,
+            "y_overlap": 0.006535
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 4519,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "GRASS": 0.4492,
+          "OCEAN": 0.3151,
+          "CROPLAND": 0.1509,
+          "TREE": 0.0489,
+          "BUILT": 0.0279,
+          "WATER": 0.0077,
+          "WETLAND": 0.0002
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.6849,
+          "COLD": 0.3151
+        },
+        "elevation_ratio": {
+          "LOW": 0.7676,
+          "MID": 0.2324
+        },
+        "precip_ratio": {
+          "MID": 0.6736,
+          "LOW": 0.3235,
+          "WET": 0.0029
+        },
+        "flags_ratio": {
+          "water": 0.8066,
+          "cropland": 0.1514,
+          "forest": 0.0489,
+          "built": 0.0281
+        },
+        "cell_bbox_xy": {
+          "min_x": 4189,
+          "max_x": 4332,
+          "min_y": 831,
+          "max_y": 876
+        },
+        "cell_centroid": {
+          "x": 4264.551,
+          "y": 853.145,
+          "lon": -2.289523,
+          "lat": 54.43147
+        }
+      }
+    },
+    {
+      "id": "GBR-04",
+      "area_id": 237,
+      "area_seq_in_source": 4,
+      "name": "ミッドランズ",
+      "name_en": "The Midlands",
+      "reason": "イングランド中部の内陸地域であり、北部と南部の中間に位置する工業・交通・農業の結節帯として扱いやすいため。",
+      "geometry_wkt": "POLYGON ((-2.587280 53.497850, 1.845703 53.497850, 1.845703 51.686180, -2.587280 51.686180, -2.587280 53.497850))",
+      "bbox": {
+        "minx": -2.58728,
+        "maxx": 1.845703,
+        "miny": 51.68618,
+        "maxy": 53.49785
+      },
+      "centroid": {
+        "x": -0.370788,
+        "y": 52.592015
+      },
+      "size": {
+        "width": 4.432983,
+        "height": 1.81167
+      },
+      "relative_position": {
+        "x_norm": 0.8626,
+        "y_norm": 0.2449,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "GBR-01",
+          "GBR-02",
+          "GBR-03",
+          "GBR-05",
+          "GBR-06",
+          "GBR-07"
+        ],
+        "north_of": [
+          "GBR-05",
+          "GBR-06"
+        ],
+        "south_of": [
+          "GBR-01",
+          "GBR-02",
+          "GBR-03",
+          "GBR-07"
+        ],
+        "overlaps": [
+          {
+            "id": "GBR-03",
+            "x_overlap": 3.18728,
+            "y_overlap": 0.003268
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 4751,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "CROPLAND": 0.4866,
+          "GRASS": 0.225,
+          "OCEAN": 0.1825,
+          "TREE": 0.0623,
+          "BUILT": 0.0394,
+          "WATER": 0.0042
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.8175,
+          "COLD": 0.1825
+        },
+        "elevation_ratio": {
+          "LOW": 0.9606,
+          "MID": 0.0394
+        },
+        "precip_ratio": {
+          "LOW": 0.7897,
+          "MID": 0.2103
+        },
+        "flags_ratio": {
+          "water": 0.6866,
+          "cropland": 0.4879,
+          "forest": 0.0625,
+          "built": 0.0394
+        },
+        "cell_bbox_xy": {
+          "min_x": 4258,
+          "max_x": 4371,
+          "min_y": 872,
+          "max_y": 921
+        },
+        "cell_centroid": {
+          "x": 4311.688,
+          "y": 897.994,
+          "lon": -0.325506,
+          "lat": 52.562763
+        }
+      }
+    },
+    {
+      "id": "GBR-05",
+      "area_id": 238,
+      "area_seq_in_source": 5,
+      "name": "南イングランド",
+      "name_en": "Southern England",
+      "reason": "ロンドンを含む南部低地と南岸を中心とする人口・経済の中核地域であり、イングランド南部として独立性が高いため。",
+      "geometry_wkt": "POLYGON ((-6.657715 51.679368, 1.647949 51.679368, 1.647949 49.800000, -6.657715 49.800000, -6.657715 51.679368))",
+      "bbox": {
+        "minx": -6.657715,
+        "maxx": 1.647949,
+        "miny": 49.8,
+        "maxy": 51.679368
+      },
+      "centroid": {
+        "x": -2.504883,
+        "y": 50.739684
+      },
+      "size": {
+        "width": 8.305664,
+        "height": 1.879368
+      },
+      "relative_position": {
+        "x_norm": 0.7302,
+        "y_norm": 0.0824,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "GBR-03",
+          "GBR-04"
+        ],
+        "east_of": [
+          "GBR-01",
+          "GBR-02",
+          "GBR-06",
+          "GBR-07"
+        ],
+        "north_of": [],
+        "south_of": [
+          "GBR-01",
+          "GBR-02",
+          "GBR-03",
+          "GBR-04",
+          "GBR-06",
+          "GBR-07"
+        ],
+        "overlaps": [
+          {
+            "id": "GBR-06",
+            "x_overlap": 2.944336,
+            "y_overlap": 0.006813
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 1755,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.4444,
+          "GRASS": 0.2188,
+          "TREE": 0.1396,
+          "CROPLAND": 0.1071,
+          "BUILT": 0.0735,
+          "WATER": 0.0165
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.5556,
+          "COLD": 0.4444
+        },
+        "elevation_ratio": {
+          "LOW": 0.9835,
+          "MID": 0.0165
+        },
+        "precip_ratio": {
+          "MID": 0.5208,
+          "LOW": 0.4792
+        },
+        "flags_ratio": {
+          "water": 0.7915,
+          "forest": 0.1396,
+          "cropland": 0.1071,
+          "built": 0.0741
+        },
+        "cell_bbox_xy": {
+          "min_x": 4173,
+          "max_x": 4363,
+          "min_y": 920,
+          "max_y": 968
+        },
+        "cell_centroid": {
+          "x": 4263.638,
+          "y": 929.78,
+          "lon": -2.3276,
+          "lat": 51.238331
+        }
+      }
+    },
+    {
+      "id": "GBR-06",
+      "area_id": 239,
+      "area_seq_in_source": 6,
+      "name": "ウェールズ",
+      "name_en": "Wales",
+      "reason": "西方に張り出した山地性の強い地域であり、独自の地理・文化・言語的まとまりを持つため。",
+      "geometry_wkt": "POLYGON ((-5.542603 53.501117, -2.598267 53.501117, -2.598267 51.672555, -5.542603 51.672555, -5.542603 53.501117))",
+      "bbox": {
+        "minx": -5.542603,
+        "maxx": -2.598267,
+        "miny": 51.672555,
+        "maxy": 53.501117
+      },
+      "centroid": {
+        "x": -4.070435,
+        "y": 52.586836
+      },
+      "size": {
+        "width": 2.944336,
+        "height": 1.828562
+      },
+      "relative_position": {
+        "x_norm": 0.6332,
+        "y_norm": 0.2445,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "GBR-03",
+          "GBR-04",
+          "GBR-05"
+        ],
+        "east_of": [
+          "GBR-01",
+          "GBR-02",
+          "GBR-07"
+        ],
+        "north_of": [
+          "GBR-05"
+        ],
+        "south_of": [
+          "GBR-01",
+          "GBR-02",
+          "GBR-03",
+          "GBR-04",
+          "GBR-07"
+        ],
+        "overlaps": [
+          {
+            "id": "GBR-03",
+            "x_overlap": 2.686157,
+            "y_overlap": 0.006535
+          },
+          {
+            "id": "GBR-05",
+            "x_overlap": 2.944336,
+            "y_overlap": 0.006813
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 3177,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "GRASS": 0.4951,
+          "OCEAN": 0.4149,
+          "TREE": 0.0428,
+          "CROPLAND": 0.0308,
+          "BUILT": 0.0101,
+          "WATER": 0.0063
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.5851,
+          "COLD": 0.4149
+        },
+        "elevation_ratio": {
+          "LOW": 0.7347,
+          "MID": 0.2653
+        },
+        "precip_ratio": {
+          "MID": 0.7834,
+          "LOW": 0.2156,
+          "WET": 0.0009
+        },
+        "flags_ratio": {
+          "water": 0.8209,
+          "forest": 0.0434,
+          "cropland": 0.0308,
+          "built": 0.0104
+        },
+        "cell_bbox_xy": {
+          "min_x": 4183,
+          "max_x": 4258,
+          "min_y": 869,
+          "max_y": 927
+        },
+        "cell_centroid": {
+          "x": 4223.537,
+          "y": 897.454,
+          "lon": -3.998446,
+          "lat": 52.585268
+        }
+      }
+    },
+    {
+      "id": "GBR-07",
+      "area_id": 240,
+      "area_seq_in_source": 7,
+      "name": "北アイルランド",
+      "name_en": "Northern Ireland",
+      "reason": "アイルランド島北東部の UK 構成地域であり、グレートブリテン島側とは別の島嶼地域として分離して管理するのが自然であるため。",
+      "geometry_wkt": "POLYGON ((-8.300000 55.329144, -5.300903 55.329144, -5.300903 54.000000, -8.300000 54.000000, -8.300000 55.329144))",
+      "bbox": {
+        "minx": -8.3,
+        "maxx": -5.300903,
+        "miny": 54.0,
+        "maxy": 55.329144
+      },
+      "centroid": {
+        "x": -6.800452,
+        "y": 54.664572
+      },
+      "size": {
+        "width": 2.999097,
+        "height": 1.329144
+      },
+      "relative_position": {
+        "x_norm": 0.4639,
+        "y_norm": 0.4267,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "GBR-02",
+          "GBR-03",
+          "GBR-04",
+          "GBR-05",
+          "GBR-06"
+        ],
+        "east_of": [
+          "GBR-01"
+        ],
+        "north_of": [
+          "GBR-03",
+          "GBR-04",
+          "GBR-05",
+          "GBR-06"
+        ],
+        "south_of": [
+          "GBR-01",
+          "GBR-02"
+        ],
+        "overlaps": [
+          {
+            "id": "GBR-02",
+            "x_overlap": 1.75232,
+            "y_overlap": 0.025006
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 892,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "GRASS": 0.4955,
+          "OCEAN": 0.4361,
+          "WATER": 0.0504,
+          "BUILT": 0.0101,
+          "TREE": 0.0067,
+          "CROPLAND": 0.0011
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.5639,
+          "COLD": 0.4361
+        },
+        "elevation_ratio": {
+          "LOW": 0.9316,
+          "MID": 0.0684
+        },
+        "precip_ratio": {
+          "MID": 0.7791,
+          "LOW": 0.2209
+        },
+        "flags_ratio": {
+          "water": 0.7948,
+          "built": 0.0101,
+          "forest": 0.0067,
+          "cropland": 0.0011
+        },
+        "cell_bbox_xy": {
+          "min_x": 4157,
+          "max_x": 4197,
+          "min_y": 828,
+          "max_y": 861
+        },
+        "cell_centroid": {
+          "x": 4174.32,
+          "y": 843.242,
+          "lon": -6.049187,
+          "lat": 54.844077
+        }
+      }
+    }
+  ]
+}

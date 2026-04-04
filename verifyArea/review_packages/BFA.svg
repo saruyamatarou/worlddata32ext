@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">BFA review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-5.679932, 9.275622) - (2.614746, 15.241790)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="332.24" y="40.00" width="713.54" height="231.07" fill="none" stroke="black" stroke-width="2"/>
+<text x="336.24" y="56.00" font-size="12" font-family="Arial, sans-serif">BF-01 | ブルキナファソ北部</text>
+<circle cx="689.01" cy="155.54" r="2.5" fill="black"/>
+<rect x="44.45" y="271.07" width="1115.55" height="309.64" fill="none" stroke="black" stroke-width="2"/>
+<text x="48.45" y="287.07" font-size="12" font-family="Arial, sans-serif">BF-02 | ブルキナファソ中央部</text>
+<circle cx="602.23" cy="425.89" r="2.5" fill="black"/>
+<rect x="40.00" y="580.71" width="961.27" height="279.29" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="596.71" font-size="12" font-family="Arial, sans-serif">BF-03 | ブルキナファソ南部</text>
+<circle cx="520.64" cy="720.35" r="2.5" fill="black"/>
+</svg>

@@ -1,0 +1,1187 @@
+{
+  "iso_a3": "CAN",
+  "area_count": 10,
+  "country_bbox": {
+    "minx": -141.5,
+    "maxx": -49.130859,
+    "miny": 40.647304,
+    "maxy": 84.5
+  },
+  "areas": [
+    {
+      "id": "CAN-01",
+      "area_id": 115,
+      "area_seq_in_source": 1,
+      "name": "ブリティッシュコロンビア沿岸",
+      "name_en": "Coastal British Columbia",
+      "reason": "太平洋沿岸とバンクーバー周辺を含む海洋性地域。港湾、沿岸都市、太平洋交易の中心。",
+      "geometry_wkt": "POLYGON ((-141.481934 60.696040, -121.970215 60.696040, -121.970215 47.886881, -141.481934 47.886881, -141.481934 60.696040))",
+      "bbox": {
+        "minx": -141.481934,
+        "maxx": -121.970215,
+        "miny": 47.886881,
+        "maxy": 60.69604
+      },
+      "centroid": {
+        "x": -131.726074,
+        "y": 54.29146
+      },
+      "size": {
+        "width": 19.511719,
+        "height": 12.809159
+      },
+      "relative_position": {
+        "x_norm": 0.1058,
+        "y_norm": 0.3111,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CAN-02",
+          "CAN-03",
+          "CAN-04",
+          "CAN-05",
+          "CAN-06",
+          "CAN-07",
+          "CAN-08",
+          "CAN-09",
+          "CAN-10"
+        ],
+        "east_of": [],
+        "north_of": [
+          "CAN-04",
+          "CAN-06",
+          "CAN-10"
+        ],
+        "south_of": [
+          "CAN-02",
+          "CAN-03",
+          "CAN-05",
+          "CAN-07",
+          "CAN-08",
+          "CAN-09"
+        ],
+        "overlaps": [
+          {
+            "id": "CAN-07",
+            "x_overlap": 19.511719,
+            "y_overlap": 0.014791
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 309569,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "POLAR",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.3522,
+          "MOSS_LICHEN": 0.179,
+          "OCEAN": 0.1727,
+          "GRASS": 0.0922,
+          "BARE": 0.0641,
+          "WATER": 0.0525,
+          "SNOW_ICE": 0.0412,
+          "CROPLAND": 0.0206,
+          "WETLAND": 0.0175,
+          "UNKNOWN": 0.0041,
+          "SHRUB": 0.0031,
+          "BUILT": 0.001
+        },
+        "temperature_ratio": {
+          "POLAR": 0.5806,
+          "COLD": 0.3522,
+          "TEMPERATE": 0.0672
+        },
+        "elevation_ratio": {
+          "LOW": 0.396,
+          "MID": 0.3346,
+          "HIGH": 0.2626,
+          "ULTRA": 0.0068
+        },
+        "precip_ratio": {
+          "LOW": 0.424,
+          "ARID": 0.3056,
+          "MID": 0.2512,
+          "WET": 0.0192
+        },
+        "flags_ratio": {
+          "water": 0.647,
+          "forest": 0.357,
+          "ice": 0.0412,
+          "cropland": 0.0206,
+          "built": 0.001
+        },
+        "cell_bbox_xy": {
+          "min_x": 936,
+          "max_x": 2892,
+          "min_y": 155,
+          "max_y": 1159
+        },
+        "cell_centroid": {
+          "x": 1752.482,
+          "y": 649.074,
+          "lon": -106.959084,
+          "lat": 62.934436
+        }
+      }
+    },
+    {
+      "id": "CAN-02",
+      "area_id": 116,
+      "area_seq_in_source": 2,
+      "name": "西部山岳・内陸",
+      "name_en": "Western Mountains and Interior",
+      "reason": "ブリティッシュコロンビア内陸部からアルバータ西部にかけての山岳・高原地域。資源開発と自然景観が特徴。",
+      "geometry_wkt": "POLYGON ((-121.970215 60.694695, -111.187134 60.694695, -111.187134 48.545705, -121.970215 48.545705, -121.970215 60.694695))",
+      "bbox": {
+        "minx": -121.970215,
+        "maxx": -111.187134,
+        "miny": 48.545705,
+        "maxy": 60.694695
+      },
+      "centroid": {
+        "x": -116.578675,
+        "y": 54.6202
+      },
+      "size": {
+        "width": 10.783081,
+        "height": 12.14899
+      },
+      "relative_position": {
+        "x_norm": 0.2698,
+        "y_norm": 0.3186,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CAN-03",
+          "CAN-04",
+          "CAN-05",
+          "CAN-06",
+          "CAN-08",
+          "CAN-09",
+          "CAN-10"
+        ],
+        "east_of": [
+          "CAN-01",
+          "CAN-07"
+        ],
+        "north_of": [
+          "CAN-01",
+          "CAN-04",
+          "CAN-06",
+          "CAN-10"
+        ],
+        "south_of": [
+          "CAN-03",
+          "CAN-05",
+          "CAN-07",
+          "CAN-08",
+          "CAN-09"
+        ],
+        "overlaps": [
+          {
+            "id": "CAN-07",
+            "x_overlap": 10.783081,
+            "y_overlap": 0.013446
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 69424,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "COLD",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.7431,
+          "GRASS": 0.1001,
+          "CROPLAND": 0.0971,
+          "BARE": 0.0257,
+          "WATER": 0.0162,
+          "SHRUB": 0.009,
+          "SNOW_ICE": 0.0057,
+          "BUILT": 0.0015,
+          "WETLAND": 0.0012,
+          "MOSS_LICHEN": 0.0005
+        },
+        "temperature_ratio": {
+          "COLD": 0.9634,
+          "TEMPERATE": 0.0364,
+          "POLAR": 0.0002
+        },
+        "elevation_ratio": {
+          "MID": 0.5769,
+          "HIGH": 0.3756,
+          "ULTRA": 0.0445,
+          "LOW": 0.003
+        },
+        "precip_ratio": {
+          "LOW": 0.9308,
+          "MID": 0.0692
+        },
+        "flags_ratio": {
+          "forest": 0.7521,
+          "water": 0.6363,
+          "cropland": 0.0971,
+          "ice": 0.0057,
+          "built": 0.0015
+        },
+        "cell_bbox_xy": {
+          "min_x": 1393,
+          "max_x": 1651,
+          "min_y": 704,
+          "max_y": 983
+        },
+        "cell_centroid": {
+          "x": 1521.996,
+          "y": 837.524,
+          "lon": -116.562666,
+          "lat": 55.082325
+        }
+      }
+    },
+    {
+      "id": "CAN-03",
+      "area_id": 117,
+      "area_seq_in_source": 3,
+      "name": "プレーリー地域",
+      "name_en": "Prairie Region",
+      "reason": "アルバータ東部、サスカチュワン、マニトバを含む広大な平原地帯。農業・牧畜・資源開発の中核。",
+      "geometry_wkt": "POLYGON ((-111.181641 60.694695, -94.746094 60.694695, -94.746094 48.574790, -111.181641 48.574790, -111.181641 60.694695))",
+      "bbox": {
+        "minx": -111.181641,
+        "maxx": -94.746094,
+        "miny": 48.57479,
+        "maxy": 60.694695
+      },
+      "centroid": {
+        "x": -102.963867,
+        "y": 54.634743
+      },
+      "size": {
+        "width": 16.435547,
+        "height": 12.119905
+      },
+      "relative_position": {
+        "x_norm": 0.4172,
+        "y_norm": 0.319,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CAN-04",
+          "CAN-05",
+          "CAN-06",
+          "CAN-08",
+          "CAN-09",
+          "CAN-10"
+        ],
+        "east_of": [
+          "CAN-01",
+          "CAN-02",
+          "CAN-07"
+        ],
+        "north_of": [
+          "CAN-01",
+          "CAN-02",
+          "CAN-04",
+          "CAN-06",
+          "CAN-10"
+        ],
+        "south_of": [
+          "CAN-05",
+          "CAN-07",
+          "CAN-08",
+          "CAN-09"
+        ],
+        "overlaps": [
+          {
+            "id": "CAN-04",
+            "x_overlap": 0.307617,
+            "y_overlap": 1.854728
+          },
+          {
+            "id": "CAN-07",
+            "x_overlap": 3.427735,
+            "y_overlap": 0.013446
+          },
+          {
+            "id": "CAN-08",
+            "x_overlap": 13.007812,
+            "y_overlap": 0.021516
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 105545,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "COLD",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.5143,
+          "CROPLAND": 0.1612,
+          "GRASS": 0.16,
+          "WATER": 0.1055,
+          "SHRUB": 0.0381,
+          "MOSS_LICHEN": 0.0155,
+          "WETLAND": 0.0034,
+          "OCEAN": 0.0012,
+          "BUILT": 0.0005,
+          "BARE": 0.0003
+        },
+        "temperature_ratio": {
+          "COLD": 0.8271,
+          "POLAR": 0.1705,
+          "TEMPERATE": 0.0024
+        },
+        "elevation_ratio": {
+          "MID": 0.9352,
+          "LOW": 0.0538,
+          "HIGH": 0.011
+        },
+        "precip_ratio": {
+          "LOW": 0.9988,
+          "MID": 0.0012
+        },
+        "flags_ratio": {
+          "water": 0.6369,
+          "forest": 0.5524,
+          "cropland": 0.1612,
+          "built": 0.0005
+        },
+        "cell_bbox_xy": {
+          "min_x": 1652,
+          "max_x": 2054,
+          "min_y": 704,
+          "max_y": 971
+        },
+        "cell_centroid": {
+          "x": 1848.421,
+          "y": 837.209,
+          "lon": -102.96163,
+          "lat": 55.095474
+        }
+      }
+    },
+    {
+      "id": "CAN-04",
+      "area_id": 118,
+      "area_seq_in_source": 4,
+      "name": "オンタリオ・五大湖地域",
+      "name_en": "Ontario and Great Lakes",
+      "reason": "五大湖沿岸とオンタリオ南部を中心とする人口・経済集積地。トロント、オタワなどを含む国家中枢地域。",
+      "geometry_wkt": "POLYGON ((-95.053711 50.429518, -74.267578 50.429518, -74.267578 40.647304, -95.053711 40.647304, -95.053711 50.429518))",
+      "bbox": {
+        "minx": -95.053711,
+        "maxx": -74.267578,
+        "miny": 40.647304,
+        "maxy": 50.429518
+      },
+      "centroid": {
+        "x": -84.660645,
+        "y": 45.538411
+      },
+      "size": {
+        "width": 20.786133,
+        "height": 9.782214
+      },
+      "relative_position": {
+        "x_norm": 0.6154,
+        "y_norm": 0.1115,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CAN-05",
+          "CAN-06",
+          "CAN-08",
+          "CAN-09",
+          "CAN-10"
+        ],
+        "east_of": [
+          "CAN-01",
+          "CAN-02",
+          "CAN-03",
+          "CAN-07"
+        ],
+        "north_of": [],
+        "south_of": [
+          "CAN-01",
+          "CAN-02",
+          "CAN-03",
+          "CAN-05",
+          "CAN-06",
+          "CAN-07",
+          "CAN-08",
+          "CAN-09",
+          "CAN-10"
+        ],
+        "overlaps": [
+          {
+            "id": "CAN-03",
+            "x_overlap": 0.307617,
+            "y_overlap": 1.854728
+          },
+          {
+            "id": "CAN-05",
+            "x_overlap": 20.478516,
+            "y_overlap": 0.028003
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 21582,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "COLD",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.9167,
+          "WATER": 0.0653,
+          "GRASS": 0.0122,
+          "SHRUB": 0.0042,
+          "WETLAND": 0.0013,
+          "CROPLAND": 0.0002,
+          "BARE": 0.0001
+        },
+        "temperature_ratio": {
+          "COLD": 0.9987,
+          "TEMPERATE": 0.0013
+        },
+        "elevation_ratio": {
+          "MID": 0.9352,
+          "LOW": 0.0648
+        },
+        "precip_ratio": {
+          "LOW": 0.975,
+          "MID": 0.025
+        },
+        "flags_ratio": {
+          "forest": 0.9209,
+          "water": 0.7481,
+          "cropland": 0.0002
+        },
+        "cell_bbox_xy": {
+          "min_x": 2039,
+          "max_x": 2537,
+          "min_y": 950,
+          "max_y": 1112
+        },
+        "cell_centroid": {
+          "x": 2326.749,
+          "y": 973.422,
+          "lon": -83.031297,
+          "lat": 49.419914
+        }
+      }
+    },
+    {
+      "id": "CAN-05",
+      "area_id": 119,
+      "area_seq_in_source": 5,
+      "name": "南部ケベック・セントローレンス",
+      "name_en": "Southern Quebec and St. Lawrence",
+      "reason": "モントリオール、ケベック・シティを含むフランス語圏の中核地域。セントローレンス川沿いの歴史・文化・交通軸。",
+      "geometry_wkt": "POLYGON ((-94.746094 60.673179, -59.941406 60.673179, -59.941406 50.401515, -94.746094 50.401515, -94.746094 60.673179))",
+      "bbox": {
+        "minx": -94.746094,
+        "maxx": -59.941406,
+        "miny": 50.401515,
+        "maxy": 60.673179
+      },
+      "centroid": {
+        "x": -77.34375,
+        "y": 55.537347
+      },
+      "size": {
+        "width": 34.804688,
+        "height": 10.271664
+      },
+      "relative_position": {
+        "x_norm": 0.6946,
+        "y_norm": 0.3395,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CAN-06",
+          "CAN-10"
+        ],
+        "east_of": [
+          "CAN-01",
+          "CAN-02",
+          "CAN-03",
+          "CAN-04",
+          "CAN-07",
+          "CAN-08",
+          "CAN-09"
+        ],
+        "north_of": [
+          "CAN-01",
+          "CAN-02",
+          "CAN-03",
+          "CAN-04",
+          "CAN-06",
+          "CAN-10"
+        ],
+        "south_of": [
+          "CAN-07",
+          "CAN-08",
+          "CAN-09"
+        ],
+        "overlaps": [
+          {
+            "id": "CAN-04",
+            "x_overlap": 20.478516,
+            "y_overlap": 0.028003
+          },
+          {
+            "id": "CAN-06",
+            "x_overlap": 14.326172,
+            "y_overlap": 0.028003
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 161121,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "COLD",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.4548,
+          "GRASS": 0.1989,
+          "OCEAN": 0.1204,
+          "WATER": 0.0596,
+          "WETLAND": 0.0579,
+          "MOSS_LICHEN": 0.0541,
+          "SHRUB": 0.048,
+          "BARE": 0.0063,
+          "SNOW_ICE": 0.0001
+        },
+        "temperature_ratio": {
+          "COLD": 0.7551,
+          "POLAR": 0.2449
+        },
+        "elevation_ratio": {
+          "MID": 0.5714,
+          "LOW": 0.4254,
+          "HIGH": 0.0032
+        },
+        "precip_ratio": {
+          "LOW": 0.8177,
+          "MID": 0.1821,
+          "ARID": 0.0002
+        },
+        "flags_ratio": {
+          "water": 0.7735,
+          "forest": 0.5033,
+          "ice": 0.0001
+        },
+        "cell_bbox_xy": {
+          "min_x": 2046,
+          "max_x": 2882,
+          "min_y": 696,
+          "max_y": 949
+        },
+        "cell_centroid": {
+          "x": 2489.245,
+          "y": 845.895,
+          "lon": -76.260627,
+          "lat": 54.733526
+        }
+      }
+    },
+    {
+      "id": "CAN-06",
+      "area_id": 120,
+      "area_seq_in_source": 6,
+      "name": "大西洋岸州",
+      "name_en": "Atlantic Provinces",
+      "reason": "ニューブランズウィック、ノバスコシア、プリンスエドワード島、ニューファンドランド島南部を含む大西洋沿岸地域。",
+      "geometry_wkt": "POLYGON ((-74.267578 50.429518, -59.414063 50.429518, -59.414063 43.133061, -74.267578 43.133061, -74.267578 50.429518))",
+      "bbox": {
+        "minx": -74.267578,
+        "maxx": -59.414063,
+        "miny": 43.133061,
+        "maxy": 50.429518
+      },
+      "centroid": {
+        "x": -66.840821,
+        "y": 46.781289
+      },
+      "size": {
+        "width": 14.853515,
+        "height": 7.296457
+      },
+      "relative_position": {
+        "x_norm": 0.8083,
+        "y_norm": 0.1399,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CAN-10"
+        ],
+        "east_of": [
+          "CAN-01",
+          "CAN-02",
+          "CAN-03",
+          "CAN-04",
+          "CAN-05",
+          "CAN-07",
+          "CAN-08",
+          "CAN-09"
+        ],
+        "north_of": [
+          "CAN-04"
+        ],
+        "south_of": [
+          "CAN-01",
+          "CAN-02",
+          "CAN-03",
+          "CAN-05",
+          "CAN-07",
+          "CAN-08",
+          "CAN-09",
+          "CAN-10"
+        ],
+        "overlaps": [
+          {
+            "id": "CAN-05",
+            "x_overlap": 14.326172,
+            "y_overlap": 0.028003
+          },
+          {
+            "id": "CAN-10",
+            "x_overlap": 0.263671,
+            "y_overlap": 3.870658
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 31858,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "COLD",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.5754,
+          "OCEAN": 0.3815,
+          "WATER": 0.0197,
+          "GRASS": 0.0179,
+          "CROPLAND": 0.005,
+          "WETLAND": 0.0003,
+          "BUILT": 0.0001,
+          "MOSS_LICHEN": 0.0
+        },
+        "temperature_ratio": {
+          "COLD": 0.7841,
+          "TEMPERATE": 0.2159
+        },
+        "elevation_ratio": {
+          "LOW": 0.6409,
+          "MID": 0.3567,
+          "HIGH": 0.0024
+        },
+        "precip_ratio": {
+          "MID": 0.8943,
+          "LOW": 0.1057
+        },
+        "flags_ratio": {
+          "water": 0.8481,
+          "forest": 0.5797,
+          "cropland": 0.0051,
+          "built": 0.0002
+        },
+        "cell_bbox_xy": {
+          "min_x": 2538,
+          "max_x": 2896,
+          "min_y": 950,
+          "max_y": 1127
+        },
+        "cell_centroid": {
+          "x": 2733.316,
+          "y": 1014.186,
+          "lon": -66.091013,
+          "lat": 47.721397
+        }
+      }
+    },
+    {
+      "id": "CAN-07",
+      "area_id": 121,
+      "area_seq_in_source": 7,
+      "name": "ユーコン・北西準州",
+      "name_en": "Yukon and Northwest Territories",
+      "reason": "カナダ北西部の広大な寒冷地域。ツンドラ、森林、湖沼、資源地域を含む。",
+      "geometry_wkt": "POLYGON ((-141.500000 79.204309, -107.753906 79.204309, -107.753906 60.681249, -141.500000 60.681249, -141.500000 79.204309))",
+      "bbox": {
+        "minx": -141.5,
+        "maxx": -107.753906,
+        "miny": 60.681249,
+        "maxy": 79.204309
+      },
+      "centroid": {
+        "x": -124.626953,
+        "y": 69.942779
+      },
+      "size": {
+        "width": 33.746094,
+        "height": 18.52306
+      },
+      "relative_position": {
+        "x_norm": 0.1827,
+        "y_norm": 0.668,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CAN-02",
+          "CAN-03",
+          "CAN-04",
+          "CAN-05",
+          "CAN-06",
+          "CAN-08",
+          "CAN-09",
+          "CAN-10"
+        ],
+        "east_of": [
+          "CAN-01"
+        ],
+        "north_of": [
+          "CAN-01",
+          "CAN-02",
+          "CAN-03",
+          "CAN-04",
+          "CAN-05",
+          "CAN-06",
+          "CAN-08",
+          "CAN-10"
+        ],
+        "south_of": [
+          "CAN-09"
+        ],
+        "overlaps": [
+          {
+            "id": "CAN-01",
+            "x_overlap": 19.511719,
+            "y_overlap": 0.014791
+          },
+          {
+            "id": "CAN-02",
+            "x_overlap": 10.783081,
+            "y_overlap": 0.013446
+          },
+          {
+            "id": "CAN-03",
+            "x_overlap": 3.427735,
+            "y_overlap": 0.013446
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 149600,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "POLAR",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.2738,
+          "MOSS_LICHEN": 0.2,
+          "GRASS": 0.1821,
+          "OCEAN": 0.1707,
+          "WATER": 0.0884,
+          "BARE": 0.0687,
+          "WETLAND": 0.0088,
+          "SHRUB": 0.0052,
+          "SNOW_ICE": 0.0023
+        },
+        "temperature_ratio": {
+          "POLAR": 0.8681,
+          "COLD": 0.1319
+        },
+        "elevation_ratio": {
+          "MID": 0.4723,
+          "LOW": 0.4459,
+          "HIGH": 0.0794,
+          "ULTRA": 0.0024
+        },
+        "precip_ratio": {
+          "LOW": 0.468,
+          "ARID": 0.3613,
+          "MID": 0.1707
+        },
+        "flags_ratio": {
+          "water": 0.5746,
+          "forest": 0.279,
+          "ice": 0.0023
+        },
+        "cell_bbox_xy": {
+          "min_x": 1200,
+          "max_x": 1735,
+          "min_y": 260,
+          "max_y": 703
+        },
+        "cell_centroid": {
+          "x": 1491.882,
+          "y": 523.838,
+          "lon": -117.817435,
+          "lat": 68.152568
+        }
+      }
+    },
+    {
+      "id": "CAN-08",
+      "area_id": 122,
+      "area_seq_in_source": 8,
+      "name": "ヌナブト南部・本土側",
+      "name_en": "Southern Nunavut Mainland",
+      "reason": "ヌナブトの本土側および南寄りの寒冷地域。北極圏南縁からハドソン湾・内陸寒冷圏にかけてのまとまりを持つ。",
+      "geometry_wkt": "POLYGON ((-107.753906 74.446412, -60.732422 74.446412, -60.732422 60.673179, -107.753906 60.673179, -107.753906 74.446412))",
+      "bbox": {
+        "minx": -107.753906,
+        "maxx": -60.732422,
+        "miny": 60.673179,
+        "maxy": 74.446412
+      },
+      "centroid": {
+        "x": -84.243164,
+        "y": 67.559795
+      },
+      "size": {
+        "width": 47.021484,
+        "height": 13.773233
+      },
+      "relative_position": {
+        "x_norm": 0.6199,
+        "y_norm": 0.6137,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "CAN-05",
+          "CAN-06",
+          "CAN-09",
+          "CAN-10"
+        ],
+        "east_of": [
+          "CAN-01",
+          "CAN-02",
+          "CAN-03",
+          "CAN-04",
+          "CAN-07"
+        ],
+        "north_of": [
+          "CAN-01",
+          "CAN-02",
+          "CAN-03",
+          "CAN-04",
+          "CAN-05",
+          "CAN-06",
+          "CAN-10"
+        ],
+        "south_of": [
+          "CAN-07",
+          "CAN-09"
+        ],
+        "overlaps": [
+          {
+            "id": "CAN-03",
+            "x_overlap": 13.007812,
+            "y_overlap": 0.021516
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 200568,
+        "dominant_landcover": "MOSS_LICHEN",
+        "dominant_t2": "POLAR",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "MOSS_LICHEN": 0.3631,
+          "OCEAN": 0.2574,
+          "GRASS": 0.1581,
+          "BARE": 0.104,
+          "WATER": 0.0653,
+          "SNOW_ICE": 0.0227,
+          "WETLAND": 0.0216,
+          "TREE": 0.0078,
+          "SHRUB": 0.0
+        },
+        "temperature_ratio": {
+          "POLAR": 1.0,
+          "COLD": 0.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.6458,
+          "MID": 0.3348,
+          "HIGH": 0.0194
+        },
+        "precip_ratio": {
+          "LOW": 0.4298,
+          "ARID": 0.3128,
+          "MID": 0.2574
+        },
+        "flags_ratio": {
+          "water": 0.6115,
+          "ice": 0.0228,
+          "forest": 0.0078
+        },
+        "cell_bbox_xy": {
+          "min_x": 1732,
+          "max_x": 2843,
+          "min_y": 370,
+          "max_y": 712
+        },
+        "cell_centroid": {
+          "x": 2224.002,
+          "y": 564.421,
+          "lon": -87.312407,
+          "lat": 66.461629
+        }
+      }
+    },
+    {
+      "id": "CAN-09",
+      "area_id": 123,
+      "area_seq_in_source": 9,
+      "name": "ヌナブト北部・北極諸島",
+      "name_en": "Northern Nunavut Arctic Archipelago",
+      "reason": "ヌナブト北部の北極諸島と極地海岸帯。島嶼性が強く、本土側よりさらに隔絶性の高い寒冷地域。",
+      "geometry_wkt": "POLYGON ((-107.402344 84.500000, -60.000000 84.500000, -60.000000 74.449358, -107.402344 74.449358, -107.402344 84.500000))",
+      "bbox": {
+        "minx": -107.402344,
+        "maxx": -60.0,
+        "miny": 74.449358,
+        "maxy": 84.5
+      },
+      "centroid": {
+        "x": -83.701172,
+        "y": 79.474679
+      },
+      "size": {
+        "width": 47.402344,
+        "height": 10.050642
+      },
+      "relative_position": {
+        "x_norm": 0.6257,
+        "y_norm": 0.8854,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CAN-05",
+          "CAN-06",
+          "CAN-10"
+        ],
+        "east_of": [
+          "CAN-01",
+          "CAN-02",
+          "CAN-03",
+          "CAN-04",
+          "CAN-07",
+          "CAN-08"
+        ],
+        "north_of": [
+          "CAN-01",
+          "CAN-02",
+          "CAN-03",
+          "CAN-04",
+          "CAN-05",
+          "CAN-06",
+          "CAN-07",
+          "CAN-08",
+          "CAN-10"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 125156,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "POLAR",
+        "dominant_e2": "LOW",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "OCEAN": 0.4154,
+          "BARE": 0.2109,
+          "SNOW_ICE": 0.2088,
+          "MOSS_LICHEN": 0.1271,
+          "WATER": 0.0159,
+          "GRASS": 0.0108,
+          "UNKNOWN": 0.0063,
+          "WETLAND": 0.0049
+        },
+        "temperature_ratio": {
+          "POLAR": 0.995,
+          "COLD": 0.005
+        },
+        "elevation_ratio": {
+          "LOW": 0.6046,
+          "MID": 0.2565,
+          "HIGH": 0.1387,
+          "ULTRA": 0.0003
+        },
+        "precip_ratio": {
+          "ARID": 0.5751,
+          "MID": 0.4154,
+          "LOW": 0.0095
+        },
+        "flags_ratio": {
+          "water": 0.5427,
+          "ice": 0.2101
+        },
+        "cell_bbox_xy": {
+          "min_x": 1739,
+          "max_x": 2549,
+          "min_y": 157,
+          "max_y": 382
+        },
+        "cell_centroid": {
+          "x": 2191.382,
+          "y": 277.985,
+          "lon": -88.671601,
+          "lat": 78.39647
+        }
+      }
+    },
+    {
+      "id": "CAN-10",
+      "area_id": 124,
+      "area_seq_in_source": 10,
+      "name": "北東部・ラブラドール",
+      "name_en": "Northeastern Canada and Labrador",
+      "reason": "ラブラドール、ハドソン湾東側、北東カナダの寒冷・沿岸地域。大西洋北部との接続が強い。",
+      "geometry_wkt": "POLYGON ((-59.677734 60.887700, -49.130859 60.887700, -49.130859 46.558860, -59.677734 46.558860, -59.677734 60.887700))",
+      "bbox": {
+        "minx": -59.677734,
+        "maxx": -49.130859,
+        "miny": 46.55886,
+        "maxy": 60.8877
+      },
+      "centroid": {
+        "x": -54.404297,
+        "y": 53.72328
+      },
+      "size": {
+        "width": 10.546875,
+        "height": 14.32884
+      },
+      "relative_position": {
+        "x_norm": 0.9429,
+        "y_norm": 0.2982,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "CAN-01",
+          "CAN-02",
+          "CAN-03",
+          "CAN-04",
+          "CAN-05",
+          "CAN-06",
+          "CAN-07",
+          "CAN-08",
+          "CAN-09"
+        ],
+        "north_of": [
+          "CAN-04",
+          "CAN-06"
+        ],
+        "south_of": [
+          "CAN-01",
+          "CAN-02",
+          "CAN-03",
+          "CAN-05",
+          "CAN-07",
+          "CAN-08",
+          "CAN-09"
+        ],
+        "overlaps": [
+          {
+            "id": "CAN-06",
+            "x_overlap": 0.263671,
+            "y_overlap": 3.870658
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 24103,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "COLD",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.408,
+          "TREE": 0.387,
+          "GRASS": 0.1759,
+          "WATER": 0.0268,
+          "MOSS_LICHEN": 0.0011,
+          "WETLAND": 0.0007,
+          "BARE": 0.0004,
+          "BUILT": 0.0001,
+          "SHRUB": 0.0
+        },
+        "temperature_ratio": {
+          "COLD": 0.9817,
+          "TEMPERATE": 0.0183
+        },
+        "elevation_ratio": {
+          "LOW": 0.6693,
+          "MID": 0.3303,
+          "HIGH": 0.0004
+        },
+        "precip_ratio": {
+          "MID": 0.9184,
+          "LOW": 0.0816
+        },
+        "flags_ratio": {
+          "water": 0.8239,
+          "forest": 0.3929,
+          "built": 0.0001
+        },
+        "cell_bbox_xy": {
+          "min_x": 2884,
+          "max_x": 3066,
+          "min_y": 824,
+          "max_y": 1050
+        },
+        "cell_centroid": {
+          "x": 2959.748,
+          "y": 950.333,
+          "lon": -56.656342,
+          "lat": 50.38195
+        }
+      }
+    }
+  ]
+}

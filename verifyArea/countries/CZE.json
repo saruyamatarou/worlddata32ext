@@ -1,0 +1,26 @@
+[
+  {
+    "id": "CZE-01",
+    "name": "ボヘミア北部・西部",
+    "name_en": "Northern and Western Bohemia",
+    "reason": "歴史的にボヘミア王国の中核をなし、ドイツとの国境に接する工業地帯。",
+    "geometry_wkt": "POLYGON ((12.000000 51.131108, 14.996338 51.131108, 14.996338 48.500000, 12.000000 48.500000, 12.000000 51.131108))",
+    "area_id": 174,
+    "source_row_index": 174,
+    "iso_a3_source": "CZE",
+    "iso_a3": "CZE",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "CZE-02",
+    "name": "モラヴィア・ボヘミア南部",
+    "name_en": "Moravia and Southern Bohemia",
+    "reason": "モラヴィア地方とボヘミア南部の、より農業的で文化的な地域。",
+    "geometry_wkt": "POLYGON ((14.985352 51.138001, 18.962402 51.138001, 18.962402 48.494768, 14.985352 48.494768, 14.985352 51.138001))",
+    "area_id": 175,
+    "source_row_index": 175,
+    "iso_a3_source": "CZE",
+    "iso_a3": "CZE",
+    "area_seq_in_source": 2
+  }
+]

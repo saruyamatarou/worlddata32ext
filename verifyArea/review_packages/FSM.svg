@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">FSM review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(136.362305, -0.922812) - (165.190430, 12.168226)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="40.00" y="40.00" width="465.24" height="485.83" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="56.00" font-size="12" font-family="Arial, sans-serif">FSM-01 | ヤップ州エリア</text>
+<circle cx="272.62" cy="282.91" r="2.5" fill="black"/>
+<rect x="509.51" y="45.38" width="650.49" height="814.62" fill="none" stroke="black" stroke-width="2"/>
+<text x="513.51" y="61.38" font-size="12" font-family="Arial, sans-serif">FSM-02 | コスラエ・ポンペイ州エリア</text>
+<circle cx="834.76" cy="452.69" r="2.5" fill="black"/>
+</svg>

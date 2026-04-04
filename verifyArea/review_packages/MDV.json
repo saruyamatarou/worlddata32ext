@@ -1,0 +1,170 @@
+{
+  "iso_a3": "MDV",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": 72.202148,
+    "maxx": 74.399414,
+    "miny": -1.34021,
+    "maxy": 7.427837
+  },
+  "areas": [
+    {
+      "id": "MDV-01",
+      "area_id": 390,
+      "area_seq_in_source": 1,
+      "name": "北マーレ環礁エリア",
+      "name_en": "North Malé Atoll Area",
+      "reason": "モルディブの首都マレ島と主要な国際空港があるフルレ島を含む、行政・経済活動の中心地であるため。また、人口が集中しており、観光業への依存度が高い経済的特徴を持つ。",
+      "geometry_wkt": "POLYGON ((72.213135 7.427837, 74.333496 7.427837, 74.333496 3.732708, 72.213135 3.732708, 72.213135 7.427837))",
+      "bbox": {
+        "minx": 72.213135,
+        "maxx": 74.333496,
+        "miny": 3.732708,
+        "maxy": 7.427837
+      },
+      "centroid": {
+        "x": 73.273315,
+        "y": 5.580273
+      },
+      "size": {
+        "width": 2.120361,
+        "height": 3.695129
+      },
+      "relative_position": {
+        "x_norm": 0.4875,
+        "y_norm": 0.7893,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "MDV-02"
+        ],
+        "east_of": [],
+        "north_of": [
+          "MDV-02"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 676,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9941,
+          "WATER": 0.0059
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9985,
+          "POLAR": 0.0015
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9985,
+          "ARID": 0.0015
+        },
+        "flags_ratio": {
+          "water": 1.0,
+          "reef": 0.1154
+        },
+        "cell_bbox_xy": {
+          "min_x": 6061,
+          "max_x": 6094,
+          "min_y": 1981,
+          "max_y": 2069
+        },
+        "cell_centroid": {
+          "x": 6077.373,
+          "y": 2027.112,
+          "lon": 73.244699,
+          "lat": 5.516149
+        }
+      }
+    },
+    {
+      "id": "MDV-02",
+      "area_id": 391,
+      "area_seq_in_source": 2,
+      "name": "南マーレ環礁・その他エリア",
+      "name_en": "South Malé Atoll and Other Areas",
+      "reason": "観光リゾートが多く点在し、モルディブの主要な外貨獲得源である観光産業の地理的な広がりを示すため。また、他の環礁に住む住民の生活や文化、漁業といった経済活動も考慮した。",
+      "geometry_wkt": "POLYGON ((72.202148 3.732708, 74.399414 3.732708, 74.399414 -1.340210, 72.202148 -1.340210, 72.202148 3.732708))",
+      "bbox": {
+        "minx": 72.202148,
+        "maxx": 74.399414,
+        "miny": -1.34021,
+        "maxy": 3.732708
+      },
+      "centroid": {
+        "x": 73.300781,
+        "y": 1.196249
+      },
+      "size": {
+        "width": 2.197266,
+        "height": 5.072918
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.2893,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "MDV-01"
+        ],
+        "north_of": [],
+        "south_of": [
+          "MDV-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 317,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9968,
+          "WATER": 0.0032
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9968,
+          "POLAR": 0.0032
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9968,
+          "ARID": 0.0032
+        },
+        "flags_ratio": {
+          "water": 1.0,
+          "reef": 0.1767
+        },
+        "cell_bbox_xy": {
+          "min_x": 6061,
+          "max_x": 6081,
+          "min_y": 2075,
+          "max_y": 2095
+        },
+        "cell_centroid": {
+          "x": 6071.0,
+          "y": 2085.0,
+          "lon": 72.979167,
+          "lat": 3.104167
+        }
+      }
+    }
+  ]
+}

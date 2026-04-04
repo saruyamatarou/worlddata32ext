@@ -1,0 +1,363 @@
+{
+  "iso_a3": "LBY",
+  "area_count": 4,
+  "country_bbox": {
+    "minx": 9.0,
+    "maxx": 25.2,
+    "miny": 19.0,
+    "maxy": 33.5
+  },
+  "areas": [
+    {
+      "id": "LBY-01",
+      "area_id": 361,
+      "area_seq_in_source": 1,
+      "name": "北西リビア・トリポリタニア",
+      "name_en": "Northwestern Libya and Tripolitania",
+      "reason": "首都トリポリを含む北西沿岸の中核地域であり、人口・商業・農業が比較的集中する地域であるため。",
+      "geometry_wkt": "POLYGON ((9.0 33.5, 15.5 33.5, 15.5 29.5, 9.0 29.5, 9.0 33.5))",
+      "bbox": {
+        "minx": 9.0,
+        "maxx": 15.5,
+        "miny": 29.5,
+        "maxy": 33.5
+      },
+      "centroid": {
+        "x": 12.25,
+        "y": 31.5
+      },
+      "size": {
+        "width": 6.5,
+        "height": 4.0
+      },
+      "relative_position": {
+        "x_norm": 0.2006,
+        "y_norm": 0.8621,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "LBY-02",
+          "LBY-03",
+          "LBY-04"
+        ],
+        "east_of": [],
+        "north_of": [
+          "LBY-03",
+          "LBY-04"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 21673,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.9118,
+          "OCEAN": 0.0526,
+          "GRASS": 0.024,
+          "CROPLAND": 0.0076,
+          "BUILT": 0.0026,
+          "WATER": 0.0013
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9455,
+          "TEMPERATE": 0.0545
+        },
+        "elevation_ratio": {
+          "MID": 0.7877,
+          "LOW": 0.1642,
+          "HIGH": 0.048,
+          "ULTRA": 0.0001
+        },
+        "precip_ratio": {
+          "ARID": 0.9274,
+          "MID": 0.0526,
+          "LOW": 0.0199
+        },
+        "flags_ratio": {
+          "water": 0.7003,
+          "cropland": 0.0076,
+          "built": 0.0026
+        },
+        "cell_bbox_xy": {
+          "min_x": 4543,
+          "max_x": 4919,
+          "min_y": 1355,
+          "max_y": 1691
+        },
+        "cell_centroid": {
+          "x": 4710.903,
+          "y": 1517.298,
+          "lon": 16.308463,
+          "lat": 26.758397
+        }
+      }
+    },
+    {
+      "id": "LBY-02",
+      "area_id": 362,
+      "area_seq_in_source": 2,
+      "name": "東部沿岸・キレナイカ",
+      "name_en": "Eastern Coastal Libya and Cyrenaica",
+      "reason": "ベンガジを含む東部沿岸とキレナイカの歴史地域をまとめた区分であり、東部の都市・沿岸性格を代表するため。",
+      "geometry_wkt": "POLYGON ((15.5 33.5, 25.2 33.5, 25.2 29.5, 15.5 29.5, 15.5 33.5))",
+      "bbox": {
+        "minx": 15.5,
+        "maxx": 25.2,
+        "miny": 29.5,
+        "maxy": 33.5
+      },
+      "centroid": {
+        "x": 20.35,
+        "y": 31.5
+      },
+      "size": {
+        "width": 9.7,
+        "height": 4.0
+      },
+      "relative_position": {
+        "x_norm": 0.7006,
+        "y_norm": 0.8621,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "LBY-04"
+        ],
+        "east_of": [
+          "LBY-01",
+          "LBY-03"
+        ],
+        "north_of": [
+          "LBY-03",
+          "LBY-04"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 14914,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.7471,
+          "OCEAN": 0.1979,
+          "GRASS": 0.0352,
+          "CROPLAND": 0.0106,
+          "WATER": 0.0043,
+          "SHRUB": 0.0031,
+          "TREE": 0.0009,
+          "BUILT": 0.0009
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.7645,
+          "TEMPERATE": 0.2354,
+          "POLAR": 0.0001
+        },
+        "elevation_ratio": {
+          "LOW": 0.8404,
+          "MID": 0.159,
+          "HIGH": 0.0005
+        },
+        "precip_ratio": {
+          "ARID": 0.7563,
+          "MID": 0.1979,
+          "LOW": 0.0458
+        },
+        "flags_ratio": {
+          "water": 0.7107,
+          "cropland": 0.0106,
+          "forest": 0.004,
+          "built": 0.0009
+        },
+        "cell_bbox_xy": {
+          "min_x": 4692,
+          "max_x": 4930,
+          "min_y": 1359,
+          "max_y": 1451
+        },
+        "cell_centroid": {
+          "x": 4819.008,
+          "y": 1415.115,
+          "lon": 20.812816,
+          "lat": 31.016059
+        }
+      }
+    },
+    {
+      "id": "LBY-03",
+      "area_id": 363,
+      "area_seq_in_source": 3,
+      "name": "南西リビア・フェザーン",
+      "name_en": "Southwestern Libya and Fezzan",
+      "reason": "サハラ内陸の南西部に広がる歴史地域であり、オアシス都市を中心とする広域の砂漠内陸圏であるため。",
+      "geometry_wkt": "POLYGON ((9.0 29.5, 18.0 29.5, 18.0 19.0, 9.0 19.0, 9.0 29.5))",
+      "bbox": {
+        "minx": 9.0,
+        "maxx": 18.0,
+        "miny": 19.0,
+        "maxy": 29.5
+      },
+      "centroid": {
+        "x": 13.5,
+        "y": 24.25
+      },
+      "size": {
+        "width": 9.0,
+        "height": 10.5
+      },
+      "relative_position": {
+        "x_norm": 0.2778,
+        "y_norm": 0.3621,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "LBY-02",
+          "LBY-04"
+        ],
+        "east_of": [
+          "LBY-01"
+        ],
+        "north_of": [],
+        "south_of": [
+          "LBY-01",
+          "LBY-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 25413,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.9999,
+          "CROPLAND": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.9382,
+          "HIGH": 0.0536,
+          "LOW": 0.0082
+        },
+        "precip_ratio": {
+          "ARID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.6738,
+          "cropland": 0.0001
+        },
+        "cell_bbox_xy": {
+          "min_x": 4545,
+          "max_x": 4751,
+          "min_y": 1452,
+          "max_y": 1583
+        },
+        "cell_centroid": {
+          "x": 4654.85,
+          "y": 1516.158,
+          "lon": 13.972908,
+          "lat": 26.805902
+        }
+      }
+    },
+    {
+      "id": "LBY-04",
+      "area_id": 364,
+      "area_seq_in_source": 4,
+      "name": "南東内陸砂漠地域",
+      "name_en": "Southeastern Interior Desert Region",
+      "reason": "国土東南部の広大な砂漠内陸を独立して扱うことで、沿岸のキレナイカと極度に乾燥した南東部を分けて管理しやすくするため。",
+      "geometry_wkt": "POLYGON ((18.0 29.5, 25.2 29.5, 25.2 19.0, 18.0 19.0, 18.0 29.5))",
+      "bbox": {
+        "minx": 18.0,
+        "maxx": 25.2,
+        "miny": 19.0,
+        "maxy": 29.5
+      },
+      "centroid": {
+        "x": 21.6,
+        "y": 24.25
+      },
+      "size": {
+        "width": 7.2,
+        "height": 10.5
+      },
+      "relative_position": {
+        "x_norm": 0.7778,
+        "y_norm": 0.3621,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "LBY-01",
+          "LBY-02",
+          "LBY-03"
+        ],
+        "north_of": [],
+        "south_of": [
+          "LBY-01",
+          "LBY-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 27387,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 1.0
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.6922,
+          "LOW": 0.3077,
+          "HIGH": 0.0001
+        },
+        "precip_ratio": {
+          "ARID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.7336
+        },
+        "cell_bbox_xy": {
+          "min_x": 4752,
+          "max_x": 4919,
+          "min_y": 1452,
+          "max_y": 1631
+        },
+        "cell_centroid": {
+          "x": 4840.235,
+          "y": 1534.516,
+          "lon": 21.697293,
+          "lat": 26.04099
+        }
+      }
+    }
+  ]
+}

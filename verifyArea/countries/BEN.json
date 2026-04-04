@@ -1,0 +1,26 @@
+[
+  {
+    "id": "BEN-01",
+    "name": "ベナン南部沿岸・経済中心部",
+    "name_en": "Southern Benin Coastal Economic Hub",
+    "reason": "コトヌーを中心とした経済活動、港湾機能、人口密集度、そしてギニア湾へのアクセスを考慮したエリア。",
+    "geometry_wkt": "POLYGON ((1.488647 8.146243, 2.944336 8.146243, 2.944336 5.517575, 1.488647 5.517575, 1.488647 8.146243))",
+    "area_id": 62,
+    "source_row_index": 62,
+    "iso_a3_source": "BEN",
+    "iso_a3": "BEN",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "BEN-02",
+    "name": "ベナン北部・内陸部",
+    "name_en": "Northern Benin Inland",
+    "reason": "北部のサバンナ気候、高原状の地形、そして内陸国との交易ルートとしての重要性を考慮したエリア。パラクーやジューグーなどの主要都市を含む。",
+    "geometry_wkt": "POLYGON ((0.461426 12.661778, 3.999023 12.661778, 3.999023 8.146243, 0.461426 8.146243, 0.461426 12.661778))",
+    "area_id": 63,
+    "source_row_index": 63,
+    "iso_a3_source": "BEN",
+    "iso_a3": "BEN",
+    "area_seq_in_source": 2
+  }
+]

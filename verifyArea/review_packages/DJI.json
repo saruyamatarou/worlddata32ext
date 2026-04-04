@@ -1,0 +1,175 @@
+{
+  "iso_a3": "DJI",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": 41.665649,
+    "maxx": 44.2,
+    "miny": 10.8,
+    "maxy": 12.790375
+  },
+  "areas": [
+    {
+      "id": "DJI-01",
+      "area_id": 181,
+      "area_seq_in_source": 1,
+      "name": "ジブチ西部高地",
+      "name_en": "Western Djibouti Highlands",
+      "reason": "国土の大部分を占める砂漠・半砂漠地帯であり、内陸部との結節点であるエチオピアとの関係が深い。高原地帯は遊牧民の生活圏でもある。",
+      "geometry_wkt": "POLYGON ((41.665649 12.634978, 42.511597 12.634978, 42.511597 10.800000, 41.665649 10.800000, 41.665649 12.634978))",
+      "bbox": {
+        "minx": 41.665649,
+        "maxx": 42.511597,
+        "miny": 10.8,
+        "maxy": 12.634978
+      },
+      "centroid": {
+        "x": 42.088623,
+        "y": 11.717489
+      },
+      "size": {
+        "width": 0.845948,
+        "height": 1.834978
+      },
+      "relative_position": {
+        "x_norm": 0.1669,
+        "y_norm": 0.461,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "DJI-02"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "DJI-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 1265,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.7542,
+          "OCEAN": 0.1787,
+          "GRASS": 0.0285,
+          "SHRUB": 0.0237,
+          "WATER": 0.0142,
+          "BUILT": 0.0008
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.5542,
+          "LOW": 0.3549,
+          "HIGH": 0.0909
+        },
+        "precip_ratio": {
+          "ARID": 0.7486,
+          "MID": 0.1787,
+          "LOW": 0.0727
+        },
+        "flags_ratio": {
+          "water": 0.6079,
+          "forest": 0.0237,
+          "built": 0.0008
+        },
+        "cell_bbox_xy": {
+          "min_x": 5322,
+          "max_x": 5367,
+          "min_y": 1854,
+          "max_y": 1897
+        },
+        "cell_centroid": {
+          "x": 5344.139,
+          "y": 1878.366,
+          "lon": 42.693297,
+          "lat": 11.713916
+        }
+      }
+    },
+    {
+      "id": "DJI-02",
+      "area_id": 182,
+      "area_seq_in_source": 2,
+      "name": "ジブチ東部沿岸・首都圏",
+      "name_en": "Eastern Djibouti Coast & Capital Region",
+      "reason": "紅海・アデン湾に面し、港湾都市ジブチ市を中心に国際貿易と物流のハブとなっている。人口が集中し、経済活動の中心地である。",
+      "geometry_wkt": "POLYGON ((42.511597 12.790375, 44.200000 12.790375, 44.200000 10.800000, 42.511597 10.800000, 42.511597 12.790375))",
+      "bbox": {
+        "minx": 42.511597,
+        "maxx": 44.2,
+        "miny": 10.8,
+        "maxy": 12.790375
+      },
+      "centroid": {
+        "x": 43.355799,
+        "y": 11.795188
+      },
+      "size": {
+        "width": 1.688403,
+        "height": 1.990375
+      },
+      "relative_position": {
+        "x_norm": 0.6669,
+        "y_norm": 0.5,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "DJI-01"
+        ],
+        "north_of": [
+          "DJI-01"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 208,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.6731,
+          "BARE": 0.3173,
+          "GRASS": 0.0096
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.851,
+          "MID": 0.149
+        },
+        "precip_ratio": {
+          "MID": 0.6731,
+          "ARID": 0.3269
+        },
+        "flags_ratio": {
+          "water": 0.8606
+        },
+        "cell_bbox_xy": {
+          "min_x": 5352,
+          "max_x": 5371,
+          "min_y": 1863,
+          "max_y": 1879
+        },
+        "cell_centroid": {
+          "x": 5362.644,
+          "y": 1869.788,
+          "lon": 43.464343,
+          "lat": 12.071314
+        }
+      }
+    }
+  ]
+}

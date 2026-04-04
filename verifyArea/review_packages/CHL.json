@@ -1,0 +1,754 @@
+{
+  "iso_a3": "CHL",
+  "area_count": 7,
+  "country_bbox": {
+    "minx": -112.148438,
+    "maxx": -65.610352,
+    "miny": -56.764768,
+    "maxy": -16.972741
+  },
+  "areas": [
+    {
+      "id": "CHL-01",
+      "area_id": 127,
+      "area_seq_in_source": 1,
+      "name": "北部乾燥地帯",
+      "name_en": "Northern Arid Zone",
+      "reason": "世界で最も乾燥したアタカマ砂漠が広がり、鉱業が盛んな地域。特異な自然環境と経済活動が特徴。",
+      "geometry_wkt": "POLYGON ((-81.386719 -16.972741, -66.840820 -16.972741, -66.840820 -26.980829, -81.386719 -26.980829, -81.386719 -16.972741))",
+      "bbox": {
+        "minx": -81.386719,
+        "maxx": -66.84082,
+        "miny": -26.980829,
+        "maxy": -16.972741
+      },
+      "centroid": {
+        "x": -74.113769,
+        "y": -21.976785
+      },
+      "size": {
+        "width": 14.545899,
+        "height": 10.008088
+      },
+      "relative_position": {
+        "x_norm": 0.8173,
+        "y_norm": 0.8742,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CHL-06"
+        ],
+        "east_of": [
+          "CHL-02",
+          "CHL-03",
+          "CHL-04",
+          "CHL-05",
+          "CHL-07"
+        ],
+        "north_of": [
+          "CHL-02",
+          "CHL-03",
+          "CHL-04",
+          "CHL-05",
+          "CHL-06",
+          "CHL-07"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "CHL-02",
+            "x_overlap": 13.381348,
+            "y_overlap": 0.019583
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 14249,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "ULTRA",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.7288,
+          "OCEAN": 0.2004,
+          "GRASS": 0.0621,
+          "WATER": 0.0044,
+          "TREE": 0.0019,
+          "SHRUB": 0.001,
+          "SNOW_ICE": 0.0008,
+          "BUILT": 0.0005,
+          "UNKNOWN": 0.0001,
+          "CROPLAND": 0.0001
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.7605,
+          "COLD": 0.1469,
+          "TROPICAL": 0.0926,
+          "POLAR": 0.0001
+        },
+        "elevation_ratio": {
+          "ULTRA": 0.4444,
+          "LOW": 0.2892,
+          "HIGH": 0.2288,
+          "MID": 0.0376
+        },
+        "precip_ratio": {
+          "ARID": 0.7379,
+          "MID": 0.2037,
+          "LOW": 0.0564,
+          "WET": 0.002
+        },
+        "flags_ratio": {
+          "water": 0.6822,
+          "forest": 0.0029,
+          "ice": 0.0008,
+          "built": 0.0005,
+          "cropland": 0.0001
+        },
+        "cell_bbox_xy": {
+          "min_x": 2392,
+          "max_x": 2711,
+          "min_y": 2580,
+          "max_y": 3439
+        },
+        "cell_centroid": {
+          "x": 2644.77,
+          "y": 2759.454,
+          "lon": -69.780401,
+          "lat": -24.998095
+        }
+      }
+    },
+    {
+      "id": "CHL-02",
+      "area_id": 128,
+      "area_seq_in_source": 2,
+      "name": "北部沿岸・鉱業地域",
+      "name_en": "Northern Coastal Mining Region",
+      "reason": "海岸線に沿って鉱山都市が点在し、フンボルト海流の影響で乾燥した気候が続く。アントファガスタなどが含まれる。",
+      "geometry_wkt": "POLYGON ((-81.430664 -26.961246, -68.005371 -26.961246, -68.005371 -33.000000, -81.430664 -33.000000, -81.430664 -26.961246))",
+      "bbox": {
+        "minx": -81.430664,
+        "maxx": -68.005371,
+        "miny": -33.0,
+        "maxy": -26.961246
+      },
+      "centroid": {
+        "x": -74.718018,
+        "y": -29.980623
+      },
+      "size": {
+        "width": 13.425293,
+        "height": 6.038754
+      },
+      "relative_position": {
+        "x_norm": 0.8043,
+        "y_norm": 0.6731,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CHL-01",
+          "CHL-06"
+        ],
+        "east_of": [
+          "CHL-03",
+          "CHL-04",
+          "CHL-05",
+          "CHL-07"
+        ],
+        "north_of": [
+          "CHL-03",
+          "CHL-04",
+          "CHL-05",
+          "CHL-06"
+        ],
+        "south_of": [
+          "CHL-01",
+          "CHL-07"
+        ],
+        "overlaps": [
+          {
+            "id": "CHL-01",
+            "x_overlap": 13.381348,
+            "y_overlap": 0.019583
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 6783,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.5033,
+          "OCEAN": 0.2266,
+          "GRASS": 0.1319,
+          "SHRUB": 0.1218,
+          "CROPLAND": 0.005,
+          "WATER": 0.0046,
+          "TREE": 0.0044,
+          "BUILT": 0.0021,
+          "SNOW_ICE": 0.0003
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.8263,
+          "COLD": 0.1731,
+          "POLAR": 0.0006
+        },
+        "elevation_ratio": {
+          "LOW": 0.563,
+          "ULTRA": 0.2214,
+          "HIGH": 0.1212,
+          "MID": 0.0944
+        },
+        "precip_ratio": {
+          "ARID": 0.6711,
+          "MID": 0.2266,
+          "LOW": 0.1023
+        },
+        "flags_ratio": {
+          "water": 0.7307,
+          "forest": 0.1262,
+          "cropland": 0.005,
+          "built": 0.0021,
+          "ice": 0.0003
+        },
+        "cell_bbox_xy": {
+          "min_x": 2589,
+          "max_x": 2679,
+          "min_y": 2804,
+          "max_y": 2951
+        },
+        "cell_centroid": {
+          "x": 2620.517,
+          "y": 2872.493,
+          "lon": -70.790976,
+          "lat": -29.708023
+        }
+      }
+    },
+    {
+      "id": "CHL-03",
+      "area_id": 129,
+      "area_seq_in_source": 3,
+      "name": "中部農業・ワイン地域",
+      "name_en": "Central Agricultural and Wine Region",
+      "reason": "地中海性気候で、ブドウや果物の栽培が盛ん。首都サンティアゴもこの地域に位置し、経済・文化の中心。",
+      "geometry_wkt": "POLYGON ((-81.430664 -33.027088, -69.587402 -33.027088, -69.587402 -38.065392, -81.430664 -38.065392, -81.430664 -33.027088))",
+      "bbox": {
+        "minx": -81.430664,
+        "maxx": -69.587402,
+        "miny": -38.065392,
+        "maxy": -33.027088
+      },
+      "centroid": {
+        "x": -75.509033,
+        "y": -35.54624
+      },
+      "size": {
+        "width": 11.843262,
+        "height": 5.038304
+      },
+      "relative_position": {
+        "x_norm": 0.7873,
+        "y_norm": 0.5332,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CHL-01",
+          "CHL-02",
+          "CHL-04",
+          "CHL-05",
+          "CHL-06"
+        ],
+        "east_of": [
+          "CHL-07"
+        ],
+        "north_of": [
+          "CHL-04",
+          "CHL-05",
+          "CHL-06"
+        ],
+        "south_of": [
+          "CHL-01",
+          "CHL-02",
+          "CHL-07"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 8268,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.3182,
+          "OCEAN": 0.2724,
+          "GRASS": 0.1679,
+          "BARE": 0.0894,
+          "CROPLAND": 0.0828,
+          "SHRUB": 0.0455,
+          "WATER": 0.0111,
+          "BUILT": 0.0085,
+          "SNOW_ICE": 0.0042
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9269,
+          "COLD": 0.0669,
+          "POLAR": 0.0045,
+          "TROPICAL": 0.0017
+        },
+        "elevation_ratio": {
+          "LOW": 0.4699,
+          "MID": 0.2845,
+          "HIGH": 0.1465,
+          "ULTRA": 0.0992
+        },
+        "precip_ratio": {
+          "MID": 0.5559,
+          "LOW": 0.4357,
+          "WET": 0.0081,
+          "ARID": 0.0004
+        },
+        "flags_ratio": {
+          "water": 0.8656,
+          "forest": 0.3639,
+          "cropland": 0.0828,
+          "built": 0.0085,
+          "ice": 0.0042
+        },
+        "cell_bbox_xy": {
+          "min_x": 2371,
+          "max_x": 2644,
+          "min_y": 2946,
+          "max_y": 3074
+        },
+        "cell_centroid": {
+          "x": 2577.791,
+          "y": 3011.254,
+          "lon": -72.571203,
+          "lat": -35.489735
+        }
+      }
+    },
+    {
+      "id": "CHL-04",
+      "area_id": 130,
+      "area_seq_in_source": 4,
+      "name": "南西部森林・湖沼地帯",
+      "name_en": "Southwestern Forest and Lake District",
+      "reason": "年間を通して雨が多く、森林や湖が広がる緑豊かな地域。バルディビア、プエルト・モントなどが含まれる。",
+      "geometry_wkt": "POLYGON ((-80.178223 -38.082690, -70.000000 -38.082690, -70.000000 -43.000000, -80.178223 -43.000000, -80.178223 -38.082690))",
+      "bbox": {
+        "minx": -80.178223,
+        "maxx": -70.0,
+        "miny": -43.0,
+        "maxy": -38.08269
+      },
+      "centroid": {
+        "x": -75.089112,
+        "y": -40.541345
+      },
+      "size": {
+        "width": 10.178223,
+        "height": 4.91731
+      },
+      "relative_position": {
+        "x_norm": 0.7963,
+        "y_norm": 0.4077,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CHL-01",
+          "CHL-02",
+          "CHL-05",
+          "CHL-06"
+        ],
+        "east_of": [
+          "CHL-03",
+          "CHL-07"
+        ],
+        "north_of": [
+          "CHL-05",
+          "CHL-06"
+        ],
+        "south_of": [
+          "CHL-01",
+          "CHL-02",
+          "CHL-03",
+          "CHL-07"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 7297,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.5101,
+          "OCEAN": 0.2937,
+          "GRASS": 0.0991,
+          "CROPLAND": 0.0415,
+          "WATER": 0.0385,
+          "BARE": 0.0086,
+          "SNOW_ICE": 0.0077,
+          "BUILT": 0.0008
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9848,
+          "COLD": 0.0148,
+          "POLAR": 0.0004
+        },
+        "elevation_ratio": {
+          "LOW": 0.5523,
+          "MID": 0.2722,
+          "HIGH": 0.1739,
+          "ULTRA": 0.0016
+        },
+        "precip_ratio": {
+          "MID": 0.7248,
+          "WET": 0.267,
+          "LOW": 0.0078,
+          "ARID": 0.0004
+        },
+        "flags_ratio": {
+          "water": 0.8854,
+          "forest": 0.5161,
+          "cropland": 0.0415,
+          "ice": 0.0077,
+          "built": 0.0008
+        },
+        "cell_bbox_xy": {
+          "min_x": 2529,
+          "max_x": 2619,
+          "min_y": 3071,
+          "max_y": 3196
+        },
+        "cell_centroid": {
+          "x": 2568.725,
+          "y": 3130.458,
+          "lon": -72.948966,
+          "lat": -40.456595
+        }
+      }
+    },
+    {
+      "id": "CHL-05",
+      "area_id": 131,
+      "area_seq_in_source": 5,
+      "name": "南部パタゴニア地域",
+      "name_en": "Southern Patagonia Region",
+      "reason": "フィヨルド地形が特徴的で、氷河や国立公園が点在する雄大な自然が広がる。寒帯気候。",
+      "geometry_wkt": "POLYGON ((-79.936523 -43.000000, -70.000000 -43.000000, -70.000000 -52.935397, -79.936523 -52.935397, -79.936523 -43.000000))",
+      "bbox": {
+        "minx": -79.936523,
+        "maxx": -70.0,
+        "miny": -52.935397,
+        "maxy": -43.0
+      },
+      "centroid": {
+        "x": -74.968261,
+        "y": -47.967698
+      },
+      "size": {
+        "width": 9.936523,
+        "height": 9.935397
+      },
+      "relative_position": {
+        "x_norm": 0.7989,
+        "y_norm": 0.2211,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CHL-01",
+          "CHL-02",
+          "CHL-06"
+        ],
+        "east_of": [
+          "CHL-03",
+          "CHL-04",
+          "CHL-07"
+        ],
+        "north_of": [
+          "CHL-06"
+        ],
+        "south_of": [
+          "CHL-01",
+          "CHL-02",
+          "CHL-03",
+          "CHL-04",
+          "CHL-07"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 20746,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.3928,
+          "TREE": 0.2695,
+          "GRASS": 0.1676,
+          "SNOW_ICE": 0.0812,
+          "WATER": 0.0569,
+          "BARE": 0.0313,
+          "WETLAND": 0.0003,
+          "MOSS_LICHEN": 0.0002,
+          "SHRUB": 0.0001
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.5204,
+          "COLD": 0.4764,
+          "POLAR": 0.0032
+        },
+        "elevation_ratio": {
+          "LOW": 0.5267,
+          "MID": 0.3068,
+          "HIGH": 0.1633,
+          "ULTRA": 0.0032
+        },
+        "precip_ratio": {
+          "MID": 0.5858,
+          "WET": 0.2588,
+          "LOW": 0.1526,
+          "ARID": 0.0027
+        },
+        "flags_ratio": {
+          "water": 0.7782,
+          "forest": 0.3013,
+          "ice": 0.0816
+        },
+        "cell_bbox_xy": {
+          "min_x": 2493,
+          "max_x": 2640,
+          "min_y": 3188,
+          "max_y": 3436
+        },
+        "cell_centroid": {
+          "x": 2549.52,
+          "y": 3312.688,
+          "lon": -73.74916,
+          "lat": -48.04951
+        }
+      }
+    },
+    {
+      "id": "CHL-06",
+      "area_id": 132,
+      "area_seq_in_source": 6,
+      "name": "最南部・フエゴ島",
+      "name_en": "Southernmost Region - Tierra del Fuego",
+      "reason": "チリ領のフエゴ島南部を含む地域。極寒の気候と独特の地形が特徴。",
+      "geometry_wkt": "POLYGON ((-76.442871 -53.000000, -65.610352 -53.000000, -65.610352 -56.764768, -76.442871 -56.764768, -76.442871 -53.000000))",
+      "bbox": {
+        "minx": -76.442871,
+        "maxx": -65.610352,
+        "miny": -56.764768,
+        "maxy": -53.0
+      },
+      "centroid": {
+        "x": -71.026612,
+        "y": -54.882384
+      },
+      "size": {
+        "width": 10.832519,
+        "height": 3.764768
+      },
+      "relative_position": {
+        "x_norm": 0.8836,
+        "y_norm": 0.0473,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "CHL-01",
+          "CHL-02",
+          "CHL-03",
+          "CHL-04",
+          "CHL-05",
+          "CHL-07"
+        ],
+        "north_of": [],
+        "south_of": [
+          "CHL-01",
+          "CHL-02",
+          "CHL-03",
+          "CHL-04",
+          "CHL-05",
+          "CHL-07"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 8930,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "COLD",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.5675,
+          "GRASS": 0.2153,
+          "TREE": 0.1036,
+          "SNOW_ICE": 0.0502,
+          "WATER": 0.0477,
+          "BARE": 0.0138,
+          "SHRUB": 0.0018,
+          "BUILT": 0.0001
+        },
+        "temperature_ratio": {
+          "COLD": 0.8402,
+          "TEMPERATE": 0.1591,
+          "POLAR": 0.0007
+        },
+        "elevation_ratio": {
+          "LOW": 0.716,
+          "MID": 0.2681,
+          "HIGH": 0.0159
+        },
+        "precip_ratio": {
+          "MID": 0.7082,
+          "LOW": 0.2576,
+          "WET": 0.0336,
+          "ARID": 0.0007
+        },
+        "flags_ratio": {
+          "water": 0.7443,
+          "forest": 0.1134,
+          "ice": 0.0516,
+          "built": 0.0002
+        },
+        "cell_bbox_xy": {
+          "min_x": 2528,
+          "max_x": 2733,
+          "min_y": 3429,
+          "max_y": 3511
+        },
+        "cell_centroid": {
+          "x": 2628.521,
+          "y": 3465.573,
+          "lon": -70.457465,
+          "lat": -54.41969
+        }
+      }
+    },
+    {
+      "id": "CHL-07",
+      "area_id": 133,
+      "area_seq_in_source": 7,
+      "name": "太平洋諸島（イースター島）",
+      "name_en": "Pacific Islands (Easter Island)",
+      "reason": "ポリネシアに位置するイースター島（ラパ・ヌイ島）など。独自の文化と遺跡で知られる。",
+      "geometry_wkt": "POLYGON ((-112.148438 -24.206890, -103.974609 -24.206890, -103.974609 -29.000000, -112.148438 -29.000000, -112.148438 -24.206890))",
+      "bbox": {
+        "minx": -112.148438,
+        "maxx": -103.974609,
+        "miny": -29.0,
+        "maxy": -24.20689
+      },
+      "centroid": {
+        "x": -108.061523,
+        "y": -26.603445
+      },
+      "size": {
+        "width": 8.173829,
+        "height": 4.79311
+      },
+      "relative_position": {
+        "x_norm": 0.0878,
+        "y_norm": 0.758,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CHL-01",
+          "CHL-02",
+          "CHL-03",
+          "CHL-04",
+          "CHL-05",
+          "CHL-06"
+        ],
+        "east_of": [],
+        "north_of": [
+          "CHL-02",
+          "CHL-03",
+          "CHL-04",
+          "CHL-05",
+          "CHL-06"
+        ],
+        "south_of": [
+          "CHL-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 443,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9774,
+          "GRASS": 0.0135,
+          "WATER": 0.009
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9774,
+          "TROPICAL": 0.0226
+        },
+        "elevation_ratio": {
+          "LOW": 0.9955,
+          "MID": 0.0045
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.9865
+        },
+        "cell_bbox_xy": {
+          "min_x": 1683,
+          "max_x": 1708,
+          "min_y": 2800,
+          "max_y": 2822
+        },
+        "cell_centroid": {
+          "x": 1695.284,
+          "y": 2810.675,
+          "lon": -109.342316,
+          "lat": -27.132289
+        }
+      }
+    }
+  ]
+}

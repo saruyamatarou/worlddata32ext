@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">PRI review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-68.148193, 17.766997) - (-65.000000, 18.552532)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="616.50" y="40.00" width="543.50" height="681.16" fill="none" stroke="black" stroke-width="2"/>
+<text x="620.50" y="56.00" font-size="12" font-family="Arial, sans-serif">PRI-01 | プエルトリコ北部・東部</text>
+<circle cx="888.25" cy="380.58" r="2.5" fill="black"/>
+<rect x="40.00" y="42.72" width="574.55" height="817.28" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="58.72" font-size="12" font-family="Arial, sans-serif">PRI-02 | プエルトリコ南部・西部</text>
+<circle cx="327.27" cy="451.36" r="2.5" fill="black"/>
+</svg>

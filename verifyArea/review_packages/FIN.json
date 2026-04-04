@@ -1,0 +1,351 @@
+{
+  "iso_a3": "FIN",
+  "area_count": 4,
+  "country_bbox": {
+    "minx": 20.0,
+    "maxx": 32.431641,
+    "miny": 59.589975,
+    "maxy": 70.155288
+  },
+  "areas": [
+    {
+      "id": "FIN-01",
+      "area_id": 222,
+      "area_seq_in_source": 1,
+      "name": "南部フィンランド",
+      "name_en": "Southern Finland",
+      "reason": "フィンランド湾に面し、首都ヘルシンキを含む経済・文化の中心地。人口が密集しており、産業や交通の要衝となっている。",
+      "geometry_wkt": "POLYGON ((20.874023 61.365145, 29.860840 61.365145, 29.860840 59.589975, 20.874023 59.589975, 20.874023 61.365145))",
+      "bbox": {
+        "minx": 20.874023,
+        "maxx": 29.86084,
+        "miny": 59.589975,
+        "maxy": 61.365145
+      },
+      "centroid": {
+        "x": 25.367432,
+        "y": 60.47756
+      },
+      "size": {
+        "width": 8.986817,
+        "height": 1.77517
+      },
+      "relative_position": {
+        "x_norm": 0.4318,
+        "y_norm": 0.084,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "FIN-03",
+          "FIN-04"
+        ],
+        "east_of": [
+          "FIN-02"
+        ],
+        "north_of": [],
+        "south_of": [
+          "FIN-02",
+          "FIN-03",
+          "FIN-04"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 28555,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "COLD",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.7573,
+          "OCEAN": 0.1033,
+          "WATER": 0.0605,
+          "GRASS": 0.0542,
+          "MOSS_LICHEN": 0.0104,
+          "CROPLAND": 0.0103,
+          "WETLAND": 0.0034,
+          "BUILT": 0.0004,
+          "BARE": 0.0002
+        },
+        "temperature_ratio": {
+          "COLD": 0.9114,
+          "POLAR": 0.0746,
+          "TEMPERATE": 0.014
+        },
+        "elevation_ratio": {
+          "LOW": 0.64,
+          "MID": 0.3583,
+          "HIGH": 0.0018
+        },
+        "precip_ratio": {
+          "LOW": 0.8967,
+          "MID": 0.1033,
+          "ARID": 0.0
+        },
+        "flags_ratio": {
+          "forest": 0.7647,
+          "water": 0.5832,
+          "cropland": 0.0103,
+          "built": 0.0005
+        },
+        "cell_bbox_xy": {
+          "min_x": 4816,
+          "max_x": 5076,
+          "min_y": 478,
+          "max_y": 733
+        },
+        "cell_centroid": {
+          "x": 4955.251,
+          "y": 609.813,
+          "lon": 26.489644,
+          "lat": 64.570276
+        }
+      }
+    },
+    {
+      "id": "FIN-02",
+      "area_id": 223,
+      "area_seq_in_source": 2,
+      "name": "西部・中部フィンランド",
+      "name_en": "Western and Central Finland",
+      "reason": "タンペレなどの工業都市や、広大な湖水地方を含み、工業と自然が共存する地域。歴史的にスウェーデンの影響を強く受けている。",
+      "geometry_wkt": "POLYGON ((20.379639 65.403445, 27.839355 65.403445, 27.839355 61.365145, 20.379639 61.365145, 20.379639 65.403445))",
+      "bbox": {
+        "minx": 20.379639,
+        "maxx": 27.839355,
+        "miny": 61.365145,
+        "maxy": 65.403445
+      },
+      "centroid": {
+        "x": 24.109497,
+        "y": 63.384295
+      },
+      "size": {
+        "width": 7.459716,
+        "height": 4.0383
+      },
+      "relative_position": {
+        "x_norm": 0.3306,
+        "y_norm": 0.3591,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "FIN-01",
+          "FIN-03",
+          "FIN-04"
+        ],
+        "east_of": [],
+        "north_of": [
+          "FIN-01"
+        ],
+        "south_of": [
+          "FIN-03",
+          "FIN-04"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 9747,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "COLD",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.8145,
+          "OCEAN": 0.0995,
+          "WATER": 0.059,
+          "CROPLAND": 0.0242,
+          "GRASS": 0.0012,
+          "WETLAND": 0.0011,
+          "BUILT": 0.0004
+        },
+        "temperature_ratio": {
+          "COLD": 0.9,
+          "POLAR": 0.0998,
+          "TEMPERATE": 0.0002
+        },
+        "elevation_ratio": {
+          "LOW": 0.9798,
+          "MID": 0.0202
+        },
+        "precip_ratio": {
+          "LOW": 0.9002,
+          "MID": 0.0995,
+          "ARID": 0.0003
+        },
+        "flags_ratio": {
+          "forest": 0.8189,
+          "water": 0.5699,
+          "cropland": 0.0242,
+          "built": 0.0004
+        },
+        "cell_bbox_xy": {
+          "min_x": 4816,
+          "max_x": 4964,
+          "min_y": 590,
+          "max_y": 688
+        },
+        "cell_centroid": {
+          "x": 4905.354,
+          "y": 647.93,
+          "lon": 24.410594,
+          "lat": 62.982091
+        }
+      }
+    },
+    {
+      "id": "FIN-03",
+      "area_id": 224,
+      "area_seq_in_source": 3,
+      "name": "東部フィンランド",
+      "name_en": "Eastern Finland",
+      "reason": "ロシアとの国境に接し、森林資源が豊富。カレリア地方など、歴史的・文化的にロシアの影響も受けている地域。",
+      "geometry_wkt": "POLYGON ((27.861328 65.440002, 31.816406 65.440002, 31.816406 61.375673, 27.861328 61.375673, 27.861328 65.440002))",
+      "bbox": {
+        "minx": 27.861328,
+        "maxx": 31.816406,
+        "miny": 61.375673,
+        "maxy": 65.440002
+      },
+      "centroid": {
+        "x": 29.838867,
+        "y": 63.407837
+      },
+      "size": {
+        "width": 3.955078,
+        "height": 4.064329
+      },
+      "relative_position": {
+        "x_norm": 0.7914,
+        "y_norm": 0.3614,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "FIN-01",
+          "FIN-02",
+          "FIN-04"
+        ],
+        "north_of": [
+          "FIN-01",
+          "FIN-02"
+        ],
+        "south_of": [
+          "FIN-04"
+        ],
+        "overlaps": [
+          {
+            "id": "FIN-04",
+            "x_overlap": 3.955078,
+            "y_overlap": 0.036557
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "FIN-04",
+      "area_id": 225,
+      "area_seq_in_source": 4,
+      "name": "北部フィンランド（ラップランド）",
+      "name_en": "Northern Finland (Lapland)",
+      "reason": "北極圏に位置し、ラップランド地方を含む。オーロラ観測やサーミ文化など、独特の自然・文化を持つ寒冷な地域。",
+      "geometry_wkt": "POLYGON ((20.000000 70.155288, 32.431641 70.155288, 32.431641 65.403445, 20.000000 65.403445, 20.000000 70.155288))",
+      "bbox": {
+        "minx": 20.0,
+        "maxx": 32.431641,
+        "miny": 65.403445,
+        "maxy": 70.155288
+      },
+      "centroid": {
+        "x": 26.21582,
+        "y": 67.779367
+      },
+      "size": {
+        "width": 12.431641,
+        "height": 4.751843
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.7751,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "FIN-03"
+        ],
+        "east_of": [
+          "FIN-01",
+          "FIN-02"
+        ],
+        "north_of": [
+          "FIN-01",
+          "FIN-02",
+          "FIN-03"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "FIN-03",
+            "x_overlap": 3.955078,
+            "y_overlap": 0.036557
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 1646,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "COLD",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.8803,
+          "OCEAN": 0.0966,
+          "WETLAND": 0.0115,
+          "GRASS": 0.0061,
+          "WATER": 0.0055
+        },
+        "temperature_ratio": {
+          "COLD": 0.9034,
+          "POLAR": 0.0966
+        },
+        "elevation_ratio": {
+          "LOW": 0.969,
+          "MID": 0.031
+        },
+        "precip_ratio": {
+          "LOW": 0.9034,
+          "MID": 0.0966
+        },
+        "flags_ratio": {
+          "forest": 0.8834,
+          "water": 0.6373
+        },
+        "cell_bbox_xy": {
+          "min_x": 4905,
+          "max_x": 4964,
+          "min_y": 563,
+          "max_y": 591
+        },
+        "cell_centroid": {
+          "x": 4934.193,
+          "y": 576.225,
+          "lon": 25.612191,
+          "lat": 65.969775
+        }
+      }
+    }
+  ]
+}

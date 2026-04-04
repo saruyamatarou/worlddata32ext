@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">GRL review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-74.003906, 59.220934) - (-8.613281, 84.000000)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="250.75" y="338.42" width="406.45" height="521.58" fill="none" stroke="black" stroke-width="2"/>
+<text x="254.75" y="354.42" font-size="12" font-family="Arial, sans-serif">GL-01 | グリーンランド南西部</text>
+<circle cx="453.98" cy="599.21" r="2.5" fill="black"/>
+<rect x="40.00" y="41.91" width="587.10" height="297.27" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="57.91" font-size="12" font-family="Arial, sans-serif">GL-02 | グリーンランド北西部</text>
+<circle cx="333.55" cy="190.54" r="2.5" fill="black"/>
+<rect x="657.20" y="337.83" width="472.69" height="347.12" fill="none" stroke="black" stroke-width="2"/>
+<text x="661.20" y="353.83" font-size="12" font-family="Arial, sans-serif">GL-03 | グリーンランド東部</text>
+<circle cx="893.55" cy="511.39" r="2.5" fill="black"/>
+<rect x="624.09" y="40.00" width="535.91" height="297.67" fill="none" stroke="black" stroke-width="2"/>
+<text x="628.09" y="56.00" font-size="12" font-family="Arial, sans-serif">GL-04 | グリーンランド北部・北東部</text>
+<circle cx="892.04" cy="188.83" r="2.5" fill="black"/>
+</svg>

@@ -1,0 +1,88 @@
+{
+  "iso_a3": "IMN",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -4.96582,
+    "maxx": -4.064941,
+    "miny": 53.897865,
+    "maxy": 54.54658
+  },
+  "areas": [
+    {
+      "id": "IMN-01",
+      "area_id": 285,
+      "area_seq_in_source": 1,
+      "name": "マン島全土",
+      "name_en": "Isle of Man",
+      "reason": "島の南部は丘陵地帯であり、北部は比較的平坦な平野がある。また、最北端にはポワント・オブ・アイル自然保護区があり、地理的な特徴を持つ。",
+      "geometry_wkt": "POLYGON ((-4.965820 54.546580, -4.064941 54.546580, -4.064941 53.897865, -4.965820 53.897865, -4.965820 54.546580))",
+      "bbox": {
+        "minx": -4.96582,
+        "maxx": -4.064941,
+        "miny": 53.897865,
+        "maxy": 54.54658
+      },
+      "centroid": {
+        "x": -4.515381,
+        "y": 54.222223
+      },
+      "size": {
+        "width": 0.900879,
+        "height": 0.648715
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 468,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "COLD",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9038,
+          "GRASS": 0.0897,
+          "WATER": 0.0064
+        },
+        "temperature_ratio": {
+          "COLD": 0.9038,
+          "TEMPERATE": 0.0962
+        },
+        "elevation_ratio": {
+          "LOW": 0.9744,
+          "MID": 0.0256
+        },
+        "precip_ratio": {
+          "MID": 0.9338,
+          "LOW": 0.0662
+        },
+        "flags_ratio": {
+          "water": 0.9103
+        },
+        "cell_bbox_xy": {
+          "min_x": 4195,
+          "max_x": 4225,
+          "min_y": 851,
+          "max_y": 871
+        },
+        "cell_centroid": {
+          "x": 4209.998,
+          "y": 860.65,
+          "lon": -4.562589,
+          "lat": 54.118768
+        }
+      }
+    }
+  ]
+}

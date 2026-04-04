@@ -1,0 +1,511 @@
+{
+  "iso_a3": "MRT",
+  "area_count": 5,
+  "country_bbox": {
+    "minx": -17.5,
+    "maxx": -4.6,
+    "miny": 14.6,
+    "maxy": 27.5
+  },
+  "areas": [
+    {
+      "id": "MRT-01",
+      "area_id": 422,
+      "area_seq_in_source": 1,
+      "name": "北部サハラ・鉱山地域",
+      "name_en": "Northern Sahara and Mining Region",
+      "reason": "Tiris Zemmour を中心とする北部サハラ地帯で、広大な砂漠内陸と鉱山・オアシス拠点の性格が強い地域であるため。",
+      "geometry_wkt": "POLYGON ((-13.800000 27.500000, -7.283936 27.500000, -7.283936 22.796439, -13.800000 22.796439, -13.800000 27.500000))",
+      "bbox": {
+        "minx": -13.8,
+        "maxx": -7.283936,
+        "miny": 22.796439,
+        "maxy": 27.5
+      },
+      "centroid": {
+        "x": -10.541968,
+        "y": 25.148219
+      },
+      "size": {
+        "width": 6.516064,
+        "height": 4.703561
+      },
+      "relative_position": {
+        "x_norm": 0.5394,
+        "y_norm": 0.8177,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "MRT-05"
+        ],
+        "east_of": [
+          "MRT-02",
+          "MRT-03"
+        ],
+        "north_of": [
+          "MRT-02",
+          "MRT-03",
+          "MRT-04",
+          "MRT-05"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "MRT-02",
+            "x_overlap": 0.001172,
+            "y_overlap": 0.003561
+          },
+          {
+            "id": "MRT-03",
+            "x_overlap": 6.505078,
+            "y_overlap": 0.003561
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 11898,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.8468,
+          "GRASS": 0.1256,
+          "OCEAN": 0.0195,
+          "CROPLAND": 0.004,
+          "WATER": 0.0025,
+          "WETLAND": 0.001,
+          "SHRUB": 0.0005,
+          "TREE": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.8252,
+          "LOW": 0.1748
+        },
+        "precip_ratio": {
+          "ARID": 0.9021,
+          "LOW": 0.0784,
+          "MID": 0.0195
+        },
+        "flags_ratio": {
+          "water": 0.6821,
+          "cropland": 0.004,
+          "forest": 0.0007
+        },
+        "cell_bbox_xy": {
+          "min_x": 3913,
+          "max_x": 4144,
+          "min_y": 1506,
+          "max_y": 1805
+        },
+        "cell_centroid": {
+          "x": 4071.478,
+          "y": 1608.936,
+          "lon": -10.334247,
+          "lat": 22.940179
+        }
+      }
+    },
+    {
+      "id": "MRT-02",
+      "area_id": 423,
+      "area_seq_in_source": 2,
+      "name": "北西沿岸・首都圏",
+      "name_en": "Northwestern Coast and Capital Corridor",
+      "reason": "Nouadhibou と Nouakchott を含む大西洋岸の中核帯であり、港湾・首都機能・沿岸都市圏をまとめて扱いやすいため。",
+      "geometry_wkt": "POLYGON ((-17.500000 22.800000, -13.798828 22.800000, -13.798828 15.686510, -17.500000 15.686510, -17.500000 22.800000))",
+      "bbox": {
+        "minx": -17.5,
+        "maxx": -13.798828,
+        "miny": 15.68651,
+        "maxy": 22.8
+      },
+      "centroid": {
+        "x": -15.649414,
+        "y": 19.243255
+      },
+      "size": {
+        "width": 3.701172,
+        "height": 7.11349
+      },
+      "relative_position": {
+        "x_norm": 0.1435,
+        "y_norm": 0.3599,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "MRT-01",
+          "MRT-03",
+          "MRT-04",
+          "MRT-05"
+        ],
+        "east_of": [],
+        "north_of": [
+          "MRT-04"
+        ],
+        "south_of": [
+          "MRT-01",
+          "MRT-03",
+          "MRT-05"
+        ],
+        "overlaps": [
+          {
+            "id": "MRT-01",
+            "x_overlap": 0.001172,
+            "y_overlap": 0.003561
+          },
+          {
+            "id": "MRT-03",
+            "x_overlap": 0.001172,
+            "y_overlap": 6.037532
+          },
+          {
+            "id": "MRT-04",
+            "x_overlap": 0.001172,
+            "y_overlap": 1.11349
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 7916,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.7231,
+          "OCEAN": 0.1592,
+          "GRASS": 0.1156,
+          "WATER": 0.0016,
+          "BUILT": 0.0004,
+          "SHRUB": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.9971,
+          "MID": 0.0029
+        },
+        "precip_ratio": {
+          "ARID": 0.8408,
+          "MID": 0.1592
+        },
+        "flags_ratio": {
+          "water": 0.7856,
+          "built": 0.0004,
+          "forest": 0.0001
+        },
+        "cell_bbox_xy": {
+          "min_x": 3900,
+          "max_x": 3988,
+          "min_y": 1648,
+          "max_y": 1757
+        },
+        "cell_centroid": {
+          "x": 3952.164,
+          "y": 1700.122,
+          "lon": -15.305678,
+          "lat": 19.140764
+        }
+      }
+    },
+    {
+      "id": "MRT-03",
+      "area_id": 424,
+      "area_seq_in_source": 3,
+      "name": "中央高地・内陸地域",
+      "name_en": "Central Plateaus and Interior Region",
+      "reason": "Adrar と Tagant を軸とする中央内陸で、台地・断崖・乾燥高地のまとまりを表しやすい地域であるため。",
+      "geometry_wkt": "POLYGON ((-13.800000 22.800000, -7.294922 22.800000, -7.294922 16.762468, -13.800000 16.762468, -13.800000 22.800000))",
+      "bbox": {
+        "minx": -13.8,
+        "maxx": -7.294922,
+        "miny": 16.762468,
+        "maxy": 22.8
+      },
+      "centroid": {
+        "x": -10.547461,
+        "y": 19.781234
+      },
+      "size": {
+        "width": 6.505078,
+        "height": 6.037532
+      },
+      "relative_position": {
+        "x_norm": 0.539,
+        "y_norm": 0.4016,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "MRT-01",
+          "MRT-04",
+          "MRT-05"
+        ],
+        "east_of": [
+          "MRT-02"
+        ],
+        "north_of": [
+          "MRT-02",
+          "MRT-04"
+        ],
+        "south_of": [
+          "MRT-01",
+          "MRT-05"
+        ],
+        "overlaps": [
+          {
+            "id": "MRT-01",
+            "x_overlap": 6.505078,
+            "y_overlap": 0.003561
+          },
+          {
+            "id": "MRT-02",
+            "x_overlap": 0.001172,
+            "y_overlap": 6.037532
+          },
+          {
+            "id": "MRT-04",
+            "x_overlap": 6.505078,
+            "y_overlap": 0.037532
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 21859,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.9365,
+          "GRASS": 0.0634,
+          "CROPLAND": 0.0
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.8279,
+          "LOW": 0.1721
+        },
+        "precip_ratio": {
+          "ARID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.6616,
+          "cropland": 0.0
+        },
+        "cell_bbox_xy": {
+          "min_x": 3989,
+          "max_x": 4144,
+          "min_y": 1613,
+          "max_y": 1756
+        },
+        "cell_centroid": {
+          "x": 4068.419,
+          "y": 1685.994,
+          "lon": -10.461716,
+          "lat": 19.729428
+        }
+      }
+    },
+    {
+      "id": "MRT-04",
+      "area_id": 425,
+      "area_seq_in_source": 4,
+      "name": "南部セネガル川・サヘル地域",
+      "name_en": "Southern Senegal River and Sahel Region",
+      "reason": "セネガル川流域を中心とする南部帯で、国内で最も明確な河川・農牧業・サヘル性のまとまりを持つ地域であるため。",
+      "geometry_wkt": "POLYGON ((-13.800000 16.800000, -7.283936 16.800000, -7.283936 14.615478, -13.800000 14.615478, -13.800000 16.800000))",
+      "bbox": {
+        "minx": -13.8,
+        "maxx": -7.283936,
+        "miny": 14.615478,
+        "maxy": 16.8
+      },
+      "centroid": {
+        "x": -10.541968,
+        "y": 15.707739
+      },
+      "size": {
+        "width": 6.516064,
+        "height": 2.184522
+      },
+      "relative_position": {
+        "x_norm": 0.5394,
+        "y_norm": 0.0859,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "MRT-05"
+        ],
+        "east_of": [
+          "MRT-02",
+          "MRT-03"
+        ],
+        "north_of": [],
+        "south_of": [
+          "MRT-01",
+          "MRT-02",
+          "MRT-03",
+          "MRT-05"
+        ],
+        "overlaps": [
+          {
+            "id": "MRT-02",
+            "x_overlap": 0.001172,
+            "y_overlap": 1.11349
+          },
+          {
+            "id": "MRT-03",
+            "x_overlap": 6.505078,
+            "y_overlap": 0.037532
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 3507,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.9398,
+          "BARE": 0.0593,
+          "SHRUB": 0.0006,
+          "WETLAND": 0.0003
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.5053,
+          "MID": 0.4947
+        },
+        "precip_ratio": {
+          "LOW": 0.5515,
+          "ARID": 0.4485
+        },
+        "flags_ratio": {
+          "water": 0.6761,
+          "forest": 0.0006
+        },
+        "cell_bbox_xy": {
+          "min_x": 3989,
+          "max_x": 4144,
+          "min_y": 1757,
+          "max_y": 1796
+        },
+        "cell_centroid": {
+          "x": 4088.68,
+          "y": 1772.38,
+          "lon": -9.617485,
+          "lat": 16.129984
+        }
+      }
+    },
+    {
+      "id": "MRT-05",
+      "area_id": 426,
+      "area_seq_in_source": 5,
+      "name": "東部ホード・内陸国境地域",
+      "name_en": "Eastern Hodh and Inland Border Region",
+      "reason": "Hodh el Gharbi と Hodh Ech Chargui を中心とする東部内陸で、広い国境地帯と乾燥平原を一体で扱える地域であるため。",
+      "geometry_wkt": "POLYGON ((-7.272949 26.843677, -4.600000 26.843677, -4.600000 14.600000, -7.272949 14.600000, -7.272949 26.843677))",
+      "bbox": {
+        "minx": -7.272949,
+        "maxx": -4.6,
+        "miny": 14.6,
+        "maxy": 26.843677
+      },
+      "centroid": {
+        "x": -5.936474,
+        "y": 20.721839
+      },
+      "size": {
+        "width": 2.672949,
+        "height": 12.243677
+      },
+      "relative_position": {
+        "x_norm": 0.8964,
+        "y_norm": 0.4746,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "MRT-01",
+          "MRT-02",
+          "MRT-03",
+          "MRT-04"
+        ],
+        "north_of": [
+          "MRT-02",
+          "MRT-03",
+          "MRT-04"
+        ],
+        "south_of": [
+          "MRT-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 7961,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.8419,
+          "GRASS": 0.1568,
+          "SHRUB": 0.0011,
+          "WATER": 0.0003
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 1.0
+        },
+        "precip_ratio": {
+          "ARID": 0.9381,
+          "LOW": 0.0619
+        },
+        "flags_ratio": {
+          "water": 0.6755,
+          "forest": 0.0011
+        },
+        "cell_bbox_xy": {
+          "min_x": 4145,
+          "max_x": 4202,
+          "min_y": 1525,
+          "max_y": 1787
+        },
+        "cell_centroid": {
+          "x": 4161.201,
+          "y": 1671.964,
+          "lon": -6.595808,
+          "lat": 20.313981
+        }
+      }
+    }
+  ]
+}

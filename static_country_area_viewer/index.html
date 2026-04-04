@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>Country Area Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <style>
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+    #wrap { display:grid; grid-template-columns: 1fr 420px; height:100vh; }
+    #map { height:100%; }
+    #side { padding:12px; border-left:1px solid #ddd; overflow:auto; }
+    .row { display:flex; gap:8px; align-items:center; margin:8px 0; }
+    input, button, select { padding:8px; font-size:14px; }
+    input { flex:1; }
+    .card { background:#f6f6f6; border-radius:10px; padding:10px; margin-top:10px; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; white-space:pre-wrap; }
+    .muted { color:#666; font-size:12px; }
+  </style>
+</head>
+<body>
+<div id="wrap">
+  <div id="map"></div>
+  <div id="side">
+    <h2 style="margin:0 0 6px;">国境 + country_area 確認ビューア</h2>
+    <div class="muted">ISO3 や国名を入れると、Natural Earth の国境と country_area.json の分割矩形を重ねて表示します。</div>
+    <div class="row">
+      <input id="key" value="JPN" placeholder="例: JPN / Japan / 日本" />
+      <button id="loadBtn">表示</button>
+    </div>
+    <div class="row">
+      <select id="countrySelect"><option value="">国一覧を読み込み中...</option></select>
+    </div>
+    <div id="out" class="card">未表示</div>
+  </div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script>
+  const map = L.map('map').setView([20, 0], 2);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '&copy; OpenStreetMap' }).addTo(map);
+  const out = document.getElementById('out');
+  const keyInput = document.getElementById('key');
+  const loadBtn = document.getElementById('loadBtn');
+  const countrySelect = document.getElementById('countrySelect');
+  let countryLayer = null;
+  let areasLayer = null;
+  function escapeHtml(s){
+    return String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;');
+  }
+  function renderSummary(j){
+    const rows = [];
+    rows.push(`国: ${j.summary.name} (${j.summary.code})`);
+    rows.push(`矩形数: ${j.summary.area_count}`);
+    rows.push('---');
+    for (const f of j.areas.features) {
+      rows.push(`${f.properties.id} / ${f.properties.name || ''} / ${f.properties.name_en || ''}`);
+    }
+    out.innerHTML = `<div class="mono">${escapeHtml(rows.join('\n'))}</div>`;
+  }
+  function clearLayers(){
+    if (countryLayer) { map.removeLayer(countryLayer); countryLayer = null; }
+    if (areasLayer) { map.removeLayer(areasLayer); areasLayer = null; }
+  }
+  async function loadCountries(){
+    const r = await fetch('/countries');
+    const j = await r.json();
+    countrySelect.innerHTML = '<option value="">国一覧から選択</option>';
+    for (const c of j.countries) {
+      const opt = document.createElement('option');
+      opt.value = c.code;
+      opt.textContent = `${c.name} (${c.code})`;
+      countrySelect.appendChild(opt);
+    }
+  }
+  async function loadCountry(key){
+    const r = await fetch(`/country_view?key=${encodeURIComponent(key)}`);
+    if (!r.ok) throw new Error(await r.text());
+    const j = await r.json();
+    clearLayers();
+    countryLayer = L.geoJSON(j.country, { style: { color: '#0070f3', weight: 3, fill: false } }).addTo(map);
+    areasLayer = L.geoJSON(j.areas, {
+      style: { color: '#ff0000', weight: 2, fill: false },
+      onEachFeature: function(feature, layer){
+        const p = feature.properties || {};
+        layer.bindPopup(
+          `<b>${escapeHtml(p.id || '')}</b><br>${escapeHtml(p.name || '')}<br>${escapeHtml(p.name_en || '')}<br><div class="mono">${escapeHtml(p.reason || '')}</div>`
+        );
+      }
+    }).addTo(map);
+    const group = L.featureGroup([countryLayer, areasLayer]);
+    map.fitBounds(group.getBounds(), { padding: [20, 20] });
+    renderSummary(j);
+  }
+  loadBtn.addEventListener('click', async () => {
+    try { await loadCountry(keyInput.value.trim()); }
+    catch (e) { out.innerHTML = `<div class="mono">${escapeHtml(String(e))}</div>`; }
+  });
+  countrySelect.addEventListener('change', async () => {
+    if (!countrySelect.value) return;
+    keyInput.value = countrySelect.value;
+    try { await loadCountry(countrySelect.value); }
+    catch (e) { out.innerHTML = `<div class="mono">${escapeHtml(String(e))}</div>`; }
+  });
+  (async () => {
+    try {
+      await loadCountries();
+      await loadCountry(keyInput.value.trim());
+    } catch (e) {
+      out.innerHTML = `<div class="mono">${escapeHtml(String(e))}</div>`;
+    }
+  })();
+</script>
+</body>
+</html>

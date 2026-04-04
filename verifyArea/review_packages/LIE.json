@@ -1,0 +1,88 @@
+{
+  "iso_a3": "LIE",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": 9.463348,
+    "maxx": 9.639816,
+    "miny": 47.034567,
+    "maxy": 47.2716
+  },
+  "areas": [
+    {
+      "id": "LIE-01",
+      "area_id": 366,
+      "area_seq_in_source": 1,
+      "name": "リヒテンシュタイン全域",
+      "name_en": "Entire Liechtenstein",
+      "reason": "リヒテンシュタインは国土が狭小であり、地理的・経済的・文化的な特徴が国全体に均質に分布しているため、単一のエリアとして定義するのが最も適切である。ライン川流域の谷間とアルプス山脈の山岳地帯という地形的な特徴は存在するが、国全体が一体として機能している。",
+      "geometry_wkt": "POLYGON ((9.463348 47.271600, 9.639816 47.271600, 9.639816 47.034567, 9.463348 47.034567, 9.463348 47.271600))",
+      "bbox": {
+        "minx": 9.463348,
+        "maxx": 9.639816,
+        "miny": 47.034567,
+        "maxy": 47.2716
+      },
+      "centroid": {
+        "x": 9.551582,
+        "y": 47.153084
+      },
+      "size": {
+        "width": 0.176468,
+        "height": 0.237033
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 9,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.5556,
+          "GRASS": 0.4444
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.6667,
+          "COLD": 0.3333
+        },
+        "elevation_ratio": {
+          "HIGH": 0.5556,
+          "MID": 0.4444
+        },
+        "precip_ratio": {
+          "MID": 0.8889,
+          "LOW": 0.1111
+        },
+        "flags_ratio": {
+          "water": 0.8889,
+          "forest": 0.5556
+        },
+        "cell_bbox_xy": {
+          "min_x": 4548,
+          "max_x": 4550,
+          "min_y": 1026,
+          "max_y": 1030
+        },
+        "cell_centroid": {
+          "x": 4548.556,
+          "y": 1028.444,
+          "lon": 9.543981,
+          "lat": 47.127315
+        }
+      }
+    }
+  ]
+}

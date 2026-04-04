@@ -1,0 +1,297 @@
+{
+  "iso_a3": "TWN",
+  "area_count": 3,
+  "country_bbox": {
+    "minx": 118.146973,
+    "maxx": 122.077332,
+    "miny": 21.815608,
+    "maxy": 26.0
+  },
+  "areas": [
+    {
+      "id": "TW-01",
+      "area_id": 617,
+      "area_seq_in_source": 1,
+      "name": "北部・首都圏",
+      "name_en": "Northern Area & Capital Region",
+      "reason": "台北市を中心とする経済、政治、文化の中心地であり、人口が集中しているため。",
+      "geometry_wkt": "POLYGON ((120.476074 26.000000, 122.077332 26.000000, 122.077332 23.900905, 120.476074 23.900905, 120.476074 26.000000))",
+      "bbox": {
+        "minx": 120.476074,
+        "maxx": 122.077332,
+        "miny": 23.900905,
+        "maxy": 26.0
+      },
+      "centroid": {
+        "x": 121.276703,
+        "y": 24.950453
+      },
+      "size": {
+        "width": 1.601258,
+        "height": 2.099095
+      },
+      "relative_position": {
+        "x_norm": 0.7963,
+        "y_norm": 0.7492,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "TW-02",
+          "TW-03"
+        ],
+        "north_of": [
+          "TW-02",
+          "TW-03"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "TW-02",
+            "x_overlap": 1.367798,
+            "y_overlap": 0.005022
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 1800,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.5478,
+          "TREE": 0.3661,
+          "BUILT": 0.0378,
+          "CROPLAND": 0.0361,
+          "WATER": 0.0117,
+          "GRASS": 0.0006
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.695,
+          "TROPICAL": 0.305
+        },
+        "elevation_ratio": {
+          "LOW": 0.7061,
+          "MID": 0.1233,
+          "HIGH": 0.12,
+          "ULTRA": 0.0506
+        },
+        "precip_ratio": {
+          "MID": 0.6389,
+          "WET": 0.3611
+        },
+        "flags_ratio": {
+          "water": 0.9789,
+          "forest": 0.37,
+          "built": 0.0378,
+          "cropland": 0.0367
+        },
+        "cell_bbox_xy": {
+          "min_x": 7201,
+          "max_x": 7256,
+          "min_y": 1543,
+          "max_y": 1629
+        },
+        "cell_centroid": {
+          "x": 7230.668,
+          "y": 1568.163,
+          "lon": 121.298657,
+          "lat": 24.639051
+        }
+      }
+    },
+    {
+      "id": "TW-02",
+      "area_id": 618,
+      "area_seq_in_source": 2,
+      "name": "中部・内陸部",
+      "name_en": "Central & Inland Area",
+      "reason": "台湾の中央山脈と盆地地形を特徴とし、自然景観と一部の産業地域を含むため。",
+      "geometry_wkt": "POLYGON ((120.443115 23.905927, 121.843872 23.905927, 121.843872 21.815608, 120.443115 21.815608, 120.443115 23.905927))",
+      "bbox": {
+        "minx": 120.443115,
+        "maxx": 121.843872,
+        "miny": 21.815608,
+        "maxy": 23.905927
+      },
+      "centroid": {
+        "x": 121.143494,
+        "y": 22.860768
+      },
+      "size": {
+        "width": 1.400757,
+        "height": 2.090319
+      },
+      "relative_position": {
+        "x_norm": 0.7624,
+        "y_norm": 0.2498,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "TW-01"
+        ],
+        "east_of": [
+          "TW-03"
+        ],
+        "north_of": [],
+        "south_of": [
+          "TW-01",
+          "TW-03"
+        ],
+        "overlaps": [
+          {
+            "id": "TW-01",
+            "x_overlap": 1.367798,
+            "y_overlap": 0.005022
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 1943,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.5795,
+          "TREE": 0.3989,
+          "CROPLAND": 0.0144,
+          "WATER": 0.0046,
+          "BUILT": 0.0026
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.8049,
+          "TEMPERATE": 0.1951
+        },
+        "elevation_ratio": {
+          "LOW": 0.6634,
+          "MID": 0.1379,
+          "HIGH": 0.1369,
+          "ULTRA": 0.0618
+        },
+        "precip_ratio": {
+          "MID": 0.5996,
+          "WET": 0.4004
+        },
+        "flags_ratio": {
+          "water": 0.9671,
+          "forest": 0.402,
+          "cropland": 0.0144,
+          "built": 0.0026
+        },
+        "cell_bbox_xy": {
+          "min_x": 7206,
+          "max_x": 7247,
+          "min_y": 1586,
+          "max_y": 1643
+        },
+        "cell_centroid": {
+          "x": 7226.888,
+          "y": 1614.04,
+          "lon": 121.14118,
+          "lat": 22.727494
+        }
+      }
+    },
+    {
+      "id": "TW-03",
+      "area_id": 619,
+      "area_seq_in_source": 3,
+      "name": "南部・沿海部",
+      "name_en": "Southern & Coastal Area",
+      "reason": "台湾南部の主要都市と沿岸地域を含み、経済活動や文化交流が盛んなため。",
+      "geometry_wkt": "POLYGON ((118.146973 24.582095, 120.432129 24.582095, 120.432129 22.375476, 118.146973 22.375476, 118.146973 24.582095))",
+      "bbox": {
+        "minx": 118.146973,
+        "maxx": 120.432129,
+        "miny": 22.375476,
+        "maxy": 24.582095
+      },
+      "centroid": {
+        "x": 119.289551,
+        "y": 23.478786
+      },
+      "size": {
+        "width": 2.285156,
+        "height": 2.206619
+      },
+      "relative_position": {
+        "x_norm": 0.2907,
+        "y_norm": 0.3975,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "TW-01",
+          "TW-02"
+        ],
+        "east_of": [],
+        "north_of": [
+          "TW-02"
+        ],
+        "south_of": [
+          "TW-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 1120,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.8009,
+          "CROPLAND": 0.0938,
+          "WATER": 0.0402,
+          "TREE": 0.0348,
+          "BUILT": 0.0295,
+          "GRASS": 0.0009
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.583,
+          "TEMPERATE": 0.4161,
+          "POLAR": 0.0009
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9179,
+          "WET": 0.0705,
+          "LOW": 0.0107,
+          "ARID": 0.0009
+        },
+        "flags_ratio": {
+          "water": 0.9875,
+          "cropland": 0.0938,
+          "forest": 0.0348,
+          "built": 0.0295
+        },
+        "cell_bbox_xy": {
+          "min_x": 7157,
+          "max_x": 7209,
+          "min_y": 1571,
+          "max_y": 1628
+        },
+        "cell_centroid": {
+          "x": 7193.665,
+          "y": 1597.03,
+          "lon": 119.756882,
+          "lat": 23.436235
+        }
+      }
+    }
+  ]
+}

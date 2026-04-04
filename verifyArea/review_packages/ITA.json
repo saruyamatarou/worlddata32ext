@@ -1,0 +1,537 @@
+{
+  "iso_a3": "ITA",
+  "area_count": 5,
+  "country_bbox": {
+    "minx": 6.416016,
+    "maxx": 18.94043,
+    "miny": 35.146863,
+    "maxy": 47.294134
+  },
+  "areas": [
+    {
+      "id": "ITA-01",
+      "area_id": 313,
+      "area_seq_in_source": 1,
+      "name": "北イタリア・アルプス・ポー平原",
+      "name_en": "Northern Italy, Alps and Po Valley",
+      "reason": "アルプス山麓とポー平原を含む北部地域。イタリア最大の平野と主要都市・工業集積を抱える中核地帯。",
+      "geometry_wkt": "POLYGON ((6.416016 47.294134, 14.501953 47.294134, 14.501953 43.500752, 6.416016 43.500752, 6.416016 47.294134))",
+      "bbox": {
+        "minx": 6.416016,
+        "maxx": 14.501953,
+        "miny": 43.500752,
+        "maxy": 47.294134
+      },
+      "centroid": {
+        "x": 10.458984,
+        "y": 45.397443
+      },
+      "size": {
+        "width": 8.085937,
+        "height": 3.793382
+      },
+      "relative_position": {
+        "x_norm": 0.3228,
+        "y_norm": 0.8439,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ITA-02",
+          "ITA-03",
+          "ITA-04"
+        ],
+        "east_of": [
+          "ITA-05"
+        ],
+        "north_of": [
+          "ITA-02",
+          "ITA-03",
+          "ITA-04",
+          "ITA-05"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "ITA-02",
+            "x_overlap": 6.525879,
+            "y_overlap": 0.031868
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 11188,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.4275,
+          "CROPLAND": 0.2255,
+          "OCEAN": 0.1997,
+          "GRASS": 0.0973,
+          "BUILT": 0.018,
+          "WATER": 0.0118,
+          "BARE": 0.0114,
+          "SNOW_ICE": 0.0066,
+          "SHRUB": 0.0012,
+          "MOSS_LICHEN": 0.0009,
+          "WETLAND": 0.0001
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.8483,
+          "COLD": 0.1492,
+          "TROPICAL": 0.0017,
+          "POLAR": 0.0008
+        },
+        "elevation_ratio": {
+          "LOW": 0.4926,
+          "MID": 0.2406,
+          "HIGH": 0.1991,
+          "ULTRA": 0.0678
+        },
+        "precip_ratio": {
+          "LOW": 0.5369,
+          "MID": 0.4599,
+          "WET": 0.0024,
+          "ARID": 0.0008
+        },
+        "flags_ratio": {
+          "water": 0.8224,
+          "forest": 0.4289,
+          "cropland": 0.2257,
+          "built": 0.018,
+          "ice": 0.0066
+        },
+        "cell_bbox_xy": {
+          "min_x": 4478,
+          "max_x": 4717,
+          "min_y": 1030,
+          "max_y": 1259
+        },
+        "cell_centroid": {
+          "x": 4572.99,
+          "y": 1085.564,
+          "lon": 10.562094,
+          "lat": 44.747326
+        }
+      }
+    },
+    {
+      "id": "ITA-02",
+      "area_id": 314,
+      "area_seq_in_source": 2,
+      "name": "中部イタリア",
+      "name_en": "Central Italy",
+      "reason": "トスカーナ、ウンブリア、ラツィオなどを含む中部地域。アペニン山脈と両側の沿岸帯をまたぐ歴史・文化の中核域。",
+      "geometry_wkt": "POLYGON ((7.976074 43.532620, 17.468262 43.532620, 17.468262 41.286062, 7.976074 41.286062, 7.976074 43.532620))",
+      "bbox": {
+        "minx": 7.976074,
+        "maxx": 17.468262,
+        "miny": 41.286062,
+        "maxy": 43.53262
+      },
+      "centroid": {
+        "x": 12.722168,
+        "y": 42.409341
+      },
+      "size": {
+        "width": 9.492188,
+        "height": 2.246558
+      },
+      "relative_position": {
+        "x_norm": 0.5035,
+        "y_norm": 0.5979,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ITA-03",
+          "ITA-04"
+        ],
+        "east_of": [
+          "ITA-01",
+          "ITA-05"
+        ],
+        "north_of": [
+          "ITA-03",
+          "ITA-04",
+          "ITA-05"
+        ],
+        "south_of": [
+          "ITA-01"
+        ],
+        "overlaps": [
+          {
+            "id": "ITA-01",
+            "x_overlap": 6.525879,
+            "y_overlap": 0.031868
+          },
+          {
+            "id": "ITA-05",
+            "x_overlap": 2.109375,
+            "y_overlap": 0.037139
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 6341,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.4212,
+          "OCEAN": 0.3346,
+          "CROPLAND": 0.173,
+          "GRASS": 0.0462,
+          "WATER": 0.0131,
+          "BUILT": 0.0066,
+          "SHRUB": 0.0052
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.997,
+          "COLD": 0.003
+        },
+        "elevation_ratio": {
+          "LOW": 0.5343,
+          "MID": 0.3509,
+          "HIGH": 0.114,
+          "ULTRA": 0.0008
+        },
+        "precip_ratio": {
+          "LOW": 0.6245,
+          "MID": 0.3602,
+          "ARID": 0.0153
+        },
+        "flags_ratio": {
+          "water": 0.7661,
+          "forest": 0.4269,
+          "cropland": 0.173,
+          "built": 0.0066
+        },
+        "cell_bbox_xy": {
+          "min_x": 4555,
+          "max_x": 4718,
+          "min_y": 1112,
+          "max_y": 1174
+        },
+        "cell_centroid": {
+          "x": 4632.464,
+          "y": 1142.653,
+          "lon": 13.040172,
+          "lat": 42.368623
+        }
+      }
+    },
+    {
+      "id": "ITA-03",
+      "area_id": 315,
+      "area_seq_in_source": 3,
+      "name": "南部イタリア本土",
+      "name_en": "Southern Mainland Italy",
+      "reason": "カンパニア、プッリャ、カラブリアなどを含む南部本土。細長い半島南部とイオニア海・ティレニア海沿岸をまとめて扱う区分。",
+      "geometry_wkt": "POLYGON ((12.052002 41.277806, 18.940430 41.277806, 18.940430 38.324420, 12.052002 38.324420, 12.052002 41.277806))",
+      "bbox": {
+        "minx": 12.052002,
+        "maxx": 18.94043,
+        "miny": 38.32442,
+        "maxy": 41.277806
+      },
+      "centroid": {
+        "x": 15.496216,
+        "y": 39.801113
+      },
+      "size": {
+        "width": 6.888428,
+        "height": 2.953386
+      },
+      "relative_position": {
+        "x_norm": 0.725,
+        "y_norm": 0.3832,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "ITA-01",
+          "ITA-02",
+          "ITA-04",
+          "ITA-05"
+        ],
+        "north_of": [
+          "ITA-04"
+        ],
+        "south_of": [
+          "ITA-01",
+          "ITA-02",
+          "ITA-05"
+        ],
+        "overlaps": [
+          {
+            "id": "ITA-04",
+            "x_overlap": 3.691406,
+            "y_overlap": 0.017236
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 6608,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.5489,
+          "TREE": 0.2725,
+          "CROPLAND": 0.1061,
+          "GRASS": 0.0524,
+          "WATER": 0.0091,
+          "BUILT": 0.0079,
+          "SHRUB": 0.0032
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9986,
+          "TROPICAL": 0.0014
+        },
+        "elevation_ratio": {
+          "LOW": 0.7073,
+          "MID": 0.2261,
+          "HIGH": 0.0666
+        },
+        "precip_ratio": {
+          "MID": 0.5543,
+          "LOW": 0.4457
+        },
+        "flags_ratio": {
+          "water": 0.7901,
+          "forest": 0.2759,
+          "cropland": 0.1061,
+          "built": 0.0079
+        },
+        "cell_bbox_xy": {
+          "min_x": 4625,
+          "max_x": 4773,
+          "min_y": 1160,
+          "max_y": 1248
+        },
+        "cell_centroid": {
+          "x": 4707.573,
+          "y": 1197.928,
+          "lon": 16.169706,
+          "lat": 40.065501
+        }
+      }
+    },
+    {
+      "id": "ITA-04",
+      "area_id": 316,
+      "area_seq_in_source": 4,
+      "name": "シチリア島",
+      "name_en": "Sicily",
+      "reason": "地中海最大級の島であり、本土とは独立した地理・交通・経済圏を持つため、単独区分が自然。",
+      "geometry_wkt": "POLYGON ((11.469727 38.341656, 15.743408 38.341656, 15.743408 35.146863, 11.469727 35.146863, 11.469727 38.341656))",
+      "bbox": {
+        "minx": 11.469727,
+        "maxx": 15.743408,
+        "miny": 35.146863,
+        "maxy": 38.341656
+      },
+      "centroid": {
+        "x": 13.606568,
+        "y": 36.744259
+      },
+      "size": {
+        "width": 4.273681,
+        "height": 3.194793
+      },
+      "relative_position": {
+        "x_norm": 0.5741,
+        "y_norm": 0.1315,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ITA-03"
+        ],
+        "east_of": [
+          "ITA-01",
+          "ITA-02",
+          "ITA-05"
+        ],
+        "north_of": [],
+        "south_of": [
+          "ITA-01",
+          "ITA-02",
+          "ITA-03",
+          "ITA-05"
+        ],
+        "overlaps": [
+          {
+            "id": "ITA-03",
+            "x_overlap": 3.691406,
+            "y_overlap": 0.017236
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 4466,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.6567,
+          "GRASS": 0.1574,
+          "TREE": 0.0898,
+          "CROPLAND": 0.0786,
+          "WATER": 0.0119,
+          "BUILT": 0.004,
+          "BARE": 0.0016
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.985,
+          "TROPICAL": 0.0146,
+          "COLD": 0.0004
+        },
+        "elevation_ratio": {
+          "LOW": 0.7461,
+          "MID": 0.2154,
+          "HIGH": 0.0376,
+          "ULTRA": 0.0009
+        },
+        "precip_ratio": {
+          "MID": 0.6567,
+          "LOW": 0.3433
+        },
+        "flags_ratio": {
+          "water": 0.8099,
+          "forest": 0.09,
+          "cropland": 0.0786,
+          "built": 0.004
+        },
+        "cell_bbox_xy": {
+          "min_x": 4596,
+          "max_x": 4697,
+          "min_y": 1232,
+          "max_y": 1309
+        },
+        "cell_centroid": {
+          "x": 4649.107,
+          "y": 1261.805,
+          "lon": 13.733645,
+          "lat": 37.403969
+        }
+      }
+    },
+    {
+      "id": "ITA-05",
+      "area_id": 317,
+      "area_seq_in_source": 5,
+      "name": "サルデーニャ島",
+      "name_en": "Sardinia",
+      "reason": "ティレニア海西部の大島で、本土・シチリアとは異なる独自の地理的まとまりを持つため、別区分とするのが自然。",
+      "geometry_wkt": "POLYGON ((7.844238 41.323201, 10.085449 41.323201, 10.085449 38.634036, 7.844238 38.634036, 7.844238 41.323201))",
+      "bbox": {
+        "minx": 7.844238,
+        "maxx": 10.085449,
+        "miny": 38.634036,
+        "maxy": 41.323201
+      },
+      "centroid": {
+        "x": 8.964844,
+        "y": 39.978618
+      },
+      "size": {
+        "width": 2.241211,
+        "height": 2.689165
+      },
+      "relative_position": {
+        "x_norm": 0.2035,
+        "y_norm": 0.3978,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ITA-01",
+          "ITA-02",
+          "ITA-03",
+          "ITA-04"
+        ],
+        "east_of": [],
+        "north_of": [
+          "ITA-03",
+          "ITA-04"
+        ],
+        "south_of": [
+          "ITA-01",
+          "ITA-02"
+        ],
+        "overlaps": [
+          {
+            "id": "ITA-02",
+            "x_overlap": 2.109375,
+            "y_overlap": 0.037139
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 3174,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.546,
+          "TREE": 0.2486,
+          "GRASS": 0.1109,
+          "CROPLAND": 0.0555,
+          "WATER": 0.0186,
+          "SHRUB": 0.0183,
+          "BUILT": 0.0022
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.7076,
+          "MID": 0.2628,
+          "HIGH": 0.0296
+        },
+        "precip_ratio": {
+          "MID": 0.546,
+          "LOW": 0.454
+        },
+        "flags_ratio": {
+          "water": 0.7867,
+          "forest": 0.2672,
+          "cropland": 0.0555,
+          "built": 0.0022
+        },
+        "cell_bbox_xy": {
+          "min_x": 4505,
+          "max_x": 4565,
+          "min_y": 1167,
+          "max_y": 1236
+        },
+        "cell_centroid": {
+          "x": 4534.374,
+          "y": 1201.15,
+          "lon": 8.953082,
+          "lat": 39.931264
+        }
+      }
+    }
+  ]
+}

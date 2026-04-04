@@ -1,0 +1,188 @@
+{
+  "iso_a3": "CYP",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": 32.203674,
+    "maxx": 34.870605,
+    "miny": 34.434098,
+    "maxy": 35.817813
+  },
+  "areas": [
+    {
+      "id": "CYP-01",
+      "area_id": 172,
+      "area_seq_in_source": 1,
+      "name": "キプロス北部",
+      "name_en": "Northern Cyprus",
+      "reason": "トルコ系住民が多く居住し、トルコとの経済的・文化的な繋がりが強い地域。地理的にも島の北部に位置する。",
+      "geometry_wkt": "POLYGON ((32.246246 35.817813, 34.870605 35.817813, 34.870605 35.081708, 32.246246 35.081708, 32.246246 35.817813))",
+      "bbox": {
+        "minx": 32.246246,
+        "maxx": 34.870605,
+        "miny": 35.081708,
+        "maxy": 35.817813
+      },
+      "centroid": {
+        "x": 33.558425,
+        "y": 35.44976
+      },
+      "size": {
+        "width": 2.624359,
+        "height": 0.736105
+      },
+      "relative_position": {
+        "x_norm": 0.508,
+        "y_norm": 0.734,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "CYP-02"
+        ],
+        "north_of": [
+          "CYP-02"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 345,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.6319,
+          "CROPLAND": 0.1188,
+          "GRASS": 0.1014,
+          "TREE": 0.0928,
+          "WATER": 0.029,
+          "BUILT": 0.0232,
+          "SHRUB": 0.0029
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.6754,
+          "TROPICAL": 0.3246
+        },
+        "elevation_ratio": {
+          "LOW": 0.8493,
+          "MID": 0.1507
+        },
+        "precip_ratio": {
+          "MID": 0.6319,
+          "LOW": 0.3681
+        },
+        "flags_ratio": {
+          "water": 0.8232,
+          "cropland": 0.1188,
+          "forest": 0.0957,
+          "built": 0.0232
+        },
+        "cell_bbox_xy": {
+          "min_x": 5094,
+          "max_x": 5128,
+          "min_y": 1306,
+          "max_y": 1317
+        },
+        "cell_centroid": {
+          "x": 5111.351,
+          "y": 1311.6,
+          "lon": 32.99378,
+          "lat": 35.329167
+        }
+      }
+    },
+    {
+      "id": "CYP-02",
+      "area_id": 173,
+      "area_seq_in_source": 2,
+      "name": "キプロス南部",
+      "name_en": "Southern Cyprus",
+      "reason": "ギリシャ系住民が多く居住し、EU加盟国としての経済的・文化的な中心地。地理的にも島の南部に位置し、首都ニコシアも含まれる。",
+      "geometry_wkt": "POLYGON ((32.203674 35.081708, 34.178467 35.081708, 34.178467 34.434098, 32.203674 34.434098, 32.203674 35.081708))",
+      "bbox": {
+        "minx": 32.203674,
+        "maxx": 34.178467,
+        "miny": 34.434098,
+        "maxy": 35.081708
+      },
+      "centroid": {
+        "x": 33.19107,
+        "y": 34.757903
+      },
+      "size": {
+        "width": 1.974793,
+        "height": 0.64761
+      },
+      "relative_position": {
+        "x_norm": 0.3702,
+        "y_norm": 0.234,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CYP-01"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "CYP-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 1215,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.6979,
+          "GRASS": 0.1391,
+          "TREE": 0.0831,
+          "CROPLAND": 0.0609,
+          "WATER": 0.0107,
+          "BUILT": 0.0049,
+          "SHRUB": 0.0025,
+          "BARE": 0.0008
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.8346,
+          "TROPICAL": 0.1654
+        },
+        "elevation_ratio": {
+          "LOW": 0.8206,
+          "MID": 0.1465,
+          "HIGH": 0.0329
+        },
+        "precip_ratio": {
+          "MID": 0.6979,
+          "LOW": 0.3021
+        },
+        "flags_ratio": {
+          "water": 0.7523,
+          "forest": 0.0856,
+          "cropland": 0.0609,
+          "built": 0.0049
+        },
+        "cell_bbox_xy": {
+          "min_x": 5085,
+          "max_x": 5147,
+          "min_y": 1307,
+          "max_y": 1338
+        },
+        "cell_centroid": {
+          "x": 5115.312,
+          "y": 1323.599,
+          "lon": 33.158831,
+          "lat": 34.829201
+        }
+      }
+    }
+  ]
+}

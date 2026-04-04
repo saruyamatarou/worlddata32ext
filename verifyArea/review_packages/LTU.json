@@ -1,0 +1,182 @@
+{
+  "iso_a3": "LTU",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": 20.566406,
+    "maxx": 26.883545,
+    "miny": 53.787672,
+    "maxy": 56.571589
+  },
+  "areas": [
+    {
+      "id": "LT-01",
+      "area_id": 370,
+      "area_seq_in_source": 1,
+      "name": "リトアニア西部",
+      "name_en": "Western Lithuania",
+      "reason": "バルト海に面し、クライペダ港を中心とした経済・物流の要衝であるため。また、クルシュー砂州などの自然景観も特徴的。",
+      "geometry_wkt": "POLYGON ((20.566406 56.571589, 23.247070 56.571589, 23.247070 54.181727, 20.566406 54.181727, 20.566406 56.571589))",
+      "bbox": {
+        "minx": 20.566406,
+        "maxx": 23.24707,
+        "miny": 54.181727,
+        "maxy": 56.571589
+      },
+      "centroid": {
+        "x": 21.906738,
+        "y": 55.376658
+      },
+      "size": {
+        "width": 2.680664,
+        "height": 2.389862
+      },
+      "relative_position": {
+        "x_norm": 0.2122,
+        "y_norm": 0.5708,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "LT-02"
+        ],
+        "east_of": [],
+        "north_of": [
+          "LT-02"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 3354,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "CROPLAND": 0.4502,
+          "TREE": 0.3584,
+          "GRASS": 0.1294,
+          "OCEAN": 0.0525,
+          "WATER": 0.0066,
+          "BUILT": 0.0021,
+          "WETLAND": 0.0009
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9475,
+          "COLD": 0.0525
+        },
+        "elevation_ratio": {
+          "LOW": 0.9958,
+          "MID": 0.0042
+        },
+        "precip_ratio": {
+          "LOW": 0.9475,
+          "MID": 0.0525
+        },
+        "flags_ratio": {
+          "water": 0.6431,
+          "cropland": 0.4502,
+          "forest": 0.3584,
+          "built": 0.0021
+        },
+        "cell_bbox_xy": {
+          "min_x": 4815,
+          "max_x": 4962,
+          "min_y": 806,
+          "max_y": 865
+        },
+        "cell_centroid": {
+          "x": 4875.074,
+          "y": 825.341,
+          "lon": 23.148914,
+          "lat": 55.589942
+        }
+      }
+    },
+    {
+      "id": "LT-02",
+      "area_id": 371,
+      "area_seq_in_source": 2,
+      "name": "リトアニア東部",
+      "name_en": "Eastern Lithuania",
+      "reason": "首都ヴィリニュスを含む内陸部で、歴史的・文化的中心地。ポーランド、ベラルーシ、ロシアとの国境に接し、多様な文化の影響を受けている。",
+      "geometry_wkt": "POLYGON ((23.247070 56.571589, 26.883545 56.571589, 26.883545 53.787672, 23.247070 53.787672, 23.247070 56.571589))",
+      "bbox": {
+        "minx": 23.24707,
+        "maxx": 26.883545,
+        "miny": 53.787672,
+        "maxy": 56.571589
+      },
+      "centroid": {
+        "x": 25.065308,
+        "y": 55.179631
+      },
+      "size": {
+        "width": 3.636475,
+        "height": 2.783917
+      },
+      "relative_position": {
+        "x_norm": 0.7122,
+        "y_norm": 0.5,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "LT-01"
+        ],
+        "north_of": [],
+        "south_of": [
+          "LT-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 2117,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.6051,
+          "CROPLAND": 0.3099,
+          "GRASS": 0.0746,
+          "WATER": 0.0066,
+          "BUILT": 0.0038
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.9688,
+          "MID": 0.0312
+        },
+        "precip_ratio": {
+          "LOW": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.6056,
+          "forest": 0.6051,
+          "cropland": 0.3099,
+          "built": 0.0038
+        },
+        "cell_bbox_xy": {
+          "min_x": 4884,
+          "max_x": 4961,
+          "min_y": 820,
+          "max_y": 866
+        },
+        "cell_centroid": {
+          "x": 4915.075,
+          "y": 841.063,
+          "lon": 24.81561,
+          "lat": 54.934882
+        }
+      }
+    }
+  ]
+}

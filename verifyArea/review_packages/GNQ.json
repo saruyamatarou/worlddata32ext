@@ -1,0 +1,94 @@
+{
+  "iso_a3": "GNQ",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": 7.426758,
+    "maxx": 11.45874,
+    "miny": 0.867887,
+    "maxy": 4.105369
+  },
+  "areas": [
+    {
+      "id": "GNQ-01",
+      "area_id": 252,
+      "area_seq_in_source": 1,
+      "name": "赤道ギニア全域",
+      "name_en": "Entire Rio Muni",
+      "reason": "赤道ギニアは単一の地理的・政治的実体であり、経済的・文化的な分断の根拠が乏しいため、全体を一つのエリアとして定義します。",
+      "geometry_wkt": "POLYGON ((7.426758 4.105369, 11.458740 4.105369, 11.458740 0.867887, 7.426758 0.867887, 7.426758 4.105369))",
+      "bbox": {
+        "minx": 7.426758,
+        "maxx": 11.45874,
+        "miny": 0.867887,
+        "maxy": 4.105369
+      },
+      "centroid": {
+        "x": 9.442749,
+        "y": 2.486628
+      },
+      "size": {
+        "width": 4.031982,
+        "height": 3.237482
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 2265,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.5422,
+          "OCEAN": 0.4481,
+          "WATER": 0.0053,
+          "MANGROVE": 0.0031,
+          "BUILT": 0.0013
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9978,
+          "TEMPERATE": 0.0022
+        },
+        "elevation_ratio": {
+          "LOW": 0.5625,
+          "MID": 0.415,
+          "HIGH": 0.0216,
+          "ULTRA": 0.0009
+        },
+        "precip_ratio": {
+          "MID": 0.5664,
+          "WET": 0.4336
+        },
+        "flags_ratio": {
+          "water": 0.9563,
+          "forest": 0.5466,
+          "built": 0.0013
+        },
+        "cell_bbox_xy": {
+          "min_x": 4512,
+          "max_x": 4591,
+          "min_y": 2061,
+          "max_y": 2138
+        },
+        "cell_centroid": {
+          "x": 4552.677,
+          "y": 2107.935,
+          "lon": 9.715701,
+          "lat": 2.148538
+        }
+      }
+    }
+  ]
+}

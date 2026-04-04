@@ -1,0 +1,517 @@
+{
+  "iso_a3": "BEL",
+  "area_count": 7,
+  "country_bbox": {
+    "minx": 2.384033,
+    "maxx": 6.421509,
+    "miny": 49.457413,
+    "maxy": 51.6
+  },
+  "areas": [
+    {
+      "id": "BEL-01",
+      "area_id": 60,
+      "area_seq_in_source": 1,
+      "name": "ブラバン・ワロン州 北部",
+      "name_en": "Northern Brabant-Walloon Region",
+      "reason": "都市化が進み、産業活動が活発な北部地域。",
+      "geometry_wkt": "POLYGON ((5.33333 51.33333, 4.79999 51.33333, 4.79999 50.80000, 5.33333 50.80000, 5.33333 51.33333))",
+      "bbox": {
+        "minx": 4.79999,
+        "maxx": 5.33333,
+        "miny": 50.8,
+        "maxy": 51.33333
+      },
+      "centroid": {
+        "x": 5.06666,
+        "y": 51.066665
+      },
+      "size": {
+        "width": 0.53334,
+        "height": 0.53333
+      },
+      "relative_position": {
+        "x_norm": 0.6644,
+        "y_norm": 0.7511,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "BEL-02",
+          "BEL-05"
+        ],
+        "east_of": [
+          "BEL-02",
+          "BEL-01",
+          "BEL-03",
+          "BEL-04"
+        ],
+        "north_of": [
+          "BEL-02",
+          "BEL-04",
+          "BEL-05"
+        ],
+        "south_of": [
+          "BEL-01",
+          "BEL-02",
+          "BEL-03"
+        ],
+        "overlaps": [
+          {
+            "id": "BEL-02",
+            "x_overlap": 0.53334,
+            "y_overlap": 0.53333
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 2441,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.3806,
+          "CROPLAND": 0.3027,
+          "GRASS": 0.1835,
+          "OCEAN": 0.0807,
+          "BUILT": 0.0467,
+          "WATER": 0.0057
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9193,
+          "COLD": 0.0807
+        },
+        "elevation_ratio": {
+          "LOW": 0.7022,
+          "MID": 0.2978
+        },
+        "precip_ratio": {
+          "LOW": 0.8054,
+          "MID": 0.1946
+        },
+        "flags_ratio": {
+          "water": 0.7145,
+          "forest": 0.3806,
+          "cropland": 0.3027,
+          "built": 0.0471
+        },
+        "cell_bbox_xy": {
+          "min_x": 4378,
+          "max_x": 4472,
+          "min_y": 918,
+          "max_y": 971
+        },
+        "cell_centroid": {
+          "x": 4427.446,
+          "y": 942.622,
+          "lon": 4.497738,
+          "lat": 50.703255
+        }
+      }
+    },
+    {
+      "id": "BEL-02",
+      "area_id": 61,
+      "area_seq_in_source": 2,
+      "name": "ブラバン・ワロン州 南部",
+      "name_en": "Southern Brabant-Walloon Region",
+      "reason": "農業が中心で、より田園風景が広がる南部地域。",
+      "geometry_wkt": "POLYGON ((4.79999 50.80000, 4.00000 50.80000, 4.00000 50.00000, 4.79999 50.00000, 4.79999 50.80000))",
+      "bbox": {
+        "minx": 4.0,
+        "maxx": 4.79999,
+        "miny": 50.0,
+        "maxy": 50.8
+      },
+      "centroid": {
+        "x": 4.399995,
+        "y": 50.4
+      },
+      "size": {
+        "width": 0.79999,
+        "height": 0.8
+      },
+      "relative_position": {
+        "x_norm": 0.4993,
+        "y_norm": 0.4399,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "BEL-01",
+          "BEL-02",
+          "BEL-04",
+          "BEL-05"
+        ],
+        "east_of": [
+          "BEL-01",
+          "BEL-03"
+        ],
+        "north_of": [
+          "BEL-05"
+        ],
+        "south_of": [
+          "BEL-01",
+          "BEL-01",
+          "BEL-02",
+          "BEL-03",
+          "BEL-04"
+        ],
+        "overlaps": [
+          {
+            "id": "BEL-02",
+            "x_overlap": 0.008234,
+            "y_overlap": 0.108653
+          },
+          {
+            "id": "BEL-03",
+            "x_overlap": 0.79167,
+            "y_overlap": 0.109197
+          },
+          {
+            "id": "BEL-04",
+            "x_overlap": 0.79999,
+            "y_overlap": 0.57066
+          },
+          {
+            "id": "BEL-05",
+            "x_overlap": 0.757021,
+            "y_overlap": 0.117056
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "BEL-01",
+      "area_id": 83,
+      "area_seq_in_source": 3,
+      "name": "北西フランデレン沿岸",
+      "name_en": "Northwest Flanders Coast",
+      "reason": "北海沿岸とその周辺低地を含むフランデレン西部。港湾、沿岸都市、平坦な地形が特徴。",
+      "geometry_wkt": "POLYGON ((2.400000 51.600000, 3.981514 51.600000, 3.981514 50.691238, 2.400000 50.691238, 2.400000 51.600000))",
+      "bbox": {
+        "minx": 2.4,
+        "maxx": 3.981514,
+        "miny": 50.691238,
+        "maxy": 51.6
+      },
+      "centroid": {
+        "x": 3.190757,
+        "y": 51.145619
+      },
+      "size": {
+        "width": 1.581514,
+        "height": 0.908762
+      },
+      "relative_position": {
+        "x_norm": 0.1998,
+        "y_norm": 0.7879,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "BEL-01",
+          "BEL-02",
+          "BEL-02",
+          "BEL-03",
+          "BEL-04",
+          "BEL-05"
+        ],
+        "east_of": [],
+        "north_of": [
+          "BEL-01",
+          "BEL-02",
+          "BEL-03",
+          "BEL-04",
+          "BEL-05"
+        ],
+        "south_of": [
+          "BEL-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "BEL-02",
+      "area_id": 84,
+      "area_seq_in_source": 4,
+      "name": "北東フランデレン内陸",
+      "name_en": "Northeast Flanders Inland",
+      "reason": "アントウェルペン周辺を含むフランデレン北東部。物流、工業、内陸都市圏のまとまりが強い。",
+      "geometry_wkt": "POLYGON ((4.791756 51.600000, 6.273193 51.600000, 6.273193 50.691347, 4.791756 50.691347, 4.791756 51.600000))",
+      "bbox": {
+        "minx": 4.791756,
+        "maxx": 6.273193,
+        "miny": 50.691347,
+        "maxy": 51.6
+      },
+      "centroid": {
+        "x": 5.532475,
+        "y": 51.145674
+      },
+      "size": {
+        "width": 1.481437,
+        "height": 0.908653
+      },
+      "relative_position": {
+        "x_norm": 0.7798,
+        "y_norm": 0.788,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "BEL-01",
+          "BEL-02",
+          "BEL-01",
+          "BEL-03",
+          "BEL-04",
+          "BEL-05"
+        ],
+        "north_of": [
+          "BEL-01",
+          "BEL-02",
+          "BEL-01",
+          "BEL-03",
+          "BEL-04",
+          "BEL-05"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "BEL-01",
+            "x_overlap": 0.53334,
+            "y_overlap": 0.53333
+          },
+          {
+            "id": "BEL-02",
+            "x_overlap": 0.008234,
+            "y_overlap": 0.108653
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "BEL-03",
+      "area_id": 85,
+      "area_seq_in_source": 5,
+      "name": "ブリュッセル首都圏",
+      "name_en": "Brussels Metropolitan Area",
+      "reason": "ベルギーの政治・行政・国際機関が集中する中枢都市圏であり、独立管理が自然。",
+      "geometry_wkt": "POLYGON ((3.981514 51.597548, 4.791670 51.597548, 4.791670 50.690803, 3.981514 50.690803, 3.981514 51.597548))",
+      "bbox": {
+        "minx": 3.981514,
+        "maxx": 4.79167,
+        "miny": 50.690803,
+        "maxy": 51.597548
+      },
+      "centroid": {
+        "x": 4.386592,
+        "y": 51.144176
+      },
+      "size": {
+        "width": 0.810156,
+        "height": 0.906745
+      },
+      "relative_position": {
+        "x_norm": 0.496,
+        "y_norm": 0.7873,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "BEL-01",
+          "BEL-02",
+          "BEL-02",
+          "BEL-04",
+          "BEL-05"
+        ],
+        "east_of": [
+          "BEL-01"
+        ],
+        "north_of": [
+          "BEL-01",
+          "BEL-02",
+          "BEL-04",
+          "BEL-05"
+        ],
+        "south_of": [
+          "BEL-01",
+          "BEL-02"
+        ],
+        "overlaps": [
+          {
+            "id": "BEL-02",
+            "x_overlap": 0.79167,
+            "y_overlap": 0.109197
+          },
+          {
+            "id": "BEL-04",
+            "x_overlap": 0.810156,
+            "y_overlap": 0.000435
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "BEL-04",
+      "area_id": 86,
+      "area_seq_in_source": 6,
+      "name": "ワロン北部中軸",
+      "name_en": "Northern Wallonia Corridor",
+      "reason": "シャルルロワ、ナミュール、リエージュ方面を含むワロン北部の都市・交通軸。",
+      "geometry_wkt": "POLYGON ((2.384033 50.691238, 6.421509 50.691238, 6.421509 50.120578, 2.384033 50.120578, 2.384033 50.691238))",
+      "bbox": {
+        "minx": 2.384033,
+        "maxx": 6.421509,
+        "miny": 50.120578,
+        "maxy": 50.691238
+      },
+      "centroid": {
+        "x": 4.402771,
+        "y": 50.405908
+      },
+      "size": {
+        "width": 4.037476,
+        "height": 0.57066
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.4427,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "BEL-01",
+          "BEL-02",
+          "BEL-05"
+        ],
+        "east_of": [
+          "BEL-02",
+          "BEL-01",
+          "BEL-03"
+        ],
+        "north_of": [
+          "BEL-02",
+          "BEL-05"
+        ],
+        "south_of": [
+          "BEL-01",
+          "BEL-01",
+          "BEL-02",
+          "BEL-03"
+        ],
+        "overlaps": [
+          {
+            "id": "BEL-02",
+            "x_overlap": 0.79999,
+            "y_overlap": 0.57066
+          },
+          {
+            "id": "BEL-03",
+            "x_overlap": 0.810156,
+            "y_overlap": 0.000435
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "BEL-05",
+      "area_id": 87,
+      "area_seq_in_source": 7,
+      "name": "ワロン南部アルデンヌ",
+      "name_en": "Southern Wallonia Ardennes",
+      "reason": "ベルギー南部の丘陵・森林地帯であるアルデンヌを中心とする地域。北部平野部と地形的性格が大きく異なる。",
+      "geometry_wkt": "POLYGON ((4.042969 50.117056, 6.157837 50.117056, 6.157837 49.457413, 4.042969 49.457413, 4.042969 50.117056))",
+      "bbox": {
+        "minx": 4.042969,
+        "maxx": 6.157837,
+        "miny": 49.457413,
+        "maxy": 50.117056
+      },
+      "centroid": {
+        "x": 5.100403,
+        "y": 49.787234
+      },
+      "size": {
+        "width": 2.114868,
+        "height": 0.659643
+      },
+      "relative_position": {
+        "x_norm": 0.6728,
+        "y_norm": 0.1539,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "BEL-02"
+        ],
+        "east_of": [
+          "BEL-01",
+          "BEL-02",
+          "BEL-01",
+          "BEL-03",
+          "BEL-04"
+        ],
+        "north_of": [],
+        "south_of": [
+          "BEL-01",
+          "BEL-02",
+          "BEL-01",
+          "BEL-02",
+          "BEL-03",
+          "BEL-04"
+        ],
+        "overlaps": [
+          {
+            "id": "BEL-02",
+            "x_overlap": 0.757021,
+            "y_overlap": 0.117056
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    }
+  ]
+}

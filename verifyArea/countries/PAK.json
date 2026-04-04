@@ -1,0 +1,74 @@
+[
+  {
+    "id": "PAK-01",
+    "name": "北部山岳地帯",
+    "name_en": "Northern Mountainous Region",
+    "reason": "カラコルム山脈、ヒマラヤ山脈、ヒンドゥークシュ山脈といった険しい山岳地帯であり、寒冷な気候と独特の文化を持つため。K2やナンガ・パルバットなどの高峰が存在する。",
+    "geometry_wkt": "POLYGON ((70.872803 37.085858, 77.129517 37.085858, 77.129517 33.998027, 70.872803 33.998027, 70.872803 37.085858))",
+    "area_id": 469,
+    "source_row_index": 469,
+    "iso_a3_source": "PAK",
+    "iso_a3": "PAK",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "PAK-02",
+    "name": "北西部高原・山岳地帯",
+    "name_en": "Northwestern Plateau and Mountainous Region",
+    "reason": "アフガニスタンとの国境付近に位置し、山岳地帯と高原が混在する。歴史的な交易路（カイバル峠など）があり、多様な民族文化の影響が見られる。",
+    "geometry_wkt": "POLYGON ((66.016846 34.079962, 71.000000 34.079962, 71.000000 30.000000, 66.016846 30.000000, 66.016846 34.079962))",
+    "area_id": 470,
+    "source_row_index": 470,
+    "iso_a3_source": "PAK",
+    "iso_a3": "PAK",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "PAK-03",
+    "name": "インダス川中流域（パンジャーブ地方）",
+    "name_en": "Middle Indus River Basin (Punjab Region)",
+    "reason": "パキスタンの穀倉地帯であり、インダス川とその支流が灌漑の基盤となっている。経済・人口の中心地であり、多くの主要都市が存在する。",
+    "geometry_wkt": "POLYGON ((71.0 34.0, 76.0 34.0, 76.0 30.0, 71.0 30.0, 71.0 34.0))",
+    "area_id": 471,
+    "source_row_index": 471,
+    "iso_a3_source": "PAK",
+    "iso_a3": "PAK",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "PAK-04",
+    "name": "インダス川下流域（シンド地方）",
+    "name_en": "Lower Indus River Basin (Sindh Region)",
+    "reason": "インダス川がアラビア海に注ぐデルタ地帯を含み、農業が盛ん。カラチのような経済的中心地もあるが、北部とは異なる歴史・文化的特徴を持つ。",
+    "geometry_wkt": "POLYGON ((66.000000 30.000000, 73.981934 30.000000, 73.981934 26.017298, 66.000000 26.017298, 66.000000 30.000000))",
+    "area_id": 472,
+    "source_row_index": 472,
+    "iso_a3_source": "PAK",
+    "iso_a3": "PAK",
+    "area_seq_in_source": 4
+  },
+  {
+    "id": "PAK-05",
+    "name": "西部高原地帯（バローチスターン地方）",
+    "name_en": "Western Plateau Region (Balochistan Region)",
+    "reason": "広大な乾燥高原地帯で、人口密度は低い。イランとの国境に接し、独特の遊牧文化や資源（天然ガスなど）に関連する経済活動が見られる。",
+    "geometry_wkt": "POLYGON ((60.754395 29.983487, 66.000000 29.983487, 66.000000 24.000000, 60.754395 24.000000, 60.754395 29.983487))",
+    "area_id": 473,
+    "source_row_index": 473,
+    "iso_a3_source": "PAK",
+    "iso_a3": "PAK",
+    "area_seq_in_source": 5
+  },
+  {
+    "id": "PAK-06",
+    "name": "南東部砂漠地帯",
+    "name_en": "Southeastern Desert Region",
+    "reason": "インドとの国境に広がる砂漠地帯（タール砂漠など）。農業には適さないが、一部地域では灌漑農業や遊牧が行われている。",
+    "geometry_wkt": "POLYGON ((66.016846 26.000000, 71.455078 26.000000, 71.455078 23.644524, 66.016846 23.644524, 66.016846 26.000000))",
+    "area_id": 474,
+    "source_row_index": 474,
+    "iso_a3_source": "PAK",
+    "iso_a3": "PAK",
+    "area_seq_in_source": 6
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "iso_a3": "LUX",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": 5.646973,
+    "maxx": 6.542358,
+    "miny": 49.3931,
+    "maxy": 50.210307
+  },
+  "areas": [
+    {
+      "id": "LUX-01",
+      "area_id": 372,
+      "area_seq_in_source": 1,
+      "name": "ルクセンブルク全域",
+      "name_en": "All Luxembourg",
+      "reason": "ルクセンブルクは国土が狭く、地理的・文化的な特徴が国全体で均質であるため、1つのエリアとして定義するのが最も適切である。",
+      "geometry_wkt": "POLYGON ((5.646973 50.210307, 6.542358 50.210307, 6.542358 49.393100, 5.646973 49.393100, 5.646973 50.210307))",
+      "bbox": {
+        "minx": 5.646973,
+        "maxx": 6.542358,
+        "miny": 49.3931,
+        "maxy": 50.210307
+      },
+      "centroid": {
+        "x": 6.094665,
+        "y": 49.801704
+      },
+      "size": {
+        "width": 0.895385,
+        "height": 0.817207
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 188,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.6968,
+          "GRASS": 0.2606,
+          "CROPLAND": 0.0319,
+          "BUILT": 0.0106
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 1.0
+        },
+        "precip_ratio": {
+          "LOW": 0.9734,
+          "MID": 0.0266
+        },
+        "flags_ratio": {
+          "water": 0.7394,
+          "forest": 0.6968,
+          "cropland": 0.0319,
+          "built": 0.0106
+        },
+        "cell_bbox_xy": {
+          "min_x": 4457,
+          "max_x": 4475,
+          "min_y": 956,
+          "max_y": 972
+        },
+        "cell_centroid": {
+          "x": 4465.085,
+          "y": 964.984,
+          "lon": 6.066046,
+          "lat": 49.771498
+        }
+      }
+    }
+  ]
+}

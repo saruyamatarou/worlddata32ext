@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">AUS review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(109.951172, -56.072035) - (160.927734, -8.059230)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="439.24" y="40.00" width="549.38" height="204.18" fill="none" stroke="black" stroke-width="2"/>
+<text x="443.24" y="56.00" font-size="12" font-family="Arial, sans-serif">AUS-01 | 北クイーンズランド</text>
+<circle cx="713.93" cy="142.09" r="2.5" fill="black"/>
+<rect x="721.66" y="244.18" width="434.48" height="137.61" fill="none" stroke="black" stroke-width="2"/>
+<text x="725.66" y="260.18" font-size="12" font-family="Arial, sans-serif">AUS-02 | 南クイーンズランド・ニューサウスウ…</text>
+<circle cx="938.90" cy="312.99" r="2.5" fill="black"/>
+<rect x="829.79" y="381.13" width="330.21" height="136.60" fill="none" stroke="black" stroke-width="2"/>
+<text x="833.79" y="397.13" font-size="12" font-family="Arial, sans-serif">AUS-03 | 東部沿岸（シドニー・メルボルン中心）</text>
+<circle cx="994.90" cy="449.43" r="2.5" fill="black"/>
+<rect x="572.97" y="517.73" width="567.72" height="342.27" fill="none" stroke="black" stroke-width="2"/>
+<text x="576.97" y="533.73" font-size="12" font-family="Arial, sans-serif">AUS-04 | ビクトリア・タスマニア</text>
+<circle cx="856.83" cy="688.86" r="2.5" fill="black"/>
+<rect x="439.72" y="380.56" width="389.83" height="137.17" fill="none" stroke="black" stroke-width="2"/>
+<text x="443.72" y="396.56" font-size="12" font-family="Arial, sans-serif">AUS-05 | 南オーストラリア</text>
+<circle cx="634.64" cy="449.15" r="2.5" fill="black"/>
+<rect x="439.69" y="243.93" width="282.44" height="136.65" fill="none" stroke="black" stroke-width="2"/>
+<text x="443.69" y="259.93" font-size="12" font-family="Arial, sans-serif">AUS-06 | 中央オーストラリア（アウトバック）</text>
+<circle cx="580.92" cy="312.26" r="2.5" fill="black"/>
+<rect x="40.00" y="85.10" width="399.69" height="295.37" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="101.10" font-size="12" font-family="Arial, sans-serif">AUS-07 | 西オーストラリア北部</text>
+<circle cx="239.85" cy="232.78" r="2.5" fill="black"/>
+<rect x="40.00" y="380.56" width="399.72" height="160.03" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="396.56" font-size="12" font-family="Arial, sans-serif">AUS-08 | 西オーストラリア南部</text>
+<circle cx="239.86" cy="460.58" r="2.5" fill="black"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">IRQ review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(38.265381, 28.825425) - (48.647461, 37.500000)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="346.96" y="40.00" width="576.00" height="206.32" fill="none" stroke="black" stroke-width="2"/>
+<text x="350.96" y="56.00" font-size="12" font-family="Arial, sans-serif">IRQ-01 | イラク北部山岳地帯</text>
+<circle cx="634.96" cy="143.16" r="2.5" fill="black"/>
+<rect x="40.00" y="465.43" width="562.96" height="350.99" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="481.43" font-size="12" font-family="Arial, sans-serif">IRQ-02 | イラク西部砂漠地帯</text>
+<circle cx="321.48" cy="640.93" r="2.5" fill="black"/>
+<rect x="88.59" y="246.32" width="893.68" height="219.11" fill="none" stroke="black" stroke-width="2"/>
+<text x="92.59" y="262.32" font-size="12" font-family="Arial, sans-serif">IRQ-03 | メソポタミア中央平原</text>
+<circle cx="535.43" cy="355.88" r="2.5" fill="black"/>
+<rect x="605.33" y="465.38" width="554.67" height="394.62" fill="none" stroke="black" stroke-width="2"/>
+<text x="609.33" y="481.38" font-size="12" font-family="Arial, sans-serif">IRQ-04 | イラク南部湿地・平野部</text>
+<circle cx="882.67" cy="662.69" r="2.5" fill="black"/>
+</svg>

@@ -1,0 +1,91 @@
+{
+  "iso_a3": "MNP",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": 143.723145,
+    "maxx": 147.3,
+    "miny": 13.496473,
+    "maxy": 21.2689
+  },
+  "areas": [
+    {
+      "id": "MNP-01",
+      "area_id": 418,
+      "area_seq_in_source": 1,
+      "name": "北マリアナ諸島全域",
+      "name_en": "Entire Northern Mariana Islands",
+      "reason": "北マリアナ諸島は、サイパン島、テニアン島、ロタ島など14の島から構成される比較的狭小な地域であり、地理的、経済的、文化的な均質性が高いため、単一のエリアとして定義するのが適切である。",
+      "geometry_wkt": "POLYGON ((143.723145 21.268900, 147.300000 21.268900, 147.300000 13.496473, 143.723145 13.496473, 143.723145 21.268900))",
+      "bbox": {
+        "minx": 143.723145,
+        "maxx": 147.3,
+        "miny": 13.496473,
+        "maxy": 21.2689
+      },
+      "centroid": {
+        "x": 145.511572,
+        "y": 17.382686
+      },
+      "size": {
+        "width": 3.576855,
+        "height": 7.772427
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 2392,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9879,
+          "TREE": 0.005,
+          "WATER": 0.0038,
+          "UNKNOWN": 0.0033
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9996,
+          "POLAR": 0.0004
+        },
+        "elevation_ratio": {
+          "LOW": 0.9958,
+          "MID": 0.0042
+        },
+        "precip_ratio": {
+          "MID": 0.9916,
+          "WET": 0.0079,
+          "ARID": 0.0004
+        },
+        "flags_ratio": {
+          "water": 0.9916,
+          "forest": 0.0054
+        },
+        "cell_bbox_xy": {
+          "min_x": 7793,
+          "max_x": 7830,
+          "min_y": 1677,
+          "max_y": 1829
+        },
+        "cell_centroid": {
+          "x": 7814.033,
+          "y": 1754.068,
+          "lon": 145.605525,
+          "lat": 16.893011
+        }
+      }
+    }
+  ]
+}

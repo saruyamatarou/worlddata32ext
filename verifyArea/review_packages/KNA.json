@@ -1,0 +1,183 @@
+{
+  "iso_a3": "KNA",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": -62.903595,
+    "maxx": -62.517357,
+    "miny": 17.076149,
+    "maxy": 17.444337
+  },
+  "areas": [
+    {
+      "id": "KNA-01",
+      "area_id": 347,
+      "area_seq_in_source": 1,
+      "name": "セントクリストファー島",
+      "name_en": "Saint Kitts Island",
+      "reason": "セントクリストファー・ネイビスで面積が大きく、首都バセテールが位置する主要な島であるため。火山性の地形と豊かな緑を持ち、歴史的な要塞跡などの観光資源も有している。",
+      "geometry_wkt": "POLYGON ((-62.903595 17.444337, -62.616577 17.444337, -62.616577 17.203114, -62.903595 17.203114, -62.903595 17.444337))",
+      "bbox": {
+        "minx": -62.903595,
+        "maxx": -62.616577,
+        "miny": 17.203114,
+        "maxy": 17.444337
+      },
+      "centroid": {
+        "x": -62.760086,
+        "y": 17.323726
+      },
+      "size": {
+        "width": 0.287018,
+        "height": 0.241223
+      },
+      "relative_position": {
+        "x_norm": 0.3716,
+        "y_norm": 0.6724,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "KNA-02"
+        ],
+        "east_of": [],
+        "north_of": [
+          "KNA-02"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "KNA-02",
+            "x_overlap": 0.027809,
+            "y_overlap": 0.015741
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 155,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9484,
+          "TREE": 0.0387,
+          "WATER": 0.0129
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.9742,
+          "MID": 0.0258
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.9613,
+          "forest": 0.0387
+        },
+        "cell_bbox_xy": {
+          "min_x": 2805,
+          "max_x": 2823,
+          "min_y": 1736,
+          "max_y": 1752
+        },
+        "cell_centroid": {
+          "x": 2813.832,
+          "y": 1743.129,
+          "lon": -62.736156,
+          "lat": 17.34879
+        }
+      }
+    },
+    {
+      "id": "KNA-02",
+      "area_id": 348,
+      "area_seq_in_source": 2,
+      "name": "ネイビス島",
+      "name_en": "Nevis Island",
+      "reason": "セントクリストファー・ネイビスを構成するもう一つの主要な島であり、独自の自治政府を持つ。温泉や美しい海岸線が特徴で、セントクリストファー島とは異なる観光資源を有している。",
+      "geometry_wkt": "POLYGON ((-62.644386 17.218855, -62.517357 17.218855, -62.517357 17.076149, -62.644386 17.076149, -62.644386 17.218855))",
+      "bbox": {
+        "minx": -62.644386,
+        "maxx": -62.517357,
+        "miny": 17.076149,
+        "maxy": 17.218855
+      },
+      "centroid": {
+        "x": -62.580872,
+        "y": 17.147502
+      },
+      "size": {
+        "width": 0.127029,
+        "height": 0.142706
+      },
+      "relative_position": {
+        "x_norm": 0.8356,
+        "y_norm": 0.1938,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "KNA-01"
+        ],
+        "north_of": [],
+        "south_of": [
+          "KNA-01"
+        ],
+        "overlaps": [
+          {
+            "id": "KNA-01",
+            "x_overlap": 0.027809,
+            "y_overlap": 0.015741
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 188,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9681,
+          "TREE": 0.0213,
+          "WATER": 0.0106
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.9894,
+          "MID": 0.0106
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.9787,
+          "forest": 0.0213
+        },
+        "cell_bbox_xy": {
+          "min_x": 2808,
+          "max_x": 2827,
+          "min_y": 1739,
+          "max_y": 1758
+        },
+        "cell_centroid": {
+          "x": 2818.223,
+          "y": 1749.883,
+          "lon": -62.553191,
+          "lat": 17.067376
+        }
+      }
+    }
+  ]
+}

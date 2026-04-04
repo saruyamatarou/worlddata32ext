@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">LTU review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(20.566406, 53.787672) - (26.883545, 56.571589)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="40.00" y="40.00" width="475.27" height="703.93" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="56.00" font-size="12" font-family="Arial, sans-serif">LT-01 | リトアニア西部</text>
+<circle cx="277.63" cy="391.97" r="2.5" fill="black"/>
+<rect x="515.27" y="40.00" width="644.73" height="820.00" fill="none" stroke="black" stroke-width="2"/>
+<text x="519.27" y="56.00" font-size="12" font-family="Arial, sans-serif">LT-02 | リトアニア東部</text>
+<circle cx="837.63" cy="450.00" r="2.5" fill="black"/>
+</svg>

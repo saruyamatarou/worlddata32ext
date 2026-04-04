@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">BGD review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(87.813721, 20.519644) - (92.878418, 26.735799)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="42.43" y="40.00" width="1045.90" height="265.66" fill="none" stroke="black" stroke-width="2"/>
+<text x="46.43" y="56.00" font-size="12" font-family="Arial, sans-serif">BGD-01 | 北東部高地</text>
+<circle cx="565.38" cy="172.83" r="2.5" fill="black"/>
+<rect x="40.00" y="307.64" width="743.43" height="152.10" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="323.64" font-size="12" font-family="Arial, sans-serif">BGD-02 | 中央平原</text>
+<circle cx="411.71" cy="383.69" r="2.5" fill="black"/>
+<rect x="146.90" y="461.06" width="641.39" height="336.60" fill="none" stroke="black" stroke-width="2"/>
+<text x="150.90" y="477.06" font-size="12" font-family="Arial, sans-serif">BGD-03 | 南西部デルタと沿岸</text>
+<circle cx="467.59" cy="629.36" r="2.5" fill="black"/>
+<rect x="785.86" y="307.64" width="374.14" height="552.36" fill="none" stroke="black" stroke-width="2"/>
+<text x="789.86" y="323.64" font-size="12" font-family="Arial, sans-serif">BGD-04 | 東部丘陵地帯</text>
+<circle cx="972.93" cy="583.82" r="2.5" fill="black"/>
+</svg>

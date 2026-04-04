@@ -1,0 +1,415 @@
+{
+  "iso_a3": "ETH",
+  "area_count": 4,
+  "country_bbox": {
+    "minx": 32.629395,
+    "maxx": 48.164063,
+    "miny": 3.272146,
+    "maxy": 15.474857
+  },
+  "areas": [
+    {
+      "id": "ETH-01",
+      "area_id": 218,
+      "area_seq_in_source": 1,
+      "name": "北部高地",
+      "name_en": "Northern Highlands",
+      "reason": "エチオピア高原の北部にあたり、歴史的・文化的に重要な地域。アムハラ族やティグレ族が多く居住し、古代の都市アクスムやラリベラ教会群が存在する。",
+      "geometry_wkt": "POLYGON ((33.881836 15.474857, 43.000000 15.474857, 43.000000 10.000000, 33.881836 10.000000, 33.881836 15.474857))",
+      "bbox": {
+        "minx": 33.881836,
+        "maxx": 43.0,
+        "miny": 10.0,
+        "maxy": 15.474857
+      },
+      "centroid": {
+        "x": 38.440918,
+        "y": 12.737429
+      },
+      "size": {
+        "width": 9.118164,
+        "height": 5.474857
+      },
+      "relative_position": {
+        "x_norm": 0.3741,
+        "y_norm": 0.7757,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ETH-04"
+        ],
+        "east_of": [
+          "ETH-02",
+          "ETH-03"
+        ],
+        "north_of": [
+          "ETH-02",
+          "ETH-03",
+          "ETH-04"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 35800,
+        "dominant_landcover": "SHRUB",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "SHRUB": 0.3616,
+          "GRASS": 0.2539,
+          "CROPLAND": 0.1465,
+          "TREE": 0.1173,
+          "BARE": 0.107,
+          "WETLAND": 0.0075,
+          "WATER": 0.006,
+          "BUILT": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9164,
+          "TEMPERATE": 0.0836
+        },
+        "elevation_ratio": {
+          "HIGH": 0.4702,
+          "MID": 0.3948,
+          "ULTRA": 0.1106,
+          "LOW": 0.0244
+        },
+        "precip_ratio": {
+          "LOW": 0.6385,
+          "MID": 0.2577,
+          "ARID": 0.1038
+        },
+        "flags_ratio": {
+          "water": 0.6666,
+          "forest": 0.479,
+          "cropland": 0.1465,
+          "built": 0.0002
+        },
+        "cell_bbox_xy": {
+          "min_x": 5112,
+          "max_x": 5469,
+          "min_y": 1803,
+          "max_y": 2077
+        },
+        "cell_centroid": {
+          "x": 5277.547,
+          "y": 1938.498,
+          "lon": 39.918627,
+          "lat": 9.208425
+        }
+      }
+    },
+    {
+      "id": "ETH-02",
+      "area_id": 219,
+      "area_seq_in_source": 2,
+      "name": "中央高原とリフトバレー",
+      "name_en": "Central Highlands and Rift Valley",
+      "reason": "国の中心部を横断するリフトバレーとその周辺の高地。首都アディスアベバが位置し、多様な民族が混在する経済・行政の中心地。多くの湖が存在する。",
+      "geometry_wkt": "POLYGON ((32.629395 10.000000, 40.000000 10.000000, 40.000000 5.987607, 32.629395 5.987607, 32.629395 10.000000))",
+      "bbox": {
+        "minx": 32.629395,
+        "maxx": 40.0,
+        "miny": 5.987607,
+        "maxy": 10.0
+      },
+      "centroid": {
+        "x": 36.314698,
+        "y": 7.993804
+      },
+      "size": {
+        "width": 7.370605,
+        "height": 4.012393
+      },
+      "relative_position": {
+        "x_norm": 0.2372,
+        "y_norm": 0.3869,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ETH-01",
+          "ETH-03",
+          "ETH-04"
+        ],
+        "east_of": [],
+        "north_of": [
+          "ETH-03",
+          "ETH-04"
+        ],
+        "south_of": [
+          "ETH-01"
+        ],
+        "overlaps": [
+          {
+            "id": "ETH-03",
+            "x_overlap": 5.129395,
+            "y_overlap": 0.012393
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 9399,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "CROPLAND": 0.4841,
+          "TREE": 0.2579,
+          "SHRUB": 0.1698,
+          "GRASS": 0.0666,
+          "WATER": 0.0157,
+          "WETLAND": 0.0027,
+          "BUILT": 0.0027,
+          "BARE": 0.0005
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.586,
+          "TEMPERATE": 0.414
+        },
+        "elevation_ratio": {
+          "HIGH": 0.5454,
+          "ULTRA": 0.4326,
+          "MID": 0.022
+        },
+        "precip_ratio": {
+          "MID": 0.7434,
+          "LOW": 0.2566
+        },
+        "flags_ratio": {
+          "water": 0.6682,
+          "cropland": 0.4841,
+          "forest": 0.4277,
+          "built": 0.0027
+        },
+        "cell_bbox_xy": {
+          "min_x": 5140,
+          "max_x": 5279,
+          "min_y": 1920,
+          "max_y": 2015
+        },
+        "cell_centroid": {
+          "x": 5229.521,
+          "y": 1968.089,
+          "lon": 37.917538,
+          "lat": 7.975456
+        }
+      }
+    },
+    {
+      "id": "ETH-03",
+      "area_id": 220,
+      "area_seq_in_source": 3,
+      "name": "南西部低地と山岳地帯",
+      "name_en": "Southwestern Lowlands and Mountains",
+      "reason": "西部の低地から南西部の山岳地帯にかけて広がる地域。比較的温暖な気候で、多様な民族グループが居住し、独自の文化を持つ。ガンベラ国立公園などが含まれる。",
+      "geometry_wkt": "POLYGON ((34.870605 6.000000, 40.001221 6.000000, 40.001221 3.272146, 34.870605 3.272146, 34.870605 6.000000))",
+      "bbox": {
+        "minx": 34.870605,
+        "maxx": 40.001221,
+        "miny": 3.272146,
+        "maxy": 6.0
+      },
+      "centroid": {
+        "x": 37.435913,
+        "y": 4.636073
+      },
+      "size": {
+        "width": 5.130616,
+        "height": 2.727854
+      },
+      "relative_position": {
+        "x_norm": 0.3094,
+        "y_norm": 0.1118,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ETH-01",
+          "ETH-04"
+        ],
+        "east_of": [
+          "ETH-02"
+        ],
+        "north_of": [],
+        "south_of": [
+          "ETH-01",
+          "ETH-02",
+          "ETH-04"
+        ],
+        "overlaps": [
+          {
+            "id": "ETH-02",
+            "x_overlap": 5.129395,
+            "y_overlap": 0.012393
+          },
+          {
+            "id": "ETH-04",
+            "x_overlap": 0.001221,
+            "y_overlap": 2.530443
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 2248,
+        "dominant_landcover": "SHRUB",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "SHRUB": 0.5627,
+          "TREE": 0.2736,
+          "GRASS": 0.105,
+          "CROPLAND": 0.048,
+          "WATER": 0.0102,
+          "BUILT": 0.0004
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9631,
+          "TEMPERATE": 0.0369
+        },
+        "elevation_ratio": {
+          "HIGH": 0.8003,
+          "MID": 0.1468,
+          "ULTRA": 0.0529
+        },
+        "precip_ratio": {
+          "LOW": 0.7149,
+          "MID": 0.2851
+        },
+        "flags_ratio": {
+          "forest": 0.8363,
+          "water": 0.7451,
+          "cropland": 0.048,
+          "built": 0.0004
+        },
+        "cell_bbox_xy": {
+          "min_x": 5182,
+          "max_x": 5279,
+          "min_y": 2016,
+          "max_y": 2039
+        },
+        "cell_centroid": {
+          "x": 5231.564,
+          "y": 2026.991,
+          "lon": 38.002669,
+          "lat": 5.521204
+        }
+      }
+    },
+    {
+      "id": "ETH-04",
+      "area_id": 221,
+      "area_seq_in_source": 4,
+      "name": "東部乾燥地帯とソマリ地域",
+      "name_en": "Eastern Arid Zone and Somali Region",
+      "reason": "国の東部に広がる乾燥地帯で、ソマリ族が多く居住する地域。オガデン地方などが含まれ、気候は乾燥し、植生はまばら。",
+      "geometry_wkt": "POLYGON ((40.000000 10.000000, 48.164063 10.000000, 48.164063 3.469557, 40.000000 3.469557, 40.000000 10.000000))",
+      "bbox": {
+        "minx": 40.0,
+        "maxx": 48.164063,
+        "miny": 3.469557,
+        "maxy": 10.0
+      },
+      "centroid": {
+        "x": 44.082031,
+        "y": 6.734779
+      },
+      "size": {
+        "width": 8.164063,
+        "height": 6.530443
+      },
+      "relative_position": {
+        "x_norm": 0.7372,
+        "y_norm": 0.2838,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "ETH-01",
+          "ETH-02",
+          "ETH-03"
+        ],
+        "north_of": [
+          "ETH-03"
+        ],
+        "south_of": [
+          "ETH-01",
+          "ETH-02"
+        ],
+        "overlaps": [
+          {
+            "id": "ETH-03",
+            "x_overlap": 0.001221,
+            "y_overlap": 2.530443
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 6411,
+        "dominant_landcover": "SHRUB",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "SHRUB": 0.7451,
+          "GRASS": 0.114,
+          "CROPLAND": 0.0758,
+          "TREE": 0.054,
+          "BARE": 0.0061,
+          "WETLAND": 0.0047,
+          "WATER": 0.0002,
+          "BUILT": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.927,
+          "TEMPERATE": 0.073
+        },
+        "elevation_ratio": {
+          "HIGH": 0.6601,
+          "MID": 0.2773,
+          "ULTRA": 0.0624,
+          "LOW": 0.0002
+        },
+        "precip_ratio": {
+          "LOW": 0.9028,
+          "MID": 0.0772,
+          "ARID": 0.02
+        },
+        "flags_ratio": {
+          "forest": 0.7991,
+          "water": 0.6805,
+          "cropland": 0.0758,
+          "built": 0.0002
+        },
+        "cell_bbox_xy": {
+          "min_x": 5280,
+          "max_x": 5470,
+          "min_y": 1920,
+          "max_y": 2052
+        },
+        "cell_centroid": {
+          "x": 5309.165,
+          "y": 1981.331,
+          "lon": 41.236056,
+          "lat": 7.423715
+        }
+      }
+    }
+  ]
+}

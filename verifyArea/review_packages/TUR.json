@@ -1,0 +1,670 @@
+{
+  "iso_a3": "TUR",
+  "area_count": 6,
+  "country_bbox": {
+    "minx": 25.53772,
+    "maxx": 45.0,
+    "miny": 35.585852,
+    "maxy": 42.289501
+  },
+  "areas": [
+    {
+      "id": "TUR-01",
+      "area_id": 610,
+      "area_seq_in_source": 1,
+      "name": "マルマラ地域",
+      "name_en": "Marmara Region",
+      "reason": "トルコ最大の経済・産業の中心地であり、ヨーロッパとアジアの文化が交錯するイスタンブールを擁する。",
+      "geometry_wkt": "POLYGON ((25.537720 42.289501, 30.000000 42.289501, 30.000000 40.000000, 25.537720 40.000000, 25.537720 42.289501))",
+      "bbox": {
+        "minx": 25.53772,
+        "maxx": 30.0,
+        "miny": 40.0,
+        "maxy": 42.289501
+      },
+      "centroid": {
+        "x": 27.76886,
+        "y": 41.144751
+      },
+      "size": {
+        "width": 4.46228,
+        "height": 2.289501
+      },
+      "relative_position": {
+        "x_norm": 0.1146,
+        "y_norm": 0.8292,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "TUR-02",
+          "TUR-03",
+          "TUR-04",
+          "TUR-05",
+          "TUR-06"
+        ],
+        "east_of": [],
+        "north_of": [
+          "TUR-02",
+          "TUR-03",
+          "TUR-04",
+          "TUR-05",
+          "TUR-06"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "TUR-02",
+            "x_overlap": 4.306641,
+            "y_overlap": 0.010787
+          },
+          {
+            "id": "TUR-05",
+            "x_overlap": 0.029297,
+            "y_overlap": 2.261049
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 11178,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "CROPLAND": 0.3911,
+          "GRASS": 0.2462,
+          "TREE": 0.178,
+          "OCEAN": 0.1316,
+          "WATER": 0.0259,
+          "BARE": 0.0136,
+          "BUILT": 0.0132,
+          "WETLAND": 0.0004
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9989,
+          "COLD": 0.0011
+        },
+        "elevation_ratio": {
+          "HIGH": 0.5988,
+          "LOW": 0.2858,
+          "MID": 0.1087,
+          "ULTRA": 0.0067
+        },
+        "precip_ratio": {
+          "LOW": 0.8684,
+          "MID": 0.1316
+        },
+        "flags_ratio": {
+          "water": 0.6415,
+          "cropland": 0.3914,
+          "forest": 0.1787,
+          "built": 0.0133
+        },
+        "cell_bbox_xy": {
+          "min_x": 4932,
+          "max_x": 5279,
+          "min_y": 1149,
+          "max_y": 1271
+        },
+        "cell_centroid": {
+          "x": 5053.156,
+          "y": 1213.926,
+          "lon": 30.568993,
+          "lat": 39.398901
+        }
+      }
+    },
+    {
+      "id": "TUR-02",
+      "area_id": 611,
+      "area_seq_in_source": 2,
+      "name": "エーゲ海地域",
+      "name_en": "Aegean Region",
+      "reason": "温暖な気候と肥沃な土地に恵まれ、農業（特にオリーブオイル、果物）が盛んで、古代遺跡も多く観光資源が豊富。",
+      "geometry_wkt": "POLYGON ((25.686035 40.010787, 29.992676 40.010787, 29.992676 35.585852, 25.686035 35.585852, 25.686035 40.010787))",
+      "bbox": {
+        "minx": 25.686035,
+        "maxx": 29.992676,
+        "miny": 35.585852,
+        "maxy": 40.010787
+      },
+      "centroid": {
+        "x": 27.839355,
+        "y": 37.79832
+      },
+      "size": {
+        "width": 4.306641,
+        "height": 4.424935
+      },
+      "relative_position": {
+        "x_norm": 0.1183,
+        "y_norm": 0.33,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "TUR-03",
+          "TUR-04",
+          "TUR-05",
+          "TUR-06"
+        ],
+        "east_of": [
+          "TUR-01"
+        ],
+        "north_of": [
+          "TUR-03"
+        ],
+        "south_of": [
+          "TUR-01",
+          "TUR-04",
+          "TUR-05",
+          "TUR-06"
+        ],
+        "overlaps": [
+          {
+            "id": "TUR-01",
+            "x_overlap": 4.306641,
+            "y_overlap": 0.010787
+          },
+          {
+            "id": "TUR-05",
+            "x_overlap": 0.021973,
+            "y_overlap": 0.010787
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 7317,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.507,
+          "OCEAN": 0.1726,
+          "GRASS": 0.1558,
+          "CROPLAND": 0.1419,
+          "WATER": 0.0127,
+          "BUILT": 0.0055,
+          "SHRUB": 0.003,
+          "BARE": 0.0015
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9699,
+          "TROPICAL": 0.0298,
+          "COLD": 0.0003
+        },
+        "elevation_ratio": {
+          "MID": 0.3413,
+          "HIGH": 0.3333,
+          "LOW": 0.3224,
+          "ULTRA": 0.003
+        },
+        "precip_ratio": {
+          "LOW": 0.8156,
+          "MID": 0.1844
+        },
+        "flags_ratio": {
+          "water": 0.6638,
+          "forest": 0.5106,
+          "cropland": 0.1419,
+          "built": 0.0055
+        },
+        "cell_bbox_xy": {
+          "min_x": 4937,
+          "max_x": 5043,
+          "min_y": 1199,
+          "max_y": 1302
+        },
+        "cell_centroid": {
+          "x": 4999.842,
+          "y": 1241.798,
+          "lon": 28.34759,
+          "lat": 38.2376
+        }
+      }
+    },
+    {
+      "id": "TUR-03",
+      "area_id": 612,
+      "area_seq_in_source": 3,
+      "name": "地中海地域",
+      "name_en": "Mediterranean Region",
+      "reason": "温暖な気候で小麦や綿花の生産が多く、アンタルヤなどのリゾート地としても有名。沿岸部は観光業が中心。",
+      "geometry_wkt": "POLYGON ((30.000000 37.000000, 40.012207 37.000000, 40.012207 35.621582, 30.000000 35.621582, 30.000000 37.000000))",
+      "bbox": {
+        "minx": 30.0,
+        "maxx": 40.012207,
+        "miny": 35.621582,
+        "maxy": 37.0
+      },
+      "centroid": {
+        "x": 35.006103,
+        "y": 36.310791
+      },
+      "size": {
+        "width": 10.012207,
+        "height": 1.378418
+      },
+      "relative_position": {
+        "x_norm": 0.4865,
+        "y_norm": 0.1081,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "TUR-04",
+          "TUR-06"
+        ],
+        "east_of": [
+          "TUR-01",
+          "TUR-02",
+          "TUR-05"
+        ],
+        "north_of": [],
+        "south_of": [
+          "TUR-01",
+          "TUR-02",
+          "TUR-04",
+          "TUR-05",
+          "TUR-06"
+        ],
+        "overlaps": [
+          {
+            "id": "TUR-06",
+            "x_overlap": 0.012207,
+            "y_overlap": 1.0
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 4315,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "OCEAN": 0.4019,
+          "TREE": 0.2273,
+          "GRASS": 0.1956,
+          "CROPLAND": 0.1476,
+          "WATER": 0.0102,
+          "BUILT": 0.0083,
+          "SHRUB": 0.0051,
+          "BARE": 0.0025,
+          "WETLAND": 0.0014
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.8153,
+          "TROPICAL": 0.1822,
+          "COLD": 0.0025
+        },
+        "elevation_ratio": {
+          "LOW": 0.5277,
+          "MID": 0.2352,
+          "HIGH": 0.2213,
+          "ULTRA": 0.0158
+        },
+        "precip_ratio": {
+          "LOW": 0.5775,
+          "MID": 0.4225
+        },
+        "flags_ratio": {
+          "water": 0.7611,
+          "forest": 0.2327,
+          "cropland": 0.1476,
+          "built": 0.0086
+        },
+        "cell_bbox_xy": {
+          "min_x": 5040,
+          "max_x": 5279,
+          "min_y": 1272,
+          "max_y": 1304
+        },
+        "cell_centroid": {
+          "x": 5132.233,
+          "y": 1283.143,
+          "lon": 33.863862,
+          "lat": 36.514895
+        }
+      }
+    },
+    {
+      "id": "TUR-04",
+      "area_id": 613,
+      "area_seq_in_source": 4,
+      "name": "中央アナトリア地域",
+      "name_en": "Central Anatolia Region",
+      "reason": "内陸部に位置し、首都アンカラがある。夏は高温、冬は寒冷な大陸性気候。小麦や綿花栽培のほか、カッパドキアのような独特の景観を持つ。",
+      "geometry_wkt": "POLYGON ((34.000000 39.977120, 40.012207 39.977120, 40.012207 37.000000, 34.000000 37.000000, 34.000000 39.977120))",
+      "bbox": {
+        "minx": 34.0,
+        "maxx": 40.012207,
+        "miny": 37.0,
+        "maxy": 39.97712
+      },
+      "centroid": {
+        "x": 37.006103,
+        "y": 38.48856
+      },
+      "size": {
+        "width": 6.012207,
+        "height": 2.97712
+      },
+      "relative_position": {
+        "x_norm": 0.5893,
+        "y_norm": 0.433,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "TUR-06"
+        ],
+        "east_of": [
+          "TUR-01",
+          "TUR-02",
+          "TUR-03",
+          "TUR-05"
+        ],
+        "north_of": [
+          "TUR-02",
+          "TUR-03"
+        ],
+        "south_of": [
+          "TUR-01",
+          "TUR-05",
+          "TUR-06"
+        ],
+        "overlaps": [
+          {
+            "id": "TUR-06",
+            "x_overlap": 0.012207,
+            "y_overlap": 2.97712
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 10224,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.5519,
+          "CROPLAND": 0.3303,
+          "TREE": 0.0867,
+          "BARE": 0.0141,
+          "WATER": 0.0117,
+          "BUILT": 0.005,
+          "WETLAND": 0.0002,
+          "SHRUB": 0.0001
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9319,
+          "TROPICAL": 0.0376,
+          "COLD": 0.0305
+        },
+        "elevation_ratio": {
+          "HIGH": 0.7595,
+          "MID": 0.1504,
+          "ULTRA": 0.0664,
+          "LOW": 0.0237
+        },
+        "precip_ratio": {
+          "LOW": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.6269,
+          "cropland": 0.3303,
+          "forest": 0.0868,
+          "built": 0.005
+        },
+        "cell_bbox_xy": {
+          "min_x": 5136,
+          "max_x": 5279,
+          "min_y": 1201,
+          "max_y": 1271
+        },
+        "cell_centroid": {
+          "x": 5207.5,
+          "y": 1236.0,
+          "lon": 37.0,
+          "lat": 38.479167
+        }
+      }
+    },
+    {
+      "id": "TUR-05",
+      "area_id": 614,
+      "area_seq_in_source": 5,
+      "name": "黒海地域",
+      "name_en": "Black Sea Region",
+      "reason": "黒海に面し、山がちな地形。緑豊かでチャイ（お茶）の生産が盛ん。年間を通じて降水量が多く、温暖湿潤な気候。",
+      "geometry_wkt": "POLYGON ((29.970703 42.261049, 40.000000 42.261049, 40.000000 40.000000, 29.970703 40.000000, 29.970703 42.261049))",
+      "bbox": {
+        "minx": 29.970703,
+        "maxx": 40.0,
+        "miny": 40.0,
+        "maxy": 42.261049
+      },
+      "centroid": {
+        "x": 34.985352,
+        "y": 41.130524
+      },
+      "size": {
+        "width": 10.029297,
+        "height": 2.261049
+      },
+      "relative_position": {
+        "x_norm": 0.4854,
+        "y_norm": 0.8271,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "TUR-03",
+          "TUR-04",
+          "TUR-06"
+        ],
+        "east_of": [
+          "TUR-01",
+          "TUR-02"
+        ],
+        "north_of": [
+          "TUR-02",
+          "TUR-03",
+          "TUR-04",
+          "TUR-06"
+        ],
+        "south_of": [
+          "TUR-01"
+        ],
+        "overlaps": [
+          {
+            "id": "TUR-01",
+            "x_overlap": 0.029297,
+            "y_overlap": 2.261049
+          },
+          {
+            "id": "TUR-02",
+            "x_overlap": 0.021973,
+            "y_overlap": 0.010787
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 10965,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.4075,
+          "OCEAN": 0.242,
+          "GRASS": 0.2409,
+          "CROPLAND": 0.0993,
+          "WATER": 0.006,
+          "BUILT": 0.0026,
+          "BARE": 0.0009,
+          "WETLAND": 0.0007
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9873,
+          "COLD": 0.0127
+        },
+        "elevation_ratio": {
+          "HIGH": 0.4681,
+          "LOW": 0.2978,
+          "MID": 0.2134,
+          "ULTRA": 0.0207
+        },
+        "precip_ratio": {
+          "LOW": 0.7509,
+          "MID": 0.2491
+        },
+        "flags_ratio": {
+          "water": 0.7103,
+          "forest": 0.4081,
+          "cropland": 0.0993,
+          "built": 0.0026
+        },
+        "cell_bbox_xy": {
+          "min_x": 5039,
+          "max_x": 5283,
+          "min_y": 1140,
+          "max_y": 1199
+        },
+        "cell_centroid": {
+          "x": 5154.004,
+          "y": 1175.828,
+          "lon": 34.771008,
+          "lat": 40.986341
+        }
+      }
+    },
+    {
+      "id": "TUR-06",
+      "area_id": 615,
+      "area_seq_in_source": 6,
+      "name": "東部・南東部アナトリア地域",
+      "name_en": "Eastern and Southeastern Anatolia Region",
+      "reason": "山岳地帯が多く、イラン、イラク、シリアと国境を接する。歴史的遺産が多く、クルド文化の影響も色濃い。寒冷な気候と乾燥した地域。",
+      "geometry_wkt": "POLYGON ((40.0 42.0, 45.0 42.0, 45.0 36.0, 40.0 36.0, 40.0 42.0))",
+      "bbox": {
+        "minx": 40.0,
+        "maxx": 45.0,
+        "miny": 36.0,
+        "maxy": 42.0
+      },
+      "centroid": {
+        "x": 42.5,
+        "y": 39.0
+      },
+      "size": {
+        "width": 5.0,
+        "height": 6.0
+      },
+      "relative_position": {
+        "x_norm": 0.8715,
+        "y_norm": 0.5093,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "TUR-01",
+          "TUR-02",
+          "TUR-03",
+          "TUR-04",
+          "TUR-05"
+        ],
+        "north_of": [
+          "TUR-02",
+          "TUR-03",
+          "TUR-04"
+        ],
+        "south_of": [
+          "TUR-01",
+          "TUR-05"
+        ],
+        "overlaps": [
+          {
+            "id": "TUR-03",
+            "x_overlap": 0.012207,
+            "y_overlap": 1.0
+          },
+          {
+            "id": "TUR-04",
+            "x_overlap": 0.012207,
+            "y_overlap": 2.97712
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 10257,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.7207,
+          "CROPLAND": 0.1543,
+          "TREE": 0.0578,
+          "OCEAN": 0.0323,
+          "WATER": 0.027,
+          "BARE": 0.0064,
+          "BUILT": 0.0015
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.7488,
+          "COLD": 0.2381,
+          "TROPICAL": 0.0131,
+          "POLAR": 0.0001
+        },
+        "elevation_ratio": {
+          "HIGH": 0.4986,
+          "ULTRA": 0.3674,
+          "MID": 0.0985,
+          "LOW": 0.0356
+        },
+        "precip_ratio": {
+          "LOW": 0.9413,
+          "MID": 0.0586,
+          "ARID": 0.0001
+        },
+        "flags_ratio": {
+          "water": 0.6739,
+          "cropland": 0.1543,
+          "forest": 0.0579,
+          "built": 0.0015
+        },
+        "cell_bbox_xy": {
+          "min_x": 5280,
+          "max_x": 5394,
+          "min_y": 1157,
+          "max_y": 1275
+        },
+        "cell_centroid": {
+          "x": 5328.668,
+          "y": 1218.383,
+          "lon": 42.048684,
+          "lat": 39.213206
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "iso_a3": "FLK",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -62.687988,
+    "maxx": -56.271973,
+    "miny": -53.813626,
+    "maxy": -50.035974
+  },
+  "areas": [
+    {
+      "id": "FK-01",
+      "area_id": 228,
+      "area_seq_in_source": 1,
+      "name": "フォークランド諸島",
+      "name_en": "Falkland Islands",
+      "reason": "フォークランド諸島は、東フォークランド島と西フォークランド島の2つの主要な島と約200の小島から構成される諸島であり、地理的に一体となっているため、分割せずに一つのエリアとする。",
+      "geometry_wkt": "POLYGON ((-62.687988 -50.035974, -56.271973 -50.035974, -56.271973 -53.813626, -62.687988 -53.813626, -62.687988 -50.035974))",
+      "bbox": {
+        "minx": -62.687988,
+        "maxx": -56.271973,
+        "miny": -53.813626,
+        "maxy": -50.035974
+      },
+      "centroid": {
+        "x": -59.47998,
+        "y": -51.9248
+      },
+      "size": {
+        "width": 6.416015,
+        "height": 3.777652
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 3897,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "COLD",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.7762,
+          "GRASS": 0.2073,
+          "WATER": 0.0164
+        },
+        "temperature_ratio": {
+          "COLD": 0.7788,
+          "TEMPERATE": 0.2212
+        },
+        "elevation_ratio": {
+          "LOW": 0.9833,
+          "MID": 0.0167
+        },
+        "precip_ratio": {
+          "MID": 0.7762,
+          "LOW": 0.2238
+        },
+        "flags_ratio": {
+          "water": 0.8442
+        },
+        "cell_bbox_xy": {
+          "min_x": 2838,
+          "max_x": 2943,
+          "min_y": 3375,
+          "max_y": 3427
+        },
+        "cell_centroid": {
+          "x": 2888.239,
+          "y": 3400.342,
+          "lon": -59.63589,
+          "lat": -51.701731
+        }
+      }
+    }
+  ]
+}

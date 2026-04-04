@@ -1,0 +1,95 @@
+{
+  "iso_a3": "RWA",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": 28.773193,
+    "maxx": 30.953979,
+    "miny": -2.877208,
+    "maxy": -0.999705
+  },
+  "areas": [
+    {
+      "id": "RWA-01",
+      "area_id": 533,
+      "area_seq_in_source": 1,
+      "name": "ルワンダ全土",
+      "name_en": "Entire Rwanda",
+      "reason": "ルワンダは国土が比較的小さく、「千の丘の国」と呼ばれるように、西部は山岳地帯、東部はサバンナや平野が広がるなど、多様な地理的特徴を持つものの、全体として標高の高い高原地帯に位置しています。経済はサービス業、農業、工業が中心であり、文化的には「ウブニャガ」（ホスピタリティの精神）が根付いています。これらの地理的、経済的、文化的な特徴を考慮し、単一のエリアとして定義するのが最も適切と判断しました。",
+      "geometry_wkt": "POLYGON ((28.773193 -0.999705, 30.953979 -0.999705, 30.953979 -2.877208, 28.773193 -2.877208, 28.773193 -0.999705))",
+      "bbox": {
+        "minx": 28.773193,
+        "maxx": 30.953979,
+        "miny": -2.877208,
+        "maxy": -0.999705
+      },
+      "centroid": {
+        "x": 29.863586,
+        "y": -1.938457
+      },
+      "size": {
+        "width": 2.180786,
+        "height": 1.877503
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 1184,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "CROPLAND": 0.4282,
+          "GRASS": 0.2162,
+          "TREE": 0.2052,
+          "WATER": 0.0701,
+          "SHRUB": 0.0583,
+          "WETLAND": 0.0135,
+          "BUILT": 0.0084
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.7365,
+          "TEMPERATE": 0.2635
+        },
+        "elevation_ratio": {
+          "HIGH": 0.8235,
+          "ULTRA": 0.1765
+        },
+        "precip_ratio": {
+          "MID": 0.6453,
+          "LOW": 0.3547
+        },
+        "flags_ratio": {
+          "water": 0.6943,
+          "cropland": 0.4282,
+          "forest": 0.2635,
+          "built": 0.0084
+        },
+        "cell_bbox_xy": {
+          "min_x": 5013,
+          "max_x": 5060,
+          "min_y": 2185,
+          "max_y": 2227
+        },
+        "cell_centroid": {
+          "x": 5037.561,
+          "y": 2207.294,
+          "lon": 29.9192,
+          "lat": -1.991413
+        }
+      }
+    }
+  ]
+}

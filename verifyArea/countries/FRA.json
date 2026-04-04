@@ -1,0 +1,50 @@
+[
+  {
+    "id": "FRA-01",
+    "name": "フランス北西部・パリ圏",
+    "name_en": "Northwestern France and Paris Basin",
+    "reason": "首都パリを含む政治・経済・人口の中核地域。パリ盆地と英仏海峡・大西洋側北部をまとめた、フランスの中心性が最も強い地域。",
+    "geometry_wkt": "POLYGON ((-5.5 51.3, 2.8 51.3, 2.8 47.3, -5.5 47.3, -5.5 51.3))",
+    "area_id": 705,
+    "source_row_index": 705,
+    "iso_a3_source": "FRA",
+    "iso_a3": "FRA",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "FRA-02",
+    "name": "フランス北東部・国境工業地帯",
+    "name_en": "Northeastern France and Border Industrial Belt",
+    "reason": "ベルギー・ルクセンブルク・ドイツ・スイス方面に接する国境地域。歴史的に交通・工業・軍事の重要性が高く、東部の独自性が強い。",
+    "geometry_wkt": "POLYGON ((2.8 51.3, 8.5 51.3, 8.5 46.2, 2.8 46.2, 2.8 51.3))",
+    "area_id": 706,
+    "source_row_index": 706,
+    "iso_a3_source": "FRA",
+    "iso_a3": "FRA",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "FRA-03",
+    "name": "フランス南西部・大西洋内陸圏",
+    "name_en": "Southwestern France and Atlantic Inland Region",
+    "reason": "アキテーヌ盆地を中心とする大西洋側・内陸南西部。農業・ワイン・広い平野とピレネー北麓を含む、南西フランスを代表する地域。",
+    "geometry_wkt": "POLYGON ((-5.5 47.3, 2.8 47.3, 2.8 42.1, -5.5 42.1, -5.5 47.3))",
+    "area_id": 707,
+    "source_row_index": 707,
+    "iso_a3_source": "FRA",
+    "iso_a3": "FRA",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "FRA-04",
+    "name": "フランス南東部・地中海アルプス圏",
+    "name_en": "Southeastern France and Mediterranean-Alpine Region",
+    "reason": "ローヌ川流域、地中海沿岸、アルプス・ジュラにまたがる地域。南仏の地中海性気候と東部山岳地帯の特徴をまとめて表現できる。",
+    "geometry_wkt": "POLYGON ((2.8 46.2, 10.0 46.2, 10.0 41.1, 2.8 41.1, 2.8 46.2))",
+    "area_id": 708,
+    "source_row_index": 708,
+    "iso_a3_source": "FRA",
+    "iso_a3": "FRA",
+    "area_seq_in_source": 4
+  }
+]

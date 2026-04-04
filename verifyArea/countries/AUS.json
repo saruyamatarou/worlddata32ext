@@ -1,0 +1,98 @@
+[
+  {
+    "id": "AUS-01",
+    "name": "北クイーンズランド",
+    "name_en": "North Queensland",
+    "reason": "北部は熱帯気候で、グレートバリアリーフや熱帯雨林などの独特な自然環境を持つ。先住民文化も色濃く残る。",
+    "geometry_wkt": "POLYGON ((128.122559 -8.059230, 153.127441 -8.059230, 153.127441 -20.014645, 128.122559 -20.014645, 128.122559 -8.059230))",
+    "area_id": 41,
+    "source_row_index": 41,
+    "iso_a3_source": "AUS",
+    "iso_a3": "AUS",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "AUS-02",
+    "name": "南クイーンズランド・ニューサウスウェールズ北部",
+    "name_en": "South Queensland & Northern New South Wales",
+    "reason": "亜熱帯から温帯にかけての気候で、ゴールドコーストのような観光地や、農業（サトウキビ、バナナ）が盛んな地域。",
+    "geometry_wkt": "POLYGON ((140.976563 -20.014645, 160.751953 -20.014645, 160.751953 -28.071980, 140.976563 -28.071980, 140.976563 -20.014645))",
+    "area_id": 42,
+    "source_row_index": 42,
+    "iso_a3_source": "AUS",
+    "iso_a3": "AUS",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "AUS-03",
+    "name": "東部沿岸（シドニー・メルボルン中心）",
+    "name_en": "Eastern Coastal (Sydney & Melbourne)",
+    "reason": "オーストラリアで最も人口が集中しており、金融、サービス業、教育、文化の中心地。温帯気候で住みやすい。",
+    "geometry_wkt": "POLYGON ((145.898438 -28.033198, 160.927734 -28.033198, 160.927734 -36.031332, 145.898438 -36.031332, 145.898438 -28.033198))",
+    "area_id": 43,
+    "source_row_index": 43,
+    "iso_a3_source": "AUS",
+    "iso_a3": "AUS",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "AUS-04",
+    "name": "ビクトリア・タスマニア",
+    "name_en": "Victoria & Tasmania",
+    "reason": "温帯気候で、農業（ワイン、酪農）、観光、教育が盛ん。タスマニアは独特の自然と歴史を持つ。",
+    "geometry_wkt": "POLYGON ((134.208984 -36.031332, 160.048828 -36.031332, 160.048828 -56.072035, 134.208984 -56.072035, 134.208984 -36.031332))",
+    "area_id": 44,
+    "source_row_index": 44,
+    "iso_a3_source": "AUS",
+    "iso_a3": "AUS",
+    "area_seq_in_source": 4
+  },
+  {
+    "id": "AUS-05",
+    "name": "南オーストラリア",
+    "name_en": "South Australia",
+    "reason": "農業（ワイン、穀物）、鉱業、再生可能エネルギーが中心。アデレードは多様な産業が集まる。",
+    "geometry_wkt": "POLYGON ((128.144531 -28.000000, 145.887451 -28.000000, 145.887451 -36.031332, 128.144531 -36.031332, 128.144531 -28.000000))",
+    "area_id": 45,
+    "source_row_index": 45,
+    "iso_a3_source": "AUS",
+    "iso_a3": "AUS",
+    "area_seq_in_source": 5
+  },
+  {
+    "id": "AUS-06",
+    "name": "中央オーストラリア（アウトバック）",
+    "name_en": "Central Australia (Outback)",
+    "reason": "広大な乾燥・半乾燥地帯で人口は希薄。ウルルなどの独特な景観とアボリジニ文化の中心地。",
+    "geometry_wkt": "POLYGON ((128.143158 -20.000000, 140.998535 -20.000000, 140.998535 -28.001071, 128.143158 -28.001071, 128.143158 -20.000000))",
+    "area_id": 46,
+    "source_row_index": 46,
+    "iso_a3_source": "AUS",
+    "iso_a3": "AUS",
+    "area_seq_in_source": 6
+  },
+  {
+    "id": "AUS-07",
+    "name": "西オーストラリア北部",
+    "name_en": "North Western Australia",
+    "reason": "広大な鉱物資源（鉄鉱石、天然ガス）地帯。キンバリー地方のような独特な自然景観も持つ。",
+    "geometry_wkt": "POLYGON ((109.951172 -10.700000, 128.143029 -10.700000, 128.143029 -27.994401, 109.951172 -27.994401, 109.951172 -10.700000))",
+    "area_id": 47,
+    "source_row_index": 47,
+    "iso_a3_source": "AUS",
+    "iso_a3": "AUS",
+    "area_seq_in_source": 7
+  },
+  {
+    "id": "AUS-08",
+    "name": "西オーストラリア南部",
+    "name_en": "South Western Australia",
+    "reason": "パースを中心とした地域で、鉱業、農業、サービス業が発達。西オーストラリア州の経済・人口の中心。",
+    "geometry_wkt": "POLYGON ((109.951172 -28.000000, 128.144531 -28.000000, 128.144531 -37.370157, 109.951172 -37.370157, 109.951172 -28.000000))",
+    "area_id": 48,
+    "source_row_index": 48,
+    "iso_a3_source": "AUS",
+    "iso_a3": "AUS",
+    "area_seq_in_source": 8
+  }
+]

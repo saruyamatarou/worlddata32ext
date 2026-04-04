@@ -1,0 +1,26 @@
+[
+  {
+    "id": "FJI-01",
+    "name": "フィジー本島西部・北部",
+    "name_en": "Western and Northern Main Islands",
+    "reason": "ビティレブ島西部のナンディ国際空港周辺と、バヌアレブ島北部を経済・観光の中心地として分割。",
+    "geometry_wkt": "POLYGON ((173.979492 -11.996338, 180.241699 -11.996338, 180.241699 -17.245744, 173.979492 -17.245744, 173.979492 -11.996338))",
+    "area_id": 226,
+    "source_row_index": 226,
+    "iso_a3_source": "FJI",
+    "iso_a3": "FJI",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "FJI-02",
+    "name": "フィジー本島東部・南部",
+    "name_en": "Eastern and Southern Main Islands",
+    "reason": "ビティレブ島東部の首都スバ周辺と、南部の島々を経済・行政の中心地として分割。",
+    "geometry_wkt": "POLYGON ((174.001465 -17.224758, 180.285645 -17.224758, 180.285645 -22.126355, 174.001465 -22.126355, 174.001465 -17.224758))",
+    "area_id": 227,
+    "source_row_index": 227,
+    "iso_a3_source": "FJI",
+    "iso_a3": "FJI",
+    "area_seq_in_source": 2
+  }
+]

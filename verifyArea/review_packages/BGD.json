@@ -1,0 +1,265 @@
+{
+  "iso_a3": "BGD",
+  "area_count": 4,
+  "country_bbox": {
+    "minx": 87.813721,
+    "maxx": 92.878418,
+    "miny": 20.519644,
+    "maxy": 26.735799
+  },
+  "areas": [
+    {
+      "id": "BGD-01",
+      "area_id": 67,
+      "area_seq_in_source": 1,
+      "name": "北東部高地",
+      "name_en": "Northeastern Highlands",
+      "reason": "この地域は、バングラデシュ北東部に位置し、他の地域と比較してやや標高が高い丘陵地帯が広がっています。この地理的特徴は、古くから農業だけでなく、茶畑などのプランテーション農業も発達してきた歴史的・経済的背景と結びついています。また、文化的には少数民族が多く居住する地域でもあり、多様な文化が共存する特徴があります。",
+      "geometry_wkt": "POLYGON ((87.824707 26.735799, 92.554321 26.735799, 92.554321 24.721885, 87.824707 24.721885, 87.824707 26.735799))",
+      "bbox": {
+        "minx": 87.824707,
+        "maxx": 92.554321,
+        "miny": 24.721885,
+        "maxy": 26.735799
+      },
+      "centroid": {
+        "x": 90.189514,
+        "y": 25.728842
+      },
+      "size": {
+        "width": 4.729614,
+        "height": 2.013914
+      },
+      "relative_position": {
+        "x_norm": 0.4691,
+        "y_norm": 0.838,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "BGD-04"
+        ],
+        "east_of": [
+          "BGD-02",
+          "BGD-03"
+        ],
+        "north_of": [
+          "BGD-02",
+          "BGD-03",
+          "BGD-04"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 8432,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "WET",
+        "landcover_ratio": {
+          "CROPLAND": 0.5184,
+          "TREE": 0.2364,
+          "OCEAN": 0.1723,
+          "WATER": 0.0389,
+          "MANGROVE": 0.026,
+          "WETLAND": 0.0042,
+          "BUILT": 0.0037,
+          "GRASS": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9996,
+          "TEMPERATE": 0.0004
+        },
+        "elevation_ratio": {
+          "LOW": 0.9838,
+          "MID": 0.0162
+        },
+        "precip_ratio": {
+          "WET": 0.5241,
+          "MID": 0.4759
+        },
+        "flags_ratio": {
+          "water": 0.9553,
+          "cropland": 0.5238,
+          "forest": 0.266,
+          "built": 0.0038
+        },
+        "cell_bbox_xy": {
+          "min_x": 6433,
+          "max_x": 6542,
+          "min_y": 1522,
+          "max_y": 1670
+        },
+        "cell_centroid": {
+          "x": 6488.041,
+          "y": 1595.569,
+          "lon": 90.355876,
+          "lat": 23.497129
+        }
+      }
+    },
+    {
+      "id": "BGD-02",
+      "area_id": 68,
+      "area_seq_in_source": 2,
+      "name": "中央平原",
+      "name_en": "Central Plains",
+      "reason": "バングラデシュの大部分はガンジス・ブラマプトラ・メグナ川のデルタ地帯にあり、この中央平原はその中心部を占めます。国土の大部分が標高の低い沖積平野であり、肥沃な土壌と広範な河川網を持つため、農業、特に米作が盛んです。人口密度も高く、経済活動の中心となっています。",
+      "geometry_wkt": "POLYGON ((87.813721 24.706915, 91.175537 24.706915, 91.175537 23.553917, 87.813721 23.553917, 87.813721 24.706915))",
+      "bbox": {
+        "minx": 87.813721,
+        "maxx": 91.175537,
+        "miny": 23.553917,
+        "maxy": 24.706915
+      },
+      "centroid": {
+        "x": 89.494629,
+        "y": 24.130416
+      },
+      "size": {
+        "width": 3.361816,
+        "height": 1.152998
+      },
+      "relative_position": {
+        "x_norm": 0.3319,
+        "y_norm": 0.5809,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "BGD-01",
+          "BGD-03",
+          "BGD-04"
+        ],
+        "east_of": [],
+        "north_of": [
+          "BGD-03",
+          "BGD-04"
+        ],
+        "south_of": [
+          "BGD-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "BGD-03",
+      "area_id": 69,
+      "area_seq_in_source": 3,
+      "name": "南西部デルタと沿岸",
+      "name_en": "Southwestern Delta and Coast",
+      "reason": "この地域は、ガンジス・デルタの南西部に位置し、ベンガル湾に面しています。国土の大部分が標高の低い低湿地帯であり、潮汐の影響を強く受ける湿地帯や、世界最大級のマングローブ林であるスンダルバンスが含まれます。この地域は、自然災害（サイクロン、洪水）の影響を受けやすい一方で、漁業やマングローブ林に関連した経済活動が行われています。",
+      "geometry_wkt": "POLYGON ((88.297119 23.543845, 91.197510 23.543845, 91.197510 20.992214, 88.297119 20.992214, 88.297119 23.543845))",
+      "bbox": {
+        "minx": 88.297119,
+        "maxx": 91.19751,
+        "miny": 20.992214,
+        "maxy": 23.543845
+      },
+      "centroid": {
+        "x": 89.747314,
+        "y": 22.26803
+      },
+      "size": {
+        "width": 2.900391,
+        "height": 2.551631
+      },
+      "relative_position": {
+        "x_norm": 0.3818,
+        "y_norm": 0.2813,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "BGD-01",
+          "BGD-04"
+        ],
+        "east_of": [
+          "BGD-02"
+        ],
+        "north_of": [],
+        "south_of": [
+          "BGD-01",
+          "BGD-02",
+          "BGD-04"
+        ],
+        "overlaps": [
+          {
+            "id": "BGD-04",
+            "x_overlap": 0.010987,
+            "y_overlap": 2.551631
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "BGD-04",
+      "area_id": 70,
+      "area_seq_in_source": 4,
+      "name": "東部丘陵地帯",
+      "name_en": "Eastern Hill Tracts",
+      "reason": "バングラデシュ東部、特に南東部に位置するこの地域は、他の平野部とは異なり、丘陵地帯や山岳地帯が広がっています。地理的な隔絶性から、独自の文化や慣習を持つ少数民族が多く居住しています。経済的には、森林資源や農業（段々畑など）が中心であり、他の地域とは異なる特徴を持っています。",
+      "geometry_wkt": "POLYGON ((91.186523 24.706915, 92.878418 24.706915, 92.878418 20.519644, 91.186523 20.519644, 91.186523 24.706915))",
+      "bbox": {
+        "minx": 91.186523,
+        "maxx": 92.878418,
+        "miny": 20.519644,
+        "maxy": 24.706915
+      },
+      "centroid": {
+        "x": 92.03247,
+        "y": 22.613279
+      },
+      "size": {
+        "width": 1.691895,
+        "height": 4.187271
+      },
+      "relative_position": {
+        "x_norm": 0.833,
+        "y_norm": 0.3368,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "BGD-01",
+          "BGD-02",
+          "BGD-03"
+        ],
+        "north_of": [
+          "BGD-03"
+        ],
+        "south_of": [
+          "BGD-01",
+          "BGD-02"
+        ],
+        "overlaps": [
+          {
+            "id": "BGD-03",
+            "x_overlap": 0.010987,
+            "y_overlap": 2.551631
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    }
+  ]
+}

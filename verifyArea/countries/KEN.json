@@ -1,0 +1,50 @@
+[
+  {
+    "id": "KEN-01",
+    "name": "北東乾燥地帯",
+    "name_en": "Northeastern Arid Zone",
+    "reason": "国土の大部分を占め、降水量が少なく乾燥した砂漠・半砂漠地帯であり、遊牧が中心となる地域。",
+    "geometry_wkt": "POLYGON ((38.100586 5.000000, 42.000000 5.000000, 42.000000 -1.076597, 38.100586 -1.076597, 38.100586 5.000000))",
+    "area_id": 335,
+    "source_row_index": 335,
+    "iso_a3_source": "KEN",
+    "iso_a3": "KEN",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "KEN-02",
+    "name": "中央高地帯",
+    "name_en": "Central Highlands",
+    "reason": "大地溝帯の東側に位置し、肥沃で降水量も比較的多いため、農業（茶、コーヒーなど）の中心となっている地域。",
+    "geometry_wkt": "POLYGON ((35.419922 5.069058, 38.100586 5.069058, 38.100586 -4.105369, 35.419922 -4.105369, 35.419922 5.069058))",
+    "area_id": 336,
+    "source_row_index": 336,
+    "iso_a3_source": "KEN",
+    "iso_a3": "KEN",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "KEN-03",
+    "name": "大地溝帯と西部湖沼地域",
+    "name_en": "Rift Valley and Western Lakes Region",
+    "reason": "大地溝帯が走り、ヴィクトリア湖を含む地域。灌漑農業や漁業が行われる。",
+    "geometry_wkt": "POLYGON ((33.002930 5.047171, 35.419922 5.047171, 35.419922 -1.955187, 33.002930 -1.955187, 33.002930 5.047171))",
+    "area_id": 337,
+    "source_row_index": 337,
+    "iso_a3_source": "KEN",
+    "iso_a3": "KEN",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "KEN-04",
+    "name": "沿岸地域",
+    "name_en": "Coastal Region",
+    "reason": "インド洋に面し、モンバサ港を中心とした貿易・物流の拠点。スワヒリ文化の影響も受けている。",
+    "geometry_wkt": "POLYGON ((38.056641 -1.120534, 42.626953 -1.120534, 42.626953 -4.915833, 38.056641 -4.915833, 38.056641 -1.120534))",
+    "area_id": 338,
+    "source_row_index": 338,
+    "iso_a3_source": "KEN",
+    "iso_a3": "KEN",
+    "area_seq_in_source": 4
+  }
+]

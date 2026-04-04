@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">TCD review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(13.348389, 7.297088) - (24.060059, 24.000000)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="108.13" y="40.00" width="652.11" height="391.53" fill="none" stroke="black" stroke-width="2"/>
+<text x="112.13" y="56.00" font-size="12" font-family="Arial, sans-serif">TCD-01 | 北チャド砂漠地帯</text>
+<circle cx="434.19" cy="235.77" r="2.5" fill="black"/>
+<rect x="760.25" y="138.19" width="393.47" height="293.35" fill="none" stroke="black" stroke-width="2"/>
+<text x="764.25" y="154.19" font-size="12" font-family="Arial, sans-serif">TCD-02 | 北東部高地・高原地帯</text>
+<circle cx="956.98" cy="284.86" r="2.5" fill="black"/>
+<rect x="332.92" y="430.50" width="827.08" height="118.86" fill="none" stroke="black" stroke-width="2"/>
+<text x="336.92" y="446.50" font-size="12" font-family="Arial, sans-serif">TCD-03 | 中央サヘル地帯</text>
+<circle cx="746.46" cy="489.93" r="2.5" fill="black"/>
+<rect x="40.00" y="431.02" width="292.92" height="428.98" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="447.02" font-size="12" font-family="Arial, sans-serif">TCD-04 | 南西部河川・湖沼地帯</text>
+<circle cx="186.46" cy="645.51" r="2.5" fill="black"/>
+<rect x="330.63" y="550.41" width="822.48" height="304.24" fill="none" stroke="black" stroke-width="2"/>
+<text x="334.63" y="566.41" font-size="12" font-family="Arial, sans-serif">TCD-05 | 南東部サバンナ地帯</text>
+<circle cx="741.87" cy="702.53" r="2.5" fill="black"/>
+</svg>

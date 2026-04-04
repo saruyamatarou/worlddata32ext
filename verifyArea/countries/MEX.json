@@ -1,0 +1,74 @@
+[
+  {
+    "id": "MEX-01",
+    "name": "バハ・カリフォルニア半島",
+    "name_en": "Baja California Peninsula",
+    "reason": "本土から湾で隔てられた細長い半島であり、地理的独立性が高く、単独区分とするのが自然であるため。",
+    "geometry_wkt": "POLYGON ((-119.003906 32.800000, -109.028320 32.800000, -109.028320 17.811456, -119.003906 17.811456, -119.003906 32.800000))",
+    "area_id": 392,
+    "source_row_index": 392,
+    "iso_a3_source": "MEX",
+    "iso_a3": "MEX",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "MEX-02",
+    "name": "北西内陸・ソノラ＝チワワ地域",
+    "name_en": "Northwestern Interior and Sonora-Chihuahua Region",
+    "reason": "ソノラ・チワワを中心とする乾燥した北西内陸と山地・盆地の広がりをまとめて扱いやすい地域であるため。",
+    "geometry_wkt": "POLYGON ((-109.006348 32.800000, -98.701172 32.800000, -98.701172 25.443275, -109.006348 25.443275, -109.006348 32.800000))",
+    "area_id": 393,
+    "source_row_index": 393,
+    "iso_a3_source": "MEX",
+    "iso_a3": "MEX",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "MEX-03",
+    "name": "中央高原・首都圏",
+    "name_en": "Central Plateau and Capital Region",
+    "reason": "メキシコ高原の中核とメキシコシティ周辺を含み、人口・経済・交通の中心軸として独立性が高いため。",
+    "geometry_wkt": "POLYGON ((-108.962402 25.403585, -98.701172 25.403585, -98.701172 17.874203, -108.962402 17.874203, -108.962402 25.403585))",
+    "area_id": 394,
+    "source_row_index": 394,
+    "iso_a3_source": "MEX",
+    "iso_a3": "MEX",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "MEX-04",
+    "name": "北東部・メキシコ湾沿岸地域",
+    "name_en": "Northeastern Mexico and Gulf Coastal Plain",
+    "reason": "北東内陸からベラクルス方面までの湾岸平野とその背後地をまとめた、東部沿岸性格の強い地域であるため。",
+    "geometry_wkt": "POLYGON ((-98.723145 26.784847, -90.703125 26.784847, -90.703125 17.874203, -98.723145 17.874203, -98.723145 26.784847))",
+    "area_id": 395,
+    "source_row_index": 395,
+    "iso_a3_source": "MEX",
+    "iso_a3": "MEX",
+    "area_seq_in_source": 4
+  },
+  {
+    "id": "MEX-05",
+    "name": "南部太平洋・地峡地域",
+    "name_en": "Southern Pacific and Isthmus Region",
+    "reason": "オアハカ、ゲレロ、チアパス方面の南部高地と太平洋岸、テワンテペク地峡を一体で扱える地域であるため。",
+    "geometry_wkt": "POLYGON ((-106.500000 17.895114, -89.230957 17.895114, -89.230957 14.000000, -106.500000 14.000000, -106.500000 17.895114))",
+    "area_id": 396,
+    "source_row_index": 396,
+    "iso_a3_source": "MEX",
+    "iso_a3": "MEX",
+    "area_seq_in_source": 5
+  },
+  {
+    "id": "MEX-06",
+    "name": "ユカタン半島",
+    "name_en": "Yucatán Peninsula",
+    "reason": "石灰岩台地を主体とする南東端の半島であり、本土南部とは別のまとまりとして扱うのが自然であるため。",
+    "geometry_wkt": "POLYGON ((-90.681152 22.800000, -85.539551 22.800000, -85.539551 17.727759, -90.681152 17.727759, -90.681152 22.800000))",
+    "area_id": 397,
+    "source_row_index": 397,
+    "iso_a3_source": "MEX",
+    "iso_a3": "MEX",
+    "area_seq_in_source": 6
+  }
+]

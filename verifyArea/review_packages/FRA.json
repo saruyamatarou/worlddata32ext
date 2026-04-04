@@ -1,0 +1,397 @@
+{
+  "iso_a3": "FRA",
+  "area_count": 4,
+  "country_bbox": {
+    "minx": -5.5,
+    "maxx": 10.0,
+    "miny": 41.1,
+    "maxy": 51.3
+  },
+  "areas": [
+    {
+      "id": "FRA-01",
+      "area_id": 705,
+      "area_seq_in_source": 1,
+      "name": "フランス北西部・パリ圏",
+      "name_en": "Northwestern France and Paris Basin",
+      "reason": "首都パリを含む政治・経済・人口の中核地域。パリ盆地と英仏海峡・大西洋側北部をまとめた、フランスの中心性が最も強い地域。",
+      "geometry_wkt": "POLYGON ((-5.5 51.3, 2.8 51.3, 2.8 47.3, -5.5 47.3, -5.5 51.3))",
+      "bbox": {
+        "minx": -5.5,
+        "maxx": 2.8,
+        "miny": 47.3,
+        "maxy": 51.3
+      },
+      "centroid": {
+        "x": -1.35,
+        "y": 49.3
+      },
+      "size": {
+        "width": 8.3,
+        "height": 4.0
+      },
+      "relative_position": {
+        "x_norm": 0.2677,
+        "y_norm": 0.8039,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "FRA-02",
+          "FRA-04"
+        ],
+        "east_of": [],
+        "north_of": [
+          "FRA-02",
+          "FRA-03",
+          "FRA-04"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 19342,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.3324,
+          "OCEAN": 0.3302,
+          "CROPLAND": 0.2534,
+          "GRASS": 0.0667,
+          "BUILT": 0.008,
+          "WATER": 0.0072,
+          "WETLAND": 0.0014,
+          "MANGROVE": 0.0006,
+          "BARE": 0.0001
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.4562,
+          "TROPICAL": 0.3724,
+          "COLD": 0.1714
+        },
+        "elevation_ratio": {
+          "LOW": 0.9242,
+          "MID": 0.0724,
+          "HIGH": 0.0031,
+          "ULTRA": 0.0004
+        },
+        "precip_ratio": {
+          "LOW": 0.4193,
+          "MID": 0.378,
+          "WET": 0.2027
+        },
+        "flags_ratio": {
+          "water": 0.8271,
+          "forest": 0.3343,
+          "cropland": 0.2534,
+          "built": 0.0082,
+          "reef": 0.0003
+        },
+        "cell_bbox_xy": {
+          "min_x": 2827,
+          "max_x": 5669,
+          "min_y": 925,
+          "max_y": 2682
+        },
+        "cell_centroid": {
+          "x": 3996.262,
+          "y": 1410.091,
+          "lon": -13.468269,
+          "lat": 31.22536
+        }
+      }
+    },
+    {
+      "id": "FRA-02",
+      "area_id": 706,
+      "area_seq_in_source": 2,
+      "name": "フランス北東部・国境工業地帯",
+      "name_en": "Northeastern France and Border Industrial Belt",
+      "reason": "ベルギー・ルクセンブルク・ドイツ・スイス方面に接する国境地域。歴史的に交通・工業・軍事の重要性が高く、東部の独自性が強い。",
+      "geometry_wkt": "POLYGON ((2.8 51.3, 8.5 51.3, 8.5 46.2, 2.8 46.2, 2.8 51.3))",
+      "bbox": {
+        "minx": 2.8,
+        "maxx": 8.5,
+        "miny": 46.2,
+        "maxy": 51.3
+      },
+      "centroid": {
+        "x": 5.65,
+        "y": 48.75
+      },
+      "size": {
+        "width": 5.7,
+        "height": 5.1
+      },
+      "relative_position": {
+        "x_norm": 0.7194,
+        "y_norm": 0.75,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "FRA-04"
+        ],
+        "east_of": [
+          "FRA-01",
+          "FRA-03"
+        ],
+        "north_of": [
+          "FRA-03",
+          "FRA-04"
+        ],
+        "south_of": [
+          "FRA-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 9355,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.4136,
+          "CROPLAND": 0.4049,
+          "GRASS": 0.1686,
+          "BUILT": 0.0102,
+          "WATER": 0.0028
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9993,
+          "COLD": 0.0007
+        },
+        "elevation_ratio": {
+          "MID": 0.6165,
+          "LOW": 0.3546,
+          "HIGH": 0.029
+        },
+        "precip_ratio": {
+          "LOW": 0.8676,
+          "MID": 0.1324
+        },
+        "flags_ratio": {
+          "water": 0.7234,
+          "forest": 0.4136,
+          "cropland": 0.4049,
+          "built": 0.0102
+        },
+        "cell_bbox_xy": {
+          "min_x": 4387,
+          "max_x": 4515,
+          "min_y": 941,
+          "max_y": 1050
+        },
+        "cell_centroid": {
+          "x": 4436.491,
+          "y": 1003.668,
+          "lon": 4.874615,
+          "lat": 48.159663
+        }
+      }
+    },
+    {
+      "id": "FRA-03",
+      "area_id": 707,
+      "area_seq_in_source": 3,
+      "name": "フランス南西部・大西洋内陸圏",
+      "name_en": "Southwestern France and Atlantic Inland Region",
+      "reason": "アキテーヌ盆地を中心とする大西洋側・内陸南西部。農業・ワイン・広い平野とピレネー北麓を含む、南西フランスを代表する地域。",
+      "geometry_wkt": "POLYGON ((-5.5 47.3, 2.8 47.3, 2.8 42.1, -5.5 42.1, -5.5 47.3))",
+      "bbox": {
+        "minx": -5.5,
+        "maxx": 2.8,
+        "miny": 42.1,
+        "maxy": 47.3
+      },
+      "centroid": {
+        "x": -1.35,
+        "y": 44.7
+      },
+      "size": {
+        "width": 8.3,
+        "height": 5.2
+      },
+      "relative_position": {
+        "x_norm": 0.2677,
+        "y_norm": 0.3529,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "FRA-02",
+          "FRA-04"
+        ],
+        "east_of": [],
+        "north_of": [
+          "FRA-04"
+        ],
+        "south_of": [
+          "FRA-01",
+          "FRA-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 12432,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.3818,
+          "CROPLAND": 0.293,
+          "GRASS": 0.2084,
+          "OCEAN": 0.1017,
+          "BUILT": 0.0079,
+          "WATER": 0.0043,
+          "SHRUB": 0.0022,
+          "BARE": 0.0006,
+          "WETLAND": 0.0002
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9147,
+          "COLD": 0.0853
+        },
+        "elevation_ratio": {
+          "LOW": 0.6162,
+          "MID": 0.3201,
+          "HIGH": 0.0541,
+          "ULTRA": 0.0097
+        },
+        "precip_ratio": {
+          "LOW": 0.7231,
+          "MID": 0.2769
+        },
+        "flags_ratio": {
+          "water": 0.7433,
+          "forest": 0.3841,
+          "cropland": 0.2934,
+          "built": 0.0079
+        },
+        "cell_bbox_xy": {
+          "min_x": 4253,
+          "max_x": 4386,
+          "min_y": 1025,
+          "max_y": 1143
+        },
+        "cell_centroid": {
+          "x": 4330.75,
+          "y": 1077.429,
+          "lon": 0.46877,
+          "lat": 45.086279
+        }
+      }
+    },
+    {
+      "id": "FRA-04",
+      "area_id": 708,
+      "area_seq_in_source": 4,
+      "name": "フランス南東部・地中海アルプス圏",
+      "name_en": "Southeastern France and Mediterranean-Alpine Region",
+      "reason": "ローヌ川流域、地中海沿岸、アルプス・ジュラにまたがる地域。南仏の地中海性気候と東部山岳地帯の特徴をまとめて表現できる。",
+      "geometry_wkt": "POLYGON ((2.8 46.2, 10.0 46.2, 10.0 41.1, 2.8 41.1, 2.8 46.2))",
+      "bbox": {
+        "minx": 2.8,
+        "maxx": 10.0,
+        "miny": 41.1,
+        "maxy": 46.2
+      },
+      "centroid": {
+        "x": 6.4,
+        "y": 43.65
+      },
+      "size": {
+        "width": 7.2,
+        "height": 5.1
+      },
+      "relative_position": {
+        "x_norm": 0.7677,
+        "y_norm": 0.25,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "FRA-01",
+          "FRA-02",
+          "FRA-03"
+        ],
+        "north_of": [],
+        "south_of": [
+          "FRA-01",
+          "FRA-02",
+          "FRA-03"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 10100,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.4902,
+          "OCEAN": 0.2308,
+          "GRASS": 0.1651,
+          "CROPLAND": 0.0543,
+          "SHRUB": 0.0212,
+          "WATER": 0.012,
+          "BARE": 0.0111,
+          "BUILT": 0.011,
+          "SNOW_ICE": 0.0022,
+          "WETLAND": 0.0022
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9402,
+          "COLD": 0.0596,
+          "POLAR": 0.0002
+        },
+        "elevation_ratio": {
+          "LOW": 0.3608,
+          "MID": 0.3467,
+          "HIGH": 0.2508,
+          "ULTRA": 0.0417
+        },
+        "precip_ratio": {
+          "LOW": 0.5514,
+          "MID": 0.4486
+        },
+        "flags_ratio": {
+          "water": 0.7607,
+          "forest": 0.5119,
+          "cropland": 0.0545,
+          "built": 0.0111,
+          "ice": 0.0022
+        },
+        "cell_bbox_xy": {
+          "min_x": 4387,
+          "max_x": 4558,
+          "min_y": 1051,
+          "max_y": 1169
+        },
+        "cell_centroid": {
+          "x": 4454.018,
+          "y": 1101.105,
+          "lon": 5.604905,
+          "lat": 44.09979
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">ZMB review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(21.862793, -18.145852) - (33.903809, -8.000000)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="628.61" y="40.00" width="531.39" height="340.35" fill="none" stroke="black" stroke-width="2"/>
+<text x="632.61" y="56.00" font-size="12" font-family="Arial, sans-serif">ZMB-01 | 北部高地・カッパーベルト地域</text>
+<circle cx="894.31" cy="210.18" r="2.5" fill="black"/>
+<rect x="627.59" y="382.09" width="515.04" height="393.29" fill="none" stroke="black" stroke-width="2"/>
+<text x="631.59" y="398.09" font-size="12" font-family="Arial, sans-serif">ZMB-02 | 中部高原・農業地帯</text>
+<circle cx="885.11" cy="578.73" r="2.5" fill="black"/>
+<rect x="40.00" y="260.27" width="586.57" height="599.73" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="276.27" font-size="12" font-family="Arial, sans-serif">ZMB-03 | 南部・ザンベジ川流域</text>
+<circle cx="333.28" cy="560.13" r="2.5" fill="black"/>
+</svg>

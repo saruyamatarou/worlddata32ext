@@ -1,0 +1,26 @@
+[
+  {
+    "id": "DJI-01",
+    "name": "ジブチ西部高地",
+    "name_en": "Western Djibouti Highlands",
+    "reason": "国土の大部分を占める砂漠・半砂漠地帯であり、内陸部との結節点であるエチオピアとの関係が深い。高原地帯は遊牧民の生活圏でもある。",
+    "geometry_wkt": "POLYGON ((41.665649 12.634978, 42.511597 12.634978, 42.511597 10.800000, 41.665649 10.800000, 41.665649 12.634978))",
+    "area_id": 181,
+    "source_row_index": 181,
+    "iso_a3_source": "DJI",
+    "iso_a3": "DJI",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "DJI-02",
+    "name": "ジブチ東部沿岸・首都圏",
+    "name_en": "Eastern Djibouti Coast & Capital Region",
+    "reason": "紅海・アデン湾に面し、港湾都市ジブチ市を中心に国際貿易と物流のハブとなっている。人口が集中し、経済活動の中心地である。",
+    "geometry_wkt": "POLYGON ((42.511597 12.790375, 44.200000 12.790375, 44.200000 10.800000, 42.511597 10.800000, 42.511597 12.790375))",
+    "area_id": 182,
+    "source_row_index": 182,
+    "iso_a3_source": "DJI",
+    "iso_a3": "DJI",
+    "area_seq_in_source": 2
+  }
+]

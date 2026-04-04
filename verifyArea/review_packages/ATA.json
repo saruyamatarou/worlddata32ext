@@ -1,0 +1,719 @@
+{
+  "iso_a3": "ATA",
+  "area_count": 8,
+  "country_bbox": {
+    "minx": -46.8,
+    "maxx": -44.1,
+    "miny": -61.0,
+    "maxy": -60.3
+  },
+  "areas": [
+    {
+      "id": "SOK-01",
+      "area_id": 28,
+      "area_seq_in_source": 1,
+      "name": "コロネーション島西部",
+      "name_en": "Western Coronation Island",
+      "reason": "諸島最大の島であるコロネーション島の西半分をカバー。山岳地帯と氷河の分布に基づく。",
+      "geometry_wkt": "POLYGON ((-46.00 -60.30, -45.50 -60.30, -45.50 -60.80, -46.00 -60.80, -46.00 -60.30))",
+      "bbox": {
+        "minx": -46.0,
+        "maxx": -45.5,
+        "miny": -60.8,
+        "maxy": -60.3
+      },
+      "centroid": {
+        "x": -45.75,
+        "y": -60.55
+      },
+      "size": {
+        "width": 0.5,
+        "height": 0.5
+      },
+      "relative_position": {
+        "x_norm": 0.3889,
+        "y_norm": 0.6429,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "SOK-02",
+          "SOK-03",
+          "SOK-04",
+          "SOK-05",
+          "SOK-06",
+          "SOK-08"
+        ],
+        "east_of": [
+          "SOK-07"
+        ],
+        "north_of": [
+          "SOK-03",
+          "SOK-04",
+          "SOK-05",
+          "SOK-06",
+          "SOK-08"
+        ],
+        "south_of": [
+          "SOK-07"
+        ],
+        "overlaps": [
+          {
+            "id": "SOK-03",
+            "x_overlap": 0.3,
+            "y_overlap": 0.2
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 3720978,
+        "dominant_landcover": "UNKNOWN",
+        "dominant_t2": "POLAR",
+        "dominant_e2": "ULTRA",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "UNKNOWN": 0.9365,
+          "OCEAN": 0.0635
+        },
+        "temperature_ratio": {
+          "POLAR": 0.9984,
+          "COLD": 0.0016
+        },
+        "elevation_ratio": {
+          "ULTRA": 0.65,
+          "HIGH": 0.1965,
+          "LOW": 0.0849,
+          "MID": 0.0686
+        },
+        "precip_ratio": {
+          "ARID": 0.8073,
+          "LOW": 0.1286,
+          "MID": 0.0642
+        },
+        "flags_ratio": {
+          "water": 0.0635
+        },
+        "cell_bbox_xy": {
+          "min_x": 0,
+          "max_x": 8639,
+          "min_y": 3602,
+          "max_y": 4319
+        },
+        "cell_centroid": {
+          "x": 4724.721,
+          "y": 4081.745,
+          "lon": 16.884212,
+          "lat": -80.093551
+        }
+      }
+    },
+    {
+      "id": "SOK-02",
+      "area_id": 29,
+      "area_seq_in_source": 2,
+      "name": "コロネーション島東部",
+      "name_en": "Eastern Coronation Island",
+      "reason": "コロネーション島の東半分と周辺の小島を含む。地形的な連続性を重視。",
+      "geometry_wkt": "POLYGON ((-45.50 -60.30, -45.00 -60.30, -45.00 -60.80, -45.50 -60.80, -45.50 -60.30))",
+      "bbox": {
+        "minx": -45.5,
+        "maxx": -45.0,
+        "miny": -60.8,
+        "maxy": -60.3
+      },
+      "centroid": {
+        "x": -45.25,
+        "y": -60.55
+      },
+      "size": {
+        "width": 0.5,
+        "height": 0.5
+      },
+      "relative_position": {
+        "x_norm": 0.5741,
+        "y_norm": 0.6429,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "SOK-04",
+          "SOK-05",
+          "SOK-06",
+          "SOK-08"
+        ],
+        "east_of": [
+          "SOK-01",
+          "SOK-03",
+          "SOK-07"
+        ],
+        "north_of": [
+          "SOK-03",
+          "SOK-04",
+          "SOK-05",
+          "SOK-06",
+          "SOK-08"
+        ],
+        "south_of": [
+          "SOK-07"
+        ],
+        "overlaps": [
+          {
+            "id": "SOK-03",
+            "x_overlap": 0.1,
+            "y_overlap": 0.2
+          },
+          {
+            "id": "SOK-04",
+            "x_overlap": 0.1,
+            "y_overlap": 0.3
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 199,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "POLAR",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9397,
+          "UNKNOWN": 0.0603
+        },
+        "temperature_ratio": {
+          "POLAR": 0.9749,
+          "COLD": 0.0251
+        },
+        "elevation_ratio": {
+          "LOW": 0.9648,
+          "MID": 0.0352
+        },
+        "precip_ratio": {
+          "MID": 0.9397,
+          "LOW": 0.0603
+        },
+        "flags_ratio": {
+          "water": 0.9397
+        },
+        "cell_bbox_xy": {
+          "min_x": 3228,
+          "max_x": 3239,
+          "min_y": 3603,
+          "max_y": 3627
+        },
+        "cell_centroid": {
+          "x": 3232.864,
+          "y": 3615.266,
+          "lon": -45.276487,
+          "lat": -60.65693
+        }
+      }
+    },
+    {
+      "id": "SOK-03",
+      "area_id": 30,
+      "area_seq_in_source": 3,
+      "name": "シグニー島・小諸島域",
+      "name_en": "Signy Island and Islets",
+      "reason": "研究基地が存在するシグニー島を中心とした生物学的・科学的に重要なエリア。",
+      "geometry_wkt": "POLYGON ((-45.80 -60.60, -45.40 -60.60, -45.40 -60.80, -45.80 -60.80, -45.80 -60.60))",
+      "bbox": {
+        "minx": -45.8,
+        "maxx": -45.4,
+        "miny": -60.8,
+        "maxy": -60.6
+      },
+      "centroid": {
+        "x": -45.6,
+        "y": -60.7
+      },
+      "size": {
+        "width": 0.4,
+        "height": 0.2
+      },
+      "relative_position": {
+        "x_norm": 0.4444,
+        "y_norm": 0.4286,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "SOK-02",
+          "SOK-04",
+          "SOK-05",
+          "SOK-06",
+          "SOK-08"
+        ],
+        "east_of": [
+          "SOK-01",
+          "SOK-07"
+        ],
+        "north_of": [
+          "SOK-05",
+          "SOK-06",
+          "SOK-08"
+        ],
+        "south_of": [
+          "SOK-01",
+          "SOK-02",
+          "SOK-07"
+        ],
+        "overlaps": [
+          {
+            "id": "SOK-01",
+            "x_overlap": 0.3,
+            "y_overlap": 0.2
+          },
+          {
+            "id": "SOK-02",
+            "x_overlap": 0.1,
+            "y_overlap": 0.2
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 108,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "POLAR",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.8981,
+          "UNKNOWN": 0.1019
+        },
+        "temperature_ratio": {
+          "POLAR": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.8981,
+          "MID": 0.1019
+        },
+        "precip_ratio": {
+          "MID": 0.8981,
+          "LOW": 0.1019
+        },
+        "flags_ratio": {
+          "water": 0.8981
+        },
+        "cell_bbox_xy": {
+          "min_x": 3219,
+          "max_x": 3229,
+          "min_y": 3614,
+          "max_y": 3625
+        },
+        "cell_centroid": {
+          "x": 3224.574,
+          "y": 3619.324,
+          "lon": -45.621914,
+          "lat": -60.826003
+        }
+      }
+    },
+    {
+      "id": "SOK-04",
+      "area_id": 31,
+      "area_seq_in_source": 4,
+      "name": "パウエル島・ルーウェンスウェイト島",
+      "name_en": "Powell and Lewthwaite Islands",
+      "reason": "中央部に位置する南北に長い島々とその周辺海域を包含。",
+      "geometry_wkt": "POLYGON ((-45.10 -60.50, -44.90 -60.50, -44.90 -60.90, -45.10 -60.90, -45.10 -60.50))",
+      "bbox": {
+        "minx": -45.1,
+        "maxx": -44.9,
+        "miny": -60.9,
+        "maxy": -60.5
+      },
+      "centroid": {
+        "x": -45.0,
+        "y": -60.7
+      },
+      "size": {
+        "width": 0.2,
+        "height": 0.4
+      },
+      "relative_position": {
+        "x_norm": 0.6667,
+        "y_norm": 0.4286,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "SOK-05",
+          "SOK-06",
+          "SOK-08"
+        ],
+        "east_of": [
+          "SOK-01",
+          "SOK-02",
+          "SOK-03",
+          "SOK-07"
+        ],
+        "north_of": [
+          "SOK-05",
+          "SOK-06",
+          "SOK-08"
+        ],
+        "south_of": [
+          "SOK-01",
+          "SOK-02",
+          "SOK-07"
+        ],
+        "overlaps": [
+          {
+            "id": "SOK-02",
+            "x_overlap": 0.1,
+            "y_overlap": 0.3
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 87,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "POLAR",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.977,
+          "UNKNOWN": 0.023
+        },
+        "temperature_ratio": {
+          "POLAR": 0.977,
+          "COLD": 0.023
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.977,
+          "LOW": 0.023
+        },
+        "flags_ratio": {
+          "water": 0.977
+        },
+        "cell_bbox_xy": {
+          "min_x": 3237,
+          "max_x": 3244,
+          "min_y": 3605,
+          "max_y": 3623
+        },
+        "cell_centroid": {
+          "x": 3239.506,
+          "y": 3612.356,
+          "lon": -44.999761,
+          "lat": -60.53568
+        }
+      }
+    },
+    {
+      "id": "SOK-05",
+      "area_id": 32,
+      "area_seq_in_source": 5,
+      "name": "ローリー島西部",
+      "name_en": "Western Laurie Island",
+      "reason": "東側の主要島であるローリー島の西側入江と山地を区分。",
+      "geometry_wkt": "POLYGON ((-44.90 -60.60, -44.60 -60.60, -44.60 -60.90, -44.90 -60.90, -44.90 -60.60))",
+      "bbox": {
+        "minx": -44.9,
+        "maxx": -44.6,
+        "miny": -60.9,
+        "maxy": -60.6
+      },
+      "centroid": {
+        "x": -44.75,
+        "y": -60.75
+      },
+      "size": {
+        "width": 0.3,
+        "height": 0.3
+      },
+      "relative_position": {
+        "x_norm": 0.7593,
+        "y_norm": 0.3571,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "SOK-06",
+          "SOK-08"
+        ],
+        "east_of": [
+          "SOK-01",
+          "SOK-02",
+          "SOK-03",
+          "SOK-04",
+          "SOK-07"
+        ],
+        "north_of": [
+          "SOK-08"
+        ],
+        "south_of": [
+          "SOK-01",
+          "SOK-02",
+          "SOK-03",
+          "SOK-04",
+          "SOK-07"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 151,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "POLAR",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9669,
+          "UNKNOWN": 0.0331
+        },
+        "temperature_ratio": {
+          "POLAR": 0.9669,
+          "COLD": 0.0331
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9669,
+          "LOW": 0.0331
+        },
+        "flags_ratio": {
+          "water": 0.9669
+        },
+        "cell_bbox_xy": {
+          "min_x": 3240,
+          "max_x": 3249,
+          "min_y": 3607,
+          "max_y": 3627
+        },
+        "cell_centroid": {
+          "x": 3245.053,
+          "y": 3618.715,
+          "lon": -44.768626,
+          "lat": -60.800635
+        }
+      }
+    },
+    {
+      "id": "SOK-06",
+      "area_id": 33,
+      "area_seq_in_source": 6,
+      "name": "ローリー島東部",
+      "name_en": "Eastern Laurie Island",
+      "reason": "オルカダス基地を含むローリー島の東半分をカバーする歴史・経済的拠点エリア。",
+      "geometry_wkt": "POLYGON ((-44.60 -60.60, -44.30 -60.60, -44.30 -60.90, -44.60 -60.90, -44.60 -60.60))",
+      "bbox": {
+        "minx": -44.6,
+        "maxx": -44.3,
+        "miny": -60.9,
+        "maxy": -60.6
+      },
+      "centroid": {
+        "x": -44.45,
+        "y": -60.75
+      },
+      "size": {
+        "width": 0.3,
+        "height": 0.3
+      },
+      "relative_position": {
+        "x_norm": 0.8704,
+        "y_norm": 0.3571,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "SOK-08"
+        ],
+        "east_of": [
+          "SOK-01",
+          "SOK-02",
+          "SOK-03",
+          "SOK-04",
+          "SOK-05",
+          "SOK-07"
+        ],
+        "north_of": [
+          "SOK-08"
+        ],
+        "south_of": [
+          "SOK-01",
+          "SOK-02",
+          "SOK-03",
+          "SOK-04",
+          "SOK-07"
+        ],
+        "overlaps": [
+          {
+            "id": "SOK-08",
+            "x_overlap": 0.1,
+            "y_overlap": 0.1
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 209,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "POLAR",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9904,
+          "UNKNOWN": 0.0096
+        },
+        "temperature_ratio": {
+          "POLAR": 0.9904,
+          "COLD": 0.0096
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9904,
+          "LOW": 0.0096
+        },
+        "flags_ratio": {
+          "water": 0.9904
+        },
+        "cell_bbox_xy": {
+          "min_x": 3247,
+          "max_x": 3261,
+          "min_y": 3606,
+          "max_y": 3627
+        },
+        "cell_centroid": {
+          "x": 3254.005,
+          "y": 3615.828,
+          "lon": -44.395634,
+          "lat": -60.680323
+        }
+      }
+    },
+    {
+      "id": "SOK-07",
+      "area_id": 34,
+      "area_seq_in_source": 7,
+      "name": "インアクセシブル諸島",
+      "name_en": "Inaccessible Islands",
+      "reason": "諸島の最西端に位置する孤立した岩礁群を定義。",
+      "geometry_wkt": "POLYGON ((-46.80 -60.30, -46.40 -60.30, -46.40 -60.60, -46.80 -60.60, -46.80 -60.30))",
+      "bbox": {
+        "minx": -46.8,
+        "maxx": -46.4,
+        "miny": -60.6,
+        "maxy": -60.3
+      },
+      "centroid": {
+        "x": -46.6,
+        "y": -60.45
+      },
+      "size": {
+        "width": 0.4,
+        "height": 0.3
+      },
+      "relative_position": {
+        "x_norm": 0.0741,
+        "y_norm": 0.7857,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "SOK-01",
+          "SOK-02",
+          "SOK-03",
+          "SOK-04",
+          "SOK-05",
+          "SOK-06",
+          "SOK-08"
+        ],
+        "east_of": [],
+        "north_of": [
+          "SOK-01",
+          "SOK-02",
+          "SOK-03",
+          "SOK-04",
+          "SOK-05",
+          "SOK-06",
+          "SOK-08"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "SOK-08",
+      "area_id": 35,
+      "area_seq_in_source": 8,
+      "name": "南東部孤立岩礁域",
+      "name_en": "Southeastern Outlying Rocks",
+      "reason": "諸島南東端に点在する小規模な岩礁群とマージン海域を管理。",
+      "geometry_wkt": "POLYGON ((-44.40 -60.80, -44.10 -60.80, -44.10 -61.00, -44.40 -61.00, -44.40 -60.80))",
+      "bbox": {
+        "minx": -44.4,
+        "maxx": -44.1,
+        "miny": -61.0,
+        "maxy": -60.8
+      },
+      "centroid": {
+        "x": -44.25,
+        "y": -60.9
+      },
+      "size": {
+        "width": 0.3,
+        "height": 0.2
+      },
+      "relative_position": {
+        "x_norm": 0.9444,
+        "y_norm": 0.1429,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "SOK-01",
+          "SOK-02",
+          "SOK-03",
+          "SOK-04",
+          "SOK-05",
+          "SOK-06",
+          "SOK-07"
+        ],
+        "north_of": [],
+        "south_of": [
+          "SOK-01",
+          "SOK-02",
+          "SOK-03",
+          "SOK-04",
+          "SOK-05",
+          "SOK-06",
+          "SOK-07"
+        ],
+        "overlaps": [
+          {
+            "id": "SOK-06",
+            "x_overlap": 0.1,
+            "y_overlap": 0.1
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    }
+  ]
+}

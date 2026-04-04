@@ -1,0 +1,50 @@
+[
+  {
+    "id": "SOM-01",
+    "name": "ソマリア北部",
+    "name_en": "Northern Somalia",
+    "reason": "ソマリランドとして事実上独立状態にある地域であり、地理的、政治的、文化的な独自性を持つため。",
+    "geometry_wkt": "POLYGON ((49.0 12.0, 42.0 12.0, 42.0 8.0, 49.0 8.0, 49.0 12.0))",
+    "area_id": 557,
+    "source_row_index": 557,
+    "iso_a3_source": "SOM",
+    "iso_a3": "SOM",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "SOM-02",
+    "name": "ソマリア北東部（プントランド）",
+    "name_en": "Northeastern Somalia (Puntland)",
+    "reason": "プントランドは自治を宣言しており、他の地域とは異なる政治的・地域的特性を持つため。",
+    "geometry_wkt": "POLYGON ((47.938843 12.060809, 51.558838 12.060809, 51.558838 7.972198, 47.938843 7.972198, 47.938843 12.060809))",
+    "area_id": 558,
+    "source_row_index": 558,
+    "iso_a3_source": "SOM",
+    "iso_a3": "SOM",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "SOM-03",
+    "name": "ソマリア中部",
+    "name_en": "Central Somalia",
+    "reason": "地理的にソマリアの中央部に位置し、ガルムドゥグなどの地域を含む、比較的安定した地域とみなされるため。",
+    "geometry_wkt": "POLYGON ((42.187500 7.950437, 50.493164 7.950437, 50.493164 4.499762, 42.187500 4.499762, 42.187500 7.950437))",
+    "area_id": 559,
+    "source_row_index": 559,
+    "iso_a3_source": "SOM",
+    "iso_a3": "SOM",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "SOM-04",
+    "name": "ソマリア南部",
+    "name_en": "Southern Somalia",
+    "reason": "首都モガディシュを含む、ソマリアで最も人口が多く、政治経済の中心地であるため。また、ジュバランドや南西ソマリアなどの地域も包含する。",
+    "geometry_wkt": "POLYGON ((40.561523 4.455951, 48.000000 4.455951, 48.000000 -1.911267, 40.561523 -1.911267, 40.561523 4.455951))",
+    "area_id": 560,
+    "source_row_index": 560,
+    "iso_a3_source": "SOM",
+    "iso_a3": "SOM",
+    "area_seq_in_source": 4
+  }
+]

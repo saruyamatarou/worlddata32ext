@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ETH-01",
+    "name": "北部高地",
+    "name_en": "Northern Highlands",
+    "reason": "エチオピア高原の北部にあたり、歴史的・文化的に重要な地域。アムハラ族やティグレ族が多く居住し、古代の都市アクスムやラリベラ教会群が存在する。",
+    "geometry_wkt": "POLYGON ((33.881836 15.474857, 43.000000 15.474857, 43.000000 10.000000, 33.881836 10.000000, 33.881836 15.474857))",
+    "area_id": 218,
+    "source_row_index": 218,
+    "iso_a3_source": "ETH",
+    "iso_a3": "ETH",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "ETH-02",
+    "name": "中央高原とリフトバレー",
+    "name_en": "Central Highlands and Rift Valley",
+    "reason": "国の中心部を横断するリフトバレーとその周辺の高地。首都アディスアベバが位置し、多様な民族が混在する経済・行政の中心地。多くの湖が存在する。",
+    "geometry_wkt": "POLYGON ((32.629395 10.000000, 40.000000 10.000000, 40.000000 5.987607, 32.629395 5.987607, 32.629395 10.000000))",
+    "area_id": 219,
+    "source_row_index": 219,
+    "iso_a3_source": "ETH",
+    "iso_a3": "ETH",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "ETH-03",
+    "name": "南西部低地と山岳地帯",
+    "name_en": "Southwestern Lowlands and Mountains",
+    "reason": "西部の低地から南西部の山岳地帯にかけて広がる地域。比較的温暖な気候で、多様な民族グループが居住し、独自の文化を持つ。ガンベラ国立公園などが含まれる。",
+    "geometry_wkt": "POLYGON ((34.870605 6.000000, 40.001221 6.000000, 40.001221 3.272146, 34.870605 3.272146, 34.870605 6.000000))",
+    "area_id": 220,
+    "source_row_index": 220,
+    "iso_a3_source": "ETH",
+    "iso_a3": "ETH",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "ETH-04",
+    "name": "東部乾燥地帯とソマリ地域",
+    "name_en": "Eastern Arid Zone and Somali Region",
+    "reason": "国の東部に広がる乾燥地帯で、ソマリ族が多く居住する地域。オガデン地方などが含まれ、気候は乾燥し、植生はまばら。",
+    "geometry_wkt": "POLYGON ((40.000000 10.000000, 48.164063 10.000000, 48.164063 3.469557, 40.000000 3.469557, 40.000000 10.000000))",
+    "area_id": 221,
+    "source_row_index": 221,
+    "iso_a3_source": "ETH",
+    "iso_a3": "ETH",
+    "area_seq_in_source": 4
+  }
+]

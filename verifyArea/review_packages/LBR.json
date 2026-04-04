@@ -1,0 +1,176 @@
+{
+  "iso_a3": "LBR",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": -11.52,
+    "maxx": -7.294922,
+    "miny": 4.072494,
+    "maxy": 8.646196
+  },
+  "areas": [
+    {
+      "id": "LBR-01",
+      "area_id": 359,
+      "area_seq_in_source": 1,
+      "name": "リベリア沿岸部",
+      "name_en": "Coastal Liberia",
+      "reason": "モンロビアを含む主要な沿岸地域であり、経済活動と人口が集中する。",
+      "geometry_wkt": "POLYGON ((-11.520000 7.000000, -7.294922 7.000000, -7.294922 4.072494, -11.520000 4.072494, -11.520000 7.000000))",
+      "bbox": {
+        "minx": -11.52,
+        "maxx": -7.294922,
+        "miny": 4.072494,
+        "maxy": 7.0
+      },
+      "centroid": {
+        "x": -9.407461,
+        "y": 5.536247
+      },
+      "size": {
+        "width": 4.225078,
+        "height": 2.927506
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.32,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "LBR-02"
+        ],
+        "north_of": [],
+        "south_of": [
+          "LBR-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 4765,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "WET",
+        "landcover_ratio": {
+          "TREE": 0.7408,
+          "OCEAN": 0.2497,
+          "GRASS": 0.0042,
+          "WATER": 0.0038,
+          "BUILT": 0.0008,
+          "MANGROVE": 0.0006
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.6873,
+          "MID": 0.3127
+        },
+        "precip_ratio": {
+          "WET": 0.6988,
+          "MID": 0.3012
+        },
+        "flags_ratio": {
+          "water": 0.9708,
+          "forest": 0.7427,
+          "built": 0.001
+        },
+        "cell_bbox_xy": {
+          "min_x": 4038,
+          "max_x": 4142,
+          "min_y": 1956,
+          "max_y": 2065
+        },
+        "cell_centroid": {
+          "x": 4094.655,
+          "y": 2016.566,
+          "lon": -9.368542,
+          "lat": 5.955601
+        }
+      }
+    },
+    {
+      "id": "LBR-02",
+      "area_id": 360,
+      "area_seq_in_source": 2,
+      "name": "リベリア内陸部",
+      "name_en": "Inland Liberia",
+      "reason": "内陸部の広大な地域をカバーし、より伝統的な生活様式が残る。",
+      "geometry_wkt": "POLYGON ((-11.520000 8.646196, -8.047485 8.646196, -8.047485 7.000000, -11.520000 7.000000, -11.520000 8.646196))",
+      "bbox": {
+        "minx": -11.52,
+        "maxx": -8.047485,
+        "miny": 7.0,
+        "maxy": 8.646196
+      },
+      "centroid": {
+        "x": -9.783742,
+        "y": 7.823098
+      },
+      "size": {
+        "width": 3.472515,
+        "height": 1.646196
+      },
+      "relative_position": {
+        "x_norm": 0.4109,
+        "y_norm": 0.82,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "LBR-01"
+        ],
+        "east_of": [],
+        "north_of": [
+          "LBR-01"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 912,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "WET",
+        "landcover_ratio": {
+          "TREE": 0.9989,
+          "GRASS": 0.0011
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.9879,
+          "LOW": 0.0088,
+          "HIGH": 0.0033
+        },
+        "precip_ratio": {
+          "WET": 0.9726,
+          "MID": 0.0274
+        },
+        "flags_ratio": {
+          "forest": 0.9989,
+          "water": 0.9561
+        },
+        "cell_bbox_xy": {
+          "min_x": 4075,
+          "max_x": 4120,
+          "min_y": 1955,
+          "max_y": 1991
+        },
+        "cell_centroid": {
+          "x": 4090.703,
+          "y": 1977.65,
+          "lon": -9.533215,
+          "lat": 7.577074
+        }
+      }
+    }
+  ]
+}

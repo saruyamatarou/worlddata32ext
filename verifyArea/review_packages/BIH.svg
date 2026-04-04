@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">BIH review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(15.700000, 42.400000) - (19.813843, 45.300000)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="895.06" y="76.16" width="144.10" height="182.19" fill="none" stroke="black" stroke-width="2"/>
+<text x="899.06" y="92.16" font-size="12" font-family="Arial, sans-serif">SRP-01 | スルプスカ共和国 北部</text>
+<circle cx="967.11" cy="167.26" r="2.5" fill="black"/>
+<rect x="40.00" y="40.00" width="1120.00" height="568.57" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="56.00" font-size="12" font-family="Arial, sans-serif">BIH-01 | ボスニア</text>
+<circle cx="600.00" cy="324.29" r="2.5" fill="black"/>
+<rect x="171.59" y="258.35" width="723.47" height="592.22" fill="none" stroke="black" stroke-width="2"/>
+<text x="175.59" y="274.35" font-size="12" font-family="Arial, sans-serif">SRP-02 | スルプスカ共和国 南部</text>
+<circle cx="533.32" cy="554.46" r="2.5" fill="black"/>
+<rect x="257.80" y="605.52" width="626.18" height="254.48" fill="none" stroke="black" stroke-width="2"/>
+<text x="261.80" y="621.52" font-size="12" font-family="Arial, sans-serif">BIH-02 | ヘルツェゴビナ</text>
+<circle cx="570.89" cy="732.76" r="2.5" fill="black"/>
+</svg>

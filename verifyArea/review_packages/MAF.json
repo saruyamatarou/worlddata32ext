@@ -1,0 +1,87 @@
+{
+  "iso_a3": "MAF",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -63.303223,
+    "maxx": -62.874756,
+    "miny": 17.905569,
+    "maxy": 18.271086
+  },
+  "areas": [
+    {
+      "id": "MAF-01",
+      "area_id": 377,
+      "area_seq_in_source": 1,
+      "name": "サン・マルタン全体",
+      "name_en": "Saint Martin",
+      "reason": "サン・マルタン島は地理的に単一の島であり、政治的にもフランス領サン・マルタンとオランダ領シント・マールテンに分かれているが、地理研究の観点から一つのエリアとして捉える。島の全体的な気候、文化、経済活動を包括するため、分割は行わない。",
+      "geometry_wkt": "POLYGON ((-63.303223 18.271086, -62.874756 18.271086, -62.874756 17.905569, -63.303223 17.905569, -63.303223 18.271086))",
+      "bbox": {
+        "minx": -63.303223,
+        "maxx": -62.874756,
+        "miny": 17.905569,
+        "maxy": 18.271086
+      },
+      "centroid": {
+        "x": -63.088989,
+        "y": 18.088327
+      },
+      "size": {
+        "width": 0.428467,
+        "height": 0.365517
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 107,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9533,
+          "WATER": 0.0374,
+          "TREE": 0.0093
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9907,
+          "LOW": 0.0093
+        },
+        "flags_ratio": {
+          "water": 0.9907,
+          "forest": 0.0093
+        },
+        "cell_bbox_xy": {
+          "min_x": 2796,
+          "max_x": 2812,
+          "min_y": 1724,
+          "max_y": 1734
+        },
+        "cell_centroid": {
+          "x": 2803.28,
+          "y": 1728.654,
+          "lon": -63.175818,
+          "lat": 17.951908
+        }
+      }
+    }
+  ]
+}

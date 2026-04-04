@@ -1,0 +1,263 @@
+{
+  "iso_a3": "GTM",
+  "area_count": 3,
+  "country_bbox": {
+    "minx": -92.60376,
+    "maxx": -88.198242,
+    "miny": 13.186468,
+    "maxy": 17.874203
+  },
+  "areas": [
+    {
+      "id": "GTM-01",
+      "area_id": 261,
+      "area_seq_in_source": 1,
+      "name": "北東部低地・マヤ遺跡地域",
+      "name_en": "Northeastern Lowlands and Maya Ruins Area",
+      "reason": "この地域は、広大な熱帯雨林が広がり、ティカル遺跡をはじめとするマヤ文明の重要な遺跡が点在しています。生物多様性も豊かで、グアテマラの歴史的・文化的なルーツを色濃く反映しています。経済的には、農林業が中心ですが、観光資源としても重要です。",
+      "geometry_wkt": "POLYGON ((-91.527100 17.874203, -88.330078 17.874203, -88.330078 16.098598, -91.527100 16.098598, -91.527100 17.874203))",
+      "bbox": {
+        "minx": -91.5271,
+        "maxx": -88.330078,
+        "miny": 16.098598,
+        "maxy": 17.874203
+      },
+      "centroid": {
+        "x": -89.928589,
+        "y": 16.986401
+      },
+      "size": {
+        "width": 3.197022,
+        "height": 1.775605
+      },
+      "relative_position": {
+        "x_norm": 0.6072,
+        "y_norm": 0.8106,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "GTM-02",
+          "GTM-03"
+        ],
+        "north_of": [
+          "GTM-02",
+          "GTM-03"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "GTM-02",
+            "x_overlap": 3.197022,
+            "y_overlap": 0.010555
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 5654,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.6502,
+          "GRASS": 0.2142,
+          "OCEAN": 0.0718,
+          "SHRUB": 0.0279,
+          "CROPLAND": 0.0228,
+          "WATER": 0.0097,
+          "BUILT": 0.0023,
+          "MANGROVE": 0.0009,
+          "WETLAND": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.8504,
+          "TEMPERATE": 0.1496
+        },
+        "elevation_ratio": {
+          "LOW": 0.376,
+          "MID": 0.2952,
+          "HIGH": 0.2375,
+          "ULTRA": 0.0913
+        },
+        "precip_ratio": {
+          "MID": 0.5074,
+          "WET": 0.4848,
+          "LOW": 0.0078
+        },
+        "flags_ratio": {
+          "water": 0.8765,
+          "forest": 0.679,
+          "cropland": 0.0228,
+          "built": 0.0023
+        },
+        "cell_bbox_xy": {
+          "min_x": 2100,
+          "max_x": 2203,
+          "min_y": 1732,
+          "max_y": 1838
+        },
+        "cell_centroid": {
+          "x": 2150.083,
+          "y": 1784.36,
+          "lon": -90.392355,
+          "lat": 15.630814
+        }
+      }
+    },
+    {
+      "id": "GTM-02",
+      "area_id": 262,
+      "area_seq_in_source": 2,
+      "name": "中央高原・火山地域",
+      "name_en": "Central Highlands and Volcanic Region",
+      "reason": "首都グアテマラシティを含むこの地域は、シエラマドレ山脈が走り、多くの火山が存在します。標高が高いため「永遠の春の国」とも呼ばれ、温暖で過ごしやすい気候です。コーヒー栽培が盛んで、経済的にも重要です。アンティグアのような歴史的な都市もこの地域にあります。",
+      "geometry_wkt": "POLYGON ((-92.438965 16.109153, -88.198242 16.109153, -88.198242 14.992546, -92.438965 14.992546, -92.438965 16.109153))",
+      "bbox": {
+        "minx": -92.438965,
+        "maxx": -88.198242,
+        "miny": 14.992546,
+        "maxy": 16.109153
+      },
+      "centroid": {
+        "x": -90.318603,
+        "y": 15.550849
+      },
+      "size": {
+        "width": 4.240723,
+        "height": 1.116607
+      },
+      "relative_position": {
+        "x_norm": 0.5187,
+        "y_norm": 0.5044,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "GTM-01"
+        ],
+        "east_of": [
+          "GTM-03"
+        ],
+        "north_of": [
+          "GTM-03"
+        ],
+        "south_of": [
+          "GTM-01"
+        ],
+        "overlaps": [
+          {
+            "id": "GTM-01",
+            "x_overlap": 3.197022,
+            "y_overlap": 0.010555
+          },
+          {
+            "id": "GTM-03",
+            "x_overlap": 3.47168,
+            "y_overlap": 0.007454
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "GTM-03",
+      "area_id": 263,
+      "area_seq_in_source": 3,
+      "name": "太平洋岸地域",
+      "name_en": "Pacific Coastal Region",
+      "reason": "太平洋に面したこの地域は、高温多湿な平野が広がり、農業が盛んです。バナナや砂糖などの輸出作物が栽培されています。また、美しいビーチも点在し、観光のポテンシャルも持っています。主要都市のいくつかはこの沿岸部に位置しています。",
+      "geometry_wkt": "POLYGON ((-92.603760 15.000000, -88.967285 15.000000, -88.967285 13.186468, -92.603760 13.186468, -92.603760 15.000000))",
+      "bbox": {
+        "minx": -92.60376,
+        "maxx": -88.967285,
+        "miny": 13.186468,
+        "maxy": 15.0
+      },
+      "centroid": {
+        "x": -90.785522,
+        "y": 14.093234
+      },
+      "size": {
+        "width": 3.636475,
+        "height": 1.813532
+      },
+      "relative_position": {
+        "x_norm": 0.4127,
+        "y_norm": 0.1934,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "GTM-01",
+          "GTM-02"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "GTM-01",
+          "GTM-02"
+        ],
+        "overlaps": [
+          {
+            "id": "GTM-02",
+            "x_overlap": 3.47168,
+            "y_overlap": 0.007454
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 318,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.827,
+          "CROPLAND": 0.0818,
+          "GRASS": 0.0566,
+          "MANGROVE": 0.0157,
+          "WETLAND": 0.0094,
+          "TREE": 0.0063,
+          "WATER": 0.0031
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.9937,
+          "cropland": 0.0818,
+          "forest": 0.022
+        },
+        "cell_bbox_xy": {
+          "min_x": 2122,
+          "max_x": 2152,
+          "min_y": 1824,
+          "max_y": 1836
+        },
+        "cell_centroid": {
+          "x": 2137.676,
+          "y": 1829.296,
+          "lon": -90.909329,
+          "lat": 13.758517
+        }
+      }
+    }
+  ]
+}

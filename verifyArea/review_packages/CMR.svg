@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">CMR review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(7.888184, 1.340210) - (16.479492, 14.000000)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="40.00" y="361.46" width="607.26" height="460.13" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="377.46" font-size="12" font-family="Arial, sans-serif">CMR-01 | カメルーン南部沿岸地域</text>
+<circle cx="343.63" cy="591.53" r="2.5" fill="black"/>
+<rect x="647.26" y="363.86" width="512.74" height="496.14" fill="none" stroke="black" stroke-width="2"/>
+<text x="651.26" y="379.86" font-size="12" font-family="Arial, sans-serif">CMR-02 | カメルーン中央高原地域</text>
+<circle cx="903.63" cy="611.93" r="2.5" fill="black"/>
+<rect x="445.67" y="40.00" width="651.82" height="323.86" fill="none" stroke="black" stroke-width="2"/>
+<text x="449.67" y="56.00" font-size="12" font-family="Arial, sans-serif">CMR-03 | カメルーン北部サバンナ地域</text>
+<circle cx="771.58" cy="201.93" r="2.5" fill="black"/>
+</svg>

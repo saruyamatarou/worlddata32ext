@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ALB-01",
+    "name": "アルバニア北部",
+    "name_en": "Northern Albania",
+    "reason": "アルバニアアルプス山脈を含む北部地域で、山岳地帯と相対的に人口が少ない特徴を持つ。",
+    "geometry_wkt": "POLYGON ((19.182129 42.690511, 21.100000 42.690511, 21.100000 41.500000, 19.182129 41.500000, 19.182129 42.690511))",
+    "area_id": 12,
+    "source_row_index": 12,
+    "iso_a3_source": "ALB",
+    "iso_a3": "ALB",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "ALB-02",
+    "name": "アルバニア南部",
+    "name_en": "Southern Albania",
+    "reason": "アドリア海とイオニア海に面した沿岸地域と内陸部を含み、より温暖な気候と主要な都市が存在する。",
+    "geometry_wkt": "POLYGON ((19.200000 41.500000, 21.093750 41.500000, 21.093750 39.622615, 19.200000 39.622615, 19.200000 41.500000))",
+    "area_id": 13,
+    "source_row_index": 13,
+    "iso_a3_source": "ALB",
+    "iso_a3": "ALB",
+    "area_seq_in_source": 2
+  }
+]

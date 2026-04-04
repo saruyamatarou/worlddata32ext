@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">ATA review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-46.800000, -61.000000) - (-44.100000, -60.300000)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="371.85" y="40.00" width="207.41" height="585.71" fill="none" stroke="black" stroke-width="2"/>
+<text x="375.85" y="56.00" font-size="12" font-family="Arial, sans-serif">SOK-01 | コロネーション島西部</text>
+<circle cx="475.56" cy="332.86" r="2.5" fill="black"/>
+<rect x="579.26" y="40.00" width="207.41" height="585.71" fill="none" stroke="black" stroke-width="2"/>
+<text x="583.26" y="56.00" font-size="12" font-family="Arial, sans-serif">SOK-02 | コロネーション島東部</text>
+<circle cx="682.96" cy="332.86" r="2.5" fill="black"/>
+<rect x="454.81" y="391.43" width="165.93" height="234.29" fill="none" stroke="black" stroke-width="2"/>
+<text x="458.81" y="407.43" font-size="12" font-family="Arial, sans-serif">SOK-03 | シグニー島・小諸島域</text>
+<circle cx="537.78" cy="508.57" r="2.5" fill="black"/>
+<rect x="745.19" y="274.29" width="82.96" height="468.57" fill="none" stroke="black" stroke-width="2"/>
+<text x="749.19" y="290.29" font-size="12" font-family="Arial, sans-serif">SOK-04 | パウエル島・ルーウェンスウェイト島</text>
+<circle cx="786.67" cy="508.57" r="2.5" fill="black"/>
+<rect x="828.15" y="391.43" width="124.44" height="351.43" fill="none" stroke="black" stroke-width="2"/>
+<text x="832.15" y="407.43" font-size="12" font-family="Arial, sans-serif">SOK-05 | ローリー島西部</text>
+<circle cx="890.37" cy="567.14" r="2.5" fill="black"/>
+<rect x="952.59" y="391.43" width="124.44" height="351.43" fill="none" stroke="black" stroke-width="2"/>
+<text x="956.59" y="407.43" font-size="12" font-family="Arial, sans-serif">SOK-06 | ローリー島東部</text>
+<circle cx="1014.81" cy="567.14" r="2.5" fill="black"/>
+<rect x="40.00" y="40.00" width="165.93" height="351.43" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="56.00" font-size="12" font-family="Arial, sans-serif">SOK-07 | インアクセシブル諸島</text>
+<circle cx="122.96" cy="215.71" r="2.5" fill="black"/>
+<rect x="1035.56" y="625.71" width="124.44" height="234.29" fill="none" stroke="black" stroke-width="2"/>
+<text x="1039.56" y="641.71" font-size="12" font-family="Arial, sans-serif">SOK-08 | 南東部孤立岩礁域</text>
+<circle cx="1097.78" cy="742.86" r="2.5" fill="black"/>
+</svg>

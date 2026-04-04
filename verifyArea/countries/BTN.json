@@ -1,0 +1,26 @@
+[
+  {
+    "id": "BTN-01",
+    "name": "ブータン北部・中央高地",
+    "name_en": "Northern and Central Highlands Bhutan",
+    "reason": "国土の大部分を占めるヒマラヤ山脈の高地であり、寒冷な気候と地理的な隔絶性を持つ。チベットとの文化的な繋がりも含まれる地域。",
+    "geometry_wkt": "POLYGON ((88.759700 28.439714, 92.120361 28.439714, 92.120361 27.500000, 88.759700 27.500000, 88.759700 28.439714))",
+    "area_id": 107,
+    "source_row_index": 107,
+    "iso_a3_source": "BTN",
+    "iso_a3": "BTN",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "BTN-02",
+    "name": "ブータン南部・低地",
+    "name_en": "Southern Lowlands Bhutan",
+    "reason": "インドとの国境に接する比較的温暖な低地帯であり、農業が盛んで、ネパール系住民が多く居住する地域。プンツォリンなどの主要都市を含む。",
+    "geometry_wkt": "POLYGON ((88.698120 27.500000, 92.136841 27.500000, 92.136841 26.662187, 88.698120 26.662187, 88.698120 27.500000))",
+    "area_id": 108,
+    "source_row_index": 108,
+    "iso_a3_source": "BTN",
+    "iso_a3": "BTN",
+    "area_seq_in_source": 2
+  }
+]

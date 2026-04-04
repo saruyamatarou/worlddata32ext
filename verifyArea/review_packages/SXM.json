@@ -1,0 +1,53 @@
+{
+  "iso_a3": "SXM",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -63.149071,
+    "maxx": -62.987366,
+    "miny": 18.005835,
+    "maxy": 18.07341
+  },
+  "areas": [
+    {
+      "id": "SXM-01",
+      "area_id": 580,
+      "area_seq_in_source": 1,
+      "name": "セント・マーチン南部",
+      "name_en": "Southern Sint Maarten",
+      "reason": "シンント・マールテンは、サン・マルタン島（セント・マーチン島）の南半分を占めるオランダ領の構成国であり、島全体の地理的・文化的な特徴を代表している。首都フィリップスブルグがあり、経済活動の中心であるため。",
+      "geometry_wkt": "POLYGON ((-63.149071 18.073410, -62.987366 18.073410, -62.987366 18.005835, -63.149071 18.005835, -63.149071 18.073410))",
+      "bbox": {
+        "minx": -63.149071,
+        "maxx": -62.987366,
+        "miny": 18.005835,
+        "maxy": 18.07341
+      },
+      "centroid": {
+        "x": -63.068219,
+        "y": 18.039623
+      },
+      "size": {
+        "width": 0.161705,
+        "height": 0.067575
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    }
+  ]
+}

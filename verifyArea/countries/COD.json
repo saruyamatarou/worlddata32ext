@@ -1,0 +1,74 @@
+[
+  {
+    "id": "COD-01",
+    "name": "キンシャサ首都圏",
+    "name_en": "Kinshasa Capital Region",
+    "reason": "国の政治・経済・文化の中心であり、人口が集中しているため、独立したエリアとして定義する。",
+    "geometry_wkt": "POLYGON ((11.777344 -3.074695, 16.962891 -3.074695, 16.962891 -6.206090, 11.777344 -6.206090, 11.777344 -3.074695))",
+    "area_id": 147,
+    "source_row_index": 147,
+    "iso_a3_source": "COD",
+    "iso_a3": "COD",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "COD-02",
+    "name": "コンゴ川流域西部",
+    "name_en": "Western Congo River Basin",
+    "reason": "コンゴ川とその支流が流れる広大な盆地であり、熱帯雨林気候が広がる地域。物流と生活の基盤となっている。",
+    "geometry_wkt": "POLYGON ((15.842285 5.287887, 22.060547 5.287887, 22.060547 -3.074695, 15.842285 -3.074695, 15.842285 5.287887))",
+    "area_id": 148,
+    "source_row_index": 148,
+    "iso_a3_source": "COD",
+    "iso_a3": "COD",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "COD-03",
+    "name": "コンゴ川流域東部",
+    "name_en": "Eastern Congo River Basin",
+    "reason": "コンゴ川流域の東部にあたり、熱帯雨林が広がる。文化的多様性や音楽文化の中心地。",
+    "geometry_wkt": "POLYGON ((22.082520 5.331644, 27.224121 5.331644, 27.224121 -2.986927, 22.082520 -2.986927, 22.082520 5.331644))",
+    "area_id": 149,
+    "source_row_index": 149,
+    "iso_a3_source": "COD",
+    "iso_a3": "COD",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "COD-04",
+    "name": "カサイ地方",
+    "name_en": "Kasai Region",
+    "reason": "鉱物資源が豊富で、歴史的にも重要な地域。地理的にも他の地域と区別される。",
+    "geometry_wkt": "POLYGON ((16.962891 -3.052754, 27.136230 -3.052754, 27.136230 -6.271618, 16.962891 -6.271618, 16.962891 -3.052754))",
+    "area_id": 150,
+    "source_row_index": 150,
+    "iso_a3_source": "COD",
+    "iso_a3": "COD",
+    "area_seq_in_source": 4
+  },
+  {
+    "id": "COD-05",
+    "name": "南東部高原地帯",
+    "name_en": "Southeastern Plateau",
+    "reason": "サバンナ気候が広がる高地であり、鉱物資源が豊富。カタンガ州など経済的に重要な地域を含む。",
+    "geometry_wkt": "POLYGON ((16.215820 -6.227934, 27.158203 -6.227934, 27.158203 -12.811801, 16.215820 -12.811801, 16.215820 -6.227934))",
+    "area_id": 151,
+    "source_row_index": 151,
+    "iso_a3_source": "COD",
+    "iso_a3": "COD",
+    "area_seq_in_source": 5
+  },
+  {
+    "id": "COD-06",
+    "name": "東部山岳・湖沼地帯",
+    "name_en": "Eastern Mountains and Lakes Region",
+    "reason": "アフリカ大地溝帯に位置し、山岳地帯と多くの湖沼が存在する。地理的、気候的に特徴的な地域。",
+    "geometry_wkt": "POLYGON ((27.224121 5.200365, 31.948242 5.200365, 31.948242 -14.093957, 27.224121 -14.093957, 27.224121 5.200365))",
+    "area_id": 152,
+    "source_row_index": 152,
+    "iso_a3_source": "COD",
+    "iso_a3": "COD",
+    "area_seq_in_source": 6
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "iso_a3": "FRO",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -9.84375,
+    "maxx": -4.042969,
+    "miny": 60.630102,
+    "maxy": 62.915233
+  },
+  "areas": [
+    {
+      "id": "FRO-01",
+      "area_id": 229,
+      "area_seq_in_source": 1,
+      "name": "フェロー諸島",
+      "name_en": "Northern Faroe Islands",
+      "reason": "フェロー諸島は18の島々からなる群島であり、地理的に分断されている。北部の島々は、より険しい地形と、風が強く気候が厳しい海洋性の亜北極気候の影響を強く受けている。これは、伝統的な漁業と、それに伴う島民の生活様式に影響を与えている。",
+      "geometry_wkt": "POLYGON ((-9.843750 62.915233, -4.042969 62.915233, -4.042969 60.630102, -9.843750 60.630102, -9.843750 62.915233))",
+      "bbox": {
+        "minx": -9.84375,
+        "maxx": -4.042969,
+        "miny": 60.630102,
+        "maxy": 62.915233
+      },
+      "centroid": {
+        "x": -6.943359,
+        "y": 61.772667
+      },
+      "size": {
+        "width": 5.800781,
+        "height": 2.285131
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 1435,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "POLAR",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9073,
+          "GRASS": 0.0704,
+          "WATER": 0.0223
+        },
+        "temperature_ratio": {
+          "POLAR": 0.9087,
+          "TEMPERATE": 0.0906,
+          "COLD": 0.0007
+        },
+        "elevation_ratio": {
+          "LOW": 0.9707,
+          "MID": 0.0293
+        },
+        "precip_ratio": {
+          "MID": 0.9073,
+          "WET": 0.0913,
+          "ARID": 0.0014
+        },
+        "flags_ratio": {
+          "water": 0.9296
+        },
+        "cell_bbox_xy": {
+          "min_x": 4127,
+          "max_x": 4178,
+          "min_y": 653,
+          "max_y": 695
+        },
+        "cell_centroid": {
+          "x": 4153.925,
+          "y": 671.423,
+          "lon": -6.89894,
+          "lat": 62.003208
+        }
+      }
+    }
+  ]
+}

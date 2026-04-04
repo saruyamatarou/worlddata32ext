@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">IRN review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(44.000000, 24.086589) - (63.500000, 39.900000)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="290.52" y="91.85" width="510.49" height="139.55" fill="none" stroke="black" stroke-width="2"/>
+<text x="294.52" y="107.85" font-size="12" font-family="Arial, sans-serif">IRN-01 | カスピ海沿岸北部</text>
+<circle cx="545.77" cy="161.63" r="2.5" fill="black"/>
+<rect x="40.00" y="40.00" width="253.05" height="190.49" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="56.00" font-size="12" font-family="Arial, sans-serif">IRN-02 | 北西山地・アゼルバイジャン地方</text>
+<circle cx="166.52" cy="135.24" r="2.5" fill="black"/>
+<rect x="40.00" y="231.40" width="390.61" height="288.88" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="247.40" font-size="12" font-family="Arial, sans-serif">IRN-03 | 西部ザグロス山麓地域</text>
+<circle cx="235.30" cy="375.84" r="2.5" fill="black"/>
+<rect x="430.56" y="232.32" width="371.00" height="288.14" fill="none" stroke="black" stroke-width="2"/>
+<text x="434.56" y="248.32" font-size="12" font-family="Arial, sans-serif">IRN-04 | 中央高原・内陸盆地</text>
+<circle cx="616.06" cy="376.40" r="2.5" fill="black"/>
+<rect x="801.64" y="97.04" width="358.36" height="425.20" fill="none" stroke="black" stroke-width="2"/>
+<text x="805.64" y="113.04" font-size="12" font-family="Arial, sans-serif">IRN-05 | 東部乾燥高原・国境地帯</text>
+<circle cx="980.82" cy="309.64" r="2.5" fill="black"/>
+<rect x="218.59" y="520.28" width="938.94" height="339.72" fill="none" stroke="black" stroke-width="2"/>
+<text x="222.59" y="536.28" font-size="12" font-family="Arial, sans-serif">IRN-06 | 南部湾岸・マクラン地域</text>
+<circle cx="688.06" cy="690.14" r="2.5" fill="black"/>
+</svg>

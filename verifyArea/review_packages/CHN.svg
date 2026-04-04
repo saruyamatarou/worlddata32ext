@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">CHN review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(73.000000, 15.474857) - (135.175781, 53.826597)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="682.66" y="40.00" width="477.34" height="271.13" fill="none" stroke="black" stroke-width="2"/>
+<text x="686.66" y="56.00" font-size="12" font-family="Arial, sans-serif">CHN-01 | 中国東北部</text>
+<circle cx="921.33" cy="175.57" r="2.5" fill="black"/>
+<rect x="679.49" y="311.49" width="284.98" height="131.56" fill="none" stroke="black" stroke-width="2"/>
+<text x="683.49" y="327.49" font-size="12" font-family="Arial, sans-serif">CHN-02 | 華北</text>
+<circle cx="821.98" cy="377.27" r="2.5" fill="black"/>
+<rect x="852.46" y="442.53" width="106.47" height="235.70" fill="none" stroke="black" stroke-width="2"/>
+<text x="856.46" y="458.53" font-size="12" font-family="Arial, sans-serif">CHN-03 | 華東</text>
+<circle cx="905.70" cy="560.38" r="2.5" fill="black"/>
+<rect x="679.49" y="442.53" width="172.97" height="151.03" fill="none" stroke="black" stroke-width="2"/>
+<text x="683.49" y="458.53" font-size="12" font-family="Arial, sans-serif">CHN-04 | 華中</text>
+<circle cx="765.98" cy="518.05" r="2.5" fill="black"/>
+<rect x="679.49" y="593.77" width="173.36" height="266.23" fill="none" stroke="black" stroke-width="2"/>
+<text x="683.49" y="609.77" font-size="12" font-family="Arial, sans-serif">CHN-05 | 華南</text>
+<circle cx="766.18" cy="726.89" r="2.5" fill="black"/>
+<rect x="43.04" y="135.63" width="638.83" height="264.46" fill="none" stroke="black" stroke-width="2"/>
+<text x="47.04" y="151.63" font-size="12" font-family="Arial, sans-serif">CHN-06 | 中国西北部</text>
+<circle cx="362.46" cy="267.86" r="2.5" fill="black"/>
+<rect x="40.00" y="399.77" width="461.38" height="292.45" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="415.77" font-size="12" font-family="Arial, sans-serif">CHN-07 | 中国西部（青海・チベット）</text>
+<circle cx="270.69" cy="545.99" r="2.5" fill="black"/>
+<rect x="500.59" y="398.59" width="178.11" height="347.61" fill="none" stroke="black" stroke-width="2"/>
+<text x="504.59" y="414.59" font-size="12" font-family="Arial, sans-serif">CHN-08 | 中国南西部</text>
+<circle cx="589.65" cy="572.40" r="2.5" fill="black"/>
+</svg>

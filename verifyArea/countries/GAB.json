@@ -1,0 +1,26 @@
+[
+  {
+    "id": "GAB-01",
+    "name": "北部沿岸地域",
+    "name_en": "Northern Coastal Region",
+    "reason": "首都リーブルビルを含む経済・行政の中心地であり、海岸線に沿ったマングローブ地帯と、内陸部への玄関口となっているため。",
+    "geometry_wkt": "POLYGON ((8.151855 2.300000, 11.550000 2.300000, 11.550000 -4.346411, 8.151855 -4.346411, 8.151855 2.300000))",
+    "area_id": 232,
+    "source_row_index": 232,
+    "iso_a3_source": "GAB",
+    "iso_a3": "GAB",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "GAB-02",
+    "name": "南部高原・森林地域",
+    "name_en": "Southern Plateau and Forest Region",
+    "reason": "国土の大部分を占める熱帯雨林とサバンナ地帯であり、鉱物資源や森林資源が豊富で、多様な民族文化が息づいているため。",
+    "geometry_wkt": "POLYGON ((11.550000 2.569939, 15.227051 2.569939, 15.227051 -4.000000, 11.550000 -4.000000, 11.550000 2.569939))",
+    "area_id": 233,
+    "source_row_index": 233,
+    "iso_a3_source": "GAB",
+    "iso_a3": "GAB",
+    "area_seq_in_source": 2
+  }
+]

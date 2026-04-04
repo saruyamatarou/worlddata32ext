@@ -1,0 +1,178 @@
+{
+  "iso_a3": "KIR",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": -177.539063,
+    "maxx": 177.583008,
+    "miny": -12.46876,
+    "maxy": 9.145486
+  },
+  "areas": [
+    {
+      "id": "KIR-01",
+      "area_id": 345,
+      "area_seq_in_source": 1,
+      "name": "ギルバート諸島",
+      "name_en": "Gilbert Islands",
+      "reason": "キリバスの人口の90%以上が集中しており、首都タラワもこの諸島に位置するため、政治・経済・文化の中心となっている。",
+      "geometry_wkt": "POLYGON ((168.750000 4.346411, 177.583008 4.346411, 177.583008 -3.425692, 168.750000 -3.425692, 168.750000 4.346411))",
+      "bbox": {
+        "minx": 168.75,
+        "maxx": 177.583008,
+        "miny": -3.425692,
+        "maxy": 4.346411
+      },
+      "centroid": {
+        "x": 173.166504,
+        "y": 0.460359
+      },
+      "size": {
+        "width": 8.833008,
+        "height": 7.772103
+      },
+      "relative_position": {
+        "x_norm": 0.9876,
+        "y_norm": 0.5982,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "KIR-02"
+        ],
+        "north_of": [
+          "KIR-02"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 2599,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9938,
+          "WATER": 0.005,
+          "UNKNOWN": 0.0012
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9992,
+          "POLAR": 0.0008
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9988,
+          "ARID": 0.0008,
+          "WET": 0.0004
+        },
+        "flags_ratio": {
+          "water": 0.9988,
+          "reef": 0.0242
+        },
+        "cell_bbox_xy": {
+          "min_x": 484,
+          "max_x": 8553,
+          "min_y": 2056,
+          "max_y": 2206
+        },
+        "cell_centroid": {
+          "x": 7275.094,
+          "y": 2139.562,
+          "lon": 123.149761,
+          "lat": 0.83076
+        }
+      }
+    },
+    {
+      "id": "KIR-02",
+      "area_id": 346,
+      "area_seq_in_source": 2,
+      "name": "フェニックス諸島・ライン諸島",
+      "name_en": "Phoenix Islands and Line Islands",
+      "reason": "ギルバート諸島から地理的に離れており、人口密度が低く、観光資源や広大な漁業専管水域といった経済的ポテンシャルを持つため、区分する。",
+      "geometry_wkt": "POLYGON ((-177.539063 9.145486, -149.897461 9.145486, -149.897461 -12.468760, -177.539063 -12.468760, -177.539063 9.145486))",
+      "bbox": {
+        "minx": -177.539063,
+        "maxx": -149.897461,
+        "miny": -12.46876,
+        "maxy": 9.145486
+      },
+      "centroid": {
+        "x": -163.718262,
+        "y": -1.661637
+      },
+      "size": {
+        "width": 27.641602,
+        "height": 21.614246
+      },
+      "relative_position": {
+        "x_norm": 0.0389,
+        "y_norm": 0.5,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "KIR-01"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "KIR-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 1878,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9867,
+          "WATER": 0.0075,
+          "GRASS": 0.0043,
+          "UNKNOWN": 0.0011,
+          "BARE": 0.0005
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9984,
+          "POLAR": 0.0011,
+          "TEMPERATE": 0.0005
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9915,
+          "WET": 0.0064,
+          "LOW": 0.0011,
+          "ARID": 0.0011
+        },
+        "flags_ratio": {
+          "water": 0.9941,
+          "reef": 0.0218
+        },
+        "cell_bbox_xy": {
+          "min_x": 177,
+          "max_x": 686,
+          "min_y": 2101,
+          "max_y": 2444
+        },
+        "cell_centroid": {
+          "x": 458.426,
+          "y": 2240.948,
+          "lon": -160.878084,
+          "lat": -3.393659
+        }
+      }
+    }
+  ]
+}

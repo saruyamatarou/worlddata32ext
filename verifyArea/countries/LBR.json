@@ -1,0 +1,26 @@
+[
+  {
+    "id": "LBR-01",
+    "name": "リベリア沿岸部",
+    "name_en": "Coastal Liberia",
+    "reason": "モンロビアを含む主要な沿岸地域であり、経済活動と人口が集中する。",
+    "geometry_wkt": "POLYGON ((-11.520000 7.000000, -7.294922 7.000000, -7.294922 4.072494, -11.520000 4.072494, -11.520000 7.000000))",
+    "area_id": 359,
+    "source_row_index": 359,
+    "iso_a3_source": "LBR",
+    "iso_a3": "LBR",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "LBR-02",
+    "name": "リベリア内陸部",
+    "name_en": "Inland Liberia",
+    "reason": "内陸部の広大な地域をカバーし、より伝統的な生活様式が残る。",
+    "geometry_wkt": "POLYGON ((-11.520000 8.646196, -8.047485 8.646196, -8.047485 7.000000, -11.520000 7.000000, -11.520000 8.646196))",
+    "area_id": 360,
+    "source_row_index": 360,
+    "iso_a3_source": "LBR",
+    "iso_a3": "LBR",
+    "area_seq_in_source": 2
+  }
+]

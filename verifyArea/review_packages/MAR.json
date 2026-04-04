@@ -1,0 +1,519 @@
+{
+  "iso_a3": "MAR",
+  "area_count": 5,
+  "country_bbox": {
+    "minx": -18.061523,
+    "maxx": -0.878906,
+    "miny": 21.289374,
+    "maxy": 36.2
+  },
+  "areas": [
+    {
+      "id": "MAR-01",
+      "area_id": 378,
+      "area_seq_in_source": 1,
+      "name": "北部リーフ・地中海地域",
+      "name_en": "Northern Rif and Mediterranean Region",
+      "reason": "リーフ山脈と地中海沿岸を含む北部地域であり、山地性と沿岸都市の性格が強く、他地域と分ける意味が大きいため。",
+      "geometry_wkt": "POLYGON ((-6.8 36.2, -1.8 36.2, -1.8 34.4, -6.8 34.4, -6.8 36.2))",
+      "bbox": {
+        "minx": -6.8,
+        "maxx": -1.8,
+        "miny": 34.4,
+        "maxy": 36.2
+      },
+      "centroid": {
+        "x": -4.3,
+        "y": 35.3
+      },
+      "size": {
+        "width": 5.0,
+        "height": 1.8
+      },
+      "relative_position": {
+        "x_norm": 0.8009,
+        "y_norm": 0.9396,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "MAR-05"
+        ],
+        "east_of": [
+          "MAR-02",
+          "MAR-03",
+          "MAR-04"
+        ],
+        "north_of": [
+          "MAR-02",
+          "MAR-03",
+          "MAR-04",
+          "MAR-05"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 10098,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.5892,
+          "OCEAN": 0.1832,
+          "GRASS": 0.1266,
+          "CROPLAND": 0.0636,
+          "TREE": 0.0238,
+          "SHRUB": 0.0063,
+          "WATER": 0.0057,
+          "BUILT": 0.0015,
+          "WETLAND": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.6885,
+          "TEMPERATE": 0.3115
+        },
+        "elevation_ratio": {
+          "LOW": 0.4939,
+          "MID": 0.4538,
+          "HIGH": 0.0524
+        },
+        "precip_ratio": {
+          "ARID": 0.5935,
+          "LOW": 0.2184,
+          "MID": 0.1882
+        },
+        "flags_ratio": {
+          "water": 0.6999,
+          "cropland": 0.0636,
+          "forest": 0.0301,
+          "built": 0.0015
+        },
+        "cell_bbox_xy": {
+          "min_x": 3902,
+          "max_x": 4278,
+          "min_y": 1296,
+          "max_y": 1645
+        },
+        "cell_centroid": {
+          "x": 4073.286,
+          "y": 1474.877,
+          "lon": -10.2589,
+          "lat": 28.525966
+        }
+      }
+    },
+    {
+      "id": "MAR-02",
+      "area_id": 379,
+      "area_seq_in_source": 2,
+      "name": "北西大西洋沿岸・首都圏",
+      "name_en": "Northwestern Atlantic Coast and Capital Corridor",
+      "reason": "タンジェ・ラバト・カサブランカ方面を含む大西洋沿岸中核帯であり、人口・経済・港湾機能が集中するため。",
+      "geometry_wkt": "POLYGON ((-11.360756 34.360839, -5.416706 34.360839, -5.416706 31.090192, -11.360756 31.090192, -11.360756 34.360839))",
+      "bbox": {
+        "minx": -11.360756,
+        "maxx": -5.416706,
+        "miny": 31.090192,
+        "maxy": 34.360839
+      },
+      "centroid": {
+        "x": -8.388731,
+        "y": 32.725516
+      },
+      "size": {
+        "width": 5.94405,
+        "height": 3.270647
+      },
+      "relative_position": {
+        "x_norm": 0.5629,
+        "y_norm": 0.767,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "MAR-01",
+          "MAR-05"
+        ],
+        "east_of": [
+          "MAR-03",
+          "MAR-04"
+        ],
+        "north_of": [
+          "MAR-03",
+          "MAR-04",
+          "MAR-05"
+        ],
+        "south_of": [
+          "MAR-01"
+        ],
+        "overlaps": [
+          {
+            "id": "MAR-03",
+            "x_overlap": 5.867592,
+            "y_overlap": 0.000382
+          },
+          {
+            "id": "MAR-05",
+            "x_overlap": 0.011433,
+            "y_overlap": 3.270647
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 7365,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "CROPLAND": 0.3646,
+          "GRASS": 0.3021,
+          "OCEAN": 0.1673,
+          "BARE": 0.0887,
+          "TREE": 0.0386,
+          "SHRUB": 0.0273,
+          "WATER": 0.0067,
+          "BUILT": 0.0049
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.7276,
+          "TROPICAL": 0.2705,
+          "COLD": 0.0019
+        },
+        "elevation_ratio": {
+          "MID": 0.4125,
+          "LOW": 0.3037,
+          "HIGH": 0.2026,
+          "ULTRA": 0.0812
+        },
+        "precip_ratio": {
+          "LOW": 0.781,
+          "MID": 0.1673,
+          "ARID": 0.0517
+        },
+        "flags_ratio": {
+          "water": 0.7151,
+          "cropland": 0.3647,
+          "forest": 0.0659,
+          "built": 0.0049
+        },
+        "cell_bbox_xy": {
+          "min_x": 4074,
+          "max_x": 4189,
+          "min_y": 1329,
+          "max_y": 1413
+        },
+        "cell_centroid": {
+          "x": 4140.67,
+          "y": 1378.778,
+          "lon": -7.451259,
+          "lat": 32.530072
+        }
+      }
+    },
+    {
+      "id": "MAR-03",
+      "area_id": 380,
+      "area_seq_in_source": 3,
+      "name": "中央アトラス・内陸高地",
+      "name_en": "Central Atlas and Inland Highlands",
+      "reason": "中部から東寄りにかけてのアトラス山系と高地内陸を含み、山地・盆地・内陸都市圏を一体で扱いやすいため。",
+      "geometry_wkt": "POLYGON ((-13.754883 31.090574, -5.493164 31.090574, -5.493164 26.843677, -13.754883 26.843677, -13.754883 31.090574))",
+      "bbox": {
+        "minx": -13.754883,
+        "maxx": -5.493164,
+        "miny": 26.843677,
+        "maxy": 31.090574
+      },
+      "centroid": {
+        "x": -9.624023,
+        "y": 28.967126
+      },
+      "size": {
+        "width": 8.261719,
+        "height": 4.246897
+      },
+      "relative_position": {
+        "x_norm": 0.491,
+        "y_norm": 0.5149,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "MAR-01",
+          "MAR-02",
+          "MAR-05"
+        ],
+        "east_of": [
+          "MAR-04"
+        ],
+        "north_of": [
+          "MAR-04"
+        ],
+        "south_of": [
+          "MAR-01",
+          "MAR-02",
+          "MAR-05"
+        ],
+        "overlaps": [
+          {
+            "id": "MAR-02",
+            "x_overlap": 5.867592,
+            "y_overlap": 0.000382
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 8797,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.6549,
+          "GRASS": 0.1569,
+          "OCEAN": 0.1516,
+          "CROPLAND": 0.0174,
+          "SHRUB": 0.0148,
+          "WATER": 0.0025,
+          "TREE": 0.0011,
+          "BUILT": 0.0008
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.6219,
+          "TEMPERATE": 0.3775,
+          "COLD": 0.0006
+        },
+        "elevation_ratio": {
+          "MID": 0.4433,
+          "HIGH": 0.2804,
+          "LOW": 0.2563,
+          "ULTRA": 0.0199
+        },
+        "precip_ratio": {
+          "ARID": 0.6726,
+          "LOW": 0.1757,
+          "MID": 0.1516
+        },
+        "flags_ratio": {
+          "water": 0.7001,
+          "cropland": 0.0174,
+          "forest": 0.0159,
+          "built": 0.0008
+        },
+        "cell_bbox_xy": {
+          "min_x": 3994,
+          "max_x": 4187,
+          "min_y": 1414,
+          "max_y": 1499
+        },
+        "cell_centroid": {
+          "x": 4098.364,
+          "y": 1455.542,
+          "lon": -9.213982,
+          "lat": 29.331578
+        }
+      }
+    },
+    {
+      "id": "MAR-04",
+      "area_id": 381,
+      "area_seq_in_source": 4,
+      "name": "南西部・スース＝アンチアトラス地域",
+      "name_en": "Southwestern Sous and Anti-Atlas Region",
+      "reason": "アガディール周辺、スース谷、アンチアトラスを含む南西部であり、沿岸平野と乾燥山地のまとまりを表しやすいため。",
+      "geometry_wkt": "POLYGON ((-18.061523 26.824071, -10.986328 26.824071, -10.986328 21.289374, -18.061523 21.289374, -18.061523 26.824071))",
+      "bbox": {
+        "minx": -18.061523,
+        "maxx": -10.986328,
+        "miny": 21.289374,
+        "maxy": 26.824071
+      },
+      "centroid": {
+        "x": -14.523926,
+        "y": 24.056722
+      },
+      "size": {
+        "width": 7.075195,
+        "height": 5.534697
+      },
+      "relative_position": {
+        "x_norm": 0.2059,
+        "y_norm": 0.1856,
+        "zone": [
+          "south",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "MAR-01",
+          "MAR-02",
+          "MAR-03",
+          "MAR-05"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "MAR-01",
+          "MAR-02",
+          "MAR-03",
+          "MAR-05"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 4098,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.7018,
+          "OCEAN": 0.294,
+          "WATER": 0.0041
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.746,
+          "TEMPERATE": 0.254
+        },
+        "elevation_ratio": {
+          "LOW": 0.7052,
+          "MID": 0.2948
+        },
+        "precip_ratio": {
+          "ARID": 0.706,
+          "MID": 0.294
+        },
+        "flags_ratio": {
+          "water": 0.7118
+        },
+        "cell_bbox_xy": {
+          "min_x": 3920,
+          "max_x": 3988,
+          "min_y": 1513,
+          "max_y": 1612
+        },
+        "cell_centroid": {
+          "x": 3962.798,
+          "y": 1573.415,
+          "lon": -14.862596,
+          "lat": 24.420225
+        }
+      }
+    },
+    {
+      "id": "MAR-05",
+      "area_id": 382,
+      "area_seq_in_source": 5,
+      "name": "東部・南東内陸乾燥地域",
+      "name_en": "Eastern and Southeastern Arid Interior",
+      "reason": "アルジェリア国境側の東部から南東部に広がる乾燥内陸であり、山脈の背後に広がる半砂漠・砂漠縁辺部を独立して管理しやすいため。",
+      "geometry_wkt": "POLYGON ((-5.428139 34.397108, -0.878906 34.397108, -0.878906 29.286399, -5.428139 29.286399, -5.428139 34.397108))",
+      "bbox": {
+        "minx": -5.428139,
+        "maxx": -0.878906,
+        "miny": 29.286399,
+        "maxy": 34.397108
+      },
+      "centroid": {
+        "x": -3.153522,
+        "y": 31.841754
+      },
+      "size": {
+        "width": 4.549233,
+        "height": 5.110709
+      },
+      "relative_position": {
+        "x_norm": 0.8676,
+        "y_norm": 0.7077,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "MAR-01",
+          "MAR-02",
+          "MAR-03",
+          "MAR-04"
+        ],
+        "north_of": [
+          "MAR-03",
+          "MAR-04"
+        ],
+        "south_of": [
+          "MAR-01",
+          "MAR-02"
+        ],
+        "overlaps": [
+          {
+            "id": "MAR-02",
+            "x_overlap": 0.011433,
+            "y_overlap": 3.270647
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 7145,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.6935,
+          "GRASS": 0.2157,
+          "CROPLAND": 0.0564,
+          "TREE": 0.0265,
+          "SHRUB": 0.0067,
+          "BUILT": 0.0008,
+          "WATER": 0.0004
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.6931,
+          "TROPICAL": 0.3066,
+          "COLD": 0.0003
+        },
+        "elevation_ratio": {
+          "HIGH": 0.7538,
+          "MID": 0.1999,
+          "ULTRA": 0.0421,
+          "LOW": 0.0042
+        },
+        "precip_ratio": {
+          "ARID": 0.5877,
+          "LOW": 0.4123
+        },
+        "flags_ratio": {
+          "water": 0.6235,
+          "cropland": 0.0564,
+          "forest": 0.0332,
+          "built": 0.0008
+        },
+        "cell_bbox_xy": {
+          "min_x": 4190,
+          "max_x": 4294,
+          "min_y": 1334,
+          "max_y": 1446
+        },
+        "cell_centroid": {
+          "x": 4229.496,
+          "y": 1375.055,
+          "lon": -3.750184,
+          "lat": 32.68522
+        }
+      }
+    }
+  ]
+}

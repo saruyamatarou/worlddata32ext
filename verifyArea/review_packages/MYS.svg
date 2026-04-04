@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">MYS review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(99.140625, 0.505365) - (119.772949, 8.070107)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="40.00" y="135.61" width="353.06" height="722.01" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="151.61" font-size="12" font-family="Arial, sans-serif">MYS-01 | マレー半島</text>
+<circle cx="216.53" cy="496.61" r="2.5" fill="black"/>
+<rect x="575.20" y="343.96" width="327.16" height="516.04" fill="none" stroke="black" stroke-width="2"/>
+<text x="579.20" y="359.96" font-size="12" font-family="Arial, sans-serif">MYS-02 | 東マレーシア（サラワク州）</text>
+<circle cx="738.78" cy="601.98" r="2.5" fill="black"/>
+<rect x="900.91" y="40.00" width="259.09" height="677.13" fill="none" stroke="black" stroke-width="2"/>
+<text x="904.91" y="56.00" font-size="12" font-family="Arial, sans-serif">MYS-03 | 東マレーシア（サバ州）</text>
+<circle cx="1030.45" cy="378.56" r="2.5" fill="black"/>
+</svg>

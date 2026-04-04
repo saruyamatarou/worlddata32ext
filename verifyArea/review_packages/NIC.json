@@ -1,0 +1,185 @@
+{
+  "iso_a3": "NIC",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": -87.868652,
+    "maxx": -81.079102,
+    "miny": 10.444598,
+    "maxy": 15.199386
+  },
+  "areas": [
+    {
+      "id": "NIC-01",
+      "area_id": 449,
+      "area_seq_in_source": 1,
+      "name": "太平洋沿岸地域",
+      "name_en": "Pacific Coastal Region",
+      "reason": "ニカラグアの西部に位置し、肥沃な火山灰土壌、主要な湖（ニカラグア湖、マネア湖）、そして多くの活火山を擁する。経済活動と人口が集中しており、スペイン植民地時代からの文化が色濃く残っている。",
+      "geometry_wkt": "POLYGON ((-87.868652 14.976627, -84.737549 14.976627, -84.737549 10.444598, -87.868652 10.444598, -87.868652 14.976627))",
+      "bbox": {
+        "minx": -87.868652,
+        "maxx": -84.737549,
+        "miny": 10.444598,
+        "maxy": 14.976627
+      },
+      "centroid": {
+        "x": -86.3031,
+        "y": 12.710612
+      },
+      "size": {
+        "width": 3.131103,
+        "height": 4.532029
+      },
+      "relative_position": {
+        "x_norm": 0.2306,
+        "y_norm": 0.4766,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "NIC-02"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "NIC-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 4259,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.5114,
+          "GRASS": 0.1907,
+          "OCEAN": 0.1583,
+          "WATER": 0.1089,
+          "CROPLAND": 0.0214,
+          "MANGROVE": 0.0059,
+          "BUILT": 0.0019,
+          "SHRUB": 0.0014,
+          "WETLAND": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.5299,
+          "MID": 0.3905,
+          "HIGH": 0.0796
+        },
+        "precip_ratio": {
+          "MID": 0.7511,
+          "WET": 0.247,
+          "LOW": 0.0019
+        },
+        "flags_ratio": {
+          "water": 0.8544,
+          "forest": 0.5187,
+          "cropland": 0.0214,
+          "built": 0.0019
+        },
+        "cell_bbox_xy": {
+          "min_x": 2207,
+          "max_x": 2286,
+          "min_y": 1804,
+          "max_y": 1896
+        },
+        "cell_centroid": {
+          "x": 2257.614,
+          "y": 1856.664,
+          "lon": -85.911897,
+          "lat": 12.618147
+        }
+      }
+    },
+    {
+      "id": "NIC-02",
+      "area_id": 450,
+      "area_seq_in_source": 2,
+      "name": "中央高地とカリブ海沿岸地域",
+      "name_en": "Central Highlands and Caribbean Coastal Region",
+      "reason": "国の内陸部から東部にかけて広がり、中央高地は山岳地帯で冷涼な気候、カリブ海沿岸地域は熱帯雨林気候で多様な民族文化（ミスキート族、マヤンナ族、ラマ族など）が特徴。経済活動は農業や天然資源の利用が中心。",
+      "geometry_wkt": "POLYGON ((-84.726563 15.199386, -81.079102 15.199386, -81.079102 10.606620, -84.726563 10.606620, -84.726563 15.199386))",
+      "bbox": {
+        "minx": -84.726563,
+        "maxx": -81.079102,
+        "miny": 10.60662,
+        "maxy": 15.199386
+      },
+      "centroid": {
+        "x": -82.902833,
+        "y": 12.903003
+      },
+      "size": {
+        "width": 3.647461,
+        "height": 4.592766
+      },
+      "relative_position": {
+        "x_norm": 0.7314,
+        "y_norm": 0.517,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "NIC-01"
+        ],
+        "north_of": [
+          "NIC-01"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 3853,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "WET",
+        "landcover_ratio": {
+          "TREE": 0.3644,
+          "OCEAN": 0.3288,
+          "GRASS": 0.2196,
+          "WETLAND": 0.0685,
+          "WATER": 0.0169,
+          "MANGROVE": 0.0018
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 0.9484,
+          "MID": 0.0516
+        },
+        "precip_ratio": {
+          "WET": 0.6712,
+          "MID": 0.3288
+        },
+        "flags_ratio": {
+          "water": 0.9738,
+          "forest": 0.3665
+        },
+        "cell_bbox_xy": {
+          "min_x": 2287,
+          "max_x": 2344,
+          "min_y": 1793,
+          "max_y": 1902
+        },
+        "cell_centroid": {
+          "x": 2308.354,
+          "y": 1844.892,
+          "lon": -83.797739,
+          "lat": 13.108687
+        }
+      }
+    }
+  ]
+}

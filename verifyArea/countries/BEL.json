@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BEL-01",
+    "name": "ブラバン・ワロン州 北部",
+    "name_en": "Northern Brabant-Walloon Region",
+    "reason": "都市化が進み、産業活動が活発な北部地域。",
+    "geometry_wkt": "POLYGON ((5.33333 51.33333, 4.79999 51.33333, 4.79999 50.80000, 5.33333 50.80000, 5.33333 51.33333))",
+    "area_id": 60,
+    "source_row_index": 60,
+    "iso_a3_source": "BEL",
+    "iso_a3": "BEL",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "BEL-02",
+    "name": "ブラバン・ワロン州 南部",
+    "name_en": "Southern Brabant-Walloon Region",
+    "reason": "農業が中心で、より田園風景が広がる南部地域。",
+    "geometry_wkt": "POLYGON ((4.79999 50.80000, 4.00000 50.80000, 4.00000 50.00000, 4.79999 50.00000, 4.79999 50.80000))",
+    "area_id": 61,
+    "source_row_index": 61,
+    "iso_a3_source": "BEL",
+    "iso_a3": "BEL",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "BEL-01",
+    "name": "北西フランデレン沿岸",
+    "name_en": "Northwest Flanders Coast",
+    "reason": "北海沿岸とその周辺低地を含むフランデレン西部。港湾、沿岸都市、平坦な地形が特徴。",
+    "geometry_wkt": "POLYGON ((2.400000 51.600000, 3.981514 51.600000, 3.981514 50.691238, 2.400000 50.691238, 2.400000 51.600000))",
+    "area_id": 83,
+    "source_row_index": 83,
+    "iso_a3_source": "BEL",
+    "iso_a3": "BEL",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "BEL-02",
+    "name": "北東フランデレン内陸",
+    "name_en": "Northeast Flanders Inland",
+    "reason": "アントウェルペン周辺を含むフランデレン北東部。物流、工業、内陸都市圏のまとまりが強い。",
+    "geometry_wkt": "POLYGON ((4.791756 51.600000, 6.273193 51.600000, 6.273193 50.691347, 4.791756 50.691347, 4.791756 51.600000))",
+    "area_id": 84,
+    "source_row_index": 84,
+    "iso_a3_source": "BEL",
+    "iso_a3": "BEL",
+    "area_seq_in_source": 4
+  },
+  {
+    "id": "BEL-03",
+    "name": "ブリュッセル首都圏",
+    "name_en": "Brussels Metropolitan Area",
+    "reason": "ベルギーの政治・行政・国際機関が集中する中枢都市圏であり、独立管理が自然。",
+    "geometry_wkt": "POLYGON ((3.981514 51.597548, 4.791670 51.597548, 4.791670 50.690803, 3.981514 50.690803, 3.981514 51.597548))",
+    "area_id": 85,
+    "source_row_index": 85,
+    "iso_a3_source": "BEL",
+    "iso_a3": "BEL",
+    "area_seq_in_source": 5
+  },
+  {
+    "id": "BEL-04",
+    "name": "ワロン北部中軸",
+    "name_en": "Northern Wallonia Corridor",
+    "reason": "シャルルロワ、ナミュール、リエージュ方面を含むワロン北部の都市・交通軸。",
+    "geometry_wkt": "POLYGON ((2.384033 50.691238, 6.421509 50.691238, 6.421509 50.120578, 2.384033 50.120578, 2.384033 50.691238))",
+    "area_id": 86,
+    "source_row_index": 86,
+    "iso_a3_source": "BEL",
+    "iso_a3": "BEL",
+    "area_seq_in_source": 6
+  },
+  {
+    "id": "BEL-05",
+    "name": "ワロン南部アルデンヌ",
+    "name_en": "Southern Wallonia Ardennes",
+    "reason": "ベルギー南部の丘陵・森林地帯であるアルデンヌを中心とする地域。北部平野部と地形的性格が大きく異なる。",
+    "geometry_wkt": "POLYGON ((4.042969 50.117056, 6.157837 50.117056, 6.157837 49.457413, 4.042969 49.457413, 4.042969 50.117056))",
+    "area_id": 87,
+    "source_row_index": 87,
+    "iso_a3_source": "BEL",
+    "iso_a3": "BEL",
+    "area_seq_in_source": 7
+  }
+]

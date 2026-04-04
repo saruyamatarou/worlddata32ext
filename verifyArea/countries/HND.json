@@ -1,0 +1,26 @@
+[
+  {
+    "id": "HND-01",
+    "name": "ホンジュラス北部沿岸地域",
+    "name_en": "Northern Coastal Region of Honduras",
+    "reason": "この地域はカリブ海に面し、バナナやパーム油のプランテーションが盛んな経済的特徴を持つ。また、ハリケーンなどの自然災害の影響を受けやすい地理的特徴も有する。",
+    "geometry_wkt": "POLYGON ((-89.461670 17.664960, -82.968750 17.664960, -82.968750 14.870469, -89.461670 14.870469, -89.461670 17.664960))",
+    "area_id": 269,
+    "source_row_index": 269,
+    "iso_a3_source": "HND",
+    "iso_a3": "HND",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "HND-02",
+    "name": "ホンジュラス内陸高原地域",
+    "name_en": "Inland Highland Region of Honduras",
+    "reason": "この地域は国土の大部分を占める山岳地帯であり、コーヒー栽培が盛んである。また、首都テグシガルパもこの地域に位置し、政治・経済の中心となっている。",
+    "geometry_wkt": "POLYGON ((-89.494629 14.849231, -83.089600 14.849231, -83.089600 12.918907, -89.494629 12.918907, -89.494629 14.849231))",
+    "area_id": 270,
+    "source_row_index": 270,
+    "iso_a3_source": "HND",
+    "iso_a3": "HND",
+    "area_seq_in_source": 2
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "NZL-01",
+    "name": "北島",
+    "name_en": "North Island",
+    "reason": "ニュージーランド本土の北半を構成する中核地域であり、人口・行政・経済の中心軸を含むため。",
+    "geometry_wkt": "POLYGON ((172.0 -34.0, 179.0 -34.0, 179.0 -41.8, 172.0 -41.8, 172.0 -34.0))",
+    "area_id": 461,
+    "source_row_index": 461,
+    "iso_a3_source": "NZL",
+    "iso_a3": "NZL",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "NZL-02",
+    "name": "南島・スチュアート島",
+    "name_en": "South Island and Stewart Island",
+    "reason": "ニュージーランド本土の南半とその直近南方の主要島をまとめた、連続性の高い主島地域であるため。",
+    "geometry_wkt": "POLYGON ((166.0 -40.5, 175.5 -40.5, 175.5 -47.6, 166.0 -47.6, 166.0 -40.5))",
+    "area_id": 462,
+    "source_row_index": 462,
+    "iso_a3_source": "NZL",
+    "iso_a3": "NZL",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "NZL-03",
+    "name": "南方離島群",
+    "name_en": "Southern Outlying Islands",
+    "reason": "スネアーズ諸島、オークランド諸島、アンティポディーズ諸島、バウンティ諸島、キャンベル島など、本土南方から南東方に散在する離島群をまとめて管理しやすくするため。",
+    "geometry_wkt": "POLYGON ((165.0 -47.4, 180.0 -47.4, 180.0 -53.8, 165.0 -53.8, 165.0 -47.4))",
+    "area_id": 463,
+    "source_row_index": 463,
+    "iso_a3_source": "NZL",
+    "iso_a3": "NZL",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "NZL-04",
+    "name": "チャタム諸島",
+    "name_en": "Chatham Islands",
+    "reason": "本土の東方にあるが経度上は 176–177°W に位置し、-180..180 の地図では本土の左側へ回り込むため、独立して保持したほうが扱いやすいため。",
+    "geometry_wkt": "POLYGON ((-178.5 -43.0, -175.0 -43.0, -175.0 -45.2, -178.5 -45.2, -178.5 -43.0))",
+    "area_id": 464,
+    "source_row_index": 464,
+    "iso_a3_source": "NZL",
+    "iso_a3": "NZL",
+    "area_seq_in_source": 4
+  },
+  {
+    "id": "NZL-05",
+    "name": "カーマデック諸島",
+    "name_en": "Kermadec Islands",
+    "reason": "北島の北東方にあるが経度上は 178–179°W に位置し、チャタム諸島と同様に日付変更線またぎの表示問題を避けるため、別レコード化するのが自然であるため。",
+    "geometry_wkt": "POLYGON ((-179.900000 -6.839170, -166.640625 -6.839170, -166.640625 -32.200000, -179.900000 -32.200000, -179.900000 -6.839170))",
+    "area_id": 465,
+    "source_row_index": 465,
+    "iso_a3_source": "NZL",
+    "iso_a3": "NZL",
+    "area_seq_in_source": 5
+  }
+]

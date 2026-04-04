@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">NER review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-0.065918, 11.662996) - (16.347656, 24.006326)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="324.87" y="64.04" width="442.30" height="494.99" fill="none" stroke="black" stroke-width="2"/>
+<text x="328.87" y="80.04" font-size="12" font-family="Arial, sans-serif">NER-01 | 北西部砂漠・サハラ交易圏</text>
+<circle cx="546.02" cy="311.53" r="2.5" fill="black"/>
+<rect x="692.96" y="558.32" width="366.59" height="248.15" fill="none" stroke="black" stroke-width="2"/>
+<text x="696.96" y="574.32" font-size="12" font-family="Arial, sans-serif">NER-02 | 中央・東部サヘル・チャド湖周辺</text>
+<circle cx="876.25" cy="682.40" r="2.5" fill="black"/>
+<rect x="330.12" y="557.62" width="363.59" height="253.84" fill="none" stroke="black" stroke-width="2"/>
+<text x="334.12" y="573.62" font-size="12" font-family="Arial, sans-serif">NER-03 | 南部・ニジェール川流域・経済中心部</text>
+<circle cx="511.91" cy="684.54" r="2.5" fill="black"/>
+<rect x="40.00" y="558.32" width="288.62" height="301.68" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="574.32" font-size="12" font-family="Arial, sans-serif">NER-04 | 南西部・国境地帯</text>
+<circle cx="184.31" cy="709.16" r="2.5" fill="black"/>
+<rect x="764.18" y="40.00" width="395.82" height="517.62" fill="none" stroke="black" stroke-width="2"/>
+<text x="768.18" y="56.00" font-size="12" font-family="Arial, sans-serif">NER-05 | 北東部・砂漠・国境地帯</text>
+<circle cx="962.09" cy="298.81" r="2.5" fill="black"/>
+</svg>

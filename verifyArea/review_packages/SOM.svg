@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">SOM review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(40.561523, -1.911267) - (51.558838, 12.060809)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="186.50" y="43.57" width="712.90" height="234.75" fill="none" stroke="black" stroke-width="2"/>
+<text x="190.50" y="59.57" font-size="12" font-family="Arial, sans-serif">SOM-01 | ソマリア北部</text>
+<circle cx="542.95" cy="160.95" r="2.5" fill="black"/>
+<rect x="791.33" y="40.00" width="368.67" height="239.95" fill="none" stroke="black" stroke-width="2"/>
+<text x="795.33" y="56.00" font-size="12" font-family="Arial, sans-serif">SOM-02 | ソマリア北東部（プントランド）</text>
+<circle cx="975.66" cy="159.98" r="2.5" fill="black"/>
+<rect x="205.59" y="281.23" width="845.87" height="202.51" fill="none" stroke="black" stroke-width="2"/>
+<text x="209.59" y="297.23" font-size="12" font-family="Arial, sans-serif">SOM-03 | ソマリア中部</text>
+<circle cx="628.53" cy="382.49" r="2.5" fill="black"/>
+<rect x="40.00" y="486.32" width="757.56" height="373.68" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="502.32" font-size="12" font-family="Arial, sans-serif">SOM-04 | ソマリア南部</text>
+<circle cx="418.78" cy="673.16" r="2.5" fill="black"/>
+</svg>

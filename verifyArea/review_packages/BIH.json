@@ -1,0 +1,332 @@
+{
+  "iso_a3": "BIH",
+  "area_count": 4,
+  "country_bbox": {
+    "minx": 15.7,
+    "maxx": 19.813843,
+    "miny": 42.4,
+    "maxy": 45.3
+  },
+  "areas": [
+    {
+      "id": "SRP-01",
+      "area_id": 77,
+      "area_seq_in_source": 1,
+      "name": "スルプスカ共和国 北部",
+      "name_en": "Northern Republika Srpska",
+      "reason": "サヴァ川流域に位置し、パンノニア平野の一部を形成する平坦な地域であり、農業が盛んで交通の要衝となっている。",
+      "geometry_wkt": "POLYGON ((18.840698 45.172122, 19.370000 45.172122, 19.370000 44.527780, 18.840698 44.527780, 18.840698 45.172122))",
+      "bbox": {
+        "minx": 18.840698,
+        "maxx": 19.37,
+        "miny": 44.52778,
+        "maxy": 45.172122
+      },
+      "centroid": {
+        "x": 19.105349,
+        "y": 44.849951
+      },
+      "size": {
+        "width": 0.529302,
+        "height": 0.644342
+      },
+      "relative_position": {
+        "x_norm": 0.8278,
+        "y_norm": 0.8448,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "BIH-01",
+          "SRP-02",
+          "BIH-02"
+        ],
+        "north_of": [
+          "BIH-01",
+          "SRP-02",
+          "BIH-02"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "BIH-01",
+            "x_overlap": 0.529302,
+            "y_overlap": 0.644342
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 3233,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.7884,
+          "GRASS": 0.1444,
+          "CROPLAND": 0.0492,
+          "SHRUB": 0.0121,
+          "BUILT": 0.0034,
+          "WATER": 0.0019,
+          "WETLAND": 0.0003,
+          "OCEAN": 0.0003
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9805,
+          "COLD": 0.0195
+        },
+        "elevation_ratio": {
+          "MID": 0.4624,
+          "HIGH": 0.404,
+          "LOW": 0.1336
+        },
+        "precip_ratio": {
+          "MID": 0.6483,
+          "LOW": 0.3517
+        },
+        "flags_ratio": {
+          "forest": 0.8005,
+          "water": 0.6864,
+          "cropland": 0.0492,
+          "built": 0.0034
+        },
+        "cell_bbox_xy": {
+          "min_x": 4697,
+          "max_x": 4790,
+          "min_y": 1074,
+          "max_y": 1138
+        },
+        "cell_centroid": {
+          "x": 4745.938,
+          "y": 1099.676,
+          "lon": 17.76823,
+          "lat": 44.159327
+        }
+      }
+    },
+    {
+      "id": "BIH-01",
+      "area_id": 95,
+      "area_seq_in_source": 1,
+      "name": "ボスニア",
+      "name_en": "Bosnia",
+      "reason": "北部から中央部に広がる山地・盆地・河川流域を含む内陸中核地域。サラエヴォを含み、国の中心的な生活圏を形成する。",
+      "geometry_wkt": "POLYGON ((15.700000 45.300000, 19.813843 45.300000, 19.813843 43.289202, 15.700000 43.289202, 15.700000 45.300000))",
+      "bbox": {
+        "minx": 15.7,
+        "maxx": 19.813843,
+        "miny": 43.289202,
+        "maxy": 45.3
+      },
+      "centroid": {
+        "x": 17.756921,
+        "y": 44.294601
+      },
+      "size": {
+        "width": 4.113843,
+        "height": 2.010798
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.6533,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "SRP-01"
+        ],
+        "east_of": [
+          "SRP-02",
+          "BIH-02"
+        ],
+        "north_of": [
+          "SRP-02",
+          "BIH-02"
+        ],
+        "south_of": [
+          "SRP-01"
+        ],
+        "overlaps": [
+          {
+            "id": "SRP-01",
+            "x_overlap": 0.529302,
+            "y_overlap": 0.644342
+          },
+          {
+            "id": "SRP-02",
+            "x_overlap": 2.657365,
+            "y_overlap": 1.238578
+          },
+          {
+            "id": "BIH-02",
+            "x_overlap": 2.3,
+            "y_overlap": 0.010798
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 128,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "MID",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.9375,
+          "GRASS": 0.0625
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.6797,
+          "HIGH": 0.2734,
+          "LOW": 0.0469
+        },
+        "precip_ratio": {
+          "LOW": 0.5156,
+          "MID": 0.4844
+        },
+        "flags_ratio": {
+          "forest": 0.9375,
+          "water": 0.6016
+        },
+        "cell_bbox_xy": {
+          "min_x": 4698,
+          "max_x": 4773,
+          "min_y": 1086,
+          "max_y": 1112
+        },
+        "cell_centroid": {
+          "x": 4750.531,
+          "y": 1091.484,
+          "lon": 17.959635,
+          "lat": 44.500651
+        }
+      }
+    },
+    {
+      "id": "SRP-02",
+      "area_id": 78,
+      "area_seq_in_source": 2,
+      "name": "スルプスカ共和国 南部",
+      "name_en": "Southern Republika Srpska",
+      "reason": "ディナル・アルプス山脈の北東部に位置し、起伏に富んだ地形を持つ。ボスニア川やネレットヴァ川の流域を含み、歴史的・文化的な重要性を持つ地域。",
+      "geometry_wkt": "POLYGON ((16.183333 44.527780, 18.840698 44.527780, 18.840698 42.433333, 16.183333 42.433333, 16.183333 44.527780))",
+      "bbox": {
+        "minx": 16.183333,
+        "maxx": 18.840698,
+        "miny": 42.433333,
+        "maxy": 44.52778
+      },
+      "centroid": {
+        "x": 17.512016,
+        "y": 43.480556
+      },
+      "size": {
+        "width": 2.657365,
+        "height": 2.094447
+      },
+      "relative_position": {
+        "x_norm": 0.4405,
+        "y_norm": 0.3726,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "SRP-01",
+          "BIH-01",
+          "BIH-02"
+        ],
+        "east_of": [],
+        "north_of": [
+          "BIH-02"
+        ],
+        "south_of": [
+          "SRP-01",
+          "BIH-01"
+        ],
+        "overlaps": [
+          {
+            "id": "BIH-01",
+            "x_overlap": 2.657365,
+            "y_overlap": 1.238578
+          },
+          {
+            "id": "BIH-02",
+            "x_overlap": 2.3,
+            "y_overlap": 0.866667
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "BIH-02",
+      "area_id": 96,
+      "area_seq_in_source": 2,
+      "name": "ヘルツェゴビナ",
+      "name_en": "Herzegovina",
+      "reason": "南部のより温暖で乾燥した地域。モスタル周辺を含み、地形・気候・文化の面で北部ボスニアと異なるまとまりを持つ。",
+      "geometry_wkt": "POLYGON ((16.5 43.3, 18.8 43.3, 18.8 42.4, 16.5 42.4, 16.5 43.3))",
+      "bbox": {
+        "minx": 16.5,
+        "maxx": 18.8,
+        "miny": 42.4,
+        "maxy": 43.3
+      },
+      "centroid": {
+        "x": 17.65,
+        "y": 42.85
+      },
+      "size": {
+        "width": 2.3,
+        "height": 0.9
+      },
+      "relative_position": {
+        "x_norm": 0.474,
+        "y_norm": 0.1552,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "SRP-01",
+          "BIH-01"
+        ],
+        "east_of": [
+          "SRP-02"
+        ],
+        "north_of": [],
+        "south_of": [
+          "SRP-01",
+          "BIH-01",
+          "SRP-02"
+        ],
+        "overlaps": [
+          {
+            "id": "BIH-01",
+            "x_overlap": 2.3,
+            "y_overlap": 0.010798
+          },
+          {
+            "id": "SRP-02",
+            "x_overlap": 2.3,
+            "y_overlap": 0.866667
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    }
+  ]
+}

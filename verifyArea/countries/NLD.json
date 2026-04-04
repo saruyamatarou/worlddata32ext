@@ -1,0 +1,62 @@
+[
+  {
+    "id": "NLD-01",
+    "name": "北オランダ低地",
+    "name_en": "Northern Netherlands Lowlands",
+    "reason": "北部の低地・沿岸・農業地帯を中心とする地域であり、北海側と北東側の広い平坦地を一体で扱いやすいため。",
+    "geometry_wkt": "POLYGON ((4.200000 53.800000, 7.289429 53.800000, 7.289429 52.596375, 4.200000 52.596375, 4.200000 53.800000))",
+    "area_id": 452,
+    "source_row_index": 452,
+    "iso_a3_source": "NLD",
+    "iso_a3": "NLD",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "NLD-02",
+    "name": "西中部ランドスタット・デルタ地域",
+    "name_en": "West-Central Randstad and Delta Region",
+    "reason": "アムステルダム、ユトレヒト、ロッテルダム、ハーグを含む西中部の都市・港湾・交通の中核地域であり、オランダ本体の中心性が最も高いため。",
+    "geometry_wkt": "POLYGON ((3.087158 52.597209, 5.576935 52.597209, 5.576935 51.082822, 3.087158 51.082822, 3.087158 52.597209))",
+    "area_id": 453,
+    "source_row_index": 453,
+    "iso_a3_source": "NLD",
+    "iso_a3": "NLD",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "NLD-03",
+    "name": "東南オランダ内陸地域",
+    "name_en": "Southeastern Inland Netherlands",
+    "reason": "東部内陸から北ブラバント、リンブルフまでを含む地域であり、ドイツ・ベルギー国境側の内陸性と南部のまとまりを一体で表しやすいため。",
+    "geometry_wkt": "POLYGON ((5.578995 52.596375, 7.229004 52.596375, 7.229004 50.680797, 5.578995 50.680797, 5.578995 52.596375))",
+    "area_id": 454,
+    "source_row_index": 454,
+    "iso_a3_source": "NLD",
+    "iso_a3": "NLD",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "NLD-04",
+    "name": "ボネール島",
+    "name_en": "Bonaire",
+    "reason": "3島の中で最も大きく、クラレンダイクを中心とする行政・観光・交通の中核であり、他の2島から地理的にも離れているため。",
+    "geometry_wkt": "POLYGON ((-68.626099 12.527753, -67.873535 12.527753, -67.873535 11.751748, -68.626099 11.751748, -68.626099 12.527753))",
+    "area_id": 455,
+    "source_row_index": 455,
+    "iso_a3_source": "NLD",
+    "iso_a3": "NLD",
+    "area_seq_in_source": 4
+  },
+  {
+    "id": "NLD-05",
+    "name": "シント・ユースタティウス島およびサバ島",
+    "name_en": "Sint Eustatius and Saba",
+    "reason": "カリブ北東部で比較的近接する2島をまとめた区分であり、ボネールとは別の小規模火山島・歴史港湾島のまとまりとして扱いやすいため。",
+    "geometry_wkt": "POLYGON ((-63.572388 17.931702, -62.704468 17.931702, -62.704468 17.214264, -63.572388 17.214264, -63.572388 17.931702))",
+    "area_id": 456,
+    "source_row_index": 456,
+    "iso_a3_source": "NLD",
+    "iso_a3": "NLD",
+    "area_seq_in_source": 5
+  }
+]

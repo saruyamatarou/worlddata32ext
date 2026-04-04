@@ -1,0 +1,62 @@
+[
+  {
+    "id": "KAZ-01",
+    "name": "北カザフ草原地帯",
+    "name_en": "Northern Kazakh Steppe",
+    "reason": "ロシア国境沿いに広がる大草原帯で、農業と広域平原の性格が強い地域。",
+    "geometry_wkt": "POLYGON ((59.886475 55.800000, 72.971191 55.800000, 72.971191 51.275662, 59.886475 51.275662, 59.886475 55.800000))",
+    "area_id": 330,
+    "source_row_index": 330,
+    "iso_a3_source": "KAZ",
+    "iso_a3": "KAZ",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "KAZ-02",
+    "name": "西部カスピ海・ウラル低地",
+    "name_en": "Western Caspian and Ural Lowlands",
+    "reason": "カスピ海沿岸と西部低地を含む地域で、石油・ガス資源と沿岸・低地地形の性格が強い。",
+    "geometry_wkt": "POLYGON ((46.000000 51.835778, 54.580078 51.835778, 54.580078 40.313043, 46.000000 40.313043, 46.000000 51.835778))",
+    "area_id": 331,
+    "source_row_index": 331,
+    "iso_a3_source": "KAZ",
+    "iso_a3": "KAZ",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "KAZ-03",
+    "name": "中央カザフ高地・乾燥内陸",
+    "name_en": "Central Kazakh Uplands and Arid Interior",
+    "reason": "カザフ高地を中心とする中央内陸部で、乾燥した草原・半砂漠・丘陵が広がる広域管理向きの地域。",
+    "geometry_wkt": "POLYGON ((54.558105 51.289406, 72.993164 51.289406, 72.993164 45.981695, 54.558105 45.981695, 54.558105 51.289406))",
+    "area_id": 332,
+    "source_row_index": 332,
+    "iso_a3_source": "KAZ",
+    "iso_a3": "KAZ",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "KAZ-04",
+    "name": "東部アルタイ・山麓地域",
+    "name_en": "Eastern Altai and Foothill Region",
+    "reason": "アルタイ方面の東部高地とその山麓を含む地域で、国内でも山地性が強く、水源・鉱業面でも重要。",
+    "geometry_wkt": "POLYGON ((72.993164 54.901882, 87.846680 54.901882, 87.846680 46.000000, 72.993164 46.000000, 72.993164 54.901882))",
+    "area_id": 333,
+    "source_row_index": 333,
+    "iso_a3_source": "KAZ",
+    "iso_a3": "KAZ",
+    "area_seq_in_source": 4
+  },
+  {
+    "id": "KAZ-05",
+    "name": "南部オアシス・天山前縁地域",
+    "name_en": "Southern Oasis Belt and Tian Shan Foreland",
+    "reason": "シルダリヤ流域、南部盆地、南東の天山山麓を含む地域で、灌漑農業・都市・山麓地形が集中する。",
+    "geometry_wkt": "POLYGON ((54.492188 46.000000, 83.979492 46.000000, 83.979492 40.212441, 54.492188 40.212441, 54.492188 46.000000))",
+    "area_id": 334,
+    "source_row_index": 334,
+    "iso_a3_source": "KAZ",
+    "iso_a3": "KAZ",
+    "area_seq_in_source": 5
+  }
+]

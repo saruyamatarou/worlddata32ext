@@ -1,0 +1,190 @@
+{
+  "iso_a3": "ISR",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": 34.101563,
+    "maxx": 35.991211,
+    "miny": 29.238477,
+    "maxy": 33.523079
+  },
+  "areas": [
+    {
+      "id": "ISR-01",
+      "area_id": 311,
+      "area_seq_in_source": 1,
+      "name": "北イスラエル",
+      "name_en": "Northern Israel",
+      "reason": "北部はガリラヤ地方など、多様な地形とガリラヤ湖のような水源があり、歴史的・宗教的にも重要な地域である。また、レバノンやシリアとの国境に近いことから、地理的な特徴と安全保障上の考慮を反映している。",
+      "geometry_wkt": "POLYGON ((34.464111 33.523079, 35.991211 33.523079, 35.991211 32.036020, 34.464111 32.036020, 34.464111 33.523079))",
+      "bbox": {
+        "minx": 34.464111,
+        "maxx": 35.991211,
+        "miny": 32.03602,
+        "maxy": 33.523079
+      },
+      "centroid": {
+        "x": 35.227661,
+        "y": 32.77955
+      },
+      "size": {
+        "width": 1.5271,
+        "height": 1.487059
+      },
+      "relative_position": {
+        "x_norm": 0.5959,
+        "y_norm": 0.8265,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "ISR-02"
+        ],
+        "north_of": [
+          "ISR-02"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 1482,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.4001,
+          "OCEAN": 0.2126,
+          "CROPLAND": 0.1646,
+          "TREE": 0.0837,
+          "GRASS": 0.0682,
+          "BUILT": 0.0412,
+          "WATER": 0.0196,
+          "SHRUB": 0.0101
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.6869,
+          "TEMPERATE": 0.3131
+        },
+        "elevation_ratio": {
+          "LOW": 0.5243,
+          "MID": 0.448,
+          "HIGH": 0.0277
+        },
+        "precip_ratio": {
+          "ARID": 0.4163,
+          "LOW": 0.3711,
+          "MID": 0.2126
+        },
+        "flags_ratio": {
+          "water": 0.7206,
+          "cropland": 0.1646,
+          "forest": 0.0938,
+          "built": 0.0412
+        },
+        "cell_bbox_xy": {
+          "min_x": 5142,
+          "max_x": 5180,
+          "min_y": 1358,
+          "max_y": 1451
+        },
+        "cell_centroid": {
+          "x": 5158.157,
+          "y": 1399.332,
+          "lon": 34.944051,
+          "lat": 31.673667
+        }
+      }
+    },
+    {
+      "id": "ISR-02",
+      "area_id": 312,
+      "area_seq_in_source": 2,
+      "name": "南イスラエル",
+      "name_en": "Southern Israel",
+      "reason": "南部はネゲブ砂漠が広がり、乾燥した地理的特徴を持つ。また、紅海に面し、エイラートなどの港湾都市がある。経済的には、砂漠地帯での農業技術や、鉱物資源（死海周辺）の利用が特徴的であり、乾燥地帯という地理的条件と経済活動を考慮している。",
+      "geometry_wkt": "POLYGON ((34.101563 32.026706, 35.606689 32.026706, 35.606689 29.238477, 34.101563 29.238477, 34.101563 32.026706))",
+      "bbox": {
+        "minx": 34.101563,
+        "maxx": 35.606689,
+        "miny": 29.238477,
+        "maxy": 32.026706
+      },
+      "centroid": {
+        "x": 34.854126,
+        "y": 30.632591
+      },
+      "size": {
+        "width": 1.505126,
+        "height": 2.788229
+      },
+      "relative_position": {
+        "x_norm": 0.3983,
+        "y_norm": 0.3254,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "ISR-01"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "ISR-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 75,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.48,
+          "BARE": 0.4267,
+          "CROPLAND": 0.04,
+          "WATER": 0.0133,
+          "BUILT": 0.0133,
+          "SHRUB": 0.0133,
+          "GRASS": 0.0133
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.52,
+          "TEMPERATE": 0.48
+        },
+        "elevation_ratio": {
+          "LOW": 0.8933,
+          "MID": 0.1067
+        },
+        "precip_ratio": {
+          "MID": 0.48,
+          "ARID": 0.4667,
+          "LOW": 0.0533
+        },
+        "flags_ratio": {
+          "water": 0.88,
+          "cropland": 0.04,
+          "built": 0.0133,
+          "forest": 0.0133
+        },
+        "cell_bbox_xy": {
+          "min_x": 5140,
+          "max_x": 5149,
+          "min_y": 1393,
+          "max_y": 1415
+        },
+        "cell_centroid": {
+          "x": 5145.493,
+          "y": 1404.227,
+          "lon": 34.416389,
+          "lat": 31.469722
+        }
+      }
+    }
+  ]
+}

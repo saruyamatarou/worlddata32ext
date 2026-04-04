@@ -1,0 +1,189 @@
+{
+  "iso_a3": "KGZ",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": 68.884277,
+    "maxx": 80.354004,
+    "miny": 38.993572,
+    "maxy": 43.548548
+  },
+  "areas": [
+    {
+      "id": "KG-01",
+      "area_id": 339,
+      "area_seq_in_source": 1,
+      "name": "キルギス北部",
+      "name_en": "Northern Kyrgyzstan",
+      "reason": "国土の大部分が山岳地帯であり、北部は首都ビシュケクを含む人口密集地域や主要な交通網が存在する。また、ロシア語の影響が比較的強く、多様な民族構成が見られる。",
+      "geometry_wkt": "POLYGON ((74.179688 43.548548, 80.354004 43.548548, 80.354004 40.027614, 74.179688 40.027614, 74.179688 43.548548))",
+      "bbox": {
+        "minx": 74.179688,
+        "maxx": 80.354004,
+        "miny": 40.027614,
+        "maxy": 43.548548
+      },
+      "centroid": {
+        "x": 77.266846,
+        "y": 41.788081
+      },
+      "size": {
+        "width": 6.174316,
+        "height": 3.520934
+      },
+      "relative_position": {
+        "x_norm": 0.7308,
+        "y_norm": 0.6135,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "KG-02"
+        ],
+        "north_of": [
+          "KG-02"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 11726,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "COLD",
+        "dominant_e2": "ULTRA",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.6251,
+          "BARE": 0.1833,
+          "CROPLAND": 0.0594,
+          "MOSS_LICHEN": 0.0481,
+          "WATER": 0.0379,
+          "SNOW_ICE": 0.0344,
+          "TREE": 0.009,
+          "BUILT": 0.0027
+        },
+        "temperature_ratio": {
+          "COLD": 0.5249,
+          "TEMPERATE": 0.2656,
+          "POLAR": 0.2094
+        },
+        "elevation_ratio": {
+          "ULTRA": 0.7077,
+          "HIGH": 0.2683,
+          "MID": 0.024
+        },
+        "precip_ratio": {
+          "LOW": 0.9064,
+          "ARID": 0.0936
+        },
+        "flags_ratio": {
+          "water": 0.581,
+          "cropland": 0.0594,
+          "ice": 0.0344,
+          "forest": 0.009,
+          "built": 0.0027
+        },
+        "cell_bbox_xy": {
+          "min_x": 5981,
+          "max_x": 6245,
+          "min_y": 1122,
+          "max_y": 1218
+        },
+        "cell_centroid": {
+          "x": 6109.197,
+          "y": 1164.61,
+          "lon": 74.570726,
+          "lat": 41.453753
+        }
+      }
+    },
+    {
+      "id": "KG-02",
+      "area_id": 340,
+      "area_seq_in_source": 2,
+      "name": "キルギス南部",
+      "name_en": "Southern Kyrgyzstan",
+      "reason": "南部はウズベキスタンとの国境に近く、ウズベク系住民が多く居住する地域。また、より農業や牧畜が盛んな地域であり、文化的な多様性も存在する。",
+      "geometry_wkt": "POLYGON ((68.884277 43.293200, 74.179688 43.293200, 74.179688 38.993572, 68.884277 38.993572, 68.884277 43.293200))",
+      "bbox": {
+        "minx": 68.884277,
+        "maxx": 74.179688,
+        "miny": 38.993572,
+        "maxy": 43.2932
+      },
+      "centroid": {
+        "x": 71.531982,
+        "y": 41.143386
+      },
+      "size": {
+        "width": 5.295411,
+        "height": 4.299628
+      },
+      "relative_position": {
+        "x_norm": 0.2308,
+        "y_norm": 0.472,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "KG-01"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "KG-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 637,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "COLD",
+        "dominant_e2": "ULTRA",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "GRASS": 0.7347,
+          "CROPLAND": 0.168,
+          "BARE": 0.0675,
+          "MOSS_LICHEN": 0.0267,
+          "BUILT": 0.0031
+        },
+        "temperature_ratio": {
+          "COLD": 0.6421,
+          "TEMPERATE": 0.2402,
+          "POLAR": 0.1177
+        },
+        "elevation_ratio": {
+          "ULTRA": 0.6939,
+          "HIGH": 0.1617,
+          "MID": 0.1444
+        },
+        "precip_ratio": {
+          "LOW": 0.9874,
+          "ARID": 0.0126
+        },
+        "flags_ratio": {
+          "water": 0.6311,
+          "cropland": 0.168,
+          "built": 0.0031
+        },
+        "cell_bbox_xy": {
+          "min_x": 6085,
+          "max_x": 6099,
+          "min_y": 1123,
+          "max_y": 1211
+        },
+        "cell_centroid": {
+          "x": 6095.192,
+          "y": 1160.865,
+          "lon": 73.987147,
+          "lat": 41.609792
+        }
+      }
+    }
+  ]
+}

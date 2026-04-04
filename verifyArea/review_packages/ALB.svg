@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">ALB review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(19.182129, 39.622615) - (21.100000, 42.690511)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="40.00" y="40.00" width="1120.00" height="318.20" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="56.00" font-size="12" font-family="Arial, sans-serif">ALB-01 | アルバニア北部</text>
+<circle cx="600.00" cy="199.10" r="2.5" fill="black"/>
+<rect x="50.44" y="358.20" width="1105.91" height="501.80" fill="none" stroke="black" stroke-width="2"/>
+<text x="54.44" y="374.20" font-size="12" font-family="Arial, sans-serif">ALB-02 | アルバニア南部</text>
+<circle cx="603.39" cy="609.10" r="2.5" fill="black"/>
+</svg>

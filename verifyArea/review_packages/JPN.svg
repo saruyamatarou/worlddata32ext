@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">JPN review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(122.519531, 23.563987) - (146.500000, 45.800000)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="819.93" y="40.00" width="340.07" height="162.51" fill="none" stroke="black" stroke-width="2"/>
+<text x="823.93" y="56.00" font-size="12" font-family="Arial, sans-serif">JPN-01 | 北海道</text>
+<circle cx="989.97" cy="121.25" r="2.5" fill="black"/>
+<rect x="767.59" y="195.22" width="209.86" height="161.77" fill="none" stroke="black" stroke-width="2"/>
+<text x="771.59" y="211.22" font-size="12" font-family="Arial, sans-serif">JPN-02 | 東北</text>
+<circle cx="872.53" cy="276.11" r="2.5" fill="black"/>
+<rect x="786.36" y="357.14" width="203.92" height="493.95" fill="none" stroke="black" stroke-width="2"/>
+<text x="790.36" y="373.14" font-size="12" font-family="Arial, sans-serif">JPN-03 | 関東</text>
+<circle cx="888.32" cy="604.12" r="2.5" fill="black"/>
+<rect x="694.73" y="342.83" width="93.39" height="126.52" fill="none" stroke="black" stroke-width="2"/>
+<text x="698.73" y="358.83" font-size="12" font-family="Arial, sans-serif">JPN-04 | 中部</text>
+<circle cx="741.43" cy="406.09" r="2.5" fill="black"/>
+<rect x="595.70" y="381.95" width="98.52" height="115.52" fill="none" stroke="black" stroke-width="2"/>
+<text x="599.70" y="397.95" font-size="12" font-family="Arial, sans-serif">JPN-05 | 近畿</text>
+<circle cx="644.96" cy="439.71" r="2.5" fill="black"/>
+<rect x="480.25" y="386.84" width="115.45" height="137.98" fill="none" stroke="black" stroke-width="2"/>
+<text x="484.25" y="402.84" font-size="12" font-family="Arial, sans-serif">JPN-06 | 中国・四国</text>
+<circle cx="537.98" cy="455.83" r="2.5" fill="black"/>
+<rect x="40.00" y="439.82" width="440.25" height="420.18" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="455.82" font-size="12" font-family="Arial, sans-serif">JPN-07 | 九州・沖縄</text>
+<circle cx="260.13" cy="649.91" r="2.5" fill="black"/>
+</svg>

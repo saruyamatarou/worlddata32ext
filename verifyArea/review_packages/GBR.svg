@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">GBR review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-14.282227, 49.800000) - (1.845703, 61.200000)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="40.00" y="40.00" width="965.89" height="312.97" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="56.00" font-size="12" font-family="Arial, sans-serif">GBR-01 | スコットランド高地・島嶼部</text>
+<circle cx="522.94" cy="196.48" r="2.5" fill="black"/>
+<rect x="542.02" y="351.67" width="408.94" height="112.42" fill="none" stroke="black" stroke-width="2"/>
+<text x="546.02" y="367.67" font-size="12" font-family="Arial, sans-serif">GBR-02 | スコットランド低地</text>
+<circle cx="746.49" cy="407.88" r="2.5" fill="black"/>
+<rect x="664.85" y="464.54" width="408.64" height="129.71" fill="none" stroke="black" stroke-width="2"/>
+<text x="668.85" y="480.54" font-size="12" font-family="Arial, sans-serif">GBR-03 | 北イングランド</text>
+<circle cx="869.17" cy="529.39" r="2.5" fill="black"/>
+<rect x="852.15" y="594.01" width="307.85" height="130.31" fill="none" stroke="black" stroke-width="2"/>
+<text x="856.15" y="610.01" font-size="12" font-family="Arial, sans-serif">GBR-04 | ミッドランズ</text>
+<circle cx="1006.08" cy="659.17" r="2.5" fill="black"/>
+<rect x="569.48" y="724.82" width="576.78" height="135.18" fill="none" stroke="black" stroke-width="2"/>
+<text x="573.48" y="740.82" font-size="12" font-family="Arial, sans-serif">GBR-05 | 南イングランド</text>
+<circle cx="857.87" cy="792.41" r="2.5" fill="black"/>
+<rect x="646.92" y="593.78" width="204.47" height="131.53" fill="none" stroke="black" stroke-width="2"/>
+<text x="650.92" y="609.78" font-size="12" font-family="Arial, sans-serif">GBR-06 | ウェールズ</text>
+<circle cx="749.16" cy="659.54" r="2.5" fill="black"/>
+<rect x="455.43" y="462.29" width="208.27" height="95.61" fill="none" stroke="black" stroke-width="2"/>
+<text x="459.43" y="478.29" font-size="12" font-family="Arial, sans-serif">GBR-07 | 北アイルランド</text>
+<circle cx="559.57" cy="510.09" r="2.5" fill="black"/>
+</svg>

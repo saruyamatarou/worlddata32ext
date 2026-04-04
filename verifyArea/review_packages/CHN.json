@@ -1,0 +1,942 @@
+{
+  "iso_a3": "CHN",
+  "area_count": 8,
+  "country_bbox": {
+    "minx": 73.0,
+    "maxx": 135.175781,
+    "miny": 15.474857,
+    "maxy": 53.826597
+  },
+  "areas": [
+    {
+      "id": "CHN-01",
+      "area_id": 134,
+      "area_seq_in_source": 1,
+      "name": "中国東北部",
+      "name_en": "Northeastern China",
+      "reason": "歴史的に工業地帯であり、ロシアや北朝鮮との国境を接する地理的特徴を持つ。",
+      "geometry_wkt": "POLYGON ((108.676758 53.826597, 135.175781 53.826597, 135.175781 41.145570, 108.676758 41.145570, 108.676758 53.826597))",
+      "bbox": {
+        "minx": 108.676758,
+        "maxx": 135.175781,
+        "miny": 41.14557,
+        "maxy": 53.826597
+      },
+      "centroid": {
+        "x": 121.92627,
+        "y": 47.486083
+      },
+      "size": {
+        "width": 26.499023,
+        "height": 12.681027
+      },
+      "relative_position": {
+        "x_norm": 0.7869,
+        "y_norm": 0.8347,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "CHN-02",
+          "CHN-03",
+          "CHN-04",
+          "CHN-05",
+          "CHN-06",
+          "CHN-07",
+          "CHN-08"
+        ],
+        "north_of": [
+          "CHN-02",
+          "CHN-03",
+          "CHN-04",
+          "CHN-05",
+          "CHN-06",
+          "CHN-07",
+          "CHN-08"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 175363,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "COLD",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.2664,
+          "GRASS": 0.2567,
+          "BARE": 0.2508,
+          "CROPLAND": 0.1898,
+          "SNOW_ICE": 0.0116,
+          "WATER": 0.0073,
+          "MOSS_LICHEN": 0.007,
+          "OCEAN": 0.0042,
+          "BUILT": 0.0032,
+          "WETLAND": 0.0025,
+          "SHRUB": 0.0005
+        },
+        "temperature_ratio": {
+          "COLD": 0.6241,
+          "TEMPERATE": 0.2666,
+          "POLAR": 0.0711,
+          "TROPICAL": 0.0382
+        },
+        "elevation_ratio": {
+          "HIGH": 0.3463,
+          "MID": 0.335,
+          "ULTRA": 0.1935,
+          "LOW": 0.1253
+        },
+        "precip_ratio": {
+          "LOW": 0.6281,
+          "ARID": 0.3132,
+          "MID": 0.0583,
+          "WET": 0.0004
+        },
+        "flags_ratio": {
+          "water": 0.6424,
+          "forest": 0.2669,
+          "cropland": 0.1898,
+          "ice": 0.0116,
+          "built": 0.0032
+        },
+        "cell_bbox_xy": {
+          "min_x": 6086,
+          "max_x": 7553,
+          "min_y": 874,
+          "max_y": 1727
+        },
+        "cell_centroid": {
+          "x": 6918.65,
+          "y": 1149.768,
+          "lon": 108.297934,
+          "lat": 42.072151
+        }
+      }
+    },
+    {
+      "id": "CHN-02",
+      "area_id": 135,
+      "area_seq_in_source": 2,
+      "name": "華北",
+      "name_en": "North China",
+      "reason": "中国の首都北京や主要な経済圏があり、政治・経済・文化の中心地。",
+      "geometry_wkt": "POLYGON ((108.500977 41.129021, 124.321289 41.129021, 124.321289 34.976002, 108.500977 34.976002, 108.500977 41.129021))",
+      "bbox": {
+        "minx": 108.500977,
+        "maxx": 124.321289,
+        "miny": 34.976002,
+        "maxy": 41.129021
+      },
+      "centroid": {
+        "x": 116.411133,
+        "y": 38.052512
+      },
+      "size": {
+        "width": 15.820312,
+        "height": 6.153019
+      },
+      "relative_position": {
+        "x_norm": 0.6982,
+        "y_norm": 0.5887,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CHN-01",
+          "CHN-03"
+        ],
+        "east_of": [
+          "CHN-04",
+          "CHN-05",
+          "CHN-06",
+          "CHN-07",
+          "CHN-08"
+        ],
+        "north_of": [
+          "CHN-03",
+          "CHN-04",
+          "CHN-05",
+          "CHN-07",
+          "CHN-08"
+        ],
+        "south_of": [
+          "CHN-01",
+          "CHN-06"
+        ],
+        "overlaps": [
+          {
+            "id": "CHN-03",
+            "x_overlap": 5.910645,
+            "y_overlap": 0.023998
+          },
+          {
+            "id": "CHN-04",
+            "x_overlap": 9.60205,
+            "y_overlap": 0.023998
+          },
+          {
+            "id": "CHN-06",
+            "x_overlap": 0.131836,
+            "y_overlap": 4.144018
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 47748,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "CROPLAND": 0.3775,
+          "GRASS": 0.2969,
+          "TREE": 0.1482,
+          "OCEAN": 0.1226,
+          "BUILT": 0.0347,
+          "WATER": 0.0134,
+          "BARE": 0.006,
+          "WETLAND": 0.0006,
+          "SHRUB": 0.0
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9381,
+          "COLD": 0.0617,
+          "POLAR": 0.0003
+        },
+        "elevation_ratio": {
+          "LOW": 0.4623,
+          "HIGH": 0.3926,
+          "MID": 0.1426,
+          "ULTRA": 0.0025
+        },
+        "precip_ratio": {
+          "LOW": 0.8728,
+          "MID": 0.1226,
+          "ARID": 0.0046
+        },
+        "flags_ratio": {
+          "water": 0.6918,
+          "cropland": 0.3776,
+          "forest": 0.1482,
+          "built": 0.0351
+        },
+        "cell_bbox_xy": {
+          "min_x": 6924,
+          "max_x": 7298,
+          "min_y": 1173,
+          "max_y": 1321
+        },
+        "cell_centroid": {
+          "x": 7091.038,
+          "y": 1243.407,
+          "lon": 115.480744,
+          "lat": 38.170526
+        }
+      }
+    },
+    {
+      "id": "CHN-03",
+      "area_id": 136,
+      "area_seq_in_source": 3,
+      "name": "華東",
+      "name_en": "East China",
+      "reason": "経済発展が著しく、上海などの主要都市が集まり、国際的な貿易港が多い。",
+      "geometry_wkt": "POLYGON ((118.103027 35.000000, 124.013672 35.000000, 124.013672 23.976215, 118.103027 23.976215, 118.103027 35.000000))",
+      "bbox": {
+        "minx": 118.103027,
+        "maxx": 124.013672,
+        "miny": 23.976215,
+        "maxy": 35.0
+      },
+      "centroid": {
+        "x": 121.058349,
+        "y": 29.488107
+      },
+      "size": {
+        "width": 5.910645,
+        "height": 11.023785
+      },
+      "relative_position": {
+        "x_norm": 0.7729,
+        "y_norm": 0.3654,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CHN-01"
+        ],
+        "east_of": [
+          "CHN-02",
+          "CHN-04",
+          "CHN-05",
+          "CHN-06",
+          "CHN-07",
+          "CHN-08"
+        ],
+        "north_of": [
+          "CHN-05",
+          "CHN-08"
+        ],
+        "south_of": [
+          "CHN-01",
+          "CHN-02",
+          "CHN-04",
+          "CHN-06",
+          "CHN-07"
+        ],
+        "overlaps": [
+          {
+            "id": "CHN-02",
+            "x_overlap": 5.910645,
+            "y_overlap": 0.023998
+          },
+          {
+            "id": "CHN-05",
+            "x_overlap": 0.021973,
+            "y_overlap": 3.950259
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 20140,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.415,
+          "CROPLAND": 0.2576,
+          "OCEAN": 0.2293,
+          "BUILT": 0.0646,
+          "WATER": 0.0325,
+          "GRASS": 0.0004,
+          "BARE": 0.0003,
+          "WETLAND": 0.0
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9385,
+          "TROPICAL": 0.0613,
+          "POLAR": 0.0001
+        },
+        "elevation_ratio": {
+          "LOW": 0.7196,
+          "MID": 0.2409,
+          "HIGH": 0.0395
+        },
+        "precip_ratio": {
+          "MID": 0.8041,
+          "LOW": 0.1947,
+          "WET": 0.001,
+          "ARID": 0.0001
+        },
+        "flags_ratio": {
+          "water": 0.8247,
+          "forest": 0.4169,
+          "cropland": 0.2605,
+          "built": 0.0658
+        },
+        "cell_bbox_xy": {
+          "min_x": 7154,
+          "max_x": 7268,
+          "min_y": 1320,
+          "max_y": 1576
+        },
+        "cell_centroid": {
+          "x": 7197.401,
+          "y": 1438.309,
+          "lon": 119.91255,
+          "lat": 30.049615
+        }
+      }
+    },
+    {
+      "id": "CHN-04",
+      "area_id": 137,
+      "area_seq_in_source": 4,
+      "name": "華中",
+      "name_en": "Central China",
+      "reason": "長江中流域に位置し、農業と工業が発展している。交通の要衝。",
+      "geometry_wkt": "POLYGON ((108.500977 35.000000, 118.103027 35.000000, 118.103027 27.936181, 108.500977 27.936181, 108.500977 35.000000))",
+      "bbox": {
+        "minx": 108.500977,
+        "maxx": 118.103027,
+        "miny": 27.936181,
+        "maxy": 35.0
+      },
+      "centroid": {
+        "x": 113.302002,
+        "y": 31.468091
+      },
+      "size": {
+        "width": 9.60205,
+        "height": 7.063819
+      },
+      "relative_position": {
+        "x_norm": 0.6482,
+        "y_norm": 0.417,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "CHN-01",
+          "CHN-02",
+          "CHN-03",
+          "CHN-05"
+        ],
+        "east_of": [
+          "CHN-06",
+          "CHN-07",
+          "CHN-08"
+        ],
+        "north_of": [
+          "CHN-03",
+          "CHN-05",
+          "CHN-07",
+          "CHN-08"
+        ],
+        "south_of": [
+          "CHN-01",
+          "CHN-02",
+          "CHN-06"
+        ],
+        "overlaps": [
+          {
+            "id": "CHN-02",
+            "x_overlap": 9.60205,
+            "y_overlap": 0.023998
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 39100,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.5457,
+          "CROPLAND": 0.3981,
+          "BUILT": 0.0217,
+          "WATER": 0.0191,
+          "GRASS": 0.0124,
+          "WETLAND": 0.003,
+          "BARE": 0.0
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.9831,
+          "TROPICAL": 0.0168,
+          "COLD": 0.0001
+        },
+        "elevation_ratio": {
+          "LOW": 0.5511,
+          "MID": 0.2889,
+          "HIGH": 0.1566,
+          "ULTRA": 0.0034
+        },
+        "precip_ratio": {
+          "MID": 0.6017,
+          "LOW": 0.3979,
+          "WET": 0.0004
+        },
+        "flags_ratio": {
+          "water": 0.7727,
+          "forest": 0.5457,
+          "cropland": 0.3981,
+          "built": 0.0217
+        },
+        "cell_bbox_xy": {
+          "min_x": 6924,
+          "max_x": 7153,
+          "min_y": 1320,
+          "max_y": 1489
+        },
+        "cell_centroid": {
+          "x": 7038.5,
+          "y": 1404.5,
+          "lon": 113.291667,
+          "lat": 31.458333
+        }
+      }
+    },
+    {
+      "id": "CHN-05",
+      "area_id": 138,
+      "area_seq_in_source": 5,
+      "name": "華南",
+      "name_en": "South China",
+      "reason": "改革開放政策の中心地であり、香港、マカオに隣接し、経済特区が多い。",
+      "geometry_wkt": "POLYGON ((108.500977 27.926474, 118.125000 27.926474, 118.125000 15.474857, 108.500977 15.474857, 108.500977 27.926474))",
+      "bbox": {
+        "minx": 108.500977,
+        "maxx": 118.125,
+        "miny": 15.474857,
+        "maxy": 27.926474
+      },
+      "centroid": {
+        "x": 113.312989,
+        "y": 21.700665
+      },
+      "size": {
+        "width": 9.624023,
+        "height": 12.451617
+      },
+      "relative_position": {
+        "x_norm": 0.6484,
+        "y_norm": 0.1623,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CHN-01",
+          "CHN-02",
+          "CHN-03"
+        ],
+        "east_of": [
+          "CHN-04",
+          "CHN-06",
+          "CHN-07",
+          "CHN-08"
+        ],
+        "north_of": [],
+        "south_of": [
+          "CHN-01",
+          "CHN-02",
+          "CHN-03",
+          "CHN-04",
+          "CHN-06",
+          "CHN-07",
+          "CHN-08"
+        ],
+        "overlaps": [
+          {
+            "id": "CHN-03",
+            "x_overlap": 0.021973,
+            "y_overlap": 3.950259
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 37343,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.7953,
+          "OCEAN": 0.1225,
+          "CROPLAND": 0.0468,
+          "BUILT": 0.019,
+          "GRASS": 0.0092,
+          "WATER": 0.0069,
+          "BARE": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.6656,
+          "TEMPERATE": 0.3344
+        },
+        "elevation_ratio": {
+          "MID": 0.4753,
+          "LOW": 0.4696,
+          "HIGH": 0.0551
+        },
+        "precip_ratio": {
+          "MID": 0.9787,
+          "WET": 0.0213
+        },
+        "flags_ratio": {
+          "water": 0.8789,
+          "forest": 0.7963,
+          "cropland": 0.0471,
+          "built": 0.0196
+        },
+        "cell_bbox_xy": {
+          "min_x": 6924,
+          "max_x": 7161,
+          "min_y": 1490,
+          "max_y": 1733
+        },
+        "cell_centroid": {
+          "x": 7024.799,
+          "y": 1575.788,
+          "lon": 112.720784,
+          "lat": 24.321331
+        }
+      }
+    },
+    {
+      "id": "CHN-06",
+      "area_id": 139,
+      "area_seq_in_source": 6,
+      "name": "中国西北部",
+      "name_en": "Northwest China",
+      "reason": "広大な乾燥・半乾燥地域であり、少数民族が多く居住し、天然資源が豊富。",
+      "geometry_wkt": "POLYGON ((73.168945 49.353756, 108.632813 49.353756, 108.632813 36.985003, 73.168945 36.985003, 73.168945 49.353756))",
+      "bbox": {
+        "minx": 73.168945,
+        "maxx": 108.632813,
+        "miny": 36.985003,
+        "maxy": 49.353756
+      },
+      "centroid": {
+        "x": 90.900879,
+        "y": 43.169379
+      },
+      "size": {
+        "width": 35.463868,
+        "height": 12.368753
+      },
+      "relative_position": {
+        "x_norm": 0.2879,
+        "y_norm": 0.7221,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CHN-01",
+          "CHN-02",
+          "CHN-03",
+          "CHN-04",
+          "CHN-05",
+          "CHN-08"
+        ],
+        "east_of": [
+          "CHN-07"
+        ],
+        "north_of": [
+          "CHN-02",
+          "CHN-03",
+          "CHN-04",
+          "CHN-05",
+          "CHN-07",
+          "CHN-08"
+        ],
+        "south_of": [
+          "CHN-01"
+        ],
+        "overlaps": [
+          {
+            "id": "CHN-02",
+            "x_overlap": 0.131836,
+            "y_overlap": 4.144018
+          },
+          {
+            "id": "CHN-07",
+            "x_overlap": 25.444336,
+            "y_overlap": 0.014997
+          },
+          {
+            "id": "CHN-08",
+            "x_overlap": 9.887695,
+            "y_overlap": 0.070174
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 97896,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "ARID",
+        "landcover_ratio": {
+          "BARE": 0.7912,
+          "GRASS": 0.1395,
+          "CROPLAND": 0.0565,
+          "WATER": 0.0042,
+          "TREE": 0.0024,
+          "SNOW_ICE": 0.0019,
+          "BUILT": 0.0018,
+          "SHRUB": 0.001,
+          "MOSS_LICHEN": 0.001,
+          "WETLAND": 0.0005
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.7069,
+          "COLD": 0.2453,
+          "POLAR": 0.0478
+        },
+        "elevation_ratio": {
+          "HIGH": 0.6282,
+          "ULTRA": 0.2936,
+          "MID": 0.0737,
+          "LOW": 0.0046
+        },
+        "precip_ratio": {
+          "ARID": 0.8762,
+          "LOW": 0.1238
+        },
+        "flags_ratio": {
+          "water": 0.6477,
+          "cropland": 0.0565,
+          "forest": 0.0035,
+          "ice": 0.0019,
+          "built": 0.0018
+        },
+        "cell_bbox_xy": {
+          "min_x": 6100,
+          "max_x": 6926,
+          "min_y": 1056,
+          "max_y": 1271
+        },
+        "cell_centroid": {
+          "x": 6526.356,
+          "y": 1201.543,
+          "lon": 91.95232,
+          "lat": 39.914885
+        }
+      }
+    },
+    {
+      "id": "CHN-07",
+      "area_id": 140,
+      "area_seq_in_source": 7,
+      "name": "中国西部（青海・チベット）",
+      "name_en": "Western China (Qinghai & Tibet)",
+      "reason": "標高が高く、独特の文化と自然環境を持つ地域。",
+      "geometry_wkt": "POLYGON ((73.000000 37.000000, 98.613281 37.000000, 98.613281 23.322080, 73.000000 23.322080, 73.000000 37.000000))",
+      "bbox": {
+        "minx": 73.0,
+        "maxx": 98.613281,
+        "miny": 23.32208,
+        "maxy": 37.0
+      },
+      "centroid": {
+        "x": 85.806641,
+        "y": 30.16104
+      },
+      "size": {
+        "width": 25.613281,
+        "height": 13.67792
+      },
+      "relative_position": {
+        "x_norm": 0.206,
+        "y_norm": 0.3829,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CHN-01",
+          "CHN-02",
+          "CHN-03",
+          "CHN-04",
+          "CHN-05",
+          "CHN-06",
+          "CHN-08"
+        ],
+        "east_of": [],
+        "north_of": [
+          "CHN-03",
+          "CHN-05",
+          "CHN-08"
+        ],
+        "south_of": [
+          "CHN-01",
+          "CHN-02",
+          "CHN-04",
+          "CHN-06"
+        ],
+        "overlaps": [
+          {
+            "id": "CHN-06",
+            "x_overlap": 25.444336,
+            "y_overlap": 0.014997
+          },
+          {
+            "id": "CHN-08",
+            "x_overlap": 0.043945,
+            "y_overlap": 13.67792
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 71133,
+        "dominant_landcover": "BARE",
+        "dominant_t2": "COLD",
+        "dominant_e2": "ULTRA",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "BARE": 0.4996,
+          "GRASS": 0.4194,
+          "WATER": 0.0259,
+          "MOSS_LICHEN": 0.0202,
+          "TREE": 0.0184,
+          "SNOW_ICE": 0.0151,
+          "CROPLAND": 0.0012,
+          "BUILT": 0.0001,
+          "SHRUB": 0.0,
+          "WETLAND": 0.0
+        },
+        "temperature_ratio": {
+          "COLD": 0.6237,
+          "POLAR": 0.3329,
+          "TEMPERATE": 0.0432,
+          "TROPICAL": 0.0001
+        },
+        "elevation_ratio": {
+          "ULTRA": 0.9891,
+          "HIGH": 0.0109
+        },
+        "precip_ratio": {
+          "LOW": 0.5065,
+          "ARID": 0.493,
+          "MID": 0.0005
+        },
+        "flags_ratio": {
+          "water": 0.6356,
+          "forest": 0.0184,
+          "ice": 0.0151,
+          "cropland": 0.0012,
+          "built": 0.0001
+        },
+        "cell_bbox_xy": {
+          "min_x": 6171,
+          "max_x": 6685,
+          "min_y": 1272,
+          "max_y": 1565
+        },
+        "cell_centroid": {
+          "x": 6485.618,
+          "y": 1357.842,
+          "lon": 90.254897,
+          "lat": 33.402427
+        }
+      }
+    },
+    {
+      "id": "CHN-08",
+      "area_id": 141,
+      "area_seq_in_source": 8,
+      "name": "中国南西部",
+      "name_en": "Southwest China",
+      "reason": "山岳地帯が多く、多様な民族文化が共存し、豊かな自然資源を持つ。",
+      "geometry_wkt": "POLYGON ((98.569336 37.055177, 108.457031 37.055177, 108.457031 20.797201, 98.569336 20.797201, 98.569336 37.055177))",
+      "bbox": {
+        "minx": 98.569336,
+        "maxx": 108.457031,
+        "miny": 20.797201,
+        "maxy": 37.055177
+      },
+      "centroid": {
+        "x": 103.513183,
+        "y": 28.926189
+      },
+      "size": {
+        "width": 9.887695,
+        "height": 16.257976
+      },
+      "relative_position": {
+        "x_norm": 0.4908,
+        "y_norm": 0.3507,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "CHN-01",
+          "CHN-02",
+          "CHN-03",
+          "CHN-04",
+          "CHN-05"
+        ],
+        "east_of": [
+          "CHN-06",
+          "CHN-07"
+        ],
+        "north_of": [
+          "CHN-05"
+        ],
+        "south_of": [
+          "CHN-01",
+          "CHN-02",
+          "CHN-03",
+          "CHN-04",
+          "CHN-06",
+          "CHN-07"
+        ],
+        "overlaps": [
+          {
+            "id": "CHN-06",
+            "x_overlap": 9.887695,
+            "y_overlap": 0.070174
+          },
+          {
+            "id": "CHN-07",
+            "x_overlap": 0.043945,
+            "y_overlap": 13.67792
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 75153,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "ULTRA",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.5592,
+          "GRASS": 0.331,
+          "CROPLAND": 0.0754,
+          "BARE": 0.0173,
+          "BUILT": 0.0051,
+          "WATER": 0.0049,
+          "MOSS_LICHEN": 0.0046,
+          "OCEAN": 0.0017,
+          "SNOW_ICE": 0.0004,
+          "WETLAND": 0.0004
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.6341,
+          "COLD": 0.2921,
+          "TROPICAL": 0.0637,
+          "POLAR": 0.0101
+        },
+        "elevation_ratio": {
+          "ULTRA": 0.4738,
+          "HIGH": 0.3471,
+          "MID": 0.1719,
+          "LOW": 0.0072
+        },
+        "precip_ratio": {
+          "LOW": 0.673,
+          "MID": 0.3204,
+          "ARID": 0.0059,
+          "WET": 0.0007
+        },
+        "flags_ratio": {
+          "water": 0.7314,
+          "forest": 0.5593,
+          "cropland": 0.0754,
+          "built": 0.0051,
+          "ice": 0.0004
+        },
+        "cell_bbox_xy": {
+          "min_x": 6686,
+          "max_x": 6928,
+          "min_y": 1271,
+          "max_y": 1652
+        },
+        "cell_centroid": {
+          "x": 6807.788,
+          "y": 1430.313,
+          "lon": 103.678677,
+          "lat": 30.382788
+        }
+      }
+    }
+  ]
+}

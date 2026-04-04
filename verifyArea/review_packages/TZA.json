@@ -1,0 +1,619 @@
+{
+  "iso_a3": "TZA",
+  "area_count": 6,
+  "country_bbox": {
+    "minx": 28.916016,
+    "maxx": 40.528564,
+    "miny": -11.910354,
+    "maxy": -0.703107
+  },
+  "areas": [
+    {
+      "id": "TZA-01",
+      "area_id": 620,
+      "area_seq_in_source": 1,
+      "name": "北西部・湖水地方",
+      "name_en": "Northwestern Lake Region",
+      "reason": "ヴィクトリア湖周辺と西北部内陸を含む地域であり、湖水地方として本土中央高原とは異なるまとまりを持つため。",
+      "geometry_wkt": "POLYGON ((28.916016 -0.703107, 34.760742 -0.703107, 34.760742 -4.806365, 28.916016 -4.806365, 28.916016 -0.703107))",
+      "bbox": {
+        "minx": 28.916016,
+        "maxx": 34.760742,
+        "miny": -4.806365,
+        "maxy": -0.703107
+      },
+      "centroid": {
+        "x": 31.838379,
+        "y": -2.754736
+      },
+      "size": {
+        "width": 5.844726,
+        "height": 4.103258
+      },
+      "relative_position": {
+        "x_norm": 0.2517,
+        "y_norm": 0.8169,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "TZA-02",
+          "TZA-03",
+          "TZA-05",
+          "TZA-06"
+        ],
+        "east_of": [
+          "TZA-04"
+        ],
+        "north_of": [
+          "TZA-02",
+          "TZA-03",
+          "TZA-04",
+          "TZA-05",
+          "TZA-06"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 11641,
+        "dominant_landcover": "CROPLAND",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "CROPLAND": 0.4005,
+          "GRASS": 0.1787,
+          "WATER": 0.1717,
+          "TREE": 0.1453,
+          "SHRUB": 0.0879,
+          "WETLAND": 0.0141,
+          "BUILT": 0.0018,
+          "BARE": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9808,
+          "TEMPERATE": 0.0192
+        },
+        "elevation_ratio": {
+          "HIGH": 0.9757,
+          "MID": 0.0147,
+          "ULTRA": 0.0096
+        },
+        "precip_ratio": {
+          "LOW": 0.6071,
+          "MID": 0.3891,
+          "WET": 0.0039
+        },
+        "flags_ratio": {
+          "water": 0.7468,
+          "cropland": 0.4005,
+          "forest": 0.2331,
+          "built": 0.0018
+        },
+        "cell_bbox_xy": {
+          "min_x": 5024,
+          "max_x": 5155,
+          "min_y": 2184,
+          "max_y": 2392
+        },
+        "cell_centroid": {
+          "x": 5101.811,
+          "y": 2255.55,
+          "lon": 32.596292,
+          "lat": -4.002099
+        }
+      }
+    },
+    {
+      "id": "TZA-02",
+      "area_id": 621,
+      "area_seq_in_source": 2,
+      "name": "北東高地・リフト地域",
+      "name_en": "Northeastern Highlands and Rift Region",
+      "reason": "アルーシャ、キリマンジャロ、マニャラ、ナトロン周辺を含む北東高地であり、火山・高地・東部リフト帯の性格が強いため。",
+      "geometry_wkt": "POLYGON ((34.837646 -1.329226, 39.298096 -1.329226, 39.298096 -4.828260, 34.837646 -4.828260, 34.837646 -1.329226))",
+      "bbox": {
+        "minx": 34.837646,
+        "maxx": 39.298096,
+        "miny": -4.82826,
+        "maxy": -1.329226
+      },
+      "centroid": {
+        "x": 37.067871,
+        "y": -3.078743
+      },
+      "size": {
+        "width": 4.46045,
+        "height": 3.499034
+      },
+      "relative_position": {
+        "x_norm": 0.702,
+        "y_norm": 0.788,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "TZA-06"
+        ],
+        "east_of": [
+          "TZA-01",
+          "TZA-03",
+          "TZA-04",
+          "TZA-05"
+        ],
+        "north_of": [
+          "TZA-03",
+          "TZA-04",
+          "TZA-05",
+          "TZA-06"
+        ],
+        "south_of": [
+          "TZA-01"
+        ],
+        "overlaps": [
+          {
+            "id": "TZA-06",
+            "x_overlap": 0.615235,
+            "y_overlap": 0.060213
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 4786,
+        "dominant_landcover": "SHRUB",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "SHRUB": 0.4051,
+          "GRASS": 0.3318,
+          "CROPLAND": 0.122,
+          "TREE": 0.1028,
+          "WATER": 0.033,
+          "BARE": 0.0033,
+          "BUILT": 0.0008,
+          "OCEAN": 0.0006,
+          "WETLAND": 0.0004
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.8842,
+          "TEMPERATE": 0.1141,
+          "COLD": 0.0017
+        },
+        "elevation_ratio": {
+          "HIGH": 0.8092,
+          "MID": 0.1285,
+          "ULTRA": 0.0552,
+          "LOW": 0.0071
+        },
+        "precip_ratio": {
+          "LOW": 0.9294,
+          "MID": 0.0706
+        },
+        "flags_ratio": {
+          "water": 0.6212,
+          "forest": 0.5079,
+          "cropland": 0.122,
+          "built": 0.0008
+        },
+        "cell_bbox_xy": {
+          "min_x": 5156,
+          "max_x": 5262,
+          "min_y": 2196,
+          "max_y": 2275
+        },
+        "cell_centroid": {
+          "x": 5192.328,
+          "y": 2246.394,
+          "lon": 36.367826,
+          "lat": -3.620603
+        }
+      }
+    },
+    {
+      "id": "TZA-03",
+      "area_id": 622,
+      "area_seq_in_source": 3,
+      "name": "中央高原",
+      "name_en": "Central Plateau",
+      "reason": "ドドマ周辺を含む内陸高原の中核地域であり、タンザニア本土の基調となる広い高原地帯を表しやすいため。",
+      "geometry_wkt": "POLYGON ((33.387451 -4.839207, 38.682861 -4.839207, 38.682861 -8.331083, 33.387451 -8.331083, 33.387451 -4.839207))",
+      "bbox": {
+        "minx": 33.387451,
+        "maxx": 38.682861,
+        "miny": -8.331083,
+        "maxy": -4.839207
+      },
+      "centroid": {
+        "x": 36.035156,
+        "y": -6.585145
+      },
+      "size": {
+        "width": 5.29541,
+        "height": 3.491876
+      },
+      "relative_position": {
+        "x_norm": 0.6131,
+        "y_norm": 0.4752,
+        "zone": []
+      },
+      "relations": {
+        "west_of": [
+          "TZA-02",
+          "TZA-05",
+          "TZA-06"
+        ],
+        "east_of": [
+          "TZA-01",
+          "TZA-04"
+        ],
+        "north_of": [
+          "TZA-04",
+          "TZA-05"
+        ],
+        "south_of": [
+          "TZA-01",
+          "TZA-02",
+          "TZA-06"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 10564,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.3843,
+          "SHRUB": 0.3056,
+          "CROPLAND": 0.1585,
+          "GRASS": 0.1384,
+          "WATER": 0.0087,
+          "WETLAND": 0.0035,
+          "BUILT": 0.001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9745,
+          "TEMPERATE": 0.0255
+        },
+        "elevation_ratio": {
+          "HIGH": 0.6842,
+          "MID": 0.2384,
+          "LOW": 0.0756,
+          "ULTRA": 0.0018
+        },
+        "precip_ratio": {
+          "LOW": 0.7903,
+          "MID": 0.2097
+        },
+        "flags_ratio": {
+          "water": 0.7121,
+          "forest": 0.6899,
+          "cropland": 0.1585,
+          "built": 0.001
+        },
+        "cell_bbox_xy": {
+          "min_x": 5121,
+          "max_x": 5247,
+          "min_y": 2276,
+          "max_y": 2359
+        },
+        "cell_centroid": {
+          "x": 5184.561,
+          "y": 2317.126,
+          "lon": 36.044215,
+          "lat": -6.567746
+        }
+      }
+    },
+    {
+      "id": "TZA-04",
+      "area_id": 623,
+      "area_seq_in_source": 4,
+      "name": "南西高地・西リフト地域",
+      "name_en": "Southwestern Highlands and Western Rift Region",
+      "reason": "タンガニーカ湖側、西部リフト帯、Mbeya 周辺高地を含む地域であり、高地・断層湖・内陸山地のまとまりが強いため。",
+      "geometry_wkt": "POLYGON ((28.981934 -4.850154, 33.376465 -4.850154, 33.376465 -9.838979, 28.981934 -9.838979, 28.981934 -4.850154))",
+      "bbox": {
+        "minx": 28.981934,
+        "maxx": 33.376465,
+        "miny": -9.838979,
+        "maxy": -4.850154
+      },
+      "centroid": {
+        "x": 31.1792,
+        "y": -7.344566
+      },
+      "size": {
+        "width": 4.394531,
+        "height": 4.988825
+      },
+      "relative_position": {
+        "x_norm": 0.1949,
+        "y_norm": 0.4074,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "TZA-01",
+          "TZA-02",
+          "TZA-03",
+          "TZA-05",
+          "TZA-06"
+        ],
+        "east_of": [],
+        "north_of": [
+          "TZA-05"
+        ],
+        "south_of": [
+          "TZA-01",
+          "TZA-02",
+          "TZA-03",
+          "TZA-06"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 6416,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.5214,
+          "CROPLAND": 0.1417,
+          "GRASS": 0.1228,
+          "WATER": 0.1163,
+          "SHRUB": 0.0879,
+          "WETLAND": 0.0094,
+          "BUILT": 0.0006
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9945,
+          "TEMPERATE": 0.0055
+        },
+        "elevation_ratio": {
+          "HIGH": 0.9091,
+          "MID": 0.0892,
+          "ULTRA": 0.0017
+        },
+        "precip_ratio": {
+          "LOW": 0.6018,
+          "MID": 0.3982
+        },
+        "flags_ratio": {
+          "water": 0.7177,
+          "forest": 0.6093,
+          "cropland": 0.1417,
+          "built": 0.0006
+        },
+        "cell_bbox_xy": {
+          "min_x": 5024,
+          "max_x": 5120,
+          "min_y": 2276,
+          "max_y": 2351
+        },
+        "cell_centroid": {
+          "x": 5077.651,
+          "y": 2310.953,
+          "lon": 31.589607,
+          "lat": -6.310532
+        }
+      }
+    },
+    {
+      "id": "TZA-05",
+      "area_id": 624,
+      "area_seq_in_source": 5,
+      "name": "南東沿岸・ルフィジ地域",
+      "name_en": "Southeastern Coast and Rufiji Region",
+      "reason": "ダルエスサラーム以南の沿岸低地と南東内陸を含み、インド洋沿岸性と低地性をまとめて扱いやすいため。",
+      "geometry_wkt": "POLYGON ((33.387451 -8.331083, 40.528564 -8.331083, 40.528564 -11.910354, 33.387451 -11.910354, 33.387451 -8.331083))",
+      "bbox": {
+        "minx": 33.387451,
+        "maxx": 40.528564,
+        "miny": -11.910354,
+        "maxy": -8.331083
+      },
+      "centroid": {
+        "x": 36.958008,
+        "y": -10.120718
+      },
+      "size": {
+        "width": 7.141113,
+        "height": 3.579271
+      },
+      "relative_position": {
+        "x_norm": 0.6925,
+        "y_norm": 0.1597,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "TZA-02",
+          "TZA-06"
+        ],
+        "east_of": [
+          "TZA-01",
+          "TZA-03",
+          "TZA-04"
+        ],
+        "north_of": [],
+        "south_of": [
+          "TZA-01",
+          "TZA-02",
+          "TZA-03",
+          "TZA-04",
+          "TZA-06"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 10387,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.5819,
+          "SHRUB": 0.1521,
+          "GRASS": 0.1434,
+          "CROPLAND": 0.0601,
+          "OCEAN": 0.0583,
+          "WATER": 0.0021,
+          "MANGROVE": 0.0011,
+          "BUILT": 0.0006,
+          "WETLAND": 0.0005
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9384,
+          "TEMPERATE": 0.0616
+        },
+        "elevation_ratio": {
+          "MID": 0.5796,
+          "HIGH": 0.261,
+          "LOW": 0.1406,
+          "ULTRA": 0.0189
+        },
+        "precip_ratio": {
+          "MID": 0.7231,
+          "LOW": 0.2761,
+          "WET": 0.0008
+        },
+        "flags_ratio": {
+          "forest": 0.7359,
+          "water": 0.6994,
+          "cropland": 0.0601,
+          "built": 0.0006
+        },
+        "cell_bbox_xy": {
+          "min_x": 5134,
+          "max_x": 5299,
+          "min_y": 2360,
+          "max_y": 2441
+        },
+        "cell_centroid": {
+          "x": 5210.997,
+          "y": 2396.007,
+          "lon": 37.145709,
+          "lat": -9.854468
+        }
+      }
+    },
+    {
+      "id": "TZA-06",
+      "area_id": 625,
+      "area_seq_in_source": 6,
+      "name": "ザンジバル諸島",
+      "name_en": "Zanzibar Archipelago",
+      "reason": "Unguja と Pemba を中心とする本土沖の群島であり、本土とは別の島嶼地域として独立管理するのが自然であるため。",
+      "geometry_wkt": "POLYGON ((38.682861 -4.768047, 40.407715 -4.768047, 40.407715 -8.331083, 38.682861 -8.331083, 38.682861 -4.768047))",
+      "bbox": {
+        "minx": 38.682861,
+        "maxx": 40.407715,
+        "miny": -8.331083,
+        "maxy": -4.768047
+      },
+      "centroid": {
+        "x": 39.545288,
+        "y": -6.549565
+      },
+      "size": {
+        "width": 1.724854,
+        "height": 3.563036
+      },
+      "relative_position": {
+        "x_norm": 0.9153,
+        "y_norm": 0.4783,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "TZA-01",
+          "TZA-02",
+          "TZA-03",
+          "TZA-04",
+          "TZA-05"
+        ],
+        "north_of": [
+          "TZA-03",
+          "TZA-04",
+          "TZA-05"
+        ],
+        "south_of": [
+          "TZA-01",
+          "TZA-02"
+        ],
+        "overlaps": [
+          {
+            "id": "TZA-02",
+            "x_overlap": 0.615235,
+            "y_overlap": 0.060213
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 3037,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.6128,
+          "TREE": 0.1999,
+          "GRASS": 0.1525,
+          "WATER": 0.0119,
+          "BUILT": 0.0092,
+          "MANGROVE": 0.0082,
+          "SHRUB": 0.0056
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9997,
+          "POLAR": 0.0003
+        },
+        "elevation_ratio": {
+          "LOW": 0.9509,
+          "MID": 0.0491
+        },
+        "precip_ratio": {
+          "MID": 0.9595,
+          "LOW": 0.0402,
+          "ARID": 0.0003
+        },
+        "flags_ratio": {
+          "water": 0.8643,
+          "forest": 0.2157,
+          "built": 0.0092
+        },
+        "cell_bbox_xy": {
+          "min_x": 5248,
+          "max_x": 5287,
+          "min_y": 2269,
+          "max_y": 2362
+        },
+        "cell_centroid": {
+          "x": 5265.23,
+          "y": 2316.359,
+          "lon": 39.40541,
+          "lat": -6.535802
+        }
+      }
+    }
+  ]
+}

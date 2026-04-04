@@ -1,0 +1,92 @@
+{
+  "iso_a3": "SGS",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -38.979492,
+    "maxx": -25.3125,
+    "miny": -60.020952,
+    "maxy": -53.435719
+  },
+  "areas": [
+    {
+      "id": "SGS-01",
+      "area_id": 549,
+      "area_seq_in_source": 1,
+      "name": "サウスサンドウィッチ諸島",
+      "name_en": "South Sandwich Islands",
+      "reason": "サウスサンドウィッチ諸島は11の火山島からなる列島であり、地理的、地質学的な特徴から単一のエリアとして定義することが最も適切である。この島々は非常に険しく、氷河に覆われており、活発な火山活動が見られる。",
+      "geometry_wkt": "POLYGON ((-38.979492 -53.435719, -25.312500 -53.435719, -25.312500 -60.020952, -38.979492 -60.020952, -38.979492 -53.435719))",
+      "bbox": {
+        "minx": -38.979492,
+        "maxx": -25.3125,
+        "miny": -60.020952,
+        "maxy": -53.435719
+      },
+      "centroid": {
+        "x": -32.145996,
+        "y": -56.728336
+      },
+      "size": {
+        "width": 13.666992,
+        "height": 6.585233
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 4085,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "COLD",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9239,
+          "SNOW_ICE": 0.0494,
+          "WATER": 0.0166,
+          "BARE": 0.0095,
+          "GRASS": 0.0005
+        },
+        "temperature_ratio": {
+          "COLD": 0.9976,
+          "POLAR": 0.0024
+        },
+        "elevation_ratio": {
+          "LOW": 0.9452,
+          "MID": 0.0401,
+          "HIGH": 0.0144,
+          "ULTRA": 0.0002
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.9405,
+          "ice": 0.0521
+        },
+        "cell_bbox_xy": {
+          "min_x": 3398,
+          "max_x": 3699,
+          "min_y": 3445,
+          "max_y": 3596
+        },
+        "cell_centroid": {
+          "x": 3566.218,
+          "y": 3511.282,
+          "lon": -31.386735,
+          "lat": -56.32423
+        }
+      }
+    }
+  ]
+}

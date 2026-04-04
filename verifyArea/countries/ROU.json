@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ROU-01",
+    "name": "トランシルヴァニア地方",
+    "name_en": "Transylvania",
+    "reason": "カルパティア山脈に囲まれた歴史的・地理的地域であり、独特の文化と景観を持つ。",
+    "geometry_wkt": "POLYGON ((20.061035 48.210032, 26.000000 48.210032, 26.000000 45.000000, 20.061035 45.000000, 20.061035 48.210032))",
+    "area_id": 518,
+    "source_row_index": 518,
+    "iso_a3_source": "ROU",
+    "iso_a3": "ROU",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "ROU-02",
+    "name": "ワラキア地方",
+    "name_en": "Wallachia",
+    "reason": "国の南部を占め、首都ブカレストを含む経済・文化の中心地。",
+    "geometry_wkt": "POLYGON ((21.082764 45.000000, 25.949707 45.000000, 25.949707 43.508721, 21.082764 43.508721, 21.082764 45.000000))",
+    "area_id": 519,
+    "source_row_index": 519,
+    "iso_a3_source": "ROU",
+    "iso_a3": "ROU",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "ROU-03",
+    "name": "モルダヴィア・ドブロジャ地方",
+    "name_en": "Moldavia and Dobruja",
+    "reason": "国の東部と南東部を占め、モルドバとの国境、黒海沿岸を含む地域。",
+    "geometry_wkt": "POLYGON ((25.960693 48.356249, 30.000000 48.356249, 30.000000 43.500000, 25.960693 43.500000, 25.960693 48.356249))",
+    "area_id": 520,
+    "source_row_index": 520,
+    "iso_a3_source": "ROU",
+    "iso_a3": "ROU",
+    "area_seq_in_source": 3
+  }
+]

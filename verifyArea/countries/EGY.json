@@ -1,0 +1,62 @@
+[
+  {
+    "id": "EGY-01",
+    "name": "西部砂漠地域",
+    "name_en": "Western Desert Region",
+    "reason": "エジプトの広大な乾燥地帯であり、砂漠の景観とオアシスが特徴で、ナイル渓谷とは地理的・人口的に対照的な地域を形成しています。",
+    "geometry_wkt": "POLYGON ((24.8 21.8, 29.0 21.8, 29.0 32.2, 24.8 32.2, 24.8 21.8))",
+    "area_id": 201,
+    "source_row_index": 201,
+    "iso_a3_source": "EGY",
+    "iso_a3": "EGY",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "EGY-02",
+    "name": "ナイル・デルタ及び北部沿岸地域",
+    "name_en": "Nile Delta and Northern Coastal Region",
+    "reason": "地理的にナイル・デルタと地中海沿岸に位置し、主要な農業地帯であり人口密集地で、独自の経済的・文化的特徴を持つ地域です。",
+    "geometry_wkt": "POLYGON ((29.0 30.0, 33.0 30.0, 33.0 32.2, 29.0 32.2, 29.0 30.0))",
+    "area_id": 202,
+    "source_row_index": 202,
+    "iso_a3_source": "EGY",
+    "iso_a3": "EGY",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "EGY-03",
+    "name": "中央ナイル渓谷地域",
+    "name_en": "Central Nile Valley Region",
+    "reason": "カイロを含むナイル渓谷中央部で、歴史的に重要な地域であり、現代的な都市開発が進む人口回廊を代表する地域です。",
+    "geometry_wkt": "POLYGON ((29.0 27.0, 33.0 27.0, 33.0 30.0, 29.0 30.0, 29.0 27.0))",
+    "area_id": 203,
+    "source_row_index": 203,
+    "iso_a3_source": "EGY",
+    "iso_a3": "EGY",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "EGY-04",
+    "name": "南部ナイル渓谷及びヌビア地域",
+    "name_en": "Southern Nile Valley and Nubia Region",
+    "reason": "上エジプトとして知られ、古代遺跡と独特の文化的遺産を持つ南部ナイル渓谷で、スーダン国境まで広がっています。",
+    "geometry_wkt": "POLYGON ((29.0 21.8, 33.0 21.8, 33.0 27.0, 29.0 27.0, 29.0 21.8))",
+    "area_id": 204,
+    "source_row_index": 204,
+    "iso_a3_source": "EGY",
+    "iso_a3": "EGY",
+    "area_seq_in_source": 4
+  },
+  {
+    "id": "EGY-05",
+    "name": "東部砂漠及びシナイ半島地域",
+    "name_en": "Eastern Desert and Sinai Peninsula Region",
+    "reason": "東部砂漠とシナイ半島を合わせた地域で、砂漠から山岳地帯、紅海沿岸までの多様な景観を持ち、独自の戦略的・文化的重要性を持つ地域です。",
+    "geometry_wkt": "POLYGON ((33.0 21.8, 37.2 21.8, 37.2 32.2, 33.0 32.2, 33.0 21.8))",
+    "area_id": 205,
+    "source_row_index": 205,
+    "iso_a3_source": "EGY",
+    "iso_a3": "EGY",
+    "area_seq_in_source": 5
+  }
+]

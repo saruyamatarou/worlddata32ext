@@ -1,0 +1,74 @@
+[
+  {
+    "id": "TZA-01",
+    "name": "北西部・湖水地方",
+    "name_en": "Northwestern Lake Region",
+    "reason": "ヴィクトリア湖周辺と西北部内陸を含む地域であり、湖水地方として本土中央高原とは異なるまとまりを持つため。",
+    "geometry_wkt": "POLYGON ((28.916016 -0.703107, 34.760742 -0.703107, 34.760742 -4.806365, 28.916016 -4.806365, 28.916016 -0.703107))",
+    "area_id": 620,
+    "source_row_index": 620,
+    "iso_a3_source": "TZA",
+    "iso_a3": "TZA",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "TZA-02",
+    "name": "北東高地・リフト地域",
+    "name_en": "Northeastern Highlands and Rift Region",
+    "reason": "アルーシャ、キリマンジャロ、マニャラ、ナトロン周辺を含む北東高地であり、火山・高地・東部リフト帯の性格が強いため。",
+    "geometry_wkt": "POLYGON ((34.837646 -1.329226, 39.298096 -1.329226, 39.298096 -4.828260, 34.837646 -4.828260, 34.837646 -1.329226))",
+    "area_id": 621,
+    "source_row_index": 621,
+    "iso_a3_source": "TZA",
+    "iso_a3": "TZA",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "TZA-03",
+    "name": "中央高原",
+    "name_en": "Central Plateau",
+    "reason": "ドドマ周辺を含む内陸高原の中核地域であり、タンザニア本土の基調となる広い高原地帯を表しやすいため。",
+    "geometry_wkt": "POLYGON ((33.387451 -4.839207, 38.682861 -4.839207, 38.682861 -8.331083, 33.387451 -8.331083, 33.387451 -4.839207))",
+    "area_id": 622,
+    "source_row_index": 622,
+    "iso_a3_source": "TZA",
+    "iso_a3": "TZA",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "TZA-04",
+    "name": "南西高地・西リフト地域",
+    "name_en": "Southwestern Highlands and Western Rift Region",
+    "reason": "タンガニーカ湖側、西部リフト帯、Mbeya 周辺高地を含む地域であり、高地・断層湖・内陸山地のまとまりが強いため。",
+    "geometry_wkt": "POLYGON ((28.981934 -4.850154, 33.376465 -4.850154, 33.376465 -9.838979, 28.981934 -9.838979, 28.981934 -4.850154))",
+    "area_id": 623,
+    "source_row_index": 623,
+    "iso_a3_source": "TZA",
+    "iso_a3": "TZA",
+    "area_seq_in_source": 4
+  },
+  {
+    "id": "TZA-05",
+    "name": "南東沿岸・ルフィジ地域",
+    "name_en": "Southeastern Coast and Rufiji Region",
+    "reason": "ダルエスサラーム以南の沿岸低地と南東内陸を含み、インド洋沿岸性と低地性をまとめて扱いやすいため。",
+    "geometry_wkt": "POLYGON ((33.387451 -8.331083, 40.528564 -8.331083, 40.528564 -11.910354, 33.387451 -11.910354, 33.387451 -8.331083))",
+    "area_id": 624,
+    "source_row_index": 624,
+    "iso_a3_source": "TZA",
+    "iso_a3": "TZA",
+    "area_seq_in_source": 5
+  },
+  {
+    "id": "TZA-06",
+    "name": "ザンジバル諸島",
+    "name_en": "Zanzibar Archipelago",
+    "reason": "Unguja と Pemba を中心とする本土沖の群島であり、本土とは別の島嶼地域として独立管理するのが自然であるため。",
+    "geometry_wkt": "POLYGON ((38.682861 -4.768047, 40.407715 -4.768047, 40.407715 -8.331083, 38.682861 -8.331083, 38.682861 -4.768047))",
+    "area_id": 625,
+    "source_row_index": 625,
+    "iso_a3_source": "TZA",
+    "iso_a3": "TZA",
+    "area_seq_in_source": 6
+  }
+]

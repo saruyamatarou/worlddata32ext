@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">CRI review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-87.758789, 4.970560) - (-82.100830, 11.544616)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="300.97" y="40.00" width="859.03" height="261.38" fill="none" stroke="black" stroke-width="2"/>
+<text x="304.97" y="56.00" font-size="12" font-family="Arial, sans-serif">CR-01 | コスタリカ北部・中央部</text>
+<circle cx="730.49" cy="170.69" r="2.5" fill="black"/>
+<rect x="40.00" y="301.38" width="1041.71" height="558.62" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="317.38" font-size="12" font-family="Arial, sans-serif">CR-02 | コスタリカ南部・太平洋岸</text>
+<circle cx="560.85" cy="580.69" r="2.5" fill="black"/>
+</svg>

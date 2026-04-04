@@ -1,0 +1,38 @@
+[
+  {
+    "id": "CAF-01",
+    "name": "北部サバンナ地域",
+    "name_en": "Northern Savannah Region",
+    "reason": "国土北部は乾燥したサバンナ地帯であり、チャドとの国境に接する地域。人口密度が低く、牧畜や一部農業が営まれている。",
+    "geometry_wkt": "POLYGON ((18.336182 11.307708, 24.235840 11.307708, 24.235840 8.754795, 18.336182 8.754795, 18.336182 11.307708))",
+    "area_id": 112,
+    "source_row_index": 112,
+    "iso_a3_source": "CAF",
+    "iso_a3": "CAF",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "CAF-02",
+    "name": "中央高原地域",
+    "name_en": "Central Plateau Region",
+    "reason": "国土の中央部を占め、標高600〜700mの高原地帯。首都バンギもこの地域に位置し、農業（綿花、コーヒー）や鉱業（ダイヤモンド）が主要産業。",
+    "geometry_wkt": "POLYGON ((13.864746 8.711359, 27.333984 8.711359, 27.333984 6.118708, 13.864746 6.118708, 13.864746 8.711359))",
+    "area_id": 113,
+    "source_row_index": 113,
+    "iso_a3_source": "CAF",
+    "iso_a3": "CAF",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "CAF-03",
+    "name": "南部熱帯雨林地域",
+    "name_en": "Southern Rainforest Region",
+    "reason": "国土南部、コンゴ民主共和国やコンゴ共和国との国境付近に広がる熱帯雨林地帯。ウバンギ川が流れ、林業が営まれる。",
+    "geometry_wkt": "POLYGON ((14.040527 6.162401, 27.641602 6.162401, 27.641602 2.021065, 14.040527 2.021065, 14.040527 6.162401))",
+    "area_id": 114,
+    "source_row_index": 114,
+    "iso_a3_source": "CAF",
+    "iso_a3": "CAF",
+    "area_seq_in_source": 3
+  }
+]

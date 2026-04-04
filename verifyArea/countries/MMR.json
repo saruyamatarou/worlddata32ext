@@ -1,0 +1,50 @@
+[
+  {
+    "id": "MMR-01",
+    "name": "北部高原地域",
+    "name_en": "Northern Highland Region",
+    "reason": "カチン州、シャン州北部を含む、標高が高く山岳地帯が広がる地域。寒冷な気候と、文化的・民族的多様性が特徴。",
+    "geometry_wkt": "POLYGON ((94.394531 28.748397, 98.854980 28.748397, 98.854980 24.786735, 94.394531 24.786735, 94.394531 28.748397))",
+    "area_id": 407,
+    "source_row_index": 407,
+    "iso_a3_source": "MMR",
+    "iso_a3": "MMR",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "MMR-02",
+    "name": "中央乾燥盆地",
+    "name_en": "Central Dry Basin",
+    "reason": "マンダレー、マグウェ地域など、ミャンマー中央部の乾燥した盆地地域。エーヤワディー川が流れ、古くからの都が多く、文化的中心地。",
+    "geometry_wkt": "POLYGON ((91.560059 24.746831, 101.337891 24.746831, 101.337891 20.200346, 91.560059 20.200346, 91.560059 24.746831))",
+    "area_id": 408,
+    "source_row_index": 408,
+    "iso_a3_source": "MMR",
+    "iso_a3": "MMR",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "MMR-03",
+    "name": "南部沿岸・デルタ地帯",
+    "name_en": "Southern Coastal and Delta Region",
+    "reason": "ヤンゴン、エーヤワディー地域など、広大なデルタ地帯とアンダマン海に面した沿岸地域。農業が盛んで、経済的にも重要な地域。",
+    "geometry_wkt": "POLYGON ((91.538086 20.179724, 96.899414 20.179724, 96.899414 13.560562, 91.538086 13.560562, 91.538086 20.179724))",
+    "area_id": 409,
+    "source_row_index": 409,
+    "iso_a3_source": "MMR",
+    "iso_a3": "MMR",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "MMR-04",
+    "name": "東部山岳・国境地帯",
+    "name_en": "Eastern Highland and Border Region",
+    "reason": "シャン州東部、カレン州など、タイやラオスとの国境に接する山岳地帯。民族が多く住み、歴史的に複雑な地域。",
+    "geometry_wkt": "POLYGON ((96.943359 20.138470, 100.854492 20.138470, 100.854492 9.102097, 96.943359 9.102097, 96.943359 20.138470))",
+    "area_id": 410,
+    "source_row_index": 410,
+    "iso_a3_source": "MMR",
+    "iso_a3": "MMR",
+    "area_seq_in_source": 4
+  }
+]

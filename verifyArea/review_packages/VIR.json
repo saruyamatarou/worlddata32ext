@@ -1,0 +1,86 @@
+{
+  "iso_a3": "VIR",
+  "area_count": 1,
+  "country_bbox": {
+    "minx": -65.198364,
+    "maxx": -64.324951,
+    "miny": 17.418787,
+    "maxy": 18.552532
+  },
+  "areas": [
+    {
+      "id": "VIR-01",
+      "area_id": 679,
+      "area_seq_in_source": 1,
+      "name": "アメリカ領ヴァージン諸島",
+      "name_en": "US Virgin Islands",
+      "reason": "アメリカ領ヴァージン諸島は、セント・トーマス島、セント・クロイ島、セント・ジョン島の3つの主要な島で構成されており、それぞれが独自の地理的・文化的な特徴を持っています。これらを一つのエリアとして定義することで、島々の全体的な地理的、経済的、文化的な特徴を網羅します。",
+      "geometry_wkt": "POLYGON ((-65.198364 18.552532, -64.324951 18.552532, -64.324951 17.418787, -65.198364 17.418787, -65.198364 18.552532))",
+      "bbox": {
+        "minx": -65.198364,
+        "maxx": -64.324951,
+        "miny": 17.418787,
+        "maxy": 18.552532
+      },
+      "centroid": {
+        "x": -64.761657,
+        "y": 17.985659
+      },
+      "size": {
+        "width": 0.873413,
+        "height": 1.133745
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.5,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 565,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9717,
+          "TREE": 0.0212,
+          "WATER": 0.0071
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.9788,
+          "forest": 0.0212
+        },
+        "cell_bbox_xy": {
+          "min_x": 2754,
+          "max_x": 2778,
+          "min_y": 1709,
+          "max_y": 1744
+        },
+        "cell_centroid": {
+          "x": 2764.664,
+          "y": 1729.425,
+          "lon": -64.784845,
+          "lat": 17.919801
+        }
+      }
+    }
+  ]
+}

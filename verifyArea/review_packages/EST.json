@@ -1,0 +1,305 @@
+{
+  "iso_a3": "EST",
+  "area_count": 3,
+  "country_bbox": {
+    "minx": 21.533203,
+    "maxx": 28.3,
+    "miny": 57.4,
+    "maxy": 59.8
+  },
+  "areas": [
+    {
+      "id": "EST-01",
+      "area_id": 215,
+      "area_seq_in_source": 1,
+      "name": "エストニア北西部・首都圏",
+      "name_en": "Northwestern Estonia and Capital Region",
+      "reason": "首都タリンを含む人口・経済・行政の中枢。フィンランド湾沿岸に位置し、エストニアの対外接続と都市機能が最も集中する地域。",
+      "geometry_wkt": "POLYGON ((21.555176 59.800000, 25.600000 59.800000, 25.600000 58.676938, 21.555176 58.676938, 21.555176 59.800000))",
+      "bbox": {
+        "minx": 21.555176,
+        "maxx": 25.6,
+        "miny": 58.676938,
+        "maxy": 59.8
+      },
+      "centroid": {
+        "x": 23.577588,
+        "y": 59.238469
+      },
+      "size": {
+        "width": 4.044824,
+        "height": 1.123062
+      },
+      "relative_position": {
+        "x_norm": 0.3021,
+        "y_norm": 0.766,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "EST-02",
+          "EST-03"
+        ],
+        "east_of": [],
+        "north_of": [
+          "EST-02",
+          "EST-03"
+        ],
+        "south_of": [],
+        "overlaps": [
+          {
+            "id": "EST-02",
+            "x_overlap": 0.001855,
+            "y_overlap": 1.123062
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 4047,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "COLD",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.4645,
+          "OCEAN": 0.4201,
+          "WATER": 0.0549,
+          "CROPLAND": 0.0336,
+          "GRASS": 0.019,
+          "WETLAND": 0.0069,
+          "BUILT": 0.001
+        },
+        "temperature_ratio": {
+          "COLD": 0.5236,
+          "TEMPERATE": 0.4757,
+          "POLAR": 0.0007
+        },
+        "elevation_ratio": {
+          "LOW": 0.997,
+          "MID": 0.003
+        },
+        "precip_ratio": {
+          "LOW": 0.5792,
+          "MID": 0.4201,
+          "ARID": 0.0007
+        },
+        "flags_ratio": {
+          "water": 0.7205,
+          "forest": 0.4655,
+          "cropland": 0.0336,
+          "built": 0.001
+        },
+        "cell_bbox_xy": {
+          "min_x": 4839,
+          "max_x": 4994,
+          "min_y": 721,
+          "max_y": 779
+        },
+        "cell_centroid": {
+          "x": 4920.836,
+          "y": 747.176,
+          "lon": 25.055653,
+          "lat": 58.846816
+        }
+      }
+    },
+    {
+      "id": "EST-02",
+      "area_id": 216,
+      "area_seq_in_source": 2,
+      "name": "エストニア北東部・国境工業地帯",
+      "name_en": "Northeastern Estonia and Border Industrial Belt",
+      "reason": "ナルヴァを含むロシア国境側の地域。歴史的・地政学的な重要性が高く、北東部の工業・交通・国境機能を代表する。",
+      "geometry_wkt": "POLYGON ((25.598145 59.800000, 28.300000 59.800000, 28.300000 58.668370, 25.598145 58.668370, 25.598145 59.800000))",
+      "bbox": {
+        "minx": 25.598145,
+        "maxx": 28.3,
+        "miny": 58.66837,
+        "maxy": 59.8
+      },
+      "centroid": {
+        "x": 26.949072,
+        "y": 59.234185
+      },
+      "size": {
+        "width": 2.701855,
+        "height": 1.13163
+      },
+      "relative_position": {
+        "x_norm": 0.8004,
+        "y_norm": 0.7642,
+        "zone": [
+          "north",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "EST-01",
+          "EST-03"
+        ],
+        "north_of": [
+          "EST-03"
+        ],
+        "south_of": [
+          "EST-01"
+        ],
+        "overlaps": [
+          {
+            "id": "EST-01",
+            "x_overlap": 0.001855,
+            "y_overlap": 1.123062
+          },
+          {
+            "id": "EST-03",
+            "x_overlap": 2.701855,
+            "y_overlap": 0.002856
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 751,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.5672,
+          "CROPLAND": 0.225,
+          "OCEAN": 0.1904,
+          "WATER": 0.008,
+          "GRASS": 0.008,
+          "BUILT": 0.0013
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.6711,
+          "COLD": 0.3289
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "LOW": 0.8096,
+          "MID": 0.1904
+        },
+        "flags_ratio": {
+          "forest": 0.5672,
+          "water": 0.5047,
+          "cropland": 0.225,
+          "built": 0.0013
+        },
+        "cell_bbox_xy": {
+          "min_x": 4934,
+          "max_x": 4964,
+          "min_y": 720,
+          "max_y": 751
+        },
+        "cell_centroid": {
+          "x": 4948.808,
+          "y": 737.835,
+          "lon": 26.221177,
+          "lat": 59.236046
+        }
+      }
+    },
+    {
+      "id": "EST-03",
+      "area_id": 217,
+      "area_seq_in_source": 3,
+      "name": "エストニア南部・内陸文化圏",
+      "name_en": "Southern Estonia and Inland Cultural Region",
+      "reason": "タルトゥを中心とする教育・文化・湖沼地帯。南部の丘陵・農村・内陸交通をまとめて表現できる地域。",
+      "geometry_wkt": "POLYGON ((21.533203 58.671226, 28.300000 58.671226, 28.300000 57.400000, 21.533203 57.400000, 21.533203 58.671226))",
+      "bbox": {
+        "minx": 21.533203,
+        "maxx": 28.3,
+        "miny": 57.4,
+        "maxy": 58.671226
+      },
+      "centroid": {
+        "x": 24.916601,
+        "y": 58.035613
+      },
+      "size": {
+        "width": 6.766797,
+        "height": 1.271226
+      },
+      "relative_position": {
+        "x_norm": 0.5,
+        "y_norm": 0.2648,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "EST-02"
+        ],
+        "east_of": [
+          "EST-01"
+        ],
+        "north_of": [],
+        "south_of": [
+          "EST-01",
+          "EST-02"
+        ],
+        "overlaps": [
+          {
+            "id": "EST-02",
+            "x_overlap": 2.701855,
+            "y_overlap": 0.002856
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 1901,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "LOW",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.4629,
+          "OCEAN": 0.4035,
+          "CROPLAND": 0.0494,
+          "WATER": 0.031,
+          "GRASS": 0.0279,
+          "WETLAND": 0.0237,
+          "BUILT": 0.0016
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.5829,
+          "COLD": 0.4171
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "LOW": 0.5965,
+          "MID": 0.4035
+        },
+        "flags_ratio": {
+          "water": 0.7338,
+          "forest": 0.464,
+          "cropland": 0.0494,
+          "built": 0.0016
+        },
+        "cell_bbox_xy": {
+          "min_x": 4835,
+          "max_x": 4961,
+          "min_y": 748,
+          "max_y": 772
+        },
+        "cell_centroid": {
+          "x": 4892.566,
+          "y": 758.662,
+          "lon": 23.877751,
+          "lat": 58.368238
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "SAU-01",
+    "name": "北部国境地域",
+    "name_en": "Northern Border Region",
+    "reason": "イラク、ヨルダン、クウェートとの国境を接し、地理的・政治的に重要な地域。砂漠気候と都市化の進む地域。",
+    "geometry_wkt": "POLYGON ((34.562988 32.620870, 47.856445 32.620870, 47.856445 28.806174, 34.562988 28.806174, 34.562988 32.620870))",
+    "area_id": 534,
+    "source_row_index": 534,
+    "iso_a3_source": "SAU",
+    "iso_a3": "SAU",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "SAU-02",
+    "name": "北東部・ペルシャ湾岸地域",
+    "name_en": "Northeastern Persian Gulf Coast",
+    "reason": "石油産業の中心地であり、ダーランやアル・コバールなどの主要都市が含まれる。経済的に重要な沿岸地域。",
+    "geometry_wkt": "POLYGON ((48.087158 28.863918, 52.382813 28.863918, 52.382813 24.026397, 48.087158 24.026397, 48.087158 28.863918))",
+    "area_id": 535,
+    "source_row_index": 535,
+    "iso_a3_source": "SAU",
+    "iso_a3": "SAU",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "SAU-03",
+    "name": "中央高原（ナジュド地方）",
+    "name_en": "Central Plateau (Najd Region)",
+    "reason": "首都リヤドが位置し、サウジアラビアの政治・行政の中心。乾燥した高原気候。",
+    "geometry_wkt": "POLYGON ((41.044922 28.786918, 48.164063 28.786918, 48.164063 20.756114, 41.044922 20.756114, 41.044922 28.786918))",
+    "area_id": 536,
+    "source_row_index": 536,
+    "iso_a3_source": "SAU",
+    "iso_a3": "SAU",
+    "area_seq_in_source": 3
+  },
+  {
+    "id": "SAU-04",
+    "name": "西部・紅海沿岸地域（ヒジャーズ地方）",
+    "name_en": "Western Red Sea Coast (Hejaz Region)",
+    "reason": "イスラム教の聖地メッカとマディーナ、港湾都市ジェッダが含まれる。歴史的・宗教的に重要な地域。",
+    "geometry_wkt": "POLYGON ((34.409180 28.786918, 41.022949 28.786918, 41.022949 20.920397, 34.409180 20.920397, 34.409180 28.786918))",
+    "area_id": 537,
+    "source_row_index": 537,
+    "iso_a3_source": "SAU",
+    "iso_a3": "SAU",
+    "area_seq_in_source": 4
+  },
+  {
+    "id": "SAU-05",
+    "name": "南西部・山岳地帯（アシール地方）",
+    "name_en": "Southwestern Mountainous Region (Asir Region)",
+    "reason": "標高が高く、比較的降水量が多く緑豊かで、他の地域と気候が異なる。避暑地としても注目される。",
+    "geometry_wkt": "POLYGON ((38.935547 20.899871, 44.472656 20.899871, 44.472656 16.003576, 38.935547 16.003576, 38.935547 20.899871))",
+    "area_id": 538,
+    "source_row_index": 538,
+    "iso_a3_source": "SAU",
+    "iso_a3": "SAU",
+    "area_seq_in_source": 5
+  },
+  {
+    "id": "SAU-06",
+    "name": "南東部・砂漠地帯（ルブアルハリ砂漠周辺）",
+    "name_en": "Southeastern Desert Region (Rub' al Khali Area)",
+    "reason": "広大な砂漠地帯であり、地理的に特徴的。オマーン、UAEとの国境付近。",
+    "geometry_wkt": "POLYGON ((48.186035 23.986253, 56.008301 23.986253, 56.008301 17.957832, 48.186035 17.957832, 48.186035 23.986253))",
+    "area_id": 539,
+    "source_row_index": 539,
+    "iso_a3_source": "SAU",
+    "iso_a3": "SAU",
+    "area_seq_in_source": 6
+  },
+  {
+    "id": "SAU-07",
+    "name": "南部国境地域",
+    "name_en": "Southern Border Region",
+    "reason": "イエメンとの国境を接し、ヒマー文化地域など古代からの歴史を持つ地域。",
+    "geometry_wkt": "POLYGON ((44.428711 20.715015, 48.229980 20.715015, 48.229980 16.509833, 44.428711 16.509833, 44.428711 20.715015))",
+    "area_id": 540,
+    "source_row_index": 540,
+    "iso_a3_source": "SAU",
+    "iso_a3": "SAU",
+    "area_seq_in_source": 7
+  }
+]

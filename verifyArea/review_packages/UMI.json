@@ -1,0 +1,188 @@
+{
+  "iso_a3": "UMI",
+  "area_count": 3,
+  "country_bbox": {
+    "minx": -178.59375,
+    "maxx": 166.898804,
+    "miny": -2.372369,
+    "maxy": 30.221102
+  },
+  "areas": [
+    {
+      "id": "UMI-01",
+      "area_id": 633,
+      "area_seq_in_source": 1,
+      "name": "ウェーク島全域",
+      "name_en": "Entire Wake Island",
+      "reason": "ウェーク島は単一の環礁であり、地理的・行政的に一体であるため、単一のエリアとして定義する。",
+      "geometry_wkt": "POLYGON ((166.354980 19.539084, 166.898804 19.539084, 166.898804 19.051734, 166.354980 19.051734, 166.354980 19.539084))",
+      "bbox": {
+        "minx": 166.35498,
+        "maxx": 166.898804,
+        "miny": 19.051734,
+        "maxy": 19.539084
+      },
+      "centroid": {
+        "x": 166.626892,
+        "y": 19.295409
+      },
+      "size": {
+        "width": 0.543824,
+        "height": 0.48735
+      },
+      "relative_position": {
+        "x_norm": 0.9992,
+        "y_norm": 0.6648,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "UMI-02",
+          "UMI-03"
+        ],
+        "north_of": [
+          "UMI-02",
+          "UMI-03"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "UMI-02",
+      "area_id": 634,
+      "area_seq_in_source": 2,
+      "name": "中米の島",
+      "name_en": "Islands of Central America",
+      "reason": "ドミニカの左にある島",
+      "geometry_wkt": "POLYGON ((-75.289307 18.656654, -74.750977 18.656654, -74.750977 18.145852, -75.289307 18.145852, -75.289307 18.656654))",
+      "bbox": {
+        "minx": -75.289307,
+        "maxx": -74.750977,
+        "miny": 18.145852,
+        "maxy": 18.656654
+      },
+      "centroid": {
+        "x": -75.020142,
+        "y": 18.401253
+      },
+      "size": {
+        "width": 0.53833,
+        "height": 0.510802
+      },
+      "relative_position": {
+        "x_norm": 0.2998,
+        "y_norm": 0.6374,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "UMI-01"
+        ],
+        "east_of": [
+          "UMI-03"
+        ],
+        "north_of": [
+          "UMI-03"
+        ],
+        "south_of": [
+          "UMI-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 0,
+        "status": "no_cells_found_in_map32"
+      }
+    },
+    {
+      "id": "UMI-03",
+      "area_id": 635,
+      "area_seq_in_source": 3,
+      "name": "その他離島",
+      "name_en": "Other remote islands",
+      "reason": "太平洋に点在する米国領の離島",
+      "geometry_wkt": "POLYGON ((-178.593750 30.221102, -158.115234 30.221102, -158.115234 -2.372369, -178.593750 -2.372369, -178.593750 30.221102))",
+      "bbox": {
+        "minx": -178.59375,
+        "maxx": -158.115234,
+        "miny": -2.372369,
+        "maxy": 30.221102
+      },
+      "centroid": {
+        "x": -168.354492,
+        "y": 13.924366
+      },
+      "size": {
+        "width": 20.478516,
+        "height": 32.593471
+      },
+      "relative_position": {
+        "x_norm": 0.0296,
+        "y_norm": 0.5,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "UMI-01",
+          "UMI-02"
+        ],
+        "east_of": [],
+        "north_of": [],
+        "south_of": [
+          "UMI-01",
+          "UMI-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 317,
+        "dominant_landcover": "OCEAN",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "OCEAN": 0.9968,
+          "UNKNOWN": 0.0032
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "LOW": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.9968,
+          "WET": 0.0032
+        },
+        "flags_ratio": {
+          "water": 0.9968,
+          "reef": 0.0347
+        },
+        "cell_bbox_xy": {
+          "min_x": 412,
+          "max_x": 432,
+          "min_y": 1995,
+          "max_y": 2015
+        },
+        "cell_centroid": {
+          "x": 422.0,
+          "y": 2005.0,
+          "lon": -162.395833,
+          "lat": 6.4375
+        }
+      }
+    }
+  ]
+}

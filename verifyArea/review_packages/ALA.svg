@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="40" y="26" font-size="20" font-family="Arial, sans-serif">ALA review map</text>
+<text x="40" y="48" font-size="12" font-family="Arial, sans-serif">bbox=(-180.000000, 50.000000) - (180.000000, 71.500000)</text>
+<rect x="40" y="40" width="1120" height="820" fill="none" stroke="#999" stroke-width="1"/>
+<rect x="661.29" y="459.53" width="6.22" height="30.51" fill="none" stroke="black" stroke-width="2"/>
+<text x="665.29" y="475.53" font-size="12" font-family="Arial, sans-serif">AX-01 | オーランド諸島</text>
+<circle cx="664.40" cy="474.79" r="2.5" fill="black"/>
+<rect x="71.11" y="40.00" width="1088.89" height="133.49" fill="none" stroke="black" stroke-width="2"/>
+<text x="75.11" y="56.00" font-size="12" font-family="Arial, sans-serif">ALA-01 | 北極圏地域</text>
+<circle cx="615.56" cy="106.74" r="2.5" fill="black"/>
+<rect x="71.11" y="173.49" width="46.67" height="305.12" fill="none" stroke="black" stroke-width="2"/>
+<text x="75.11" y="189.49" font-size="12" font-family="Arial, sans-serif">ALA-02 | 北西地域</text>
+<circle cx="94.44" cy="326.05" r="2.5" fill="black"/>
+<rect x="117.78" y="173.49" width="43.56" height="305.12" fill="none" stroke="black" stroke-width="2"/>
+<text x="121.78" y="189.49" font-size="12" font-family="Arial, sans-serif">ALA-03 | 内陸部（フェアバンクス周辺）</text>
+<circle cx="139.56" cy="326.05" r="2.5" fill="black"/>
+<rect x="117.78" y="478.60" width="43.56" height="190.70" fill="none" stroke="black" stroke-width="2"/>
+<text x="121.78" y="494.60" font-size="12" font-family="Arial, sans-serif">ALA-04 | 南中央部（アンカレッジ周辺）</text>
+<circle cx="139.56" cy="573.95" r="2.5" fill="black"/>
+<rect x="40.00" y="669.30" width="31.11" height="190.70" fill="none" stroke="black" stroke-width="2"/>
+<text x="44.00" y="685.30" font-size="12" font-family="Arial, sans-serif">ALA-05 | アリューシャン列島・南西部</text>
+<circle cx="55.56" cy="764.65" r="2.5" fill="black"/>
+<rect x="180.00" y="478.60" width="15.56" height="190.70" fill="none" stroke="black" stroke-width="2"/>
+<text x="184.00" y="494.60" font-size="12" font-family="Arial, sans-serif">ALA-06 | 南東部（パンハンドル地域）</text>
+<circle cx="187.78" cy="573.95" r="2.5" fill="black"/>
+<rect x="86.67" y="669.30" width="31.11" height="190.70" fill="none" stroke="black" stroke-width="2"/>
+<text x="90.67" y="685.30" font-size="12" font-family="Arial, sans-serif">ALA-07 | 太平洋沿岸（南西部）</text>
+<circle cx="102.22" cy="764.65" r="2.5" fill="black"/>
+<rect x="117.78" y="478.60" width="31.11" height="190.70" fill="none" stroke="black" stroke-width="2"/>
+<text x="121.78" y="494.60" font-size="12" font-family="Arial, sans-serif">ALA-08 | アラスカ湾沿岸</text>
+<circle cx="133.33" cy="573.95" r="2.5" fill="black"/>
+<rect x="161.33" y="173.49" width="34.22" height="305.12" fill="none" stroke="black" stroke-width="2"/>
+<text x="165.33" y="189.49" font-size="12" font-family="Arial, sans-serif">ALA-09 | 東部国境地域</text>
+<circle cx="178.44" cy="326.05" r="2.5" fill="black"/>
+</svg>

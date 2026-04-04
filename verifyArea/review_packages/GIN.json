@@ -1,0 +1,187 @@
+{
+  "iso_a3": "GIN",
+  "area_count": 2,
+  "country_bbox": {
+    "minx": -16.160889,
+    "maxx": -7.503662,
+    "miny": 6.751896,
+    "maxy": 12.768946
+  },
+  "areas": [
+    {
+      "id": "GIN-01",
+      "area_id": 248,
+      "area_seq_in_source": 1,
+      "name": "沿岸ギニア",
+      "name_en": "Coastal Guinea",
+      "reason": "大西洋に面した沿岸地域で、首都コナクリを含む主要な港湾都市があり、経済活動の中心となっている。熱帯雨林気候で、農業（米、キャッサバ、バナナ、パイナップル）が盛ん。また、ボーキサイトの輸出港も存在する。",
+      "geometry_wkt": "POLYGON ((-16.160889 12.758232, -11.491699 12.758232, -11.491699 8.765653, -16.160889 8.765653, -16.160889 12.758232))",
+      "bbox": {
+        "minx": -16.160889,
+        "maxx": -11.491699,
+        "miny": 8.765653,
+        "maxy": 12.758232
+      },
+      "centroid": {
+        "x": -13.826294,
+        "y": 10.761942
+      },
+      "size": {
+        "width": 4.66919,
+        "height": 3.992579
+      },
+      "relative_position": {
+        "x_norm": 0.2697,
+        "y_norm": 0.6664,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "GIN-02"
+        ],
+        "east_of": [],
+        "north_of": [
+          "GIN-02"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 7821,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.603,
+          "GRASS": 0.1849,
+          "OCEAN": 0.093,
+          "SHRUB": 0.0871,
+          "MANGROVE": 0.0184,
+          "CROPLAND": 0.0074,
+          "WATER": 0.0028,
+          "BUILT": 0.0024,
+          "WETLAND": 0.001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.6036,
+          "LOW": 0.3306,
+          "HIGH": 0.0657
+        },
+        "precip_ratio": {
+          "MID": 0.5966,
+          "WET": 0.3984,
+          "LOW": 0.005
+        },
+        "flags_ratio": {
+          "water": 0.8696,
+          "forest": 0.7104,
+          "cropland": 0.0074,
+          "built": 0.0024
+        },
+        "cell_bbox_xy": {
+          "min_x": 3950,
+          "max_x": 4128,
+          "min_y": 1856,
+          "max_y": 1986
+        },
+        "cell_centroid": {
+          "x": 4033.262,
+          "y": 1909.148,
+          "lon": -11.926568,
+          "lat": 10.43132
+        }
+      }
+    },
+    {
+      "id": "GIN-02",
+      "area_id": 249,
+      "area_seq_in_source": 2,
+      "name": "内陸ギニア",
+      "name_en": "Inland Guinea",
+      "reason": "国土の中央部から東部にかけて広がる地域で、フータジャロン山地やサバンナ気候が特徴。ニジェール川、セネガル川、ガンビア川の源流があり、「西アフリカの水がめ」と呼ばれる。鉱物資源（ボーキサイト、鉄鉱石、ダイヤモンド）が豊富で、農業（コーヒー、商品作物）や牧畜も行われている。",
+      "geometry_wkt": "POLYGON ((-11.491699 12.768946, -7.503662 12.768946, -7.503662 6.751896, -11.491699 6.751896, -11.491699 12.768946))",
+      "bbox": {
+        "minx": -11.491699,
+        "maxx": -7.503662,
+        "miny": 6.751896,
+        "maxy": 12.768946
+      },
+      "centroid": {
+        "x": -9.497681,
+        "y": 9.760421
+      },
+      "size": {
+        "width": 3.988037,
+        "height": 6.01705
+      },
+      "relative_position": {
+        "x_norm": 0.7697,
+        "y_norm": 0.5,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "GIN-01"
+        ],
+        "north_of": [],
+        "south_of": [
+          "GIN-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 4522,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.6081,
+          "GRASS": 0.264,
+          "SHRUB": 0.117,
+          "CROPLAND": 0.0091,
+          "BUILT": 0.0015,
+          "BARE": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.9586,
+          "HIGH": 0.0414
+        },
+        "precip_ratio": {
+          "MID": 0.9133,
+          "WET": 0.0867
+        },
+        "flags_ratio": {
+          "water": 0.7545,
+          "forest": 0.7251,
+          "cropland": 0.0091,
+          "built": 0.0015
+        },
+        "cell_bbox_xy": {
+          "min_x": 4044,
+          "max_x": 4135,
+          "min_y": 1872,
+          "max_y": 1967
+        },
+        "cell_centroid": {
+          "x": 4084.783,
+          "y": 1910.903,
+          "lon": -9.779863,
+          "lat": 10.358202
+        }
+      }
+    }
+  ]
+}

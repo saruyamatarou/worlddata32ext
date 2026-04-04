@@ -1,0 +1,293 @@
+{
+  "iso_a3": "NPL",
+  "area_count": 3,
+  "country_bbox": {
+    "minx": 79.672852,
+    "maxx": 88.319092,
+    "miny": 26.273714,
+    "maxy": 30.45
+  },
+  "areas": [
+    {
+      "id": "NPL-01",
+      "area_id": 457,
+      "area_seq_in_source": 1,
+      "name": "ネパール北部・ヒマラヤ地域",
+      "name_en": "Northern Nepal - Himalayan Region",
+      "reason": "ネパールの大部分を占めるヒマラヤ山脈地域で、最高峰エベレストを含む世界最高峰の山々が連なる。人口は少なく、厳しい自然環境が特徴。",
+      "geometry_wkt": "POLYGON ((79.672852 30.450000, 84.968262 30.450000, 84.968262 28.844674, 79.672852 28.844674, 79.672852 30.450000))",
+      "bbox": {
+        "minx": 79.672852,
+        "maxx": 84.968262,
+        "miny": 28.844674,
+        "maxy": 30.45
+      },
+      "centroid": {
+        "x": 82.320557,
+        "y": 29.647337
+      },
+      "size": {
+        "width": 5.29541,
+        "height": 1.605326
+      },
+      "relative_position": {
+        "x_norm": 0.3062,
+        "y_norm": 0.8078,
+        "zone": [
+          "north",
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "NPL-02",
+          "NPL-03"
+        ],
+        "east_of": [],
+        "north_of": [
+          "NPL-02",
+          "NPL-03"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 2306,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TEMPERATE",
+        "dominant_e2": "ULTRA",
+        "dominant_p2": "LOW",
+        "landcover_ratio": {
+          "TREE": 0.4484,
+          "GRASS": 0.2329,
+          "BARE": 0.2216,
+          "SNOW_ICE": 0.052,
+          "MOSS_LICHEN": 0.0377,
+          "CROPLAND": 0.0074
+        },
+        "temperature_ratio": {
+          "TEMPERATE": 0.4267,
+          "COLD": 0.3634,
+          "TROPICAL": 0.173,
+          "POLAR": 0.0369
+        },
+        "elevation_ratio": {
+          "ULTRA": 0.7376,
+          "HIGH": 0.2155,
+          "MID": 0.0434,
+          "LOW": 0.0035
+        },
+        "precip_ratio": {
+          "LOW": 0.6362,
+          "MID": 0.3638
+        },
+        "flags_ratio": {
+          "water": 0.8712,
+          "forest": 0.4484,
+          "ice": 0.052,
+          "cropland": 0.0074
+        },
+        "cell_bbox_xy": {
+          "min_x": 6241,
+          "max_x": 6344,
+          "min_y": 1430,
+          "max_y": 1467
+        },
+        "cell_centroid": {
+          "x": 6284.869,
+          "y": 1453.77,
+          "lon": 81.890395,
+          "lat": 29.405428
+        }
+      }
+    },
+    {
+      "id": "NPL-02",
+      "area_id": 458,
+      "area_seq_in_source": 2,
+      "name": "ネパール中部・丘陵地域",
+      "name_en": "Central Nepal - Hilly Region",
+      "reason": "国土の大部分を占める丘陵地帯で、マハバーラト山脈やチュリア丘陵が含まれる。古くからの民族が多く居住し、首都カトマンズもこの地域にある。気候は比較的温暖で、多くの湖や谷が存在する。",
+      "geometry_wkt": "POLYGON ((80.013428 28.835050, 88.220215 28.835050, 88.220215 27.303452, 80.013428 27.303452, 80.013428 28.835050))",
+      "bbox": {
+        "minx": 80.013428,
+        "maxx": 88.220215,
+        "miny": 27.303452,
+        "maxy": 28.83505
+      },
+      "centroid": {
+        "x": 84.116822,
+        "y": 28.069251
+      },
+      "size": {
+        "width": 8.206787,
+        "height": 1.531598
+      },
+      "relative_position": {
+        "x_norm": 0.514,
+        "y_norm": 0.4299,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "NPL-03"
+        ],
+        "east_of": [
+          "NPL-01"
+        ],
+        "north_of": [
+          "NPL-03"
+        ],
+        "south_of": [
+          "NPL-01"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 4123,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "ULTRA",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.7451,
+          "CROPLAND": 0.0791,
+          "SNOW_ICE": 0.0626,
+          "GRASS": 0.0488,
+          "BARE": 0.039,
+          "MOSS_LICHEN": 0.0221,
+          "BUILT": 0.0032,
+          "WATER": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.4899,
+          "TEMPERATE": 0.3568,
+          "COLD": 0.1237,
+          "POLAR": 0.0296
+        },
+        "elevation_ratio": {
+          "ULTRA": 0.3512,
+          "HIGH": 0.3393,
+          "MID": 0.1967,
+          "LOW": 0.1128
+        },
+        "precip_ratio": {
+          "MID": 0.666,
+          "LOW": 0.1909,
+          "WET": 0.1431
+        },
+        "flags_ratio": {
+          "water": 0.9297,
+          "forest": 0.7451,
+          "cropland": 0.0791,
+          "ice": 0.0626,
+          "built": 0.0032
+        },
+        "cell_bbox_xy": {
+          "min_x": 6242,
+          "max_x": 6435,
+          "min_y": 1468,
+          "max_y": 1504
+        },
+        "cell_centroid": {
+          "x": 6339.283,
+          "y": 1486.541,
+          "lon": 84.157637,
+          "lat": 28.039974
+        }
+      }
+    },
+    {
+      "id": "NPL-03",
+      "area_id": 459,
+      "area_seq_in_source": 3,
+      "name": "ネパール南部・テライ平野地域",
+      "name_en": "Southern Nepal - Terai Plains Region",
+      "reason": "インドとの国境に接する低地帯で、肥沃な農耕地が広がる。国土の約17%を占め、人口密度が高い。インド文化の影響も強く見られる。",
+      "geometry_wkt": "POLYGON ((84.276123 27.293689, 88.319092 27.293689, 88.319092 26.273714, 84.276123 26.273714, 84.276123 27.293689))",
+      "bbox": {
+        "minx": 84.276123,
+        "maxx": 88.319092,
+        "miny": 26.273714,
+        "maxy": 27.293689
+      },
+      "centroid": {
+        "x": 86.297607,
+        "y": 26.783701
+      },
+      "size": {
+        "width": 4.042969,
+        "height": 1.019975
+      },
+      "relative_position": {
+        "x_norm": 0.7662,
+        "y_norm": 0.1221,
+        "zone": [
+          "south",
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "NPL-01",
+          "NPL-02"
+        ],
+        "north_of": [],
+        "south_of": [
+          "NPL-01",
+          "NPL-02"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 1362,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "LOW",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.6028,
+          "CROPLAND": 0.3913,
+          "WATER": 0.0044,
+          "GRASS": 0.0007,
+          "BUILT": 0.0007
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9046,
+          "TEMPERATE": 0.0954
+        },
+        "elevation_ratio": {
+          "LOW": 0.4648,
+          "MID": 0.2599,
+          "HIGH": 0.2416,
+          "ULTRA": 0.0338
+        },
+        "precip_ratio": {
+          "MID": 0.8142,
+          "WET": 0.1858
+        },
+        "flags_ratio": {
+          "water": 0.8634,
+          "forest": 0.6028,
+          "cropland": 0.3913,
+          "built": 0.0007
+        },
+        "cell_bbox_xy": {
+          "min_x": 6351,
+          "max_x": 6435,
+          "min_y": 1505,
+          "max_y": 1527
+        },
+        "cell_centroid": {
+          "x": 6398.557,
+          "y": 1513.515,
+          "lon": 86.627386,
+          "lat": 26.916055
+        }
+      }
+    }
+  ]
+}

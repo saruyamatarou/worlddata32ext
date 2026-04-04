@@ -1,0 +1,38 @@
+[
+  {
+    "id": "CUB-01",
+    "name": "西部キューバ",
+    "name_en": "Western Cuba",
+    "reason": "ハバナを含むキューバの政治・経済・文化の中心地であり、歴史的建造物も多い地域。",
+    "geometry_wkt": "POLYGON ((-85.396729 23.805450, -82.353516 23.805450, -82.353516 20.694462, -85.396729 20.694462, -85.396729 23.805450))",
+    "area_id": 167,
+    "source_row_index": 167,
+    "iso_a3_source": "CUB",
+    "iso_a3": "CUB",
+    "area_seq_in_source": 1
+  },
+  {
+    "id": "CUB-02",
+    "name": "中部キューバ",
+    "name_en": "Central Cuba",
+    "reason": "サトウキビ農業が盛んな地域であり、キューバの経済を支える農業地帯。",
+    "geometry_wkt": "POLYGON ((-82.330322 23.865745, -78.222656 23.865745, -78.222656 19.777042, -82.330322 19.777042, -82.330322 23.865745))",
+    "area_id": 168,
+    "source_row_index": 168,
+    "iso_a3_source": "CUB",
+    "iso_a3": "CUB",
+    "area_seq_in_source": 2
+  },
+  {
+    "id": "CUB-03",
+    "name": "東部キューバ",
+    "name_en": "Eastern Cuba",
+    "reason": "シエラ・マエストラ山脈などの自然が豊かで、歴史的な背景も持つ地域。",
+    "geometry_wkt": "POLYGON ((-78.217316 23.133020, -73.432617 23.133020, -73.432617 18.583776, -78.217316 18.583776, -78.217316 23.133020))",
+    "area_id": 169,
+    "source_row_index": 169,
+    "iso_a3_source": "CUB",
+    "iso_a3": "CUB",
+    "area_seq_in_source": 3
+  }
+]

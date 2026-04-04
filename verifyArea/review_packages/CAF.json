@@ -1,0 +1,276 @@
+{
+  "iso_a3": "CAF",
+  "area_count": 3,
+  "country_bbox": {
+    "minx": 13.864746,
+    "maxx": 27.641602,
+    "miny": 2.021065,
+    "maxy": 11.307708
+  },
+  "areas": [
+    {
+      "id": "CAF-01",
+      "area_id": 112,
+      "area_seq_in_source": 1,
+      "name": "北部サバンナ地域",
+      "name_en": "Northern Savannah Region",
+      "reason": "国土北部は乾燥したサバンナ地帯であり、チャドとの国境に接する地域。人口密度が低く、牧畜や一部農業が営まれている。",
+      "geometry_wkt": "POLYGON ((18.336182 11.307708, 24.235840 11.307708, 24.235840 8.754795, 18.336182 8.754795, 18.336182 11.307708))",
+      "bbox": {
+        "minx": 18.336182,
+        "maxx": 24.23584,
+        "miny": 8.754795,
+        "maxy": 11.307708
+      },
+      "centroid": {
+        "x": 21.286011,
+        "y": 10.031251
+      },
+      "size": {
+        "width": 5.899658,
+        "height": 2.552913
+      },
+      "relative_position": {
+        "x_norm": 0.5387,
+        "y_norm": 0.8625,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "CAF-02",
+          "CAF-03"
+        ],
+        "north_of": [
+          "CAF-02",
+          "CAF-03"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 19941,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.7661,
+          "SHRUB": 0.1753,
+          "GRASS": 0.0578,
+          "CROPLAND": 0.0004,
+          "WATER": 0.0002,
+          "BUILT": 0.0002,
+          "WETLAND": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.8918,
+          "HIGH": 0.1082
+        },
+        "precip_ratio": {
+          "MID": 0.8622,
+          "LOW": 0.1378
+        },
+        "flags_ratio": {
+          "forest": 0.9414,
+          "water": 0.7116,
+          "cropland": 0.0004,
+          "built": 0.0002
+        },
+        "cell_bbox_xy": {
+          "min_x": 4666,
+          "max_x": 4977,
+          "min_y": 1896,
+          "max_y": 2105
+        },
+        "cell_centroid": {
+          "x": 4813.118,
+          "y": 1999.537,
+          "lon": 20.567423,
+          "lat": 6.665105
+        }
+      }
+    },
+    {
+      "id": "CAF-02",
+      "area_id": 113,
+      "area_seq_in_source": 2,
+      "name": "中央高原地域",
+      "name_en": "Central Plateau Region",
+      "reason": "国土の中央部を占め、標高600〜700mの高原地帯。首都バンギもこの地域に位置し、農業（綿花、コーヒー）や鉱業（ダイヤモンド）が主要産業。",
+      "geometry_wkt": "POLYGON ((13.864746 8.711359, 27.333984 8.711359, 27.333984 6.118708, 13.864746 6.118708, 13.864746 8.711359))",
+      "bbox": {
+        "minx": 13.864746,
+        "maxx": 27.333984,
+        "miny": 6.118708,
+        "maxy": 8.711359
+      },
+      "centroid": {
+        "x": 20.599365,
+        "y": 7.415033
+      },
+      "size": {
+        "width": 13.469238,
+        "height": 2.592651
+      },
+      "relative_position": {
+        "x_norm": 0.4888,
+        "y_norm": 0.5808,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CAF-01",
+          "CAF-03"
+        ],
+        "east_of": [],
+        "north_of": [
+          "CAF-03"
+        ],
+        "south_of": [
+          "CAF-01"
+        ],
+        "overlaps": [
+          {
+            "id": "CAF-03",
+            "x_overlap": 13.293457,
+            "y_overlap": 0.043693
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 5400,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.9087,
+          "SHRUB": 0.088,
+          "GRASS": 0.0033
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.9996,
+          "HIGH": 0.0004
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "forest": 0.9967,
+          "water": 0.6826
+        },
+        "cell_bbox_xy": {
+          "min_x": 4716,
+          "max_x": 4895,
+          "min_y": 1982,
+          "max_y": 2011
+        },
+        "cell_centroid": {
+          "x": 4805.5,
+          "y": 1996.5,
+          "lon": 20.25,
+          "lat": 6.791667
+        }
+      }
+    },
+    {
+      "id": "CAF-03",
+      "area_id": 114,
+      "area_seq_in_source": 3,
+      "name": "南部熱帯雨林地域",
+      "name_en": "Southern Rainforest Region",
+      "reason": "国土南部、コンゴ民主共和国やコンゴ共和国との国境付近に広がる熱帯雨林地帯。ウバンギ川が流れ、林業が営まれる。",
+      "geometry_wkt": "POLYGON ((14.040527 6.162401, 27.641602 6.162401, 27.641602 2.021065, 14.040527 2.021065, 14.040527 6.162401))",
+      "bbox": {
+        "minx": 14.040527,
+        "maxx": 27.641602,
+        "miny": 2.021065,
+        "maxy": 6.162401
+      },
+      "centroid": {
+        "x": 20.841065,
+        "y": 4.091733
+      },
+      "size": {
+        "width": 13.601075,
+        "height": 4.141336
+      },
+      "relative_position": {
+        "x_norm": 0.5064,
+        "y_norm": 0.223,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "CAF-01"
+        ],
+        "east_of": [
+          "CAF-02"
+        ],
+        "north_of": [],
+        "south_of": [
+          "CAF-01",
+          "CAF-02"
+        ],
+        "overlaps": [
+          {
+            "id": "CAF-02",
+            "x_overlap": 13.293457,
+            "y_overlap": 0.043693
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 3760,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.934,
+          "SHRUB": 0.0484,
+          "GRASS": 0.0176
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.9984,
+          "HIGH": 0.0016
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "forest": 0.9824,
+          "water": 0.6824
+        },
+        "cell_bbox_xy": {
+          "min_x": 4716,
+          "max_x": 4895,
+          "min_y": 2012,
+          "max_y": 2058
+        },
+        "cell_centroid": {
+          "x": 4804.981,
+          "y": 2022.04,
+          "lon": 20.22838,
+          "lat": 5.727493
+        }
+      }
+    }
+  ]
+}

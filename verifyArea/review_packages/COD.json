@@ -1,0 +1,607 @@
+{
+  "iso_a3": "COD",
+  "area_count": 6,
+  "country_bbox": {
+    "minx": 11.777344,
+    "maxx": 31.948242,
+    "miny": -14.093957,
+    "maxy": 5.331644
+  },
+  "areas": [
+    {
+      "id": "COD-01",
+      "area_id": 147,
+      "area_seq_in_source": 1,
+      "name": "キンシャサ首都圏",
+      "name_en": "Kinshasa Capital Region",
+      "reason": "国の政治・経済・文化の中心であり、人口が集中しているため、独立したエリアとして定義する。",
+      "geometry_wkt": "POLYGON ((11.777344 -3.074695, 16.962891 -3.074695, 16.962891 -6.206090, 11.777344 -6.206090, 11.777344 -3.074695))",
+      "bbox": {
+        "minx": 11.777344,
+        "maxx": 16.962891,
+        "miny": -6.20609,
+        "maxy": -3.074695
+      },
+      "centroid": {
+        "x": 14.370117,
+        "y": -4.640392
+      },
+      "size": {
+        "width": 5.185547,
+        "height": 3.131395
+      },
+      "relative_position": {
+        "x_norm": 0.1285,
+        "y_norm": 0.4867,
+        "zone": [
+          "west"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "COD-02",
+          "COD-03",
+          "COD-04",
+          "COD-05",
+          "COD-06"
+        ],
+        "east_of": [],
+        "north_of": [
+          "COD-04",
+          "COD-05"
+        ],
+        "south_of": [
+          "COD-02",
+          "COD-03",
+          "COD-06"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 20593,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.6285,
+          "GRASS": 0.2582,
+          "WATER": 0.0556,
+          "SHRUB": 0.0413,
+          "CROPLAND": 0.0047,
+          "WETLAND": 0.0046,
+          "OCEAN": 0.0038,
+          "BUILT": 0.0025,
+          "MANGROVE": 0.0006,
+          "BARE": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9769,
+          "TEMPERATE": 0.0231
+        },
+        "elevation_ratio": {
+          "MID": 0.5491,
+          "HIGH": 0.4163,
+          "LOW": 0.0214,
+          "ULTRA": 0.0132
+        },
+        "precip_ratio": {
+          "MID": 0.9467,
+          "LOW": 0.0503,
+          "WET": 0.003
+        },
+        "flags_ratio": {
+          "water": 0.7133,
+          "forest": 0.6705,
+          "cropland": 0.0047,
+          "built": 0.0025
+        },
+        "cell_bbox_xy": {
+          "min_x": 4604,
+          "max_x": 5070,
+          "min_y": 2031,
+          "max_y": 2482
+        },
+        "cell_centroid": {
+          "x": 4885.252,
+          "y": 2247.148,
+          "lon": 23.572985,
+          "lat": -3.652
+        }
+      }
+    },
+    {
+      "id": "COD-02",
+      "area_id": 148,
+      "area_seq_in_source": 2,
+      "name": "コンゴ川流域西部",
+      "name_en": "Western Congo River Basin",
+      "reason": "コンゴ川とその支流が流れる広大な盆地であり、熱帯雨林気候が広がる地域。物流と生活の基盤となっている。",
+      "geometry_wkt": "POLYGON ((15.842285 5.287887, 22.060547 5.287887, 22.060547 -3.074695, 15.842285 -3.074695, 15.842285 5.287887))",
+      "bbox": {
+        "minx": 15.842285,
+        "maxx": 22.060547,
+        "miny": -3.074695,
+        "maxy": 5.287887
+      },
+      "centroid": {
+        "x": 18.951416,
+        "y": 1.106596
+      },
+      "size": {
+        "width": 6.218262,
+        "height": 8.362582
+      },
+      "relative_position": {
+        "x_norm": 0.3557,
+        "y_norm": 0.7825,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "COD-03",
+          "COD-04",
+          "COD-05",
+          "COD-06"
+        ],
+        "east_of": [
+          "COD-01"
+        ],
+        "north_of": [
+          "COD-01",
+          "COD-04",
+          "COD-05",
+          "COD-06"
+        ],
+        "south_of": [
+          "COD-03"
+        ],
+        "overlaps": [
+          {
+            "id": "COD-04",
+            "x_overlap": 5.097656,
+            "y_overlap": 0.021941
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 16100,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.8823,
+          "GRASS": 0.106,
+          "WATER": 0.0101,
+          "WETLAND": 0.0014,
+          "BUILT": 0.0001,
+          "SHRUB": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 1.0
+        },
+        "precip_ratio": {
+          "MID": 0.7832,
+          "WET": 0.2168
+        },
+        "flags_ratio": {
+          "forest": 0.8824,
+          "water": 0.747,
+          "built": 0.0001
+        },
+        "cell_bbox_xy": {
+          "min_x": 4731,
+          "max_x": 4848,
+          "min_y": 2036,
+          "max_y": 2232
+        },
+        "cell_centroid": {
+          "x": 4802.759,
+          "y": 2146.638,
+          "lon": 20.135797,
+          "lat": 0.535903
+        }
+      }
+    },
+    {
+      "id": "COD-03",
+      "area_id": 149,
+      "area_seq_in_source": 3,
+      "name": "コンゴ川流域東部",
+      "name_en": "Eastern Congo River Basin",
+      "reason": "コンゴ川流域の東部にあたり、熱帯雨林が広がる。文化的多様性や音楽文化の中心地。",
+      "geometry_wkt": "POLYGON ((22.082520 5.331644, 27.224121 5.331644, 27.224121 -2.986927, 22.082520 -2.986927, 22.082520 5.331644))",
+      "bbox": {
+        "minx": 22.08252,
+        "maxx": 27.224121,
+        "miny": -2.986927,
+        "maxy": 5.331644
+      },
+      "centroid": {
+        "x": 24.65332,
+        "y": 1.172358
+      },
+      "size": {
+        "width": 5.141601,
+        "height": 8.318571
+      },
+      "relative_position": {
+        "x_norm": 0.6383,
+        "y_norm": 0.7859,
+        "zone": [
+          "north"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "COD-06"
+        ],
+        "east_of": [
+          "COD-01",
+          "COD-02",
+          "COD-04",
+          "COD-05"
+        ],
+        "north_of": [
+          "COD-01",
+          "COD-02",
+          "COD-04",
+          "COD-05",
+          "COD-06"
+        ],
+        "south_of": [],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 21603,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.9919,
+          "GRASS": 0.0061,
+          "WATER": 0.0017,
+          "BUILT": 0.0003,
+          "SHRUB": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.9959,
+          "HIGH": 0.0041
+        },
+        "precip_ratio": {
+          "MID": 0.9399,
+          "WET": 0.0601
+        },
+        "flags_ratio": {
+          "forest": 0.9919,
+          "water": 0.7952,
+          "built": 0.0003
+        },
+        "cell_bbox_xy": {
+          "min_x": 4850,
+          "max_x": 4972,
+          "min_y": 2043,
+          "max_y": 2231
+        },
+        "cell_centroid": {
+          "x": 4910.35,
+          "y": 2143.579,
+          "lon": 24.618752,
+          "lat": 0.663364
+        }
+      }
+    },
+    {
+      "id": "COD-04",
+      "area_id": 150,
+      "area_seq_in_source": 4,
+      "name": "カサイ地方",
+      "name_en": "Kasai Region",
+      "reason": "鉱物資源が豊富で、歴史的にも重要な地域。地理的にも他の地域と区別される。",
+      "geometry_wkt": "POLYGON ((16.962891 -3.052754, 27.136230 -3.052754, 27.136230 -6.271618, 16.962891 -6.271618, 16.962891 -3.052754))",
+      "bbox": {
+        "minx": 16.962891,
+        "maxx": 27.13623,
+        "miny": -6.271618,
+        "maxy": -3.052754
+      },
+      "centroid": {
+        "x": 22.04956,
+        "y": -4.662186
+      },
+      "size": {
+        "width": 10.173339,
+        "height": 3.218864
+      },
+      "relative_position": {
+        "x_norm": 0.5093,
+        "y_norm": 0.4855,
+        "zone": [
+          "center"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "COD-03",
+          "COD-06"
+        ],
+        "east_of": [
+          "COD-01",
+          "COD-02",
+          "COD-05"
+        ],
+        "north_of": [
+          "COD-05"
+        ],
+        "south_of": [
+          "COD-01",
+          "COD-02",
+          "COD-03",
+          "COD-06"
+        ],
+        "overlaps": [
+          {
+            "id": "COD-02",
+            "x_overlap": 5.097656,
+            "y_overlap": 0.021941
+          },
+          {
+            "id": "COD-05",
+            "x_overlap": 10.173339,
+            "y_overlap": 0.043684
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 18348,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "MID",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.6303,
+          "GRASS": 0.3292,
+          "SHRUB": 0.0392,
+          "WATER": 0.0011,
+          "BUILT": 0.0002
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "MID": 0.973,
+          "HIGH": 0.027
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.7194,
+          "forest": 0.6695,
+          "built": 0.0002
+        },
+        "cell_bbox_xy": {
+          "min_x": 4727,
+          "max_x": 4970,
+          "min_y": 2233,
+          "max_y": 2308
+        },
+        "cell_centroid": {
+          "x": 4849.782,
+          "y": 2270.644,
+          "lon": 22.095078,
+          "lat": -4.631009
+        }
+      }
+    },
+    {
+      "id": "COD-05",
+      "area_id": 151,
+      "area_seq_in_source": 5,
+      "name": "南東部高原地帯",
+      "name_en": "Southeastern Plateau",
+      "reason": "サバンナ気候が広がる高地であり、鉱物資源が豊富。カタンガ州など経済的に重要な地域を含む。",
+      "geometry_wkt": "POLYGON ((16.215820 -6.227934, 27.158203 -6.227934, 27.158203 -12.811801, 16.215820 -12.811801, 16.215820 -6.227934))",
+      "bbox": {
+        "minx": 16.21582,
+        "maxx": 27.158203,
+        "miny": -12.811801,
+        "maxy": -6.227934
+      },
+      "centroid": {
+        "x": 21.687012,
+        "y": -9.519868
+      },
+      "size": {
+        "width": 10.942383,
+        "height": 6.583867
+      },
+      "relative_position": {
+        "x_norm": 0.4913,
+        "y_norm": 0.2355,
+        "zone": [
+          "south"
+        ]
+      },
+      "relations": {
+        "west_of": [
+          "COD-03",
+          "COD-04",
+          "COD-06"
+        ],
+        "east_of": [
+          "COD-01",
+          "COD-02"
+        ],
+        "north_of": [],
+        "south_of": [
+          "COD-01",
+          "COD-02",
+          "COD-03",
+          "COD-04",
+          "COD-06"
+        ],
+        "overlaps": [
+          {
+            "id": "COD-04",
+            "x_overlap": 10.173339,
+            "y_overlap": 0.043684
+          }
+        ]
+      },
+      "map32_summary": {
+        "cell_count": 17416,
+        "dominant_landcover": "GRASS",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "GRASS": 0.5048,
+          "TREE": 0.4006,
+          "SHRUB": 0.0769,
+          "WETLAND": 0.0113,
+          "WATER": 0.0055,
+          "CROPLAND": 0.0007,
+          "BARE": 0.0001,
+          "BUILT": 0.0001
+        },
+        "temperature_ratio": {
+          "TROPICAL": 1.0
+        },
+        "elevation_ratio": {
+          "HIGH": 0.6953,
+          "MID": 0.3047
+        },
+        "precip_ratio": {
+          "MID": 1.0
+        },
+        "flags_ratio": {
+          "water": 0.7222,
+          "forest": 0.4775,
+          "cropland": 0.0007,
+          "built": 0.0001
+        },
+        "cell_bbox_xy": {
+          "min_x": 4721,
+          "max_x": 4971,
+          "min_y": 2309,
+          "max_y": 2416
+        },
+        "cell_centroid": {
+          "x": 4879.637,
+          "y": 2353.899,
+          "lon": 23.339054,
+          "lat": -8.099968
+        }
+      }
+    },
+    {
+      "id": "COD-06",
+      "area_id": 152,
+      "area_seq_in_source": 6,
+      "name": "東部山岳・湖沼地帯",
+      "name_en": "Eastern Mountains and Lakes Region",
+      "reason": "アフリカ大地溝帯に位置し、山岳地帯と多くの湖沼が存在する。地理的、気候的に特徴的な地域。",
+      "geometry_wkt": "POLYGON ((27.224121 5.200365, 31.948242 5.200365, 31.948242 -14.093957, 27.224121 -14.093957, 27.224121 5.200365))",
+      "bbox": {
+        "minx": 27.224121,
+        "maxx": 31.948242,
+        "miny": -14.093957,
+        "maxy": 5.200365
+      },
+      "centroid": {
+        "x": 29.586182,
+        "y": -4.446796
+      },
+      "size": {
+        "width": 4.724121,
+        "height": 19.294322
+      },
+      "relative_position": {
+        "x_norm": 0.8829,
+        "y_norm": 0.4966,
+        "zone": [
+          "east"
+        ]
+      },
+      "relations": {
+        "west_of": [],
+        "east_of": [
+          "COD-01",
+          "COD-02",
+          "COD-03",
+          "COD-04",
+          "COD-05"
+        ],
+        "north_of": [
+          "COD-01",
+          "COD-04",
+          "COD-05"
+        ],
+        "south_of": [
+          "COD-02",
+          "COD-03"
+        ],
+        "overlaps": []
+      },
+      "map32_summary": {
+        "cell_count": 15284,
+        "dominant_landcover": "TREE",
+        "dominant_t2": "TROPICAL",
+        "dominant_e2": "HIGH",
+        "dominant_p2": "MID",
+        "landcover_ratio": {
+          "TREE": 0.8568,
+          "GRASS": 0.1042,
+          "SHRUB": 0.0347,
+          "WATER": 0.0018,
+          "WETLAND": 0.0014,
+          "CROPLAND": 0.0007,
+          "BUILT": 0.0004
+        },
+        "temperature_ratio": {
+          "TROPICAL": 0.9571,
+          "TEMPERATE": 0.0429
+        },
+        "elevation_ratio": {
+          "HIGH": 0.5815,
+          "MID": 0.3967,
+          "ULTRA": 0.0219
+        },
+        "precip_ratio": {
+          "MID": 0.971,
+          "WET": 0.0156,
+          "LOW": 0.0134
+        },
+        "flags_ratio": {
+          "forest": 0.8915,
+          "water": 0.7416,
+          "cropland": 0.0007,
+          "built": 0.0004
+        },
+        "cell_bbox_xy": {
+          "min_x": 4973,
+          "max_x": 5053,
+          "min_y": 2060,
+          "max_y": 2453
+        },
+        "cell_centroid": {
+          "x": 4996.182,
+          "y": 2217.194,
+          "lon": 28.195076,
+          "lat": -2.403922
+        }
+      }
+    }
+  ]
+}
